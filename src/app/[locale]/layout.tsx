@@ -39,7 +39,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 	const siteUrl = (process.env.NEXT_PUBLIC_SITE_URL || 'https://attack-on-titan-revolution.wiki').replace(/\/$/, '')
 	const heroImageUrl = new URL('/images/hero.webp', siteUrl).toString()
 	const title = 'Attack on Titan Revolution Wiki - Codes, Families & Raids'
-	const description = 'Attack on Titan Revolution Wiki with working codes, family buffs, perks, raids, titan shifters, builds, updates, and Roblox progression guides.'
+	const description = 'Attack on Titan Revolution Wiki with working codes, family buffs, perks, raids, titan shifters, builds, updates, controls, and Roblox progression guides.'
 
 	return {
 		metadataBase: new URL(siteUrl),

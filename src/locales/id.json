@@ -1,4 +1,15 @@
 {
+  "seo": {
+    "home": {
+      "title": "Attack on Titan Revolution Wiki - Codes, Families & Raids",
+      "description": "Attack on Titan Revolution Wiki with working codes, family buffs, perks, raids, titan shifters, builds, updates, and Roblox progression guides.",
+      "keywords": "Attack on Titan Revolution, AOTR codes, Attack on Titan Revolution families, perks, raids, titan shifters, Roblox",
+      "ogTitle": "Attack on Titan Revolution Wiki - Codes, Families & Raids",
+      "ogDescription": "Track Attack on Titan Revolution codes, family buffs, perks, raids, titan shifters, builds, updates, and Roblox progression routes.",
+      "twitterTitle": "Attack on Titan Revolution Wiki - Codes, Families & Raids",
+      "twitterDescription": "Attack on Titan Revolution Wiki for codes, families, perks, raids, titan shifters, builds, and Roblox progression."
+    }
+  },
   "nav": {
     "codes": "Codes",
     "guide": "Guide",
@@ -7,5 +18,3451 @@
     "titans": "Titans",
     "builds": "Builds",
     "items": "Items"
+  },
+  "common": {
+    "home": "Home",
+    "more": "More",
+    "playNow": "Play on Roblox",
+    "switchLanguage": "Switch Language",
+    "switchTheme": "Switch Theme",
+    "lightMode": "Light Mode",
+    "darkMode": "Dark Mode",
+    "notFound": "Page Not Found",
+    "notFoundDescription": "The page you are looking for does not exist.",
+    "backToHome": "Back to Home",
+    "relatedArticles": "Related Articles",
+    "readMore": "Read More"
+  },
+  "hero": {
+    "badge": "Roblox Anime Titan Battle RPG",
+    "title": "Attack on Titan Revolution Wiki",
+    "description": "Master ODM combat, unlock stronger families and perks, clear raids for Titan-shifter rewards, and track working codes, updates, builds, and progression routes.",
+    "getFreeCodesCTA": "Get Attack on Titan Revolution Codes",
+    "playOnRobloxCTA": "Play Attack on Titan Revolution",
+    "stats": {
+      "stat1": {
+        "value": "794M+",
+        "label": "Total Visits"
+      },
+      "stat2": {
+        "value": "55K+",
+        "label": "Players Online"
+      },
+      "stat3": {
+        "value": "1.16M+",
+        "label": "Likes"
+      },
+      "stat4": {
+        "value": "1.18M+",
+        "label": "Favorites"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Attack on Titan Revolution Gameplay",
+    "description": "Use ODM Gear, defeat Titans, build around Families and Perks, clear Missions and Raids, and progress through Roblox anime titan battles."
+  },
+  "tools": {
+    "title": "Attack on Titan Revolution",
+    "titleHighlight": "Guides",
+    "subtitle": "Jump to Attack on Titan Revolution codes, official links, beginner route, family tiers, perks, skill trees, prestige, raids, Titan shifting, artifacts, missions, controls, trading values, and Titan raid guides.",
+    "cards": [
+      {
+        "icon": "ClipboardCheck",
+        "title": "Attack on Titan Revolution Codes",
+        "description": "Working codes, rewards, requirements, and redemption steps."
+      },
+      {
+        "icon": "MessageCircle",
+        "title": "Attack on Titan Revolution Official Links",
+        "description": "Roblox, Trello, Discord, Wiki, group, and update channels."
+      },
+      {
+        "icon": "BookOpen",
+        "title": "Attack on Titan Revolution Beginner Guide",
+        "description": "ODM basics, missions, upgrades, skills, raids, and early route."
+      },
+      {
+        "icon": "Star",
+        "title": "Attack on Titan Revolution Family Tier List",
+        "description": "Fritz, Helos, Ackerman, Yeager, Reiss, and reroll priorities."
+      },
+      {
+        "icon": "Shield",
+        "title": "Attack on Titan Revolution Perks Tier List",
+        "description": "Body, Offense, Defense, and Support perks for every build goal."
+      },
+      {
+        "icon": "TrendingUp",
+        "title": "Attack on Titan Revolution Skill Tree Guide",
+        "description": "Offense, Defense, Support, Family, and Shifter skill routes."
+      },
+      {
+        "icon": "Sparkles",
+        "title": "Attack on Titan Revolution Prestige Guide",
+        "description": "Prestige resets, boosts, memories, scrolls, and long-term rewards."
+      },
+      {
+        "icon": "AlertTriangle",
+        "title": "Attack on Titan Revolution Raids Guide",
+        "description": "Attack, Armored, Female, and Colossal Titan raid mechanics."
+      },
+      {
+        "icon": "Zap",
+        "title": "Attack on Titan Revolution Titan Shifting Guide",
+        "description": "Serums, Aberrant farming, Shifter roles, mastery, and trading."
+      },
+      {
+        "icon": "Package",
+        "title": "Attack on Titan Revolution Artifacts and Memories Guide",
+        "description": "Artifact bonuses, reroll rules, Prestige Memories, and build use."
+      },
+      {
+        "icon": "Map",
+        "title": "Attack on Titan Revolution Missions Guide",
+        "description": "Mission objectives, rewards, Serum chances, and farming routes."
+      },
+      {
+        "icon": "Keyboard",
+        "title": "Attack on Titan Revolution Controls and ODM Gear Guide",
+        "description": "PC, Xbox, PlayStation, mobile, ODM hooks, boosts, and upgrades."
+      },
+      {
+        "icon": "Handshake",
+        "title": "Attack on Titan Revolution Trading Values",
+        "description": "Trading access, item categories, taxes, value checks, and deal review tips."
+      },
+      {
+        "icon": "ShieldCheck",
+        "title": "Attack on Titan Revolution Armored Titan Raid Guide",
+        "description": "Boat defense, shield phase, boss finish, Jotunn drops, and Armored Serum farming."
+      },
+      {
+        "icon": "Swords",
+        "title": "Attack on Titan Revolution Female Titan Raid Guide",
+        "description": "Tunnel QTE, Annie phases, Eren boss phase, raid drops, and Female Serum chances."
+      },
+      {
+        "icon": "Flame",
+        "title": "Attack on Titan Revolution Colossal Titan Raid Guide",
+        "description": "Update 4 cannons, Eren defense, nape phase, Colossal Serum, and raid artifacts."
+      }
+    ]
+  },
+  "modules": {
+    "attackOnTitanRevolutionCodes": {
+      "title": "Attack on Titan Revolution Codes",
+      "displayType": "code-cards",
+      "eyebrow": "Codes & Rewards",
+      "intro": "Use these Attack on Titan Revolution codes to claim Spins, Emperor Keys, Luck Potions, Gold Potions, XP Potions, Shards, Gems, and event currency before starting major rerolls or raid preparation.",
+      "workingCodesLabel": "Working Attack on Titan Revolution Codes",
+      "expiredCodesLabel": "Expired Attack on Titan Revolution Codes",
+      "redeemLabel": "How to Redeem Attack on Titan Revolution Codes",
+      "copyLabel": "Copy",
+      "copiedLabel": "Copied",
+      "requirementsLabel": "Requirements",
+      "rewardsLabel": "Rewards",
+      "bestForLabel": "Best for",
+      "addedLabel": "Added",
+      "workingCodes": [
+        {
+          "code": "UPDATE4",
+          "status": "Working",
+          "rewards": [
+            "500 Spins",
+            "20 Emperor Keys",
+            "1 2x Luck Potion [2H]",
+            "1 2x Gold Potion [2H]",
+            "1 2x XP Potion [2H]",
+            "1,400 Shards",
+            "2,000 Canes"
+          ],
+          "requirements": [
+            "Level 15+",
+            "Prestige 1"
+          ],
+          "added": "April 25, 2026",
+          "bestFor": "Update 4 progression, Shard farming, and Winter Event rewards."
+        },
+        {
+          "code": "MEMBERS1M",
+          "status": "Working",
+          "rewards": [
+            "250 Spins",
+            "15 Emperor Keys",
+            "1 2x Luck Potion [2H]",
+            "1 2x Gold Potion [2H]",
+            "1 2x XP Potion [2H]"
+          ],
+          "requirements": [
+            "Level 15+",
+            "Prestige 1"
+          ],
+          "added": "April 25, 2026",
+          "bestFor": "High-value spins and Emperor Keys after reaching Prestige 1."
+        },
+        {
+          "code": "PLAYERS100K",
+          "status": "Working",
+          "rewards": [
+            "300 Spins",
+            "10 Emperor Keys",
+            "1 2x Luck Potion [1H]",
+            "1 2x Gold Potion [1H]",
+            "1 2x XP Potion [1H]"
+          ],
+          "requirements": [
+            "Level 15+"
+          ],
+          "added": "April 25, 2026",
+          "bestFor": "Large spin supply and one-hour boost stacking."
+        },
+        {
+          "code": "MEMBERS900K",
+          "status": "Working",
+          "rewards": [
+            "200 Spins",
+            "10 Emperor Keys",
+            "1 2x Luck Potion [1H]",
+            "1 2x Gold Potion [1H]",
+            "1 2x XP Potion [1H]",
+            "4,000 Gems"
+          ],
+          "requirements": [
+            "Level 15+"
+          ],
+          "added": "April 25, 2026",
+          "bestFor": "Gems, spins, and boost potions for mid-game progression."
+        },
+        {
+          "code": "FAVORITES1M",
+          "status": "Working",
+          "rewards": [
+            "100 Spins",
+            "5 Emperor Keys",
+            "1 2x Luck Potion [30M]",
+            "1 2x Gold Potion [30M]",
+            "1 2x XP Potion [30M]",
+            "2,000 Gems"
+          ],
+          "requirements": [
+            "Level 15+"
+          ],
+          "added": "April 25, 2026",
+          "bestFor": "Quick spins and short boost sessions."
+        },
+        {
+          "code": "VISITS700M",
+          "status": "Working",
+          "rewards": [
+            "100 Spins",
+            "5 Emperor Keys",
+            "1 2x Luck Potion [30M]",
+            "1 2x Gold Potion [30M]",
+            "1 2x XP Potion [30M]",
+            "2,000 Gems"
+          ],
+          "requirements": [
+            "Level 15+"
+          ],
+          "added": "April 25, 2026",
+          "bestFor": "Free Gems and short-duration farming boosts."
+        },
+        {
+          "code": "VISITS600M",
+          "status": "Working",
+          "rewards": [
+            "100 Spins",
+            "5 Emperor Keys",
+            "1 2x Luck Potion [30M]",
+            "1 2x Gold Potion [30M]",
+            "1 2x XP Potion [30M]",
+            "2,000 Gems"
+          ],
+          "requirements": [
+            "Level 15+"
+          ],
+          "added": "April 25, 2026",
+          "bestFor": "Extra spins before rolling Families, Skills, or other progression options."
+        }
+      ],
+      "expiredCodes": [
+        "LIKES1M150K",
+        "FREECODE3",
+        "LIKES1M100K",
+        "THANKSFORSTAYINGWITHUS",
+        "CHRISTMAS2025",
+        "LIKES1M"
+      ],
+      "redeemSteps": [
+        {
+          "title": "Launch Attack on Titan Revolution on Roblox",
+          "description": "Open the official Attack on Titan Revolution experience and pick the character slot that should receive the rewards."
+        },
+        {
+          "title": "Open the Attack on Titan Revolution Codes menu",
+          "description": "Use the Codes option from the title screen or main menu before entering the game world."
+        },
+        {
+          "title": "Paste one Attack on Titan Revolution code",
+          "description": "Enter a working code exactly as shown, then press Redeem to claim Spins, keys, boosts, Gems, Shards, or event currency."
+        },
+        {
+          "title": "Meet Attack on Titan Revolution requirements",
+          "description": "Most rewards require Level 15+, and high-value Update 4 codes can also require Prestige 1."
+        }
+      ]
+    },
+    "attackOnTitanRevolutionOfficialLinks": {
+      "title": "Attack on Titan Revolution Trello, Discord, Wiki, and Official Links",
+      "displayType": "official-link-cards",
+      "eyebrow": "Official Links",
+      "intro": "Use these Attack on Titan Revolution official links for the Roblox game page, Trello board, Discord server, Wiki, Roblox community, and update channels.",
+      "links": [
+        {
+          "title": "Attack on Titan Revolution Official Roblox Game Page",
+          "type": "Game Page",
+          "url": "https://www.roblox.com/games/13379208636/Attack-on-Titan-Revolution",
+          "description": "Play Attack on Titan Revolution, check servers, view store items, and confirm the current Roblox update label.",
+          "bestFor": [
+            "Play button",
+            "Servers",
+            "Store",
+            "Official game identity"
+          ]
+        },
+        {
+          "title": "Attack on Titan Revolution Official Trello Board",
+          "type": "Trello",
+          "url": "https://trello.com/b/4n9qqtdW/attack-on-titan-revolution",
+          "description": "Look up Attack on Titan Revolution mechanics such as Families, Skill Trees, Skills, Perks, Prestige, Shifting, Crates, and gamepasses.",
+          "bestFor": [
+            "Mechanics lookup",
+            "Families",
+            "Skill trees",
+            "Prestige"
+          ]
+        },
+        {
+          "title": "Attack on Titan Revolution Official Discord Server",
+          "type": "Discord",
+          "url": "https://discord.com/invite/aotrevolution",
+          "description": "Follow Attack on Titan Revolution announcements, code drops, raid discussion, update chatter, and community support.",
+          "bestFor": [
+            "Announcements",
+            "Codes",
+            "Community help",
+            "Update discussion"
+          ]
+        },
+        {
+          "title": "Attack on Titan Revolution Official Wiki",
+          "type": "Wiki",
+          "url": "https://official-attack-on-titans-revolution.fandom.com/wiki/Official_Attack_on_Titan_Revolution_Wiki",
+          "description": "Browse Attack on Titan Revolution mechanics, missions, raids, prestige, titans, shifters, equipment, perks, artifacts, memories, cosmetics, and codes.",
+          "bestFor": [
+            "Game mechanics",
+            "Raids",
+            "Equipment",
+            "Perks"
+          ]
+        },
+        {
+          "title": "Attack on Titan Revolution AoTR PI Roblox Community",
+          "type": "Roblox Community",
+          "url": "https://www.roblox.com/communities/17347863/AoTR-PI",
+          "description": "Join the Roblox community connected to Attack on Titan Revolution and its creator group.",
+          "bestFor": [
+            "Creator community",
+            "Group bonuses",
+            "Roblox updates"
+          ]
+        },
+        {
+          "title": "Attack on Titan Revolution EvolutionPower on X",
+          "type": "Social",
+          "url": "https://x.com/_EvolutionPower",
+          "description": "Follow an Attack on Titan Revolution update channel listed with the game link set for social posts and developer-side updates.",
+          "bestFor": [
+            "Developer updates",
+            "Social posts",
+            "Patch chatter"
+          ]
+        }
+      ]
+    },
+    "attackOnTitanRevolutionBeginnerGuide": {
+      "title": "Panduan Pemula Attack on Titan Revolution",
+      "displayType": "step-by-step",
+      "eyebrow": "Panduan Pemula",
+      "intro": "Attack on Titan Revolution dibangun di seputar pergerakan ODM, pertarungan Titan, grinding misi, roll Families, progres skill-tree, dan hadiah Raids. Mulailah dengan pergerakan dan misi terlebih dahulu, lalu gunakan kode, upgrade, Families, dan Perks untuk masuk ke konten yang lebih sulit.",
+      "tipsLabel": "Prioritas Pemula Attack on Titan Revolution",
+      "steps": [
+        {
+          "title": "Mulai dari pengalaman resmi Attack on Titan Revolution",
+          "description": "Pilih satu slot karakter, kustomisasi karaktermu, roll Families awal, dan pelajari di mana menu quest, inventory, equipment, market, regiment, battle pass, dan ranking berada.",
+          "keyActions": [
+            "Pilih satu slot karakter untuk diprogres terlebih dahulu",
+            "Cek quest harian, mingguan, utama, dan sampingan",
+            "Gunakan kode lebih awal untuk Spin, Emperor Key, dan ramuan boost"
+          ],
+          "focus": "Pengaturan akun dan hadiah awal"
+        },
+        {
+          "title": "Pelajari kontrol ODM Gear Attack on Titan Revolution",
+          "description": "Berlatihlah hook Q dan E, tahan Spasi saat grappling untuk boost dengan gas, tekan Spasi dua kali untuk pergerakan impuls, dan isi ulang bilah pedang sebelum pertarungan Titan yang lama.",
+          "keyActions": [
+            "Berlatih hook kiri dan kanan secara terpisah",
+            "Gunakan gas boost saat mendekati titik lemah Titan",
+            "Simpan gas yang cukup untuk rute eliminasi penuh"
+          ],
+          "focus": "Kontrol pergerakan"
+        },
+        {
+          "title": "Gunakan titik lemah Titan Attack on Titan Revolution",
+          "description": "Berlatihlah mendekati Titan dengan bersih, bidik ke arah tubuh bagian atas atau tengkuk, jaga kecepatan yang cukup untuk menebas, dan atur ulang sudutmu saat Titan berbalik atau menangkap.",
+          "keyActions": [
+            "Dekati dari sudut bahu atau kepala",
+            "Jaga kecepatan yang cukup sebelum menebas",
+            "Reposisi sebelum melawan kelompok Titan besar"
+          ],
+          "focus": "Dasar pertarungan Titan"
+        },
+        {
+          "title": "Jalankan Misi Attack on Titan Revolution sebelum Raids",
+          "description": "Gunakan tingkat kesulitan Misi yang lebih rendah untuk membangun XP, Gold, progres gear, penyelesaian quest, dan kepercayaan diri bertarung sebelum memasuki konten Raids berbasis fase.",
+          "keyActions": [
+            "Mulai dengan tingkat kesulitan misi yang lebih mudah",
+            "Selesaikan quest sambil farming Gold dan XP",
+            "Gunakan boost peta seperti Luck, EXP, atau Gold"
+          ],
+          "focus": "Progres yang stabil"
+        },
+        {
+          "title": "Upgrade gear Attack on Titan Revolution secara merata",
+          "description": "Prioritaskan upgrade pertarungan praktis seperti Damage, Speed, Control, Range, Gas, Durability, Crit Chance, dan Crit Damage sambil terus meningkatkan grade gear secara keseluruhan.",
+          "keyActions": [
+            "Upgrade Damage lebih awal untuk eliminasi Titan yang lebih bersih",
+            "Tingkatkan Speed dan Control untuk rute ODM yang andal",
+            "Siapkan Gas dan Durability untuk misi yang lebih lama"
+          ],
+          "focus": "Penskalaan gear"
+        },
+        {
+          "title": "Gunakan skill point Attack on Titan Revolution sesuai build-mu",
+          "description": "Skill Families adalah prioritas tinggi, sementara pemain ODM dapat membangun ke arah alat serangan yang kuat dan utilitas Support seperti Target Acquisition untuk penargetan tengkuk yang lebih baik.",
+          "keyActions": [
+            "Buka skill Families yang penting terlebih dahulu",
+            "Gunakan skill Offense untuk mempercepat pembersihan Titan",
+            "Gunakan alat Support saat akurasi dan utilitas tim dibutuhkan"
+          ],
+          "focus": "Arah skill dan build"
+        },
+        {
+          "title": "Pahami Families Attack on Titan Revolution sebelum melakukan reroll",
+          "description": "Families memengaruhi statistik, skill, Titan shifting, slot Perks, damage Raids, bonus party, dan arah build, jadi gunakan Spin dengan target yang jelas.",
+          "keyActions": [
+            "Simpan Spin untuk Families yang kuat sebelum reroll besar-besaran",
+            "Gunakan kode bernilai tinggi sebelum melakukan roll",
+            "Simpan Families papan atas daripada melakukan reroll secara membabi buta"
+          ],
+          "focus": "Progres Families"
+        },
+        {
+          "title": "Masuk ke Raids Attack on Titan Revolution dan konten Update 4",
+          "description": "Setelah build-mu stabil, masuklah ke Raids yang lebih sulit, mode Waves, farming Event Musim Dingin, dan persiapan Colossal Titan Raid untuk kosmetik, serum, Artifacts, dan Perks.",
+          "keyActions": [
+            "Masuk ke Raids setelah gear dan skill siap",
+            "Gunakan opsi penyembuhan dan pertahanan untuk gelombang Titan",
+            "Bersiaplah untuk konten endgame yang dibatasi Prestige"
+          ],
+          "focus": "Rute mid-game ke endgame"
+        }
+      ],
+      "quickTips": [
+        "Kode Attack on Titan Revolution paling berharga sebelum reroll Families dan persiapan Raids.",
+        "Pergerakan ODM Attack on Titan Revolution lebih penting daripada damage murni karena sudut Titan yang bersih menentukan kecepatan misi.",
+        "Families dan Perks Attack on Titan Revolution harus mendukung tujuan build yang sama, bukan prioritas yang saling bertentangan.",
+        "Raids Attack on Titan Revolution menjadi lebih lancar setelah Misi, upgrade gear, dan dasar-dasar skill-tree stabil."
+      ]
+    },
+    "attackOnTitanRevolutionFamilyTierList": {
+      "title": "Tier List Families Attack on Titan Revolution",
+      "displayType": "tier-grid",
+      "eyebrow": "Families",
+      "intro": "Families adalah salah satu pilihan jangka panjang terpenting di Attack on Titan Revolution karena memengaruhi statistik, skill, Titan shifting, slot Perks, damage Raids, bonus party, dan arah build.",
+      "strengthsLabel": "Kekuatan",
+      "skillsLabel": "Skill",
+      "rerollLabel": "Saran Reroll",
+      "tiers": [
+        {
+          "tier": "S",
+          "label": "Families Attack on Titan Revolution terbaik secara keseluruhan",
+          "description": "Families prioritas utama dengan statistik elit, skill eksklusif, damage Raids, nilai cooldown, nilai party, atau penskalaan ODM dan Titan Shifters yang besar.",
+          "families": [
+            {
+              "name": "Fritz",
+              "rarity": "Mythical",
+              "role": "Pusat kekuatan penskalaan Titan Shifters dan party",
+              "strengths": [
+                "+20% Statistik Titan Shifters",
+                "+15% Crit Chance/Damage",
+                "+10% Damage ODM/TS",
+                "+10% Damage di Raids",
+                "+10% Perolehan Gem",
+                "+10% Pengurangan Cooldown",
+                "+10% Perolehan Bar Awakening",
+                "+10% Perolehan Gold/XP untuk semua anggota party",
+                "+1 Slot Perks Defense dan Support"
+              ],
+              "skills": [
+                "Founder's Vengeance",
+                "Founder's Will",
+                "Chaos"
+              ],
+              "rerollAdvice": "Simpan Fritz untuk build fokus Titan Shifters Attack on Titan Revolution premium dengan bonus tim dan ekonomi yang kuat."
+            },
+            {
+              "name": "Helos",
+              "rarity": "Mythical",
+              "role": "Damage Raids ODM dan DPS kontrol tinggi",
+              "strengths": [
+                "+30% Damage ODM/TS",
+                "+20% Damage di Raids",
+                "+20% Crit Chance/Damage",
+                "+15% Control/Gas/Range/Speed ODM/TS",
+                "+15% Durabilitas Bilah",
+                "+7.5% Peluang Konservasi",
+                "+10% Pengurangan Cooldown",
+                "+1 Boost Dash",
+                "+1 Slot Perks Offense dan Support"
+              ],
+              "skills": [
+                "Avenging Execution",
+                "Undying Hero",
+                "Order: Revolution",
+                "Kingslayer"
+              ],
+              "rerollAdvice": "Simpan Helos untuk damage ODM Attack on Titan Revolution, output Raids, dan pertarungan yang mengutamakan pergerakan."
+            }
+          ]
+        },
+        {
+          "tier": "A",
+          "label": "Families Attack on Titan Revolution premium untuk disimpan",
+          "description": "Families luar biasa yang menentukan build kuat dan tetap berharga kecuali kamu mengejar optimasi tier Mythical.",
+          "families": [
+            {
+              "name": "Ackerman",
+              "rarity": "Legendary",
+              "role": "DPS burst ODM dan damage Raids",
+              "strengths": [
+                "+20% Damage",
+                "+15% Crit Chance/Damage",
+                "+20% Damage di Raids",
+                "+10% Gas/Range/Control ODM/TS",
+                "+1 Boost Dash",
+                "+1 Slot Perks Offensive",
+                "Tidak bisa menjadi Titan Shifters"
+              ],
+              "skills": [
+                "Rage Mode",
+                "Let it RIP",
+                "Swift Strikes"
+              ],
+              "rerollAdvice": "Simpan Ackerman untuk damage ODM Attack on Titan Revolution yang tinggi tanpa mengandalkan Titan Shifters."
+            },
+            {
+              "name": "Yeager",
+              "rarity": "Legendary",
+              "role": "Build Attack Titan dan Titan Shifters",
+              "strengths": [
+                "-10% Cooldown Titan shifting",
+                "+20% Statistik Attack Titan",
+                "+15% Crit Chance",
+                "+1 Slot Perks Defense"
+              ],
+              "skills": [
+                "Resolve",
+                "Invigorate",
+                "Berserk",
+                "Shifter Regen"
+              ],
+              "rerollAdvice": "Simpan Yeager untuk rute Attack Titan Attack on Titan Revolution dan progres yang berfokus pada Titan Shifters."
+            },
+            {
+              "name": "Reiss",
+              "rarity": "Legendary",
+              "role": "Support, utilitas Titan, dan XP party",
+              "strengths": [
+                "+10% Statistik Titan",
+                "+10% XP",
+                "-10% Biaya Upgrade/Skill",
+                "+5% XP untuk semua anggota party",
+                "+1 Slot Perks Support"
+              ],
+              "skills": [
+                "Conquer",
+                "Command",
+                "Arise"
+              ],
+              "rerollAdvice": "Simpan Reiss untuk utilitas support Attack on Titan Revolution, kontrol Titan, dan upgrade jangka panjang yang lebih murah."
+            },
+            {
+              "name": "Leonhart",
+              "rarity": "Epic",
+              "role": "Damage Female Titan dan permainan Titan Shifters yang cepat",
+              "strengths": [
+                "+10% Kecepatan Lari Titan",
+                "+10% Statistik Female Titan",
+                "+10% Damage"
+              ],
+              "skills": [
+                "Shifter Regen",
+                "Crimson Bloom"
+              ],
+              "rerollAdvice": "Simpan Leonhart for build Female Titan Attack on Titan Revolution dan progres yang berfokus pada damage."
+            },
+            {
+              "name": "Tybur",
+              "rarity": "Epic",
+              "role": "Warhammer Titan dan farming Gold",
+              "strengths": [
+                "+10% Durasi Shifting",
+                "+10% Statistik Warhammer Titan",
+                "+10% Perolehan Gold"
+              ],
+              "skills": [
+                "Shifter Regen"
+              ],
+              "rerollAdvice": "Simpan Tybur untuk progres Warhammer Titan Attack on Titan Revolution dan durasi shifting yang lebih lama."
+            }
+          ]
+        },
+        {
+          "tier": "B",
+          "label": "Families Attack on Titan Revolution situasional yang kuat",
+          "description": "Families bagus dengan buff yang berguna atau ceruk build yang jelas saat berprogres melalui Misi, Raids, dan jalur Titan.",
+          "families": [
+            {
+              "name": "Galliard",
+              "rarity": "Epic",
+              "role": "Kecepatan serangan Jaw Titan dan crit damage",
+              "strengths": [
+                "+10% Kecepatan Serangan Titan",
+                "+10% Statistik Jaw Titan",
+                "+10% Critical Damage"
+              ],
+              "skills": [
+                "Shifter Regen"
+              ],
+              "rerollAdvice": "Simpan Galliard untuk penskalaan Jaw Titan Attack on Titan Revolution atau serangan Titan yang lebih cepat."
+            },
+            {
+              "name": "Braun",
+              "rarity": "Epic",
+              "role": "Daya tahan Armored Titan",
+              "strengths": [
+                "+10% Pengurangan Damage",
+                "+10% Statistik Armored Titan",
+                "+10% Health"
+              ],
+              "skills": [
+                "Shifter Regen"
+              ],
+              "rerollAdvice": "Simpan Braun untuk build Titan Attack on Titan Revolution yang lebih tangguh dan pembelajaran Raids yang lebih aman."
+            },
+            {
+              "name": "Arlert",
+              "rarity": "Epic",
+              "role": "Colossal Titan dan utilitas crit",
+              "strengths": [
+                "+20% AoE Nuke Colossal Titan",
+                "+10% Statistik Colossal Titan",
+                "+10% Crit Chance"
+              ],
+              "skills": [
+                "Shifter Regen"
+              ],
+              "rerollAdvice": "Simpan Arlert saat merencanakan rute Colossal Titan Attack on Titan Revolution."
+            },
+            {
+              "name": "Ksaver",
+              "rarity": "Epic",
+              "role": "Beast Titan dan jangkauan ODM",
+              "strengths": [
+                "+10% Damage",
+                "+10% Statistik Beast Titan",
+                "+10% Jangkauan ODM"
+              ],
+              "skills": [
+                "Shifter Regen"
+              ],
+              "rerollAdvice": "Simpan Ksaver untuk penskalaan Beast Titan Attack on Titan Revolution atau permainan yang berfokus pada jangkauan."
+            },
+            {
+              "name": "Zoe",
+              "rarity": "Epic",
+              "role": "Kontrol ODM, kecepatan, dan pertahanan darurat",
+              "strengths": [
+                "+10% Kontrol ODM",
+                "+10% Kecepatan ODM",
+                "-5% Biaya Upgrade",
+                "Tidak bisa shifting"
+              ],
+              "skills": [
+                "Last Stand"
+              ],
+              "rerollAdvice": "Simpan Zoe untuk kecepatan ODM Attack on Titan Revolution, kontrol, dan kelangsungan hidup darurat."
+            },
+            {
+              "name": "Azumabito",
+              "rarity": "Rare",
+              "role": "Damage dan kontrol ODM awal",
+              "strengths": [
+                "+5% Damage",
+                "+5% Kontrol ODM",
+                "-5% Statistik Titan"
+              ],
+              "skills": [],
+              "rerollAdvice": "Simpan Azumabito di awal Attack on Titan Revolution, lalu upgrade saat kamu memiliki cukup Spin."
+            }
+          ]
+        },
+        {
+          "tier": "C-D",
+          "label": "Ganti Families Attack on Titan Revolution ini nanti",
+          "description": "Families awal permainan, khusus, atau tanpa statistik yang harus di-upgrade setelah mengumpulkan lebih banyak Spin dan kode.",
+          "families": [
+            {
+              "name": "Kruger",
+              "rarity": "Rare",
+              "role": "Starter Attack Titan",
+              "strengths": [
+                "+5% Statistik Attack Titan",
+                "-5% Crit Chance"
+              ],
+              "skills": [],
+              "rerollAdvice": "Gunakan Kruger sebagai starter Attack Titan Attack on Titan Revolution jangka pendek, lalu reroll nanti."
+            },
+            {
+              "name": "Smith",
+              "rarity": "Rare",
+              "role": "Support XP party dan Gold",
+              "strengths": [
+                "+2.5% XP dan Gold untuk semua anggota party saat berkelompok",
+                "-5% Damage"
+              ],
+              "skills": [],
+              "rerollAdvice": "Gunakan Smith untuk grinding party Attack on Titan Revolution, lalu ganti untuk damage solo yang lebih kuat."
+            },
+            {
+              "name": "Braus",
+              "rarity": "Rare",
+              "role": "Utilitas penyembuhan sederhana",
+              "strengths": [
+                "+5% Max Health",
+                "Skill penyembuhan Potato"
+              ],
+              "skills": [
+                "Potato"
+              ],
+              "rerollAdvice": "Gunakan Braus untuk ketahanan pemula Attack on Titan Revolution, lalu upgrade ke Families yang lebih kuat."
+            },
+            {
+              "name": "Common Families",
+              "rarity": "Common",
+              "role": "Target reroll tanpa statistik",
+              "strengths": [
+                "Tidak ada statistik"
+              ],
+              "skills": [],
+              "rerollAdvice": "Reroll Families umum Attack on Titan Revolution seperti Reeves, Blouse, Inocenio, Munsell, Boyega, Ral, Bozado, Pikale, Hume, dan Iglehaut."
+            }
+          ]
+        }
+      ]
+    },
+    "attackOnTitanRevolutionPerksTierList": {
+      "name": "Daftar Tingkat Perks Attack on Titan Revolution",
+      "title": "Daftar Tingkat Perks Attack on Titan Revolution",
+      "displayType": "tier-grid",
+      "eyebrow": "Perks",
+      "subtitle": "Bandingkan perks Body, Offense, Defense, dan Support berdasarkan kekuatan, kesesuaian peran, dan penggunaan praktis. Gunakan daftar tingkat ini untuk memutuskan apa yang akan dipakai, dibuat, ditingkatkan, atau disimpan untuk build late-game.",
+      "intro": "Perks dalam Attack on Titan Revolution membentuk build Anda lebih dari sekadar peningkatan awal. Perks Mythic biasanya menentukan gaya bermain, sementara perks dengan kelangkaan lebih rendah masih dapat mengisi celah penting untuk damage, daya tahan, pemulihan, cooldown, dan dukungan raid.",
+      "tierLabel": "Tier",
+      "perksLabel": "Perks Attack on Titan Revolution",
+      "bestForLabel": "Terbaik untuk",
+      "categoryLabel": "Kategori",
+      "rarityLabel": "Kelangkaan",
+      "whyLabel": "Mengapa peringkatnya di sini",
+      "recommendedUseLabel": "Rekomendasi penggunaan Attack on Titan Revolution",
+      "tiers": [
+        {
+          "tier": "SS",
+          "summary": "Perks Mythic penentu build yang cocok untuk pengaturan ODM, Shifter, raid, atau support tingkat atas.",
+          "perks": [
+            {
+              "name": "Heavenly Restriction",
+              "category": "Body",
+              "rarity": "Mythic",
+              "best_for": [
+                "damage ODM",
+                "stat Titan Shifters",
+                "permainan solo kemahiran tinggi"
+              ],
+              "why_it_ranks_here": "Perk berisiko tinggi dengan imbalan tinggi yang meningkatkan performa ODM dan Titan Shifters secara keseluruhan sambil membatasi penggunaan skill. Ini paling kuat untuk pemain yang bisa bertahan dengan lebih sedikit alat aktif dan menginginkan penskalaan stat murni.",
+              "recommended_use": "Gunakan saat build Anda sudah memiliki kontrol, pergerakan, dan kelangsungan hidup yang kuat dari gear, family, memory, atau rekan tim."
+            },
+            {
+              "name": "Kengo",
+              "category": "Offense",
+              "rarity": "Mythic",
+              "best_for": [
+                "damage ODM",
+                "build pedang",
+                "farming misi"
+              ],
+              "why_it_ranks_here": "Perk damage utama untuk pemain yang berfokus pada ODM, memberikan damage besar dan nilai terkait pedang. Ini sangat berguna saat Anda ingin pembersihan titan yang lebih cepat tanpa hanya mengandalkan durasi Shifter.",
+              "recommended_use": "Pasangkan dengan node offense yang berorientasi pada damage, bonus kritikal, dan perks yang meningkatkan daya tahan atau efisiensi sumber daya."
+            },
+            {
+              "name": "Black Flash",
+              "category": "Offense",
+              "rarity": "Mythic",
+              "best_for": [
+                "damage kritikal",
+                "build mobilitas",
+                "permainan ODM tingkat lanjut"
+              ],
+              "why_it_ranks_here": "Memberikan imbalan pada kecepatan dan pergerakan agresif dengan output kritikal yang lebih kuat dan utilitas Phantom dash. Cocok untuk pemain yang bisa menjaga momentum dan konsisten menyerang titik lemah.",
+              "recommended_use": "Gunakan dengan pengaturan ODM yang cepat, memory yang berfokus pada crit, dan gaya bermain yang terus-menerus memposisikan ulang di sekitar tengkuk titan."
+            },
+            {
+              "name": "Art of War",
+              "category": "Offense",
+              "rarity": "Mythic",
+              "best_for": [
+                "damage Shifter",
+                "pertarungan wujud Titan",
+                "tekanan bos raid"
+              ],
+              "why_it_ranks_here": "Salah satu pilihan terkuat untuk build yang berpusat pada Shifter karena meningkatkan kecepatan serangan dan damage Titan Shifters. Ini sangat berharga ketika build Anda berkisar pada tetap efektif selama jendela transformasi.",
+              "recommended_use": "Pasang pada family Shifter dan build raid yang membutuhkan damage bos lebih tinggi selama durasi transformasi."
+            },
+            {
+              "name": "Founder's Blessing",
+              "category": "Support",
+              "rarity": "Mythic",
+              "best_for": [
+                "build Shifter",
+                "durasi aktif awakening",
+                "utilitas tim"
+              ],
+              "why_it_ranks_here": "Meningkatkan konsistensi Shifter melalui nilai shifting ekstra, dukungan awakening, jarak aggro, dan bonus stat Shifter yang luas. Ini adalah salah satu perks terbaik bagi pemain yang ingin wujud Titan mereka lebih mendominasi permainan.",
+              "recommended_use": "Gunakan dalam tim raid, farming Shifter, dan build yang menginginkan transformasi yang lebih sering atau lebih andal."
+            },
+            {
+              "name": "Maximum Firepower",
+              "category": "Offense",
+              "rarity": "Mythic",
+              "best_for": [
+                "build Thunder Spear",
+                "damage burst",
+                "damage raid"
+              ],
+              "why_it_ranks_here": "Perk Thunder Spear tingkat atas yang meningkatkan jumlah tombak, kecepatan tombak, stat Titan Shifters, dan penanganan recoil. Ideal untuk pemain yang membangun build di sekitar ledakan burst daripada hanya damage pedang.",
+              "recommended_use": "Gunakan saat gear dan memory Anda sudah mendukung damage, amunisi, atau efisiensi cooldown Thunder Spear."
+            },
+            {
+              "name": "Font of Inspiration",
+              "category": "Support",
+              "rarity": "Mythic",
+              "best_for": [
+                "raid tim",
+                "build support",
+                "perintah dan flare"
+              ],
+              "why_it_ranks_here": "Perk tim premium karena meningkatkan perintah, flare, alur cooldown, dan nilai pertahanan sekutu. Ini adalah salah satu pilihan dukungan paling jelas untuk raid yang terkoordinasi.",
+              "recommended_use": "Terbaik untuk pemain pendukung khusus yang secara aktif menggunakan perintah, flare merah atau hitam, dan pengaturan waktu tim."
+            },
+            {
+              "name": "Immortal",
+              "category": "Defense",
+              "rarity": "Mythic",
+              "best_for": [
+                "kelangsungan hidup",
+                "misi solo",
+                "pembelajaran raid sulit"
+              ],
+              "why_it_ranks_here": "Jangkar pertahanan yang meningkatkan kesehatan, pengurangan damage, dan ketahanan terhadap cedera. Sangat berguna saat menghadapi konten yang lebih sulit di mana kesalahan dapat mengakhiri permainan.",
+              "recommended_use": "Gunakan saat mempelajari raid Aberrant, farming solo, atau menjalankan build yang tidak boleh sering mengalami cedera."
+            },
+            {
+              "name": "Soulfeed",
+              "category": "Support",
+              "rarity": "Mythic",
+              "best_for": [
+                "ketahanan",
+                "farming",
+                "misi panjang"
+              ],
+              "why_it_ranks_here": "Memberikan nilai gas dan kesehatan dari kill sambil membantu mengidentifikasi titan. Sangat bagus untuk misi yang lebih panjang dan rute farming di mana ketahanan konstan itu penting.",
+              "recommended_use": "Pasangkan dengan build ODM dengan jumlah kill tinggi, rute solo, dan farming misi di mana Anda dapat berulang kali merantai kill titan."
+            },
+            {
+              "name": "Tatsujin",
+              "category": "Body",
+              "rarity": "Mythic",
+              "best_for": [
+                "kontrol ODM",
+                "kecepatan",
+                "efisiensi gas"
+              ],
+              "why_it_ranks_here": "Perk pergerakan dan penanganan yang kuat yang meningkatkan nuansa inti gameplay ODM. Membantu farming dan pertarungan dengan mempermudah posisi.",
+              "recommended_use": "Gunakan jika build Anda membutuhkan kontrol, jangkauan, kecepatan, atau nilai gas yang lebih baik daripada sekadar damage murni."
+            },
+            {
+              "name": "Unwavering Belief",
+              "category": "Support",
+              "rarity": "Mythic",
+              "best_for": [
+                "dukungan cooldown party",
+                "tim terkoordinasi",
+                "utilitas raid"
+              ],
+              "why_it_ranks_here": "Perk support Mythic yang berorientasi pada tim yang mengurangi cooldown skill party melalui kill sambil meningkatkan beban cooldown pribadi pengguna. Paling kuat saat rekan satu tim dapat memanfaatkan dukungan cooldown tersebut.",
+              "recommended_use": "Terbaik untuk grup raid terkoordinasi di mana satu pemain sengaja dibangun sebagai mesin pendukung."
+            }
+          ]
+        },
+        {
+          "tier": "S",
+          "summary": "Perks yang sangat kuat yang mendukung build late-game tetapi biasanya kurang menentukan build dibandingkan Mythic tingkat SS.",
+          "perks": [
+            {
+              "name": "Eviscerate",
+              "category": "Offense",
+              "rarity": "Legendary",
+              "best_for": [
+                "damage",
+                "tekanan titik lemah",
+                "pertarungan ODM"
+              ],
+              "why_it_ranks_here": "Opsi ofensif yang kuat untuk pemain yang menginginkan kecepatan membunuh yang lebih andal sebelum atau bersamaan dengan perks Mythic.",
+              "recommended_use": "Simpan untuk build damage sampai ada perk offense Mythic yang lebih kuat menggantikannya."
+            },
+            {
+              "name": "Font of Vitality",
+              "category": "Support",
+              "rarity": "Legendary",
+              "best_for": [
+                "penyembuhan",
+                "progres aman",
+                "dukungan tim"
+              ],
+              "why_it_ranks_here": "Perk ketahanan yang berguna yang cocok untuk progres yang lebih aman dan permainan yang berorientasi pada dukungan.",
+              "recommended_use": "Gunakan saat tim Anda kekurangan penyembuhan atau saat Anda menghadapi konten dengan risiko cedera yang sering."
+            },
+            {
+              "name": "Gear Master",
+              "category": "Body",
+              "rarity": "Legendary",
+              "best_for": [
+                "penanganan ODM",
+                "nilai sumber daya",
+                "permainan umum"
+              ],
+              "why_it_ranks_here": "Perk gear serba guna yang kuat yang meningkatkan konsistensi gameplay ODM.",
+              "recommended_use": "Pasang saat Anda membutuhkan perk yang seimbang untuk pergerakan dan konsistensi misi."
+            },
+            {
+              "name": "Indefatigable",
+              "category": "Defense",
+              "rarity": "Legendary",
+              "best_for": [
+                "daya tahan",
+                "pertarungan panjang",
+                "pemulihan kesalahan"
+              ],
+              "why_it_ranks_here": "Perk defensif yang baik untuk bertahan dalam pertarungan yang lebih lama dan mengurangi hukuman dari pertemuan yang berkepanjangan.",
+              "recommended_use": "Gunakan untuk pemain yang masih membangun konsistensi dalam konten Severe atau Aberrant."
+            },
+            {
+              "name": "Peerless Focus",
+              "category": "Offense",
+              "rarity": "Legendary",
+              "best_for": [
+                "build kritikal",
+                "damage presisi",
+                "damage bos"
+              ],
+              "why_it_ranks_here": "Perk dukungan ofensif yang kuat untuk pemain yang dapat secara konsisten mendaratkan serangan bernilai tinggi.",
+              "recommended_use": "Pasangkan dengan node offense yang berfokus pada crit dan permainan ODM yang cepat."
+            },
+            {
+              "name": "Sixth Sense",
+              "category": "Body",
+              "rarity": "Legendary",
+              "best_for": [
+                "kesadaran",
+                "keamanan",
+                "permainan solo"
+              ],
+              "why_it_ranks_here": "Berguna untuk tetap hidup dan menghindari pertarungan yang buruk, terutama dalam misi atau raid yang kacau.",
+              "recommended_use": "Pasang saat kelangsungan hidup dan kesadaran lebih penting daripada damage maksimum."
+            },
+            {
+              "name": "Unparalleled Strength",
+              "category": "Offense",
+              "rarity": "Legendary",
+              "best_for": [
+                "damage murni",
+                "pertarungan ODM",
+                "pembersihan umum"
+              ],
+              "why_it_ranks_here": "Perk damage yang andal yang bekerja di banyak build yang tidak terspesialisasi.",
+              "recommended_use": "Gunakan sebagai opsi damage yang kuat sebelum mendapatkan perks offense Mythic yang lebih kuat."
+            }
+          ]
+        },
+        {
+          "tier": "A",
+          "summary": "Perks yang bagus untuk progres, build khusus, atau mengisi celah stat yang kurang.",
+          "perks": [
+            {
+              "name": "Experimental Shells",
+              "category": "Offense",
+              "rarity": "Epic",
+              "best_for": [
+                "utilitas Thunder Spear",
+                "build burst"
+              ],
+              "why_it_ranks_here": "Berguna untuk gaya bermain eksplosif, meskipun biasanya kurang lengkap dibanding Maximum Firepower.",
+              "recommended_use": "Gunakan pada build Thunder Spear saat sedang berproses menuju perks yang berfokus pada tombak yang lebih kuat."
+            },
+            {
+              "name": "Heightened Vitality",
+              "category": "Defense",
+              "rarity": "Epic",
+              "best_for": [
+                "kesehatan",
+                "progres aman"
+              ],
+              "why_it_ranks_here": "Perk defensif praktis yang memberikan lebih banyak ruang bagi pemain baru atau tingkat menengah untuk melakukan kesalahan.",
+              "recommended_use": "Pasang saat kematian di raid atau misi memperlambat progres."
+            },
+            {
+              "name": "Invincible",
+              "category": "Defense",
+              "rarity": "Epic",
+              "best_for": [
+                "pengurangan damage",
+                "pembelajaran raid"
+              ],
+              "why_it_ranks_here": "Perk keamanan yang kuat saat kelangsungan hidup lebih penting daripada kecepatan.",
+              "recommended_use": "Gunakan sambil mempelajari mekanik bos atau mencoba tingkat kesulitan yang lebih tinggi."
+            },
+            {
+              "name": "Mutilate",
+              "category": "Offense",
+              "rarity": "Epic",
+              "best_for": [
+                "damage anggota tubuh",
+                "kontrol titan"
+              ],
+              "why_it_ranks_here": "Membantu mengontrol titan melalui tekanan anggota tubuh dan meningkatkan persiapan untuk membunuh.",
+              "recommended_use": "Gunakan dalam misi di mana melumpuhkan titan itu berharga."
+            },
+            {
+              "name": "Reckless Abandon",
+              "category": "Offense",
+              "rarity": "Epic",
+              "best_for": [
+                "damage agresif",
+                "pembersihan cepat"
+              ],
+              "why_it_ranks_here": "Perk ofensif yang berguna bagi pemain yang menginginkan damage lebih besar dan merasa nyaman mengambil risiko.",
+              "recommended_use": "Gunakan hanya ketika pergerakan dan pertahanan Anda sudah stabil."
+            },
+            {
+              "name": "Solo",
+              "category": "Support",
+              "rarity": "Epic",
+              "best_for": [
+                "farming solo",
+                "permainan mandiri"
+              ],
+              "why_it_ranks_here": "Perk situasional yang kuat untuk pemain yang utamanya menyelesaikan konten tanpa tim lengkap.",
+              "recommended_use": "Pasang untuk farming misi solo daripada dukungan raid yang terkoordinasi."
+            },
+            {
+              "name": "Stalwart Durability",
+              "category": "Defense",
+              "rarity": "Epic",
+              "best_for": [
+                "build defensif",
+                "pertarungan panjang"
+              ],
+              "why_it_ranks_here": "Pengisi defensif yang baik untuk pemain yang membutuhkan lebih banyak konsistensi.",
+              "recommended_use": "Gunakan saat kelangsungan hidup adalah penghalang utama."
+            },
+            {
+              "name": "Trauma Battery",
+              "category": "Defense",
+              "rarity": "Epic",
+              "best_for": [
+                "nilai berbasis cedera",
+                "build pertahanan"
+              ],
+              "why_it_ranks_here": "Memberikan nilai defensif praktis dalam pertarungan kacau di mana cedera sering terjadi.",
+              "recommended_use": "Gunakan jika build Anda sering mengalami cedera tetapi masih bisa terus bertarung."
+            }
+          ]
+        },
+        {
+          "tier": "B",
+          "summary": "Perks progres yang dapat digunakan. Simpan di awal, tetapi ganti setelah perks Epic, Legendary, atau Mythic yang lebih kuat tersedia.",
+          "perks": [
+            {
+              "name": "Adrenaline",
+              "category": "Body",
+              "rarity": "Rare",
+              "best_for": [
+                "mobilitas awal",
+                "momen kritis saat HP rendah"
+              ],
+              "why_it_ranks_here": "Dapat membantu dalam progres awal tetapi bukan inti build jangka panjang.",
+              "recommended_use": "Gunakan sementara sampai Anda mendapatkan perk pergerakan atau pertahanan yang lebih kuat."
+            },
+            {
+              "name": "Fully Stocked",
+              "category": "Support",
+              "rarity": "Rare",
+              "best_for": [
+                "kenyamanan sumber daya",
+                "farming misi"
+              ],
+              "why_it_ranks_here": "Berguna saat masalah persediaan menghambat progres lari Anda.",
+              "recommended_use": "Bagus untuk misi awal sebelum Anda memiliki alat ketahanan yang lebih baik."
+            },
+            {
+              "name": "Protection",
+              "category": "Defense",
+              "rarity": "Rare",
+              "best_for": [
+                "pengurangan damage",
+                "pemain baru"
+              ],
+              "why_it_ranks_here": "Nilai defensif sederhana, tetapi kalah saing oleh perks pertahanan dengan kelangkaan lebih tinggi.",
+              "recommended_use": "Gunakan sambil mempelajari pola titan dan ganti kemudian."
+            },
+            {
+              "name": "Siphoning",
+              "category": "Support",
+              "rarity": "Rare",
+              "best_for": [
+                "ketahanan",
+                "misi yang lebih panjang"
+              ],
+              "why_it_ranks_here": "Berguna untuk menjaga lari tetap berjalan, terutama sebelum perks penyembuhan yang lebih kuat tersedia.",
+              "recommended_use": "Gunakan dalam rute farming dengan kill yang sering."
+            },
+            {
+              "name": "Speedy",
+              "category": "Body",
+              "rarity": "Rare",
+              "best_for": [
+                "pergerakan",
+                "kenyamanan dasar ODM"
+              ],
+              "why_it_ranks_here": "Membantu pergerakan awal tetapi tidak memberikan nilai late-game yang cukup sendirian.",
+              "recommended_use": "Gunakan sampai perk Body atau berfokus pada ODM yang lebih kuat menggantikannya."
+            }
+          ]
+        }
+      ]
+    },
+    "attackOnTitanRevolutionSkillTreeGuide": {
+      "name": "Attack on Titan Revolution Skill Tree Guide",
+      "title": "Attack on Titan Revolution Skill Tree Guide",
+      "displayType": "step-by-step",
+      "eyebrow": "Build Guide",
+      "subtitle": "Learn how to spend skill points, which active skills unlock first, and how each tree supports different goals. This guide separates ODM damage, survivability, cooldown support, family skills, and Titan Shifter routes.",
+      "intro": "Skill Trees are your main character progression system after basic leveling. Circle nodes are passive upgrades, diamond nodes are active skills you can equip, and resets cost 999 gems while refunding your spent skill points and gold.",
+      "stepLabel": "Step",
+      "goalLabel": "Goal",
+      "detailsLabel": "Attack on Titan Revolution details",
+      "keySkillsLabel": "Key skills",
+      "statBuffsLabel": "Stat paths",
+      "recommendedPathLabel": "Recommended path",
+      "bestForLabel": "Best for",
+      "treeLabel": "Tree",
+      "steps": [
+        {
+          "step": 1,
+          "title": "Understand how Skill Trees work",
+          "goal": "Know what each node type does before spending points.",
+          "details": [
+            "Skill points are earned through leveling and spent across different trees.",
+            "Circle nodes are passive stat upgrades such as damage, durability, cooldown reduction, health, or injury resistance.",
+            "Diamond nodes unlock active skills that must be equipped into your skill slots.",
+            "A skill tree reset costs 999 gems and refunds skill points and gold."
+          ],
+          "recommended_for": [
+            "new players",
+            "returning players",
+            "players planning a full build reset"
+          ]
+        },
+        {
+          "step": 2,
+          "title": "Start with Offense if your goal is faster clearing",
+          "goal": "Improve ODM damage, critical output, blade value, and active attack skills.",
+          "tree": "Offense",
+          "total_stat_buffs": {
+            "default_path": [
+              "+7.5% Damage",
+              "+5% Swing Duration or +6% Blast Radius",
+              "+6% Blade Durability or +6 Spear Ammunition",
+              "+3% Critical Chance",
+              "+5% Critical Damage"
+            ],
+            "damage_path": [
+              "+16% Swing Duration or +24% Blast Radius",
+              "+10% Blade Durability or Conservation Chance",
+              "+30% Damage"
+            ],
+            "critical_path": [
+              "+15% Critical Chance",
+              "+30% Critical Damage"
+            ]
+          },
+          "key_skills": [
+            {
+              "name": "Hand Grinder",
+              "unlock_level": 3,
+              "role": "Escape tool",
+              "use_case": "Automatically escapes a titan grab at the cost of a blade segment."
+            },
+            {
+              "name": "Blade Dance",
+              "unlock_level": 7,
+              "role": "Mobility attack",
+              "use_case": "Boosts toward your cursor and performs a slash, useful for aggressive ODM movement."
+            },
+            {
+              "name": "Drill Thrust",
+              "unlock_level": "14A",
+              "role": "Directional damage",
+              "use_case": "Spins forward toward the cursor and damages titans on contact."
+            },
+            {
+              "name": "Rising Slash",
+              "unlock_level": "14B",
+              "role": "Area slash",
+              "use_case": "Launches upward and slashes around the player."
+            },
+            {
+              "name": "Torrential Steel",
+              "unlock_level": "23A",
+              "role": "Sustained damage",
+              "use_case": "Spins for several seconds and deals contact damage."
+            },
+            {
+              "name": "Lethal Tempo",
+              "unlock_level": "23B",
+              "role": "Chain kill",
+              "use_case": "Kills a nearby titan and can chain to additional targets, but forcefully breaks one blade."
+            }
+          ],
+          "recommended_path": [
+            "Unlock Hand Grinder early for safety.",
+            "Take Blade Dance for movement and faster titan engagement.",
+            "Choose Drill Thrust or Rising Slash based on whether you prefer directional burst or vertical slash coverage.",
+            "Build toward Torrential Steel for sustained clearing or Lethal Tempo for chain-kill pressure.",
+            "Add critical nodes when you can consistently hit napes and weak points."
+          ],
+          "best_for": [
+            "ODM damage",
+            "mission farming",
+            "solo clearing",
+            "players who want faster kill speed"
+          ]
+        },
+        {
+          "step": 3,
+          "title": "Use Defense when deaths, injuries, or grabs are blocking progress",
+          "goal": "Increase health, reduce damage, resist injuries, and survive harder content.",
+          "tree": "Defense",
+          "total_stat_buffs": {
+            "default_path": [
+              "+17.5 Health",
+              "+15% Injury Chance Reduction"
+            ],
+            "endurance_path": [
+              "+30% Damage Reduction"
+            ],
+            "survival_path": [
+              "+87.5 Health"
+            ]
+          },
+          "key_skills": [
+            {
+              "name": "Counter",
+              "unlock_level": 3,
+              "role": "Timed defensive answer",
+              "use_case": "Used at the moment of impact before being stunned to cripple a titan limb."
+            },
+            {
+              "name": "Emergency Relocation",
+              "unlock_level": "10A",
+              "role": "Injury recovery",
+              "use_case": "Consumes current health to heal an injury and gives temporary injury resistance and critical chance."
+            },
+            {
+              "name": "Hardy Counter",
+              "unlock_level": "10B",
+              "role": "Grab escape",
+              "use_case": "Allows escape from a grab and kills the titan."
+            },
+            {
+              "name": "Iron Resolve",
+              "unlock_level": "19B",
+              "role": "Damage reduction",
+              "use_case": "Gives damage reduction and gains extra value when injured."
+            }
+          ],
+          "recommended_path": [
+            "Take early health and injury resistance if you are dying before finishing missions.",
+            "Pick Counter or Hardy Counter if grabs are the main problem.",
+            "Use Emergency Relocation when injury recovery is more important than raw damage.",
+            "Build into Endurance for raid learning and Survival for safer solo runs."
+          ],
+          "best_for": [
+            "raid learning",
+            "solo survivability",
+            "players struggling with injuries",
+            "harder mission difficulties"
+          ]
+        },
+        {
+          "step": 4,
+          "title": "Use Support when your team needs healing, resupply, flare value, or orders",
+          "goal": "Improve team utility, cooldown flow, healing, and coordinated damage windows.",
+          "tree": "Support",
+          "total_stat_buffs": {
+            "default_path": [
+              "+10% Durability or +5% Conservation Chance",
+              "+7.5% Gear Control",
+              "+1 Health Regen"
+            ],
+            "triage_path": [
+              "+6 Health Regen"
+            ],
+            "commander_path": [
+              "+35% Cooldown Reduction",
+              "+25% Injury Chance Reduction"
+            ]
+          },
+          "key_skills": [
+            {
+              "name": "Bandages",
+              "unlock_level": 3,
+              "role": "Healing",
+              "use_case": "Provides two bandages that heal health and treat limb injuries."
+            },
+            {
+              "name": "Red Flare",
+              "unlock_level": 7,
+              "role": "Target marking",
+              "use_case": "Marks up to five titans within range and makes them take more damage and critical pressure."
+            },
+            {
+              "name": "Advanced Medic",
+              "unlock_level": "13A",
+              "role": "Better healing",
+              "use_case": "Improves bandage healing and expands injury treatment."
+            },
+            {
+              "name": "Acoustic Shells",
+              "unlock_level": "13B",
+              "role": "Aggro control",
+              "use_case": "Draws titan attention and can help force grabbed players to be dropped."
+            },
+            {
+              "name": "Portable Resupply",
+              "unlock_level": "15A",
+              "role": "Resource recovery",
+              "use_case": "Provides refills for extended fights and long missions."
+            },
+            {
+              "name": "Order Advance",
+              "unlock_level": "15B",
+              "role": "Team mobility",
+              "use_case": "Boosts ally ODM speed and control for a short window."
+            },
+            {
+              "name": "Master Medic",
+              "unlock_level": "17A",
+              "role": "Advanced healing",
+              "use_case": "Improves regeneration, injury treatment, and total bandage value."
+            },
+            {
+              "name": "Black Flare",
+              "unlock_level": "17B",
+              "role": "Stronger target marking",
+              "use_case": "Marks more titans over a larger range with stronger damage and critical vulnerability."
+            },
+            {
+              "name": "Resourceful",
+              "unlock_level": "19A",
+              "role": "Resupply upgrade",
+              "use_case": "Reduces resupply cooldown and increases refill count."
+            },
+            {
+              "name": "Order Rage",
+              "unlock_level": "19B",
+              "role": "Team damage buff",
+              "use_case": "Boosts team damage and critical damage."
+            }
+          ],
+          "recommended_path": [
+            "Take Bandages early if your team lacks healing.",
+            "Use Red Flare or Black Flare for team damage windows.",
+            "Choose Portable Resupply and Resourceful for long fights or raid consistency.",
+            "Build Commander if you want cooldown reduction, orders, and repeatable team utility."
+          ],
+          "best_for": [
+            "raid teams",
+            "support players",
+            "co-op missions",
+            "players using Font of Inspiration or Unwavering Belief"
+          ]
+        },
+        {
+          "step": 5,
+          "title": "Add Family skills when your family supports a specialized route",
+          "goal": "Use family-exclusive skills as build multipliers instead of generic upgrades.",
+          "tree": "Family",
+          "key_skills": [
+            {
+              "name": "Swift Strikes",
+              "family": "Ackerman",
+              "role": "Enhanced chain kill",
+              "use_case": "An Ackerman version of Lethal Tempo that can chain to all titans in range."
+            },
+            {
+              "name": "Let it RIP",
+              "family": "Ackerman",
+              "role": "Enhanced sustained damage",
+              "use_case": "An Ackerman version of Torrential Steel with longer spin duration and cursor control."
+            },
+            {
+              "name": "Shifter Regen",
+              "family": "Shifter-related families",
+              "role": "Regeneration",
+              "use_case": "Regenerates health and injuries over time, useful for Titan Shifter playstyles."
+            },
+            {
+              "name": "Potato",
+              "family": "Braus",
+              "role": "Emergency healing",
+              "use_case": "Restores a portion of health and gives Braus players a simple survival tool."
+            }
+          ],
+          "recommended_path": [
+            "Treat family skills as build direction signals.",
+            "Use Ackerman skills for aggressive ODM chain-kill builds.",
+            "Use Shifter Regen when your family and perk setup support Titan Shifter combat.",
+            "Do not over-invest in a family route that does not match your perk and gear plan."
+          ],
+          "best_for": [
+            "family-based builds",
+            "late-game optimization",
+            "specialized ODM or Shifter routes"
+          ]
+        },
+        {
+          "step": 6,
+          "title": "Build Shifter skills around transformation uptime and boss damage",
+          "goal": "Use Titan Shifter skills for raid pressure, crowd control, and burst windows.",
+          "tree": "Titan Shifter",
+          "key_skills": [
+            {
+              "name": "Corkscrew Punch",
+              "role": "Single-target pressure",
+              "use_case": "A direct Titan attack used to pressure boss titans or priority targets."
+            },
+            {
+              "name": "Brutal Stomp",
+              "role": "Area impact",
+              "use_case": "A heavy stomp-style attack that helps control nearby enemies."
+            },
+            {
+              "name": "Uppercut",
+              "role": "Close-range attack",
+              "use_case": "A melee attack used during Titan form combat."
+            },
+            {
+              "name": "Roar",
+              "role": "Control and tempo",
+              "use_case": "A Titan skill used to influence nearby combat flow."
+            },
+            {
+              "name": "Hardening",
+              "role": "Defense and boss mechanics",
+              "use_case": "A defensive Titan mechanic that appears in Titan Shifter play and raid boss behavior."
+            }
+          ],
+          "recommended_path": [
+            "Prioritize Shifter skills if your family, perks, and memories support transformation play.",
+            "Use Art of War, Founder's Blessing, or Shifter-focused memories to improve Titan form value.",
+            "In raids, save major Titan windows for boss phases rather than low-value cleanup."
+          ],
+          "best_for": [
+            "Shifter builds",
+            "raid boss damage",
+            "players using Art of War or Founder's Blessing"
+          ]
+        }
+      ]
+    },
+    "attackOnTitanRevolutionPrestigeGuide": {
+      "name": "Attack on Titan Revolution Prestige Guide",
+      "title": "Attack on Titan Revolution Prestige Guide",
+      "displayType": "step-by-step",
+      "eyebrow": "Progression",
+      "subtitle": "Prestige is the major long-term progression system after reaching the level cap. It resets key progression while giving permanent account power through boosts, memories, gem conversion, and higher level caps.",
+      "intro": "The first Prestige becomes available at level 100 with a full EXP bar. Each later Prestige raises the requirement by 25 levels, and each Prestige gives a permanent boost choice plus one Prestige Memory selection.",
+      "stepLabel": "Step",
+      "goalLabel": "Goal",
+      "requirementsLabel": "Prestige requirements",
+      "resetsLabel": "Resets",
+      "keepsLabel": "Keeps",
+      "boostOptionsLabel": "Boost options",
+      "goldConversionLabel": "Gold conversion",
+      "memoryRulesLabel": "Memory rules",
+      "memoryChancesLabel": "Memory chances",
+      "scrollRulesLabel": "Scroll rules",
+      "pityRatesLabel": "Pity rates",
+      "benefitsLabel": "Prestige benefits",
+      "recommendedActionLabel": "Recommended Attack on Titan Revolution action",
+      "steps": [
+        {
+          "step": 1,
+          "title": "Reach the required level and fill the EXP bar",
+          "goal": "Unlock the Prestige option by reaching the correct level cap.",
+          "requirements": [
+            {
+              "prestige": 1,
+              "rank_name": "Prestige 1",
+              "level_needed": 100,
+              "new_level_cap": 125,
+              "exp_needed": 1952500
+            },
+            {
+              "prestige": 2,
+              "rank_name": "Prestige 2",
+              "level_needed": 125,
+              "new_level_cap": 150,
+              "exp_needed": 3429553
+            },
+            {
+              "prestige": 3,
+              "rank_name": "Prestige 3",
+              "level_needed": 150,
+              "new_level_cap": 175,
+              "exp_needed": 5265320
+            },
+            {
+              "prestige": 4,
+              "rank_name": "Prestige 4",
+              "level_needed": 175,
+              "new_level_cap": 200,
+              "exp_needed": 7334070
+            },
+            {
+              "prestige": 5,
+              "rank_name": "Captain",
+              "level_needed": 200,
+              "new_level_cap": 225,
+              "exp_needed": "Shown in-game after reaching the Prestige 4 cap"
+            }
+          ],
+          "recommended_action": "Do not stop progression too long right before a Prestige. Prestige first, then spend time farming rare long-term items with the new permanent bonuses."
+        },
+        {
+          "step": 2,
+          "title": "Know what resets and what stays",
+          "goal": "Avoid losing progress unexpectedly when you Prestige.",
+          "resets": [
+            "Player level returns to 0.",
+            "Skill tree progression is reset.",
+            "ODM gear grades and Titan Shifter grades are reset.",
+            "Gold is converted into gems based on the current Prestige conversion rate."
+          ],
+          "keeps": [
+            "Prestige Memories",
+            "Perks",
+            "Families",
+            "Perk levels",
+            "Prestige boost choices",
+            "Unlocked long-term account progression tied to Prestige"
+          ],
+          "recommended_action": "Spend your final pre-Prestige time on progression that carries forward, then Prestige when the level and EXP requirement are complete."
+        },
+        {
+          "step": 3,
+          "title": "Choose your permanent Prestige boost",
+          "goal": "Pick the boost that best supports long-term farming.",
+          "boost_options": [
+            {
+              "name": "Luck Boost",
+              "value": "+7.5% Luck",
+              "best_for": [
+                "rare item farming",
+                "family hunting",
+                "raid drops",
+                "late-game progression"
+              ],
+              "recommendation": "Best long-term choice for most players because rare drops and account progression become more important at higher levels."
+            },
+            {
+              "name": "EXP Boost",
+              "value": "+15% EXP",
+              "best_for": [
+                "faster leveling",
+                "rushing later Prestige requirements",
+                "players who mainly grind levels"
+              ],
+              "recommendation": "Good when your main bottleneck is leveling speed rather than rare drops."
+            },
+            {
+              "name": "Gold Boost",
+              "value": "+15% Gold",
+              "best_for": [
+                "upgrade costs",
+                "early economy",
+                "players short on gold"
+              ],
+              "recommendation": "Useful for economy comfort, but usually less valuable than Luck for long-term rare-item goals."
+            }
+          ],
+          "recommended_action": "Pick Luck if you are unsure. Pick EXP only when you are intentionally rushing more Prestige levels."
+        },
+        {
+          "step": 4,
+          "title": "Convert gold into gems during Prestige",
+          "goal": "Understand how your gold turns into gems when you Prestige.",
+          "gold_conversion": [
+            {
+              "prestige": 1,
+              "conversion": "1 gem per 1,500 gold",
+              "gold_cap_for_conversion": "Up to 500,000,000 gold"
+            },
+            {
+              "prestige": 2,
+              "conversion": "1 gem per 1,250 gold",
+              "gold_cap_for_conversion": "Up to 500,000,000 gold"
+            },
+            {
+              "prestige": 3,
+              "conversion": "1 gem per 1,000 gold",
+              "gold_cap_for_conversion": "Up to 500,000,000 gold"
+            },
+            {
+              "prestige": 4,
+              "conversion": "1 gem per 1,000 gold",
+              "gold_cap_for_conversion": "Up to 500,000,000 gold"
+            }
+          ],
+          "extra_gem_bonus": "+10 gems for each AFK Zone payout after Prestige",
+          "recommended_action": "Before prestiging, use or convert your gold intentionally so the reset supports your next build."
+        },
+        {
+          "step": 5,
+          "title": "Pick a Prestige Memory",
+          "goal": "Choose one of three memory options to add permanent build value.",
+          "memory_rules": [
+            "Each Prestige grants one Prestige Memory selection from three offered options.",
+            "Prestige Memories work as talent-style bonuses and cannot be bought or traded like normal perks.",
+            "Duplicate Prestige Memories do not stack.",
+            "Your currently invested skill tree can influence the type of memories you are more likely to see."
+          ],
+          "memory_rarity_chances": [
+            {
+              "stars": "1-star",
+              "chance": "70%"
+            },
+            {
+              "stars": "2-star",
+              "chance": "25%"
+            },
+            {
+              "stars": "3-star",
+              "chance": "4%"
+            },
+            {
+              "stars": "4-star",
+              "chance": "1%"
+            }
+          ],
+          "recommended_action": "Pick memories that match your actual build direction, such as ODM damage, Support utility, Defense safety, or Titan Shifter performance."
+        },
+        {
+          "step": 6,
+          "title": "Use Prestige Scrolls to reroll memory options",
+          "goal": "Improve your memory selection when the default three choices do not fit your build.",
+          "scroll_rules": [
+            "Prestige Scrolls can be used to roll extra Prestige Memory options.",
+            "Prestige Scrolls can be bought or traded.",
+            "After 20 Prestige Scroll rolls, the pity result gives a high-tier memory outcome."
+          ],
+          "pity_rates": [
+            {
+              "stars": "3-star",
+              "chance": "90%"
+            },
+            {
+              "stars": "4-star",
+              "chance": "10%"
+            }
+          ],
+          "recommended_action": "Save Prestige Scrolls for serious build optimization instead of spending them casually on small upgrades."
+        },
+        {
+          "step": 7,
+          "title": "Plan around extra Prestige rewards",
+          "goal": "Use Prestige as a long-term account power system, not just a level reset.",
+          "prestige_benefits": [
+            "+25 level cap per Prestige",
+            "+0.005% Legendary family chance per Prestige",
+            "+1 memory slot per Prestige",
+            "Additional free memory slots added at Prestige 3 and Prestige 5",
+            "Prestige 5 unlocks the Captain Prestige tier"
+          ],
+          "recommended_action": "Prestige early enough to start stacking permanent bonuses, then focus rare-item farming once your account has better Luck, memory slots, and level cap."
+        }
+      ]
+    },
+    "attackOnTitanRevolutionRaidsGuide": {
+      "name": "Panduan Raids Attack on Titan Revolution",
+      "title": "Panduan Raids Attack on Titan Revolution",
+      "displayType": "accordion",
+      "eyebrow": "Raids",
+      "subtitle": "Raids adalah pertarungan bos multi-fase dengan mekanik yang lebih kuat, batasan tingkat kesulitan, dan hadiah eksklusif. Pelajari syarat masuk, fase bos, aturan Emperor's Trove, dan apa yang membuat setiap raid berbeda.",
+      "intro": "Raids terpisah dari misi reguler dan berfokus pada bos titan, fase, koordinasi tim, dan drop bernilai tinggi. Raids dapat memberikan hadiah kosmetik, serum, Artifacts, Perks, loot Emperor's Trove, dan item eksklusif raid tergantung pada bos dan tingkat kesulitan.",
+      "accordionLabel": "Detail Raid Attack on Titan Revolution",
+      "difficultyLabel": "Tingkat Kesulitan",
+      "rulesLabel": "Aturan inti",
+      "structureLabel": "Struktur raid",
+      "movesLabel": "Gerakan bos",
+      "mechanicsLabel": "Mekanik khusus",
+      "tipsLabel": "Tips raid",
+      "rewardsLabel": "Hadiah utama",
+      "loadoutLabel": "Rekomendasi loadout",
+      "bestForLabel": "Terbaik untuk",
+      "panels": [
+        {
+          "title": "Dasar-Dasar Raid",
+          "default_open": true,
+          "content": {
+            "what_raids_are": "Raids adalah mode permainan yang berfokus pada bos dan dibagi menjadi beberapa fase. Mode ini lebih sulit daripada misi reguler dan dibangun di sekitar bos Titan utama, mekanik, dan peti hadiah.",
+            "difficulties": [
+              {
+                "name": "Hard",
+                "minimum_grade": "Grade C-",
+                "recommended_for": "Mempelajari raid untuk pertama kali dan latihan bos dengan risiko lebih rendah."
+              },
+              {
+                "name": "Severe",
+                "minimum_grade": "Grade B",
+                "recommended_for": "Tim yang lebih kuat yang menginginkan hadiah lebih baik dan pola bos yang lebih sulit."
+              },
+              {
+                "name": "Aberrant",
+                "minimum_grade": "Grade A",
+                "recommended_for": "Tim berpengalaman, farming drop terbaik, dan mekanik raid tersulit."
+              }
+            ],
+            "core_rules": [
+              "Raids biasanya berbasis fase, bukan sekadar pembersihan titan biasa.",
+              "Darah bos raid, mekanik, dan tekanan meningkat sesuai tingkat kesulitan.",
+              "Raids tidak memberikan gem streak misi dengan cara yang sama seperti misi reguler.",
+              "Bawa penyembuhan, persediaan ulang, dan pemain yang memahami mekanik bos.",
+              "Pemain harus mendapatkan kredit raid yang cukup untuk membuka peti raid."
+            ],
+            "emperor_trove": {
+              "item_needed": "Emperor Key",
+              "purpose": "Membuka peti Emperor's Trove di dalam raids.",
+              "why_it_matters": "Emperor's Trove umumnya memberikan peluang drop yang lebih baik daripada peti raid standar.",
+              "key_sources": [
+                "Drop peti raid",
+                "Quest harian",
+                "Quest mingguan",
+                "Progres pasar",
+                "Trading setelah mencapai Prestige yang diperlukan"
+              ]
+            }
+          }
+        },
+        {
+          "title": "Attack Titan Raid",
+          "default_open": false,
+          "content": {
+            "boss": "Attack Titan",
+            "release": "Update 1",
+            "structure": [
+              {
+                "phase": 1,
+                "objective": "Lindungi Attack Titan milik Eren dari titan yang datang.",
+                "key_mechanic": "Titan murni menekan arena sementara tim menjaga Eren tetap hidup."
+              },
+              {
+                "phase": 2,
+                "objective": "Kalahkan bos Attack Titan.",
+                "key_mechanic": "Pengguna ODM harus fokus pada tengkuk atau titik kritis tengkorak untuk damage tinggi."
+              }
+            ],
+            "boss_moves": [
+              "Punches",
+              "Corkscrew",
+              "Uppercut",
+              "Brutal Stomp",
+              "Roar pada kesulitan tinggi",
+              "Hardening pada Severe ke atas",
+              "Berserk Mode pada Aberrant"
+            ],
+            "tips": [
+              "Gunakan dinding dan ruang luar agar tidak kewalahan oleh titan.",
+              "Pengguna ODM harus memprioritaskan akses titik lemah daripada menyerang secara acak.",
+              "Simpan skill damage tinggi untuk jendela kerentanan bos.",
+              "Bawa alat Support jika tim kesulitan dengan cedera, tangkapan, atau sumber daya."
+            ],
+            "notable_rewards": [
+              "Drop raid Attack Titan",
+              "Peluang skin gear bertema Onikiri",
+              "Kosmetik raid",
+              "Hadiah Emperor's Trove"
+            ],
+            "best_for": [
+              "progres raid pertama",
+              "latihan titik lemah ODM",
+              "mempelajari pertarungan bos berbasis fase"
+            ]
+          }
+        },
+        {
+          "title": "Armored Titan Raid",
+          "default_open": false,
+          "content": {
+            "boss": "Armored Titan",
+            "release": "Update 2.5",
+            "structure": [
+              {
+                "phase": 1,
+                "objective": "Pertahankan kapal penyelamat saat perisai Courage Armored Titan aktif.",
+                "key_mechanic": "Jumlah kapal dan kondisi kegagalan meningkat berdasarkan tingkat kesulitan."
+              },
+              {
+                "phase": 2,
+                "objective": "Kalahkan Armored Titan setelah fase perisai berakhir.",
+                "key_mechanic": "Damage yang diterima oleh perisai di Fase 1 memengaruhi hukuman saat memasuki Fase 2."
+              }
+            ],
+            "boss_moves": [
+              "Serangan tipe Charge",
+              "Earth Breaker",
+              "Serangan lapis baja jarak dekat",
+              "Tekanan perisai selama fase pertama"
+            ],
+            "tips": [
+              "Prioritaskan pertahanan kapal sebelum mengejar damage bos.",
+              "Anggap Earth Breaker sebagai gerakan bahaya utama dan segera berpindah posisi.",
+              "Koordinasikan jendela damage setelah fase perisai berakhir.",
+              "Tim Thunder Spear dan ODM harus menghindari pemborosan burst selama jendela imunitas atau nilai rendah."
+            ],
+            "notable_rewards": [
+              "Drop raid Armored Titan",
+              "Peluang skin gear bertema Jötunn",
+              "Kosmetik raid",
+              "Hadiah Emperor's Trove"
+            ],
+            "best_for": [
+              "koordinasi tim",
+              "latihan objektif pertahanan",
+              "pemain yang memahami timing fase bos"
+            ]
+          }
+        },
+        {
+          "title": "Female Titan Raid",
+          "default_open": false,
+          "content": {
+            "boss": "Female Titan",
+            "release": "Update 3",
+            "structure": [
+              {
+                "phase": 1,
+                "objective": "Lawan Female Titan milik Annie hingga mencapai ambang batas fase.",
+                "key_mechanic": "Gunakan tanda kelemahan dan tekanan damage yang terkendali."
+              },
+              {
+                "phase": 2,
+                "objective": "Lawan Attack Titan milik Eren selama fase tengah.",
+                "key_mechanic": "Fase ini mengubah target dan menghilangkan tekanan titan murni yang biasa."
+              },
+              {
+                "phase": 3,
+                "objective": "Kembali ke Annie dan selesaikan Female Titan.",
+                "key_mechanic": "Eksekusi fase akhir sangat penting karena kesalahan dapat menghapus progres."
+              }
+            ],
+            "special_mechanics": [
+              "Tidak ada titan murni yang muncul dalam raid ini.",
+              "Urutan QTE terowongan dapat menghukum input yang terlewat.",
+              "Menyelesaikan input QTE dapat mendukung awakening dan momentum raid.",
+              "Melewatkan atau gagal dalam urutan kunci dapat memakan banyak darah."
+            ],
+            "tips": [
+              "Gunakan Families dan build yang berkinerja baik dalam pertarungan bos terfokus.",
+              "Latih timing QTE sebelum farming di tingkat kesulitan yang lebih tinggi.",
+              "Bawa damage bos yang tinggi daripada alat pembersih wave murni.",
+              "Koordinasikan jendela Shifter untuk fase bos daripada menggunakannya terlalu dini."
+            ],
+            "notable_rewards": [
+              "Drop raid Female Titan",
+              "Kosmetik raid",
+              "Drop reguler yang dipengaruhi Luck",
+              "Hadiah Emperor's Trove"
+            ],
+            "best_for": [
+              "latihan raid khusus bos",
+              "mekanik QTE",
+              "build Shifter dan ODM damage tinggi"
+            ]
+          }
+        },
+        {
+          "title": "Colossal Titan Raid",
+          "default_open": false,
+          "content": {
+            "boss": "Colossal Titan",
+            "release": "Update 4",
+            "requirements": [
+              "Prestige 2 atau lebih tinggi",
+              "Kesulitan Aberrant"
+            ],
+            "structure": [
+              {
+                "phase": 1,
+                "objective": "Tahan Colossal Titan milik Bertholdt sebelum mencapai dinding.",
+                "key_mechanic": "Colossal Titan bergerak menuju dinding sementara Eren dalam kondisi rentan. Meriam diperlukan untuk melukai bos selama fase ini."
+              },
+              {
+                "phase": 2,
+                "objective": "Kalahkan Colossal Titan milik Bertholdt.",
+                "key_mechanic": "Colossal Titan hanya menerima damage dari tengkuk selama fase ini."
+              }
+            ],
+            "win_condition": "Jaga Eren tetap hidup sambil menyelesaikan objektif raid.",
+            "failure_pressure": "Jika Eren mati, raid gagal dan percobaan tersebut dapat menghilangkan progres streak.",
+            "tips": [
+              "Tugaskan pemain untuk tugas meriam selama fase pertama.",
+              "Lindungi Eren sebagai kondisi kemenangan utama.",
+              "Simpan alat mobilitas dan burst untuk akses tengkuk di Fase 2.",
+              "Gunakan skill Support yang terkoordinasi, penyembuhan, dan buff damage karena raid ini terkunci pada kesulitan tingkat tinggi."
+            ],
+            "notable_rewards": [
+              {
+                "name": "Colossal Serum",
+                "rarity": "Mythic",
+                "use": "Membuka shifting Colossal Titan dan dapat digunakan untuk trading.",
+                "drop_chance": {
+                  "free_raid_chest": "0.20%",
+                  "emperor_trove": "0.40%"
+                }
+              },
+              {
+                "name": "Colossal Shard",
+                "rarity": "Legendary",
+                "use": "Material progres Colossal Titan."
+              },
+              {
+                "name": "Colossal Scars",
+                "rarity": "Mythic",
+                "slot": "Wajah",
+                "effects": [
+                  "+15% statistik Colossal",
+                  "+1 shift",
+                  "-20% awakening drain untuk Colossal",
+                  "Bonus jangkauan Atomic Ascension"
+                ]
+              },
+              {
+                "name": "Scorched Cloak",
+                "rarity": "Mythic",
+                "slot": "Punggung",
+                "effects": [
+                  "+5% burn damage pada semua serangan",
+                  "Pengganda burn damage",
+                  "+5 regenerasi kesehatan"
+                ]
+              },
+              {
+                "name": "Sweater",
+                "rarity": "Legendary",
+                "slot": "Punggung",
+                "effects": [
+                  "+10% jangkauan Titan Shifter",
+                  "+10% kontrol Titan Shifter"
+                ]
+              },
+              {
+                "name": "Sleeping Mask",
+                "rarity": "Epic",
+                "slot": "Wajah",
+                "effects": [
+                  "+2.5 regenerasi kesehatan"
+                ]
+              }
+            ],
+            "best_for": [
+              "tim raid endgame",
+              "farming pembukaan Colossal Titan",
+              "permainan terkoordinasi kesulitan tinggi"
+            ]
+          }
+        },
+        {
+          "title": "Rekomendasi Loadout Raid",
+          "default_open": false,
+          "content": {
+            "odm_damage": [
+              "Gunakan node Offense untuk damage, peluang kritikal, damage kritikal, dan skill serangan aktif.",
+              "Kengo, Black Flash, dan Perks pedang atau kritikal yang kuat cocok untuk tekanan bos yang cepat.",
+              "Incar titik lemah daripada menghabiskan waktu pada pukulan tubuh bernilai rendah."
+            ],
+            "thunder_spear": [
+              "Gunakan statistik dan Perks yang berfokus pada Thunder Spear saat Anda menginginkan burst damage.",
+              "Maximum Firepower adalah Perk yang menonjol untuk jumlah tombak, kecepatan, dan penanganan tombak.",
+              "Hindari membuang burst tombak selama jendela perisai atau imunitas."
+            ],
+            "shifter": [
+              "Gunakan Art of War, Founder's Blessing, dan memori Shifter saat wujud Titan adalah sumber damage utama Anda.",
+              "Simpan jendela transformasi untuk fase bos, bukan pembersihan bernilai rendah.",
+              "Pertarungan Colossal, Attack, Armored, dan Female Titan semuanya menghargai timing yang baik daripada penggunaan transformasi acak."
+            ],
+            "support": [
+              "Gunakan Bandages, Portable Resupply, Red Flare, Black Flare, Order Advance, atau Order Rage tergantung kebutuhan tim.",
+              "Font of Inspiration bekerja dengan baik untuk perintah tim dan dukungan yang padat flare.",
+              "Unwavering Belief adalah yang terbaik saat tim dapat memanfaatkan pengurangan cooldown party yang berulang."
+            ],
+            "defense": [
+              "Gunakan node Defense, Immortal, atau Perks kesehatan dan pengurangan damage saat mempelajari raids Aberrant.",
+              "Counter, Hardy Counter, dan Emergency Relocation membantu mencegah satu kesalahan mengakhiri permainan.",
+              "Kemampuan bertahan hidup sangat penting dalam raids di mana objektif yang gagal atau rekan tim yang mati dapat meruntuhkan seluruh permainan."
+            ]
+          }
+        }
+      ]
+    },
+    "attackOnTitanRevolutionTitanShiftingGuide": {
+      "name": "Panduan Titan Shifting Attack on Titan Revolution",
+      "title": "Panduan Titan Shifting Attack on Titan Revolution",
+      "displayType": "step-by-step",
+      "eyebrow": "Titan Shifting",
+      "subtitle": "Pelajari cara Serum membuka Titan Shift, tempat farming-nya, dan Shifter mana yang cocok dengan build Anda. Panduan ini berfokus pada farming Serum, misi Aberrant, raids, mastery, dan peran Shifter.",
+      "intro": "Titan Shifting di Attack on Titan Revolution dimulai dengan mendapatkan Serum, melengkapinya, dan menggunakan skill shifting gratis yang terbuka dengan Serum tersebut. Serum adalah item Mythical yang terkait dengan raids, misi Aberrant, dan trading, sehingga farming raid dan progres kesulitan tinggi menjadi pusat dari setiap build Shifter.",
+      "detailsLabel": "Detail Shifting Attack on Titan Revolution",
+      "bestForLabel": "Terbaik untuk",
+      "shiftersLabel": "Peran Shifter Attack on Titan Revolution",
+      "serumLabel": "Serum",
+      "roleLabel": "Peran",
+      "coreStrengthsLabel": "Kekuatan inti",
+      "items": [
+        {
+          "step": 1,
+          "title": "Pahami fungsi Serum",
+          "summary": "Serum adalah item kunci yang membuka Titan Shifting. Setelah melengkapi Serum, pemain mendapatkan akses ke skill shifting terkait dan dapat berubah menjadi tipe Titan tersebut.",
+          "details": [
+            "Serum diklasifikasikan sebagai item Mythical.",
+            "Serum harus dilengkapi sebelum skill shifting tersedia.",
+            "Kapasitas Serum dimulai dari 1 dan meningkat 1 untuk setiap level Prestige.",
+            "Gamepass Serum menambah 5 slot Serum ekstra."
+          ],
+          "best_for": "Pemain yang bersiap untuk membuka wujud Attack, Armored, Female, atau Colossal Titan."
+        },
+        {
+          "step": 2,
+          "title": "Farm raids untuk jalur Serum utama",
+          "summary": "Raids adalah rute farming Serum yang paling langsung karena peti raid dapat menjatuhkan Serum spesifik Titan. Tingkat kesulitan raid yang lebih sulit memberikan peluang Serum yang lebih baik.",
+          "details": [
+            "Peti raid Hard: Peluang Serum 0,03% dari peti gratis dan 0,06% dari Emperor's Trove.",
+            "Peti raid Severe: Peluang Serum 0,09% dari peti gratis dan 0,18% dari Emperor's Trove.",
+            "Peti raid Aberrant: Peluang Serum 0,20% dari peti gratis dan 0,40% dari Emperor's Trove.",
+            "Emperor's Trove membutuhkan Emperor Key dan memiliki tingkat drop dua kali lipat dibandingkan peti gratis.",
+            "Drop peti raid dipengaruhi oleh Luck."
+          ],
+          "best_for": "Pemain yang farming Attack Serum, Armored Serum, Female Serum, Colossal Serum, Artifacts, Perks, dan kosmetik raid."
+        },
+        {
+          "step": 3,
+          "title": "Gunakan misi Aberrant sebagai rute Serum alternatif",
+          "summary": "Misi Aberrant juga dapat menjatuhkan Serum, membuat farming misi tingkat tinggi berharga bagi pemain yang tidak hanya farming raids.",
+          "details": [
+            "Hanya misi Aberrant yang dapat menjatuhkan Serum.",
+            "Shiganshina, Trost, Outskirts, Loading Docks, dan Stohess mencantumkan total peluang Serum 0,06%, dengan 0,02% untuk setiap jenis Serum individu.",
+            "Giant Forest mencantumkan total peluang Serum 0,07%, dengan 0,0233% untuk setiap jenis Serum individu.",
+            "Utgard mencantumkan total peluang Serum 0,05%, dengan 0,0167% untuk setiap jenis Serum individu.",
+            "Tingkat Serum misi dipengaruhi oleh Luck."
+          ],
+          "best_for": "Pemain yang menggabungkan leveling, farming gold, farming Prestige Scroll, dan farming Serum."
+        },
+        {
+          "step": 4,
+          "title": "Penuhi persyaratan Colossal Titan",
+          "summary": "Colossal Titan Shifting terikat pada Colossal Serum dan Colossal Titan Raid. Jalur ini dibangun di sekitar farming raid akhir permainan daripada progres awal.",
+          "details": [
+            "Colossal Serum jatuh dari Colossal Titan Raid.",
+            "Colossal Titan Raid hanya tersedia di tingkat Aberrant.",
+            "Pemain membutuhkan Prestige 2 atau lebih tinggi untuk memasuki Colossal Titan Raid.",
+            "Colossal Serum memiliki peluang 0,20% dari peti gratis dan 0,40% dari Emperor's Trove.",
+            "Colossal Serum tidak berfungsi untuk Families Zoe, Ackerman, atau Helos."
+          ],
+          "best_for": "Pemain Prestige 2+ yang farming konten Update 4 Colossal Titan."
+        },
+        {
+          "step": 5,
+          "title": "Pilih Shifter yang sesuai dengan build Anda",
+          "summary": "Setiap Shifter memiliki identitas tempur yang berbeda. Pilih berdasarkan apakah Anda menginginkan serangan murni, daya tahan, permainan serba bisa yang fleksibel, atau kekuatan transformasi maksimum.",
+          "shifters": [
+            {
+              "name": "Attack Titan",
+              "serum": "Attack Serum",
+              "role": "Petarung agresif",
+              "core_strengths": [
+                "Berserk Mode meningkatkan damage dan kecepatan.",
+                "Hardening meningkatkan damage pukulan dan skill sambil meningkatkan pertahanan.",
+                "Roar meregenerasi kesehatan dan men-stun titan di sekitar."
+              ],
+              "best_for": "Pemain yang menginginkan damage langsung, tekanan cepat, dan pertarungan jarak dekat yang aktif."
+            },
+            {
+              "name": "Armored Titan",
+              "serum": "Armored Serum",
+              "role": "Tank defensif",
+              "core_strengths": [
+                "Dibangun di sekitar daya tahan dan tekanan defensif.",
+                "Menggunakan alat seperti Titan Toss, Earth Breaker, Courage, Phase Shift, dan Unstoppable Charge.",
+                "Roar dan mastery defensif mendukung pertarungan yang lebih lama."
+              ],
+              "best_for": "Pemain yang menginginkan kelangsungan hidup, tekanan bos, dan gameplay Shifter gaya tank."
+            },
+            {
+              "name": "Female Titan",
+              "serum": "Female Serum",
+              "role": "Serba bisa yang fleksibel",
+              "core_strengths": [
+                "Menggunakan Grapple, Crimson Bloom, Hardening, Shriek, dan serangan berbasis tendangan.",
+                "Mimicry dapat meniru opsi pasif dari Attack, Armored, atau Colossal Titan.",
+                "Crimson Bloom menghargai permainan kombo yang agresif."
+              ],
+              "best_for": "Pemain yang menginginkan mobilitas, fleksibilitas, dan variasi build."
+            },
+            {
+              "name": "Colossal Titan",
+              "serum": "Colossal Serum",
+              "role": "Shifter raid kekuatan maksimum",
+              "core_strengths": [
+                "Atomic Ascension memicu Nuclear Shift saat bertransformasi dengan bar awakening penuh.",
+                "Berjalan dapat melukai titan karena ukuran Colossal Titan.",
+                "Skill termasuk Atomic Ascension, Anguish, Tectonic Quake, Seismic Shock, Incendiary Volley, dan Heatwave."
+              ],
+              "best_for": "Pemain Prestige 2+ yang fokus pada progres raid Colossal dan permainan transformasi berdampak tinggi."
+            }
+          ]
+        },
+        {
+          "step": 6,
+          "title": "Tingkatkan mastery Shifter sebelum membangun resonansi mendalam",
+          "summary": "Skill Shifter meningkat melalui penggunaan, dan mastery Shifter meningkat dengan menerima damage saat bertransformasi. Ini membuat permainan raid dan kesulitan tinggi yang berulang menjadi penting setelah membuka Serum.",
+          "details": [
+            "Sebagian besar gerakan Shifter naik level dengan cara digunakan.",
+            "Mastery Shifter naik level dengan menerima damage sebagai Shifter.",
+            "Mastery Boxing, Defense, dan Fighting naik level melalui pukulan.",
+            "Skill biasanya dapat mencapai level 10, dan dapat mencapai level 13 saat resonansi terbuka."
+          ],
+          "best_for": "Pemain yang mengubah pembukaan Serum pertama menjadi build Shifter jangka panjang."
+        },
+        {
+          "step": 7,
+          "title": "Gunakan trading sebagai jalan pintas akhir permainan",
+          "summary": "Serum dapat diperdagangkan, membuat trading berguna bagi pemain dengan Prestige dan gem yang cukup. Ini sangat penting bagi pemain yang menargetkan Shifter tertentu daripada farming drop acak.",
+          "details": [
+            "Serum dapat diperdagangkan kepada pemain di Prestige 3 atau lebih tinggi.",
+            "Setiap perdagangan Serum memiliki pajak 5.000 gem.",
+            "Trading berguna saat pemain membutuhkan Serum tertentu untuk jalur build."
+          ],
+          "best_for": "Pemain Prestige 3+ dengan gem yang cukup yang menginginkan jalur Serum yang ditargetkan."
+        }
+      ]
+    },
+    "attackOnTitanRevolutionArtifactsAndMemoriesGuide": {
+      "name": "Attack on Titan Revolution Artifacts and Memories Guide",
+      "title": "Attack on Titan Revolution Artifacts and Memories Guide",
+      "displayType": "card-list",
+      "eyebrow": "Artifacts & Memories",
+      "subtitle": "Artifacts provide permanent bonus stats and special effects, while Memories act as Prestige talents that shape your ODM, Shifter, raid, and farming builds.",
+      "intro": "Artifacts and Memories are long-term progression systems in Attack on Titan Revolution. Artifacts come from raids and achievements, can roll bonus substats, and remain active even when Modifiers are enabled. Memories are selected through Prestige Scrolls and can define how much damage, safety, utility, or farming value a build gains over time.",
+      "categoryLabel": "Category",
+      "rarityLabel": "Rarity",
+      "sourceLabel": "Source",
+      "slotLabel": "Slot",
+      "effectsLabel": "Effects",
+      "buildUseLabel": "Build use",
+      "items": [
+        {
+          "category": "System",
+          "name": "Artifact Reroll Rules",
+          "rarity": "Core Mechanic",
+          "source": "Artifacts",
+          "effects": [
+            "Artifacts provide permanent bonus stats.",
+            "Artifact bonuses stay active even with Modifiers enabled.",
+            "Artifact substats can be rerolled.",
+            "Locking a substat keeps that stat unchanged but increases reroll cost by 50%."
+          ],
+          "build_use": "Use rerolls to chase key permanent stats such as damage, cooldown reduction, control, speed, health, damage reduction, and Shifter-focused bonuses."
+        },
+        {
+          "category": "Artifact",
+          "name": "Crown",
+          "rarity": "Legendary",
+          "source": "Achievements",
+          "slot": "Hat / Face",
+          "effects": [
+            "Grants +7.5% Luck."
+          ],
+          "build_use": "Strong general-purpose artifact for drop farming, Serum farming, perk farming, and raid reward hunting."
+        },
+        {
+          "category": "Artifact",
+          "name": "Scarf",
+          "rarity": "Mythic",
+          "source": "Attack Titan Raid",
+          "slot": "Neck / Cape",
+          "effects": [
+            "Grants +40% Hook Speed.",
+            "Reduces dash cooldown by 20%.",
+            "Reduces Rage Mode usage by 25%."
+          ],
+          "build_use": "Excellent for ODM movement, fast titan clearing, and aggressive raid play."
+        },
+        {
+          "category": "Artifact",
+          "name": "Scars",
+          "rarity": "Mythic",
+          "source": "Armored Titan Raid and Female Titan Raid",
+          "slot": "Hat / Face",
+          "effects": [
+            "Grants +15% Shifter Stats.",
+            "Adds +1 Maximum Shift.",
+            "Reduces Awakening Bar drain speed by 20%."
+          ],
+          "build_use": "High-value Shifter artifact for players building around Titan transformation uptime and Shifter damage."
+        },
+        {
+          "category": "Artifact",
+          "name": "Cloak",
+          "rarity": "Legendary",
+          "source": "Attack Titan Raid",
+          "slot": "Neck / Cape",
+          "effects": [
+            "Adds +175m Aggro Range.",
+            "Adds +1 Maximum Shift."
+          ],
+          "build_use": "Useful for Shifter-focused raid play and players who want extra transformation availability."
+        },
+        {
+          "category": "Artifact",
+          "name": "Hoodie",
+          "rarity": "Legendary",
+          "source": "Female Titan Raid",
+          "slot": "Neck / Cape",
+          "effects": [
+            "Grants +15% ODM / TS Speed.",
+            "Grants +10% Damage."
+          ],
+          "build_use": "Strong hybrid artifact for ODM, Thunder Spear, and general damage builds."
+        },
+        {
+          "category": "Artifact",
+          "name": "Rifle",
+          "rarity": "Legendary",
+          "source": "Armored Titan Raid",
+          "slot": "Neck / Cape",
+          "effects": [
+            "Adds +1 Supply Station Reload.",
+            "Grants +10% Skill Cooldown Reduction."
+          ],
+          "build_use": "Good utility option for missions and raids where refills and cooldown cycling matter."
+        },
+        {
+          "category": "Artifact",
+          "name": "Scorched Cloak",
+          "rarity": "Mythic",
+          "source": "Colossal Titan Raid",
+          "slot": "Back",
+          "effects": [
+            "Adds +5.0% Burn DMG on all attacks.",
+            "Multiplies burn effects by 1.1x.",
+            "Grants +5.0 Health Regen."
+          ],
+          "build_use": "Built for Update 4 burn-focused and sustain-oriented Colossal raid progression."
+        },
+        {
+          "category": "Artifact",
+          "name": "Colossal Scars",
+          "rarity": "Mythic",
+          "source": "Colossal Titan Raid",
+          "slot": "Face",
+          "effects": [
+            "Grants +15.0% Colossal Titan Stats.",
+            "Adds +1 Shifts.",
+            "Reduces Awakening Bar drain by 20.0% for Colossal Titan.",
+            "Increases Atomic Ascension range by 150m."
+          ],
+          "build_use": "Best fit for dedicated Colossal Titan Shifter builds."
+        },
+        {
+          "category": "Memory System",
+          "name": "Prestige Memory Rolls",
+          "rarity": "Core Mechanic",
+          "source": "Prestige Scrolls",
+          "effects": [
+            "1-star Memories have a 70% roll chance.",
+            "2-star Memories have a 25% roll chance.",
+            "3-star Memories have a 4% roll chance.",
+            "4-star Memories have a 1% roll chance.",
+            "After 20 Prestige Scrolls, pity guarantees a 3-star or 4-star Memory roll.",
+            "Duplicate Memories do not stack."
+          ],
+          "build_use": "Use Prestige Scrolls to chase build-defining Memories for damage, survival, support, or farming."
+        },
+        {
+          "category": "Memory",
+          "name": "Quakestrike",
+          "rarity": "Prestige Memory",
+          "source": "Prestige Scrolls",
+          "effects": [
+            "Every kill buffs damage by 1.5%.",
+            "The damage bonus resets after reload, refill, shift, or eject.",
+            "The kill limit is 50 for ODM and 20 for Shifter."
+          ],
+          "build_use": "Strong for long mission chains and raid phases where players can maintain kill flow."
+        },
+        {
+          "category": "Memory",
+          "name": "Gambler",
+          "rarity": "Prestige Memory",
+          "source": "Prestige Scrolls",
+          "effects": [
+            "Changes damage into a roll-based range.",
+            "Works as a high-ceiling damage Memory."
+          ],
+          "build_use": "Used in raw damage builds, especially when the player wants stronger burst potential."
+        },
+        {
+          "category": "Memory",
+          "name": "Furyforge",
+          "rarity": "Prestige Memory",
+          "source": "Prestige Scrolls",
+          "effects": [
+            "Grants +0.4% damage for every 1% HP lost."
+          ],
+          "build_use": "Powerful for Shifter and risk-reward damage builds that fight at lower health."
+        },
+        {
+          "category": "Memory",
+          "name": "Thanatophobia",
+          "rarity": "Prestige Memory",
+          "source": "Prestige Scrolls",
+          "effects": [
+            "Below 40% HP, grants damage reduction and other defensive value."
+          ],
+          "build_use": "Useful for survival-heavy Shifter, raid, and difficult mission builds."
+        },
+        {
+          "category": "Memory",
+          "name": "Tactician",
+          "rarity": "Prestige Memory",
+          "source": "Prestige Scrolls",
+          "effects": [
+            "Increases support skill effects, duration, and radius by 15%."
+          ],
+          "build_use": "Best for support-oriented raid teams and utility-heavy group play."
+        }
+      ]
+    },
+    "attackOnTitanRevolutionMissionsGuide": {
+      "name": "Attack on Titan Revolution Missions Guide",
+      "title": "Attack on Titan Revolution Missions Guide",
+      "displayType": "table",
+      "eyebrow": "Missions",
+      "subtitle": "Compare major mission maps, Aberrant rewards, Serum chances, Prestige Scroll chances, and progression value. Use this table to decide which missions to farm for gold, EXP, perks, Serums, and Prestige Scrolls.",
+      "intro": "Missions are the core progression loop for leveling, gold farming, perk farming, Serum farming, and Prestige Scroll farming. Attack on Titan Revolution missions include Skirmish, Randomizer, and Special Objective formats, with each map offering different objectives, titan counts, completion rewards, and high-difficulty drop chances.",
+      "mapLabel": "Map",
+      "objectiveLabel": "Mission objective",
+      "primaryUseLabel": "Primary use",
+      "rewardsLabel": "Aberrant rewards",
+      "serumLabel": "Serum chance",
+      "scrollLabel": "Prestige Scroll chance",
+      "perkLabel": "Perk context",
+      "items": [
+        {
+          "map": "Giant Forest",
+          "mission_objective": "Guard the Female Titan's body.",
+          "primary_use": "High-value Aberrant farming map for gold, EXP, Serum chance, and Prestige Scroll chance.",
+          "aberrant_gold": "50,200 Gold completion reward",
+          "aberrant_exp": "9,132 EXP completion reward",
+          "serum_chance": "0.07% total Serum chance",
+          "individual_serum_chance": "0.0233% per individual Serum type",
+          "prestige_scroll_chance": "3.90%",
+          "perk_drop_context": "Aberrant random perk drop chance is 1.5%, with Giant Forest listing a 0.26% Mythical perk chance."
+        },
+        {
+          "map": "Shiganshina",
+          "mission_objective": "Defend the HQ after the breach.",
+          "primary_use": "Reliable Aberrant mission for progression farming, Serum rolls, and Prestige Scrolls.",
+          "aberrant_gold": "45,373 Gold completion reward",
+          "aberrant_exp": "8,254 EXP completion reward",
+          "serum_chance": "0.06% total Serum chance",
+          "individual_serum_chance": "0.02% per individual Serum type",
+          "prestige_scroll_chance": "3.53%",
+          "perk_drop_context": "Aberrant random perk drop chance is 1.5%, with Shiganshina listing a 0.23% Mythical perk chance."
+        },
+        {
+          "map": "Trost",
+          "mission_objective": "Protect the Attack Titan while it seals the wall.",
+          "primary_use": "Balanced mission for leveling, gold, perk drops, and general progression.",
+          "aberrant_gold": "43,442 Gold completion reward",
+          "aberrant_exp": "7,903 EXP completion reward",
+          "serum_chance": "0.06% total Serum chance",
+          "individual_serum_chance": "0.02% per individual Serum type",
+          "prestige_scroll_chance": "3.38%",
+          "perk_drop_context": "Aberrant random perk drop chance is 1.5%, with Trost listing a 0.22% Mythical perk chance."
+        },
+        {
+          "map": "Loading Docks",
+          "mission_objective": "Stall titans long enough to secure the escape.",
+          "primary_use": "Objective-focused mission where failure causes death and streak loss, making clean execution important.",
+          "aberrant_gold": "42,477 Gold completion reward",
+          "aberrant_exp": "7,727 EXP completion reward",
+          "serum_chance": "0.06% total Serum chance",
+          "individual_serum_chance": "0.02% per individual Serum type",
+          "prestige_scroll_chance": "3.30%",
+          "perk_drop_context": "Aberrant random perk drop chance is 1.5%, with Loading Docks listing a 0.22% Mythical perk chance."
+        },
+        {
+          "map": "Utgard",
+          "mission_objective": "Defend the castle.",
+          "primary_use": "Defensive mission route for players practicing control, target priority, and sustained titan clearing.",
+          "aberrant_gold": "40,546 Gold completion reward",
+          "aberrant_exp": "7,376 EXP completion reward",
+          "serum_chance": "0.05% total Serum chance",
+          "individual_serum_chance": "0.0167% per individual Serum type",
+          "prestige_scroll_chance": "3.15%",
+          "perk_drop_context": "Aberrant random perk drop chance is 1.5%, with Utgard listing a 0.21% Mythical perk chance."
+        },
+        {
+          "map": "Outskirts",
+          "mission_objective": "Escort carts and civilians.",
+          "primary_use": "Escort-style mission for stable progression, early route learning, and objective practice.",
+          "aberrant_gold": "38,615 Gold completion reward",
+          "aberrant_exp": "7,025 EXP completion reward",
+          "serum_chance": "0.06% total Serum chance",
+          "individual_serum_chance": "0.02% per individual Serum type",
+          "prestige_scroll_chance": "3.30%",
+          "perk_drop_context": "Aberrant random perk drop chance is 1.5%, with Outskirts listing a 0.20% Mythical perk chance."
+        },
+        {
+          "map": "Aberrant Mission Rules",
+          "mission_objective": "Clear high-HP titans and complete the mission objective under Aberrant difficulty.",
+          "primary_use": "Best mission tier for Serums, Prestige Scrolls, perks, gold, and EXP.",
+          "aberrant_gold": "1,390 Gold per titan kill",
+          "aberrant_exp": "139 EXP per titan kill",
+          "serum_chance": "Serum drops only appear in Aberrant missions.",
+          "individual_serum_chance": "Rates vary by map.",
+          "prestige_scroll_chance": "Prestige Scrolls are available on Severe and Aberrant difficulties.",
+          "perk_drop_context": "Aberrant missions can include Pure Titans, Abnormals, Crawlers, higher reward tables, random perk drops, and mission completion perk rewards."
+        },
+        {
+          "map": "Mission Reward Rules",
+          "mission_objective": "Complete the mission while meeting contribution requirements.",
+          "primary_use": "Helps players understand why solo and team contribution matter.",
+          "aberrant_gold": "Rewards vary by difficulty, map, titan kills, and completion.",
+          "aberrant_exp": "EXP scales with difficulty and map rewards.",
+          "serum_chance": "Drop rates are affected by Luck and modifiers.",
+          "individual_serum_chance": "Targeted Serum farming is strongest when combined with Luck and repeated Aberrant clears.",
+          "prestige_scroll_chance": "Higher-difficulty mission farming is the main Prestige Scroll route outside other progression systems.",
+          "perk_drop_context": "Mission completion gives a guaranteed perk when requirements are met. A player needs at least 10% of total kills for cooperation credit, and the top killer can earn an extra perk in multiplayer."
+        }
+      ]
+    },
+    "attackOnTitanRevolutionControlsAndOdmGearGuide": {
+      "name": "Panduan Kontrol dan ODM Gear Attack on Titan Revolution",
+      "title": "Panduan Kontrol dan ODM Gear Attack on Titan Revolution",
+      "displayType": "step-by-step",
+      "eyebrow": "Kontrol & ODM",
+      "subtitle": "Pelajari kontrol inti Attack on Titan Revolution untuk pergerakan, hook ODM, boost, reload, tebasan, skill, dan permainan menggunakan kontroler. Panduan ini juga menjelaskan loop pergerakan dasar ODM yang harus dipraktikkan pemain baru terlebih dahulu.",
+      "intro": "ODM Gear adalah fondasi dari pergerakan cepat dan pembunuhan titan di Attack on Titan Revolution. Loop utamanya sederhana: bidik titik grapple, gunakan hook kiri atau kanan, boost dengan gas, dekati tengkuk, tebas dengan kecepatan, lalu reload dan atur posisi sebelum titan berikutnya.",
+      "platformLabel": "Platform",
+      "controlsLabel": "Kontrol",
+      "actionLabel": "Tindakan",
+      "inputLabel": "Input",
+      "practiceTipLabel": "Tips latihan",
+      "items": [
+        {
+          "step": 1,
+          "title": "Pelajari dasar-dasar pergerakan PC",
+          "platform": "PC",
+          "controls": [
+            {
+              "action": "Bergerak",
+              "input": "W / A / S / D"
+            },
+            {
+              "action": "Lari",
+              "input": "Shift Kiri"
+            },
+            {
+              "action": "Lompat",
+              "input": "Spasi"
+            },
+            {
+              "action": "Boost saat menggunakan hook",
+              "input": "Tahan Spasi"
+            },
+            {
+              "action": "Mega Boost",
+              "input": "Double Spasi"
+            },
+            {
+              "action": "Meluncur",
+              "input": "C"
+            },
+            {
+              "action": "Salto ke Belakang",
+              "input": "Double S"
+            },
+            {
+              "action": "Salto ke Kiri",
+              "input": "Double A"
+            },
+            {
+              "action": "Salto ke Kanan",
+              "input": "Double D"
+            },
+            {
+              "action": "Belok ke Atas",
+              "input": "W"
+            },
+            {
+              "action": "Belok ke Bawah",
+              "input": "S"
+            }
+          ],
+          "practice_tip": "Mulailah dengan bergerak di sekitar peta tanpa menyerang, lalu tambahkan hook dan boost setelah pergerakan dasar terasa lancar."
+        },
+        {
+          "step": 2,
+          "title": "Gunakan loop hook ODM PC",
+          "platform": "PC",
+          "controls": [
+            {
+              "action": "Hook Kanan",
+              "input": "E"
+            },
+            {
+              "action": "Hook Kiri",
+              "input": "Q"
+            },
+            {
+              "action": "Putuskan Hook",
+              "input": "B"
+            },
+            {
+              "action": "Arahkan bidikan ODM",
+              "input": "Kursor mouse / arah kamera"
+            },
+            {
+              "action": "Gas Boost",
+              "input": "Tahan Spasi saat menggunakan hook"
+            },
+            {
+              "action": "Tebas",
+              "input": "Mouse 1"
+            },
+            {
+              "action": "Reload bilah pedang",
+              "input": "R"
+            }
+          ],
+          "practice_tip": "Bidik di atas atau di sekitar tengkuk titan, gunakan hook melewati target, boost untuk membangun kecepatan, lalu tebas saat Anda melewati titik lemah tersebut."
+        },
+        {
+          "step": 3,
+          "title": "Gunakan hotkey pertarungan dan skill PC",
+          "platform": "PC",
+          "controls": [
+            {
+              "action": "Serangan dasar / Tebasan",
+              "input": "Mouse 1"
+            },
+            {
+              "action": "Tahan / Bidik",
+              "input": "Mouse 2"
+            },
+            {
+              "action": "Tangkis",
+              "input": "F"
+            },
+            {
+              "action": "Serangan berat",
+              "input": "R"
+            },
+            {
+              "action": "Kunci Target",
+              "input": "Control Kiri"
+            },
+            {
+              "action": "Menu",
+              "input": "Tab"
+            },
+            {
+              "action": "Skill 1",
+              "input": "1"
+            },
+            {
+              "action": "Skill 2",
+              "input": "2"
+            },
+            {
+              "action": "Skill 3",
+              "input": "3"
+            },
+            {
+              "action": "Skill 4",
+              "input": "4"
+            },
+            {
+              "action": "Skill 5",
+              "input": "5"
+            },
+            {
+              "action": "Undang",
+              "input": "Y"
+            }
+          ],
+          "practice_tip": "Simpan tombol reload, tangkis, dan skill di dalam ingatan otot karena misi dengan tingkat kesulitan tinggi akan menghukum reaksi yang lambat."
+        },
+        {
+          "step": 4,
+          "title": "Gunakan binding kontroler Xbox",
+          "platform": "Xbox",
+          "controls": [
+            {
+              "action": "Boost",
+              "input": "B"
+            },
+            {
+              "action": "Mega Boost",
+              "input": "Double B"
+            },
+            {
+              "action": "Reload",
+              "input": "X"
+            },
+            {
+              "action": "Menu",
+              "input": "Y"
+            },
+            {
+              "action": "Lari",
+              "input": "Tekan Stick Kiri / L3"
+            },
+            {
+              "action": "Zoom",
+              "input": "Tekan Stick Kanan / R3"
+            },
+            {
+              "action": "Hook Kiri / Tangkis",
+              "input": "LB / L1"
+            },
+            {
+              "action": "Hook Kanan / Berat",
+              "input": "RB / R1"
+            },
+            {
+              "action": "Tebas",
+              "input": "Right Trigger / R2"
+            },
+            {
+              "action": "Modifikator Skill",
+              "input": "Left Trigger / L2"
+            },
+            {
+              "action": "Skill 1",
+              "input": "Left Trigger / L2"
+            },
+            {
+              "action": "Skill 2",
+              "input": "Left Trigger / L2 + D-Pad Kiri"
+            },
+            {
+              "action": "Skill 3",
+              "input": "Left Trigger / L2 + D-Pad Kanan"
+            },
+            {
+              "action": "Skill 4",
+              "input": "Left Trigger / L2 + D-Pad Bawah"
+            },
+            {
+              "action": "Skill 5",
+              "input": "Left Trigger / L2 + D-Pad Atas"
+            }
+          ],
+          "practice_tip": "Pemain kontroler harus melatih arah hook, timing boost, dan ritme reload sebelum mencoba misi Aberrant atau Raids."
+        },
+        {
+          "step": 5,
+          "title": "Gunakan binding kontroler PlayStation",
+          "platform": "PlayStation",
+          "controls": [
+            {
+              "action": "Boost",
+              "input": "Lingkaran"
+            },
+            {
+              "action": "Mega Boost",
+              "input": "Double Lingkaran"
+            },
+            {
+              "action": "Reload",
+              "input": "Kotak"
+            },
+            {
+              "action": "Menu",
+              "input": "Segitiga"
+            },
+            {
+              "action": "Lari",
+              "input": "L3"
+            },
+            {
+              "action": "Zoom",
+              "input": "R3"
+            },
+            {
+              "action": "Hook Kiri / Tangkis",
+              "input": "L1"
+            },
+            {
+              "action": "Hook Kanan / Berat",
+              "input": "R1"
+            },
+            {
+              "action": "Tebas",
+              "input": "R2"
+            },
+            {
+              "action": "Modifikator Skill",
+              "input": "L2"
+            },
+            {
+              "action": "Skill 1",
+              "input": "L2"
+            },
+            {
+              "action": "Skill 2",
+              "input": "L2 + D-Pad Kiri"
+            },
+            {
+              "action": "Skill 3",
+              "input": "L2 + D-Pad Kanan"
+            },
+            {
+              "action": "Skill 4",
+              "input": "L2 + D-Pad Bawah"
+            },
+            {
+              "action": "Skill 5",
+              "input": "L2 + D-Pad Atas"
+            }
+          ],
+          "practice_tip": "Gunakan loop ODM yang sama seperti PC: hook, boost, sejajarkan dengan tengkuk, tebas, lalu reload dan atur posisi."
+        },
+        {
+          "step": 6,
+          "title": "Terapkan loop ODM yang sama di mobile",
+          "platform": "Mobile / Sentuh",
+          "controls": [
+            {
+              "action": "Bidik",
+              "input": "Gunakan geseran kamera untuk menempatkan reticle pada titik hook atau jalur titan."
+            },
+            {
+              "action": "Hook dan Boost",
+              "input": "Gunakan tombol hook dan boost di layar secara berurutan."
+            },
+            {
+              "action": "Serang",
+              "input": "Gunakan tombol serang di layar saat melewati tengkuk titan."
+            },
+            {
+              "action": "Reload dan Skill",
+              "input": "Gunakan tombol reload dan skill di layar di sela-sela pertarungan."
+            }
+          ],
+          "practice_tip": "Latih loop pergerakan di tutorial atau Training Grounds sebelum melakukan farming misi yang sulit."
+        },
+        {
+          "step": 7,
+          "title": "Upgrade ODM Gear untuk konten yang lebih sulit",
+          "platform": "Semua Platform",
+          "controls": [
+            {
+              "action": "Kecepatan ODM",
+              "input": "Meningkatkan kecepatan pergerakan."
+            },
+            {
+              "action": "Damage ODM",
+              "input": "Meningkatkan kekuatan pembunuhan titan."
+            },
+            {
+              "action": "Kontrol ODM",
+              "input": "Meningkatkan penanganan dan kontrol pergerakan."
+            },
+            {
+              "action": "Jangkauan ODM",
+              "input": "Meningkatkan jangkauan hook."
+            },
+            {
+              "action": "Gas ODM",
+              "input": "Meningkatkan kapasitas sumber daya boost."
+            },
+            {
+              "action": "Durabilitas ODM",
+              "input": "Meningkatkan daya tahan bilah pedang."
+            },
+            {
+              "action": "Peluang Kritikal dan Damage Kritikal",
+              "input": "Meningkatkan konsistensi damage dan burst."
+            }
+          ],
+          "practice_tip": "Tingkatkan ODM Gear secara merata karena konten yang lebih sulit membutuhkan rating gear yang lebih tinggi. Prioritas upgrade umum untuk pemain ODM adalah Damage, Speed, Control, Range, Gas, Durability, Critical Chance, dan Critical Damage."
+        }
+      ]
+    },
+    "attackOnTitanRevolutionTradingValues": {
+      "name": "Nilai Tukar Attack on Titan Revolution",
+      "title": "Nilai Tukar Attack on Titan Revolution",
+      "displayType": "table",
+      "eyebrow": "Trading",
+      "subtitle": "Cek apa yang bisa ditukar, level Prestige mana yang diperlukan, dan pajak apa yang berlaku sebelum menyetujui kesepakatan.",
+      "intro": "Trading di Attack on Titan Revolution memungkinkan pemain untuk bertukar item, kosmetik, Perks, Artifacts, Families, dan Titan Serums melalui Trading Hub. Gunakan modul ini sebagai tabel pengecekan trade praktis sebelum memindahkan drop bernilai tinggi seperti Serum, kosmetik raid, Artifacts, Perks, atau roll Families yang langka.",
+      "categoryLabel": "Kategori",
+      "unlockRequirementLabel": "Syarat pembukaan",
+      "tradableItemsLabel": "Item yang bisa ditukar",
+      "tradeTaxLabel": "Pajak trade",
+      "valueCheckLabel": "Cek nilai",
+      "playerTipLabel": "Tips pemain",
+      "items": [
+        {
+          "category": "Akses Trade Hub",
+          "unlock_requirement": "Prestige 1",
+          "tradable_items": "Akses ke Trading Hub ditambah item dasar dan kosmetik.",
+          "trade_tax": "Tergantung pada kategori item yang ditukar.",
+          "value_check": "Gunakan daftar marketplace terbaru dan iklan trade resmi di Discord sebelum mengonfirmasi.",
+          "player_tip": "Masuk ke Trading Hub dari menu utama, lobby 2D, atau lobby 3D. Pastikan kedua pemain memenuhi syarat Prestige untuk setiap item dalam penawaran."
+        },
+        {
+          "category": "Kosmetik",
+          "unlock_requirement": "Prestige 1",
+          "tradable_items": "Item kosmetik Common, Uncommon, Rare, Epic, Legendary, Mythical, Leaderboard, event, dan spesial.",
+          "trade_tax": "Common: 37 gem; Uncommon: 150 gem; Rare: 300 gem; Epic: 1.500 gem; Legendary: 5.625 gem; Leaderboard: 100.000 gem; Nightfall atau Mythical: 200.000 gold.",
+          "value_check": "Bandingkan kelangkaan item, ketersediaan event, sumber raid, dan iklan trade terbaru.",
+          "player_tip": "Kosmetik Leaderboard, Mythical, event, dan Raids memerlukan pengecekan nilai ekstra karena permintaan bisa melonjak di atas angka pajak dasar."
+        },
+        {
+          "category": "Kosmetik Eksklusif dan Spesial",
+          "unlock_requirement": "Prestige 1",
+          "tradable_items": "Skin dan gear spesial seperti Onikiri, Jotunn, Deus Ex Machina, Sunforge, Spirit, Onyx, Easter, dan varian gear Aincrad.",
+          "trade_tax": "Onikiri Attack: 200.000 gold; Jotunn Armored: 100.000 gold; Deus Ex Machina Female: 58.000 gold; Legendary TS Gear dan Sunforge TS: 116.000 gold; Legendary ODM Gear, Sunforge ODM, dan Spirit ODM: 174.000 gold; Onyx/Easter ODM: 90.000 gold; Easter TS dan Aincrad ODM: 90.000 gold.",
+          "value_check": "Cek apakah kosmetik berasal dari raid, event, battlepass, atau sumber terbatas.",
+          "player_tip": "Kosmetik spesial harus diperiksa terhadap permintaan pasar langsung karena pasokan yang terbatas dapat membuat penawaran sangat bervariasi."
+        },
+        {
+          "category": "Item",
+          "unlock_requirement": "Prestige 1",
+          "tradable_items": "Serum, shard, boost Luck/Gold/EXP 2 jam, Emperor Keys, Prestige Scrolls, dan crate.",
+          "trade_tax": "Serum: 5.000 gem; Shards: 58.000 gold; 2H Luck/Gold/EXP Boost: 60.000 gold; Emperor Keys: 30.000 gold; Prestige Scrolls: 13.000 gold; Crates: 450 gem.",
+          "value_check": "Untuk item konsumsi, bandingkan penawaran dan permintaan; untuk Serum dan shard, cek daftar trade saat ini sebelum menerima.",
+          "player_tip": "Emperor Keys dan boost lebih mudah ditentukan harganya dibandingkan Serum, shard langka, atau item khusus raid."
+        },
+        {
+          "category": "Perks",
+          "unlock_requirement": "Prestige 2",
+          "tradable_items": "Perks Rare, Epic, Legendary, dan Mythical.",
+          "trade_tax": "Mythical: 480.000-900.000 gold berdasarkan pengalaman; Legendary: 140.000-280.000 gold berdasarkan pengalaman; Epic: 72.000-144.000 gold berdasarkan pengalaman; Rare/Common: 0.",
+          "value_check": "Cek kelangkaan perk, tingkat pengalaman, relevansi build, dan permintaan saat ini dari pemain yang melakukan farming Raids atau build Shifter.",
+          "player_tip": "Tentukan harga Perks berdasarkan kelangkaan, pengalaman, dan permintaan build. Perks Raids, ODM, dan Titan Shifting biasanya memerlukan peninjauan ekstra."
+        },
+        {
+          "category": "Artifacts",
+          "unlock_requirement": "Prestige 2",
+          "tradable_items": "Artifacts Rare, Epic, Legendary, dan Mythical yang didapatkan dari Raids atau kategori pencapaian.",
+          "trade_tax": "Mythical: 200.000 gold; Legendary: 140.000 gold; Epic: 72.000 gold; Rare: 32.000 gold.",
+          "value_check": "Bandingkan nilai stat permanen, substat, kualitas reroll, dan apakah Artifacts tersebut terkait dengan drop Raids.",
+          "player_tip": "Artifacts memengaruhi build secara permanen, jadi Artifacts Raids yang kuat dan substat yang bagus harus ditinjau sebelum ditukarkan."
+        },
+        {
+          "category": "Families",
+          "unlock_requirement": "Prestige 3",
+          "tradable_items": "Families Common, Rare, Epic, Legendary, dan Mythical.",
+          "trade_tax": "Mythical: 50.000 gem; Legendary: 15.000 gem; Epic: 2.500 gem; Rare/Common: 0 gem.",
+          "value_check": "Cek kelangkaan family, kompatibilitas build, dan apakah family tersebut mendukung gaya bermain Raids, ODM, atau Titan Shifting.",
+          "player_tip": "Families Mythical yang mendukung Raids atau build Shifter bisa bernilai jauh lebih tinggi daripada angka pajak saja."
+        },
+        {
+          "category": "Titan Serums",
+          "unlock_requirement": "Prestige 3",
+          "tradable_items": "Attack Serum, Armored Serum, Female Serum, Colossal Serum, dan Titan Serums tersedia lainnya.",
+          "trade_tax": "5.000 gem per Serum.",
+          "value_check": "Cek sumber Raids Serum, drop rate, permintaan saat ini, dan daftar pasar terbaru sebelum menerima.",
+          "player_tip": "Serum adalah item Mythical. Bandingkan beberapa penawaran terbaru sebelum menukarkannya."
+        },
+        {
+          "category": "Tinjauan dan Riwayat Trade",
+          "unlock_requirement": "Tersedia setelah menyelesaikan trade",
+          "tradable_items": "Umpan balik trade dan riwayat trade bukan item yang dapat ditukar, tetapi membantu memverifikasi aktivitas masa lalu.",
+          "trade_tax": "Tanpa pajak trade.",
+          "value_check": "Tinjau penawaran pemain lain dengan cermat dan gunakan riwayat trade setelah transaksi untuk melacak pertukaran terbaru.",
+          "player_tip": "Sistem riwayat trade mencatat trade terbaru, dan pemain dapat meninggalkan ulasan setelah trade selesai."
+        }
+      ]
+    },
+    "attackOnTitanRevolutionArmoredTitanRaidGuide": {
+      "name": "Panduan Attack on Titan Revolution Armored Titan Raid",
+      "title": "Panduan Attack on Titan Revolution Armored Titan Raid",
+      "displayType": "step-by-step",
+      "eyebrow": "Panduan Raid",
+      "subtitle": "Lindungi perahu penyelamat, hancurkan perisai Armored Titan, lalu habisi bos untuk mendapatkan peti raid dan peluang Armored Serum.",
+      "intro": "Armored Titan Raid ditambahkan pada Update 2.5 dan berfokus pada dua tujuan: mempertahankan perahu penyelamat yang bergerak dari titan dan melemahkan Armored Titan sebelum fase bos terakhir. Raid ini memiliki kesulitan Hard, Severe, dan Aberrant, di mana kesulitan yang lebih tinggi meningkatkan tekanan dan nilai hadiah peti.",
+      "detailsLabel": "Detail Raid",
+      "playerTipLabel": "Tip pemain",
+      "items": [
+        {
+          "step": 1,
+          "title": "Pahami tujuan raid",
+          "description": "Armored Titan Raid memiliki dua fase utama: pertahankan perahu penyelamat, lalu kalahkan Armored Titan setelah perisainya hilang.",
+          "details": [
+            "Hard mengharuskan mempertahankan 1 perahu.",
+            "Severe mengharuskan mempertahankan 2 perahu.",
+            "Aberrant mengharuskan mempertahankan 3 perahu.",
+            "Raid gagal jika 1 perahu hancur di Hard, atau jika 2 perahu hancur di Severe atau Aberrant."
+          ],
+          "player_tip": "Tugaskan beberapa pemain untuk membersihkan titan di sekitar perahu sementara pemain dengan damage tertinggi melemahkan perisai Armored Titan."
+        },
+        {
+          "step": 2,
+          "title": "Fase 1: Pertahankan perahu penyelamat",
+          "description": "Selama Fase 1, Armored Titan mengaktifkan Courage dan mendapatkan perisai senilai tambahan 100% HP.",
+          "details": [
+            "Pertahankan perahu dari kerumunan titan dan Armored Titan.",
+            "Damage pada anggota tubuh yang terlindungi berkontribusi pada penskalaan damage Fase 2.",
+            "Setiap 2,0% perisai yang hancur dikonversi menjadi +1,0% ekstra damage yang diterima oleh Armored Titan di Fase 2.",
+            "Batas lunak kesehatan Fase 1 mencegah Armored Titan turun di bawah 75% HP merah selama fase ini."
+          ],
+          "player_tip": "Semakin baik tim Anda merusak perisai di Fase 1, semakin cepat Fase 2 berlangsung."
+        },
+        {
+          "step": 3,
+          "title": "Fase 2: Kalahkan Armored Titan",
+          "description": "Setelah perisai menghilang, pertarungan menjadi pembunuhan bos secara langsung sementara titan murni terus muncul di sekitar pemain.",
+          "details": [
+            "Fokus pada bos saat ada celah yang aman.",
+            "Terus bersihkan titan di sekitar agar pemain tidak tertangkap atau terhalang.",
+            "Perhatikan pergerakan dan serangan bos sambil merotasi penggunaan gas, bilah, Thunder Spears, atau cooldown Shifter."
+          ],
+          "player_tip": "Bersihkan tekanan di sekitar sebelum fokus sepenuhnya pada bos. Uptime tim yang stabil lebih penting daripada burst damage yang ceroboh."
+        },
+        {
+          "step": 4,
+          "title": "Buka peti yang tepat",
+          "description": "Pemain harus memiliki setidaknya 5% kredit untuk membuka peti raid.",
+          "details": [
+            "Raider Chest tidak memerlukan Emperor Key.",
+            "Emperor Trove memerlukan Emperor Key.",
+            "Emperor Trove memiliki drop rate 2x lipat dibandingkan dengan Raider Chest."
+          ],
+          "player_tip": "Simpan Emperor Key untuk sesi di mana Anda secara konsisten mendapatkan cukup kredit dan sedang mencari drop raid bernilai tinggi."
+        },
+        {
+          "step": 5,
+          "title": "Cari peluang Armored Serum",
+          "description": "Armored Serum adalah Mythical Serum yang digunakan untuk perubahan wujud Armored Titan dan perdagangan.",
+          "details": [
+            "Hard: 0,03% dari Free Raid Chest, 0,06% dari Emperor Trove.",
+            "Severe: 0,09% dari Free Raid Chest, 0,18% dari Emperor Trove.",
+            "Aberrant: 0,20% dari Free Raid Chest, 0,40% dari Emperor Trove.",
+            "Serum juga dapat diperdagangkan kepada pemain di Prestige 3 atau lebih tinggi dengan pajak 5.000 permata."
+          ],
+          "player_tip": "Aberrant ditambah Emperor Trove adalah peluang peti Armored Serum tertinggi yang tercatat."
+        },
+        {
+          "step": 6,
+          "title": "Perhatikan Easter egg Jotunn",
+          "description": "Bos Armored Titan memiliki peluang 10% untuk muncul dengan skin Jotunn Armored.",
+          "details": [
+            "Set Jotunn dapat dijatuhkan untuk ODM atau TS tergantung pada perlengkapan yang digunakan saat menerima drop.",
+            "Rate set Jotunn selama Jotunn Raid: 0,3% pada Hard, 0,9% pada Severe, 3,0% pada Aberrant.",
+            "Luck dapat memengaruhi drop raid reguler dan rate drop peralatan Easter egg."
+          ],
+          "player_tip": "Jika Anda menargetkan perlengkapan Jotunn, jalankan raid pada kesulitan tertinggi yang dapat diselesaikan tim Anda secara konsisten."
+        },
+        {
+          "step": 7,
+          "title": "Gunakan Families dan build yang ramah raid",
+          "description": "Halaman raid merekomendasikan Families yang kuat atau Titan Shifting untuk penyelesaian raid yang lebih mudah.",
+          "details": [
+            "Opsi yang direkomendasikan termasuk Ackerman, Shiki, Helos, Fritz, atau Titan Shifting.",
+            "Damage ODM terhadap bos raid ditingkatkan pada Update 3, sementara damage TS terhadap bos raid dikurangi dalam penyesuaian keseimbangan yang sama.",
+            "Kecepatan perahu raid Armored dan daya tahan perahu telah disesuaikan melalui patch-patch terbaru."
+          ],
+          "player_tip": "Pilih pengaturan yang membantu tim Anda menjaga perahu tetap hidup terlebih dahulu, karena kehilangan objektif akan mengakhiri sesi sebelum hadiah diberikan."
+        }
+      ]
+    },
+    "attackOnTitanRevolutionFemaleTitanRaidGuide": {
+      "name": "Panduan Attack on Titan Revolution Female Titan Raid",
+      "title": "Panduan Attack on Titan Revolution Female Titan Raid",
+      "displayType": "step-by-step",
+      "eyebrow": "Panduan Raid",
+      "subtitle": "Selesaikan QTE terowongan, lawan Annie, kalahkan Eren Attack Titan, lalu habisi Annie untuk hadiah Female Raid dan peluang Serum.",
+      "intro": "Female Titan Raid dirilis pada Update 3 dan berfokus pada pertarungan bos Shifter alih-alih gelombang titan biasa. Pemain pertama-tama harus bertahan dalam urutan terowongan Annie, lalu menyelesaikan tiga fase pertempuran melawan Female Titan dan Attack Titan.",
+      "detailsLabel": "Detail Raid",
+      "playerTipLabel": "Tip pemain",
+      "items": [
+        {
+          "step": 1,
+          "title": "Pahami struktur raid",
+          "description": "Female Titan Raid memiliki bagian QTE terowongan diikuti oleh tiga fase bos.",
+          "details": [
+            "Fase 1: Kalahkan Annie dengan mengurangi 50% kesehatan Female Titan.",
+            "Fase 2: Kalahkan Eren, sang Attack Titan.",
+            "Fase 3: Kalahkan Annie lagi, mulai dari 50% kesehatan.",
+            "Raid ini tidak memiliki titan murni dan berfokus pada Titan Shifters sebagai gantinya."
+          ],
+          "player_tip": "Bersiaplah untuk mekanik bos dan damage target tunggal alih-alih tekanan pembersihan gelombang normal."
+        },
+        {
+          "step": 2,
+          "title": "Hindari Annie dalam QTE terowongan",
+          "description": "Raid dibuka dengan urutan quick-time event melawan Annie di dalam terowongan.",
+          "details": [
+            "Setiap QTE yang gagal mengurangi 10% HP.",
+            "Setiap QTE yang berhasil meningkatkan bar awakening sebesar 10%.",
+            "Setiap QTE yang berhasil juga menambah 1,5 stack Undying Hero untuk pengguna Helos.",
+            "Melewati QTE memakan biaya 60% HP.",
+            "Waktu menjadi lebih ketat pada kesulitan yang lebih tinggi, sementara input tetap kiri dan kanan."
+          ],
+          "player_tip": "Selesaikan QTE sebisa mungkin agar build Anda tetap menjaga momentum kesehatan dan awakening."
+        },
+        {
+          "step": 3,
+          "title": "Fase 1: Kalahkan Annie",
+          "description": "Dalam pertarungan pertama, Annie memiliki titik lemah tubuh dan harus dikurangi HP-nya sebesar 50%.",
+          "details": [
+            "Pengguna ODM harus menyerang tengkuk atau titik kritis yang ditandai dengan ikon tengkorak.",
+            "Titik kritis membuat Female Titan menerima damage 3x lebih besar dari serangan tubuh normal.",
+            "Jika ada Shifters dalam party, melukai lengan atau kaki Annie dapat mengurangi kemampuannya untuk menyerang Shifters."
+          ],
+          "player_tip": "Prioritaskan titik lemah bertanda tengkorak dan akses tengkuk yang aman daripada damage anggota tubuh secara acak."
+        },
+        {
+          "step": 4,
+          "title": "Fase 2: Kalahkan Eren",
+          "description": "Eren memulai dengan 60% HP pada fase kedua dan tidak memiliki tanda tengkorak kelemahan pada tubuhnya.",
+          "details": [
+            "Patch 37 menghapus kerentanan dari Attack Titan di Fase 2.",
+            "Patch 37 meningkatkan kesehatan Eren Fase 2 dari 50% menjadi 60%.",
+            "Mode Berserk Attack Titan menambah tekanan dengan meningkatkan damage dan kecepatan saat dipicu."
+          ],
+          "player_tip": "Anggap ini sebagai uji DPS bos yang berkelanjutan. Hindari membuang jendela burst untuk mencari tanda kelemahan yang tidak ada di fase ini."
+        },
+        {
+          "step": 5,
+          "title": "Fase 3: Habisi Annie",
+          "description": "Annie kembali dengan 50% HP untuk fase terakhir dan sekali lagi memiliki titik lemah tubuh.",
+          "details": [
+            "Gunakan logika titik kritis yang sama dari Fase 1.",
+            "Koordinasikan cooldown agar burst damage mendarat saat titik lemah dapat diakses.",
+            "Selesaikan raid dengan mengakhiri fase Female Titan."
+          ],
+          "player_tip": "Simpan rotasi damage yang stabil untuk fase terakhir Annie agar tim tidak kehabisan sumber daya setelah melawan Eren."
+        },
+        {
+          "step": 6,
+          "title": "Cari Female Serum dan hadiah peti",
+          "description": "Female Serum adalah Mythical Serum yang digunakan untuk perubahan wujud Female Titan dan perdagangan.",
+          "details": [
+            "Pemain harus memiliki setidaknya 5% kredit untuk membuka peti raid.",
+            "Raider Chest gratis untuk dibuka.",
+            "Emperor Trove memerlukan Emperor Key dan memiliki drop rate 2x lipat dibandingkan dengan Raider Chest.",
+            "Peluang Female Serum Hard: 0,03% dari Free Raid Chest, 0,06% dari Emperor Trove.",
+            "Peluang Female Serum Severe: 0,09% dari Free Raid Chest, 0,18% dari Emperor Trove.",
+            "Peluang Female Serum Aberrant: 0,20% dari Free Raid Chest, 0,40% dari Emperor Trove."
+          ],
+          "player_tip": "Gunakan Emperor Trove pada penyelesaian di mana Anda secara andal mencapai kredit dan secara khusus mencari Female Serum atau drop raid bernilai tinggi."
+        },
+        {
+          "step": 7,
+          "title": "Pantau drop Female Raid dan tambahan Update 4",
+          "description": "Hadiah Female Raid mencakup Artifacts, kosmetik, aura, dan Female Serum, dengan Update 4 menambahkan lebih banyak hadiah terkait Female Raid.",
+          "details": [
+            "Drop Female Raid termasuk Ring, Hoodie, Scars, Young Annie Attire, Young Annie Rain Poncho, Blazing Veil, Blue Lightning, Fractured Surge, dan Female Serum.",
+            "Update 4 menambahkan Easter egg Deus Ex Machina Female Raid dengan peluang 10,0% untuk muncul menggantikan Female Titan.",
+            "Rate drop set Deus Ex Machina adalah 0,3% pada Hard, 0,9% pada Severe, dan 3,0% pada Aberrant.",
+            "Artifacts Female Raid Update 4 termasuk Crystal Necklace dan Female Scars."
+          ],
+          "player_tip": "Untuk mencari kosmetik langka dan Artifacts, jalankan raid pada kesulitan tertinggi yang dapat diselesaikan tim Anda secara konsisten."
+        }
+      ]
+    },
+    "attackOnTitanRevolutionColossalTitanRaidGuide": {
+      "name": "Panduan Attack on Titan Revolution Colossal Titan Raid",
+      "title": "Panduan Attack on Titan Revolution Colossal Titan Raid",
+      "displayType": "step-by-step",
+      "eyebrow": "Raid Update 4",
+      "subtitle": "Tahan Bertholdt dengan meriam, pertahankan Eren, lalu kalahkan Colossal Titan dengan menyerang tengkuk.",
+      "intro": "Colossal Titan Raid hadir bersama Update 4 dan dibangun di sekitar alur raid khusus Aberrant. Pemain harus melindungi Eren sambil menggunakan meriam dinding untuk menahan Bertholdt, lalu beralih ke fase bos terakhir yang berfokus pada tengkuk untuk hadiah Colossal.",
+      "detailsLabel": "Detail Raid",
+      "playerTipLabel": "Tip pemain",
+      "items": [
+        {
+          "step": 1,
+          "title": "Periksa persyaratan raid",
+          "description": "Colossal Titan Raid adalah raid Update 4 yang terkait dengan perubahan wujud Colossal Titan dan pencarian Colossal Serum.",
+          "details": [
+            "Raid ini memerlukan Prestige 2 atau lebih tinggi.",
+            "Raid ini hanya memiliki kesulitan Aberrant.",
+            "Kekalahan dalam raid menyebabkan kehilangan streak.",
+            "Colossal Serum dapat diperdagangkan kepada pemain di Prestige 3 atau lebih tinggi dengan pajak 5.000 permata."
+          ],
+          "player_tip": "Bersiaplah sebelum masuk karena raid ini tidak menawarkan versi kesulitan yang lebih rendah untuk pemanasan."
+        },
+        {
+          "step": 2,
+          "title": "Fase 1: Tahan Bertholdt",
+          "description": "Pada fase pertama, Colossal Titan perlahan bergerak menuju dinding sementara Eren rentan terhadap serangan titan di sisi lain.",
+          "details": [
+            "Eren tetap hidup adalah syarat kemenangan.",
+            "Selama Fase 1, Colossal Titan hanya bisa dirusak oleh meriam.",
+            "Meriam diposisikan di atas dinding."
+          ],
+          "player_tip": "Bagi perhatian antara penggunaan meriam dan melindungi Eren. Mengabaikan salah satu sisi dapat menggagalkan raid."
+        },
+        {
+          "step": 3,
+          "title": "Gunakan meriam dengan benar",
+          "description": "Meriam adalah sumber damage yang diperlukan untuk Fase 1, jadi uptime meriam lebih penting daripada DPS bos normal selama bagian ini.",
+          "details": [
+            "Pemain harus merotasi posisi meriam untuk terus menekan Colossal Titan.",
+            "Serangan non-meriam harus dianggap sebagai tindakan pendukung selama Fase 1.",
+            "Rekan tim yang tidak menggunakan meriam harus membantu mengendalikan titan yang mengancam Eren."
+          ],
+          "player_tip": "Fase 1 yang bersih biasanya berasal dari disiplin peran: pemain meriam fokus pada Bertholdt, pelindung menjaga Eren tetap aman."
+        },
+        {
+          "step": 4,
+          "title": "Fase 2: Kalahkan Bertholdt",
+          "description": "Setelah fase penahanan, raid beralih ke fase bos Colossal Titan secara langsung.",
+          "details": [
+            "Colossal Titan hanya menerima damage dari tengkuk di Fase 2.",
+            "Pemain harus memposisikan diri untuk akses tengkuk yang aman dan menghindari membuang damage pada bagian tubuh lainnya.",
+            "Jendela burst harus disimpan untuk saat-saat ketika tengkuk dapat dijangkau."
+          ],
+          "player_tip": "Fase 2 adalah fase damage presisi. Anggap uptime pada tengkuk sebagai tujuan damage utama."
+        },
+        {
+          "step": 5,
+          "title": "Cari Colossal Serum",
+          "description": "Colossal Serum adalah Mythical Serum yang digunakan untuk perubahan wujud Colossal Titan dan perdagangan.",
+          "details": [
+            "Colossal Serum jatuh dari Colossal Titan Raid.",
+            "Colossal Titan Raid terdaftar sebagai khusus Aberrant untuk mendapatkan Serum.",
+            "Peluang Aberrant Free Raid Chest: 0,20%.",
+            "Peluang Aberrant Emperor Trove: 0,40%."
+          ],
+          "player_tip": "Gunakan Emperor Trove saat mencari Colossal Serum karena memiliki peluang peti yang lebih tinggi."
+        },
+        {
+          "step": 6,
+          "title": "Pantau Artifacts Colossal Raid",
+          "description": "Update 4 menambahkan beberapa Artifacts Colossal Titan Raid dengan bonus statistik yang jelas.",
+          "details": [
+            "Sleeping Mask: Artifact wajah Epic dengan +2,5 Health Regen.",
+            "Sweater: Artifact punggung Legendary dengan +10,0% TS Range dan +10,0% TS Control.",
+            "Scorched Cloak: Artifact punggung Mythic dengan +5,0% Burn DMG pada semua serangan, semua Burn DMG dikalikan 1,1x, dan +5,0 Health Regen.",
+            "Colossal Scars: Artifact wajah Mythic dengan +15,0% Statistik Colossal Titan, +1 Shifts, -20,0% Pengurangan Bar Awakening untuk Colossal Titan, dan jangkauan Atomic Ascension meningkat 150m."
+          ],
+          "player_tip": "Colossal Scars adalah artifact yang paling berfokus langsung pada Colossal karena meningkatkan statistik Colossal Titan dan uptime perubahan wujud."
+        },
+        {
+          "step": 7,
+          "title": "Pantau kosmetik dan material Colossal",
+          "description": "Colossal Titan Raid juga menambahkan kosmetik, shard, dan Colossal Serum ke dalam kumpulan hadiah.",
+          "details": [
+            "Kosmetik termasuk Mushroom Cloud, Superheated, Aspiring Warrior Attire, dan Atomic Bomb.",
+            "Colossal Shard terdaftar sebagai hadiah shard Legendary.",
+            "Colossal Serum terdaftar sebagai hadiah Serum Mythic."
+          ],
+          "player_tip": "Nilai kosmetik dan shard dapat berubah sesuai permintaan pasar, jadi periksa nilai perdagangan saat ini sebelum menjual atau menukar drop langka."
+        },
+        {
+          "step": 8,
+          "title": "Gunakan pengetahuan Colossal Titan Update 4",
+          "description": "Update 4 juga memperkenalkan skill perubahan wujud dan resonansi Colossal Titan, yang membantu pemain memahami mengapa drop terkait Colossal adalah hadiah yang sangat diminati.",
+          "details": [
+            "Skill Colossal Titan termasuk Footstep, Swipe, Eject, Shifter Mastery, Destruction Mastery, Atomic Ascension, Anguish, Seismic Shock, Tectonic Quake, Incendiary Volley, dan Heatwave.",
+            "Resonansi Colossal Titan termasuk Evolving Havoc, Unmatched Devastation, Explosive Liberation, Infinite Chaos, Thermal Absolution, dan Hakai No Kami."
+          ],
+          "player_tip": "Pemain yang mencari Colossal Serum di raid juga harus memantau Colossal Scars dan Colossal Shard karena mereka mendukung progres jangka panjang Colossal Titan."
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "Attack on Titan Revolution",
+    "titleHighlight": "FAQ",
+    "subtitle": "Jawaban untuk kode Attack on Titan Revolution, progres, Families, Perks, Skill Trees, Prestige, Raids, Titan shifting, Artifacts, Missions, kontrol, dan tautan resmi Roblox.",
+    "questions": [
+      {
+        "question": "Apa itu Attack on Titan Revolution di Roblox?",
+        "answer": "Attack on Titan Revolution adalah RPG pertempuran titan anime di Roblox yang dibangun di sekitar pertarungan ODM, Missions, Families, Perks, Raids, Titan shifting, dan hadiah progres."
+      },
+      {
+        "question": "Bagaimana cara kerja kode Attack on Titan Revolution?",
+        "answer": "Kode Attack on Titan Revolution memberikan hadiah seperti Spin, Emperor Key, Ramuan Luck, Ramuan Gold, Ramuan XP, Permata, Shard, dan mata uang event saat ditukarkan di menu Codes."
+      },
+      {
+        "question": "Family Attack on Titan Revolution mana yang harus saya simpan?",
+        "answer": "Families Attack on Titan Revolution seperti Fritz, Helos, Ackerman, Yeager, Reiss, Leonhart, dan Tybur sangat bagus untuk disimpan karena mereka mendukung build ODM, shifter, raid, atau utilitas bernilai tinggi."
+      },
+      {
+        "question": "Perks Attack on Titan Revolution mana yang harus saya targetkan?",
+        "answer": "Target Perks Attack on Titan Revolution bergantung pada build Anda: Kengo dan Black Flash mendukung damage ODM, Art of War dan Founder's Blessing mendukung permainan Shifter, dan Font of Inspiration mendukung tim raid."
+      },
+      {
+        "question": "Bagaimana cara menghabiskan poin skill Attack on Titan Revolution?",
+        "answer": "Poin skill Attack on Titan Revolution harus mengikuti tujuan build Anda: Offense untuk penyelesaian lebih cepat, Defense untuk progres yang lebih aman, Support untuk utilitas raid, skill Family untuk rute khusus, dan skill Shifter untuk uptime wujud Titan."
+      },
+      {
+        "question": "Kapan saya harus melakukan prestige di Attack on Titan Revolution?",
+        "answer": "Lakukan Prestige di Attack on Titan Revolution setelah mencapai level yang diperlukan dan bar EXP penuh, lalu pilih boost permanen dan Prestige Memory yang sesuai dengan rencana farming atau raid jangka panjang Anda."
+      },
+      {
+        "question": "Kapan saya harus memulai Raids Attack on Titan Revolution?",
+        "answer": "Mulailah Raids Attack on Titan Revolution setelah Missions, kontrol ODM, upgrade perlengkapan, pilihan Family, Perks, dan jalur skill-tree Anda dapat mendukung pertarungan bos berbasis fase."
+      },
+      {
+        "question": "Bagaimana cara membuka Titan shifting di Attack on Titan Revolution?",
+        "answer": "Titan shifting di Attack on Titan Revolution dimulai dengan Serum. Cari di raid, misi Aberrant, atau perdagangan yang memenuhi syarat, pasang Serum, lalu bangun penguasaan Shifter melalui pertempuran transformasi berulang kali."
+      },
+      {
+        "question": "Artifacts dan Memories Attack on Titan Revolution mana yang paling penting?",
+        "answer": "Artifacts dan Memories Attack on Titan Revolution menjadi penting saat mereka cocok dengan tujuan build Anda: Luck untuk farming, kecepatan dan damage ODM untuk penyelesaian misi, statistik Shifter untuk wujud Titan, dan Memories pendukung untuk tim raid."
+      },
+      {
+        "question": "Missions Attack on Titan Revolution mana yang harus saya farm?",
+        "answer": "Missions Attack on Titan Revolution seperti Giant Forest, Shiganshina, Trost, Loading Docks, Utgard, dan Outskirts mendukung farming emas, EXP, perks, peluang Serum, dan Prestige Scroll pada kesulitan yang lebih tinggi."
+      },
+      {
+        "question": "Kontrol Attack on Titan Revolution apa yang harus dipelajari pemain baru terlebih dahulu?",
+        "answer": "Pemain baru Attack on Titan Revolution harus mempelajari hook ODM, waktu boost, ritme reload, waktu tebasan, bidikan kamera, dan kontrol gerakan khusus platform sebelum mencoba misi Aberrant atau raid."
+      },
+      {
+        "question": "Di mana tautan resmi Trello dan Discord Attack on Titan Revolution?",
+        "answer": "Bagian tautan resmi Attack on Titan Revolution mencakup halaman game Roblox, papan Trello, server Discord, Wiki, komunitas Roblox, dan saluran sosial EvolutionPower."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Siap Menguasai Attack on Titan Revolution?",
+    "description": "Bergabunglah dengan Discord resmi Attack on Titan Revolution untuk kode, peringatan pembaruan, koordinasi raid, dan bantuan progres Roblox.",
+    "joinCommunity": "Gabung Discord Attack on Titan Revolution",
+    "joinGame": "Mainkan Attack on Titan Revolution"
+  },
+  "footer": {
+    "title": "Wiki Attack on Titan Revolution",
+    "description": "Pusat sumber daya Anda untuk kode, families, perks, raids, titans, build, pembaruan, dan panduan progres Roblox Attack on Titan Revolution.",
+    "resources": "Sumber Daya",
+    "community": "Komunitas",
+    "legal": "Legal",
+    "discord": "Discord Resmi",
+    "twitter": "Trailer YouTube",
+    "steamCommunity": "Grup Roblox",
+    "steamStore": "Trello Resmi",
+    "about": "Tentang",
+    "privacy": "Kebijakan Privasi",
+    "terms": "Ketentuan Layanan",
+    "copyrightNotice": "Hak Cipta",
+    "copyright": "(c) 2026 Wiki Attack on Titan Revolution. Tidak berafiliasi dengan Roblox, AoTR [PI], atau pemegang hak cipta Attack on Titan.",
+    "disclaimer": "Situs web sumber daya buatan penggemar untuk pemain Attack on Titan Revolution."
+  },
+  "pages": {
+    "codes": {
+      "title": "Kode Attack on Titan Revolution",
+      "description": "Kode Attack on Titan Revolution untuk Spin, Permata, boost, Emperor Key, Shard gratis, hadiah update, dan langkah penukaran.",
+      "metaTitle": "Kode Attack on Titan Revolution - Hadiah Gratis & Panduan Tukar",
+      "metaDescription": "Dapatkan kode Attack on Titan Revolution untuk Spin, Permata, boost, Emperor Key, Shard, hadiah Update 4, dan langkah penukaran Roblox yang jelas.",
+      "categoryLabel": "KODE ATTACK ON TITAN REVOLUTION",
+      "whatIs": "Apa itu kode Attack on Titan Revolution?",
+      "whatIsDescription": "Kode Attack on Titan Revolution adalah kunci hadiah Roblox yang dapat memberikan Spin, Permata, boost, Emperor Key, Shard, hadiah event, dan sumber daya lainnya yang digunakan untuk pertumbuhan akun yang lebih cepat.",
+      "why": "Mengapa menggunakan kode Attack on Titan Revolution?",
+      "whySteps": {
+        "step1Title": "Klaim Mata Uang Hadiah",
+        "step1Description": "Gunakan kode Attack on Titan Revolution untuk mengumpulkan sumber daya sebelum melakukan roll Families, reroll Perks, atau meningkatkan perlengkapan.",
+        "step2Title": "Penuhi Syarat Penukaran",
+        "step2Description": "Pantau level Attack on Titan Revolution, Prestige, grup, dan persyaratan update sehingga setiap kode dimasukkan pada waktu yang tepat.",
+        "step3Title": "Rencanakan Berdasarkan Update",
+        "step3Description": "Tinjau hadiah kode Attack on Titan Revolution bersamaan dengan Raids baru, event, dan target progres sebelum menggunakannya."
+      },
+      "featured": "Unggulan & Esensial",
+      "all": "Semua Kode"
+    },
+    "guide": {
+      "title": "Panduan Attack on Titan Revolution",
+      "description": "Artikel panduan Attack on Titan Revolution untuk pemula, misi, quest, pencapaian, pertarungan titan, dan sistem inti Roblox.",
+      "metaTitle": "Panduan Attack on Titan Revolution - Tips Pemula, Misi & Quest",
+      "metaDescription": "Baca artikel panduan Attack on Titan Revolution untuk pemula, misi, quest, pencapaian, pertarungan titan, dasar-dasar ODM, dan progres Roblox.",
+      "categoryLabel": "PANDUAN ATTACK ON TITAN REVOLUTION",
+      "whatIs": "Apa itu bagian panduan Attack on Titan Revolution?",
+      "whatIsDescription": "Bagian panduan Attack on Titan Revolution menjelaskan sistem esensial yang membentuk setiap permainan, termasuk cara bermain, tujuan misi, quest, pencapaian, eliminasi titan, dan prioritas pemula.",
+      "why": "Mengapa membaca panduan Attack on Titan Revolution?",
+      "whySteps": {
+        "step1Title": "Mulai Dengan Prioritas Jelas",
+        "step1Description": "Gunakan panduan pemula Attack on Titan Revolution untuk mempelajari menu, misi, dan hadiah mana yang paling penting terlebih dahulu.",
+        "step2Title": "Tingkatkan Pertarungan Titan",
+        "step2Description": "Ikuti tips bertarung Attack on Titan Revolution untuk pergerakan ODM, akses tengkuk, objektif misi, dan cara membunuh titan yang lebih aman.",
+        "step3Title": "Selesaikan Lebih Banyak Objektif",
+        "step3Description": "Gunakan panduan quest dan pencapaian Attack on Titan Revolution untuk membuka hadiah tanpa melewatkan tugas progres rutin."
+      },
+      "featured": "Unggulan & Esensial",
+      "all": "Semua Artikel Panduan"
+    },
+    "controls": {
+      "title": "Kontrol Attack on Titan Revolution",
+      "description": "Kontrol Attack on Titan Revolution untuk PC, keyboard, keybind, mobile, Xbox, pergerakan ODM, isi ulang pedang, kabel, dan perban.",
+      "metaTitle": "Kontrol Attack on Titan Revolution - PC, Mobile, Xbox & Keybind",
+      "metaDescription": "Pelajari kontrol Attack on Titan Revolution untuk PC, keyboard, mobile, Xbox, pergerakan ODM, isi ulang pedang, pemulihan kabel, dan penggunaan perban.",
+      "categoryLabel": "KONTROL ATTACK ON TITAN REVOLUTION",
+      "whatIs": "Apa itu kontrol Attack on Titan Revolution?",
+      "whatIsDescription": "Kontrol Attack on Titan Revolution mencakup input yang digunakan untuk pergerakan ODM, kontrol kamera, pertarungan, isi ulang pedang, pemulihan kabel, perban, dan keybind khusus platform.",
+      "why": "Mengapa mempelajari kontrol Attack on Titan Revolution?",
+      "whySteps": {
+        "step1Title": "Bergerak Dengan Presisi",
+        "step1Description": "Gunakan panduan kontrol Attack on Titan Revolution untuk membuat ayunan, belokan, dan boost ODM terasa konsisten di setiap misi.",
+        "step2Title": "Pulih Saat Bertarung",
+        "step2Description": "Pelajari input isi ulang, kabel, dan perban Attack on Titan Revolution sebelum pertarungan titan memaksa reaksi cepat.",
+        "step3Title": "Sesuaikan Dengan Platform Anda",
+        "step3Description": "Bandingkan kontrol Attack on Titan Revolution untuk PC, keyboard, mobile, dan Xbox agar pengaturan Anda sesuai dengan cara Anda bermain."
+      },
+      "featured": "Unggulan & Esensial",
+      "all": "Semua Kontrol"
+    },
+    "progression": {
+      "title": "Progres Attack on Titan Revolution",
+      "description": "Rute progres Attack on Titan Revolution untuk leveling, level maksimal, Prestige, poin skill, pembukaan grade, cedera, XP, dan farming gold.",
+      "metaTitle": "Progres Attack on Titan Revolution - Leveling, Prestige & Farming",
+      "metaDescription": "Rencanakan progres Attack on Titan Revolution dengan leveling, level maksimal, Prestige, poin skill, pembukaan grade, cedera, farm XP, dan farm gold.",
+      "categoryLabel": "PROGRES ATTACK ON TITAN REVOLUTION",
+      "whatIs": "Apa itu progres Attack on Titan Revolution?",
+      "whatIsDescription": "Progres Attack on Titan Revolution mencakup bagaimana pemain berkembang dari misi awal ke grade yang lebih tinggi melalui XP, gold, poin skill, Prestige, peningkatan peralatan, dan manajemen cedera.",
+      "why": "Mengapa merencanakan progres Attack on Titan Revolution?",
+      "whySteps": {
+        "step1Title": "Leveling Secara Efisien",
+        "step1Description": "Gunakan rute progres Attack on Titan Revolution untuk memilih misi, farm, dan objektif yang sesuai dengan grade Anda saat ini.",
+        "step2Title": "Bersiap Untuk Prestige",
+        "step2Description": "Pantau level maksimal Attack on Titan Revolution, waktu Prestige, poin skill, dan keuntungan permanen sebelum meriset progres.",
+        "step3Title": "Kurangi Farming Yang Sia-sia",
+        "step3Description": "Fokus pada target gold, XP, dan grade Attack on Titan Revolution sehingga setiap sesi permainan memajukan build atau pembukaan fitur Anda."
+      },
+      "featured": "Unggulan & Esensial",
+      "all": "Semua Progres"
+    },
+    "titans": {
+      "title": "Titan Attack on Titan Revolution",
+      "description": "Panduan Titan Attack on Titan Revolution untuk Titan shifting, serum, shifter, Colossal Titan, Female Titan, Armored Titan, dan wujud Titan.",
+      "metaTitle": "Titan Attack on Titan Revolution - Shifters, Serum & Wujud Titan",
+      "metaDescription": "Jelajahi Titan Attack on Titan Revolution, Titan shifting, serum, shifter, Colossal Titan, Female Titan, Armored Titan, dan wujud Titan terbaik.",
+      "categoryLabel": "TITAN ATTACK ON TITAN REVOLUTION",
+      "whatIs": "Apa itu Titan Attack on Titan Revolution?",
+      "whatIsDescription": "Titan Attack on Titan Revolution mencakup musuh biasa, pertarungan boss, sistem Titan Shifters, serum, jalur transformasi, dan wujud utama seperti Colossal, Female, Armored, dan Attack Titan.",
+      "why": "Mengapa mempelajari Titan Attack on Titan Revolution?",
+      "whySteps": {
+        "step1Title": "Pahami Shifting",
+        "step1Description": "Pelajari bagaimana Titan shifting, serum, dan pembukaan shifter di Attack on Titan Revolution terhubung dengan progres akun.",
+        "step2Title": "Bersiap Untuk Pertarungan Boss",
+        "step2Description": "Tinjau mekanik Colossal Titan, Female, Armored, dan Attack Titan di Attack on Titan Revolution sebelum mencoba Raids atau boss.",
+        "step3Title": "Pilih Target Titan",
+        "step3Description": "Bandingkan wujud Titan Attack on Titan Revolution sehingga build, farming Raids, dan penggunaan sumber daya Anda mendukung shifter yang Anda inginkan."
+      },
+      "featured": "Unggulan & Esensial",
+      "all": "Semua Titan"
+    },
+    "builds": {
+      "title": "Build Attack on Titan Revolution",
+      "description": "Build Attack on Titan Revolution untuk Families, Perks, memory, Artifacts, skill tree, pengaturan shifter, tier list, dan loadout siap Raids.",
+      "metaTitle": "Build Attack on Titan Revolution - Families, Perks, Artifacts & Skill",
+      "metaDescription": "Buat build Attack on Titan Revolution dengan Families, Perks, memory, Artifacts, skill tree, pengaturan shifter, tier list, dan loadout Raids.",
+      "categoryLabel": "BUILD ATTACK ON TITAN REVOLUTION",
+      "whatIs": "Apa itu build Attack on Titan Revolution?",
+      "whatIsDescription": "Build Attack on Titan Revolution menggabungkan Families, Perks, memory, Artifacts, pilihan skill tree, prioritas ODM, dan target shifter ke dalam satu rencana tempur yang lengkap.",
+      "why": "Mengapa membandingkan build Attack on Titan Revolution?",
+      "whySteps": {
+        "step1Title": "Selaraskan Sistem Inti",
+        "step1Description": "Gunakan panduan build Attack on Titan Revolution agar Families, Perks, Artifacts, dan skill mendukung satu gaya bermain.",
+        "step2Title": "Tingkatkan Hasil Misi",
+        "step2Description": "Sesuaikan pilihan damage, mobilitas, support, dan daya tahan Attack on Titan Revolution untuk konten yang paling sering Anda mainkan.",
+        "step3Title": "Gunakan Reroll Dengan Hati-hati",
+        "step3Description": "Bandingkan tier list Attack on Titan Revolution sebelum menggunakan spin, reroll Perks, memory, atau peningkatan Artifacts."
+      },
+      "featured": "Unggulan & Esensial",
+      "all": "Semua Build"
+    },
+    "items": {
+      "title": "Item Attack on Titan Revolution",
+      "description": "Item Attack on Titan Revolution mencakup Thunder Spears, quest tombak, Emperor Key, Shard, crate, kosmetik, dan material hadiah.",
+      "metaTitle": "Item Attack on Titan Revolution - Thunder Spears, Key, Shard & Crate",
+      "metaDescription": "Pantau item Attack on Titan Revolution seperti Thunder Spears, quest tombak, Emperor Key, Shard, crate, kosmetik, dan material hadiah.",
+      "categoryLabel": "ITEM ATTACK ON TITAN REVOLUTION",
+      "whatIs": "Apa itu item Attack on Titan Revolution?",
+      "whatIsDescription": "Item Attack on Titan Revolution mencakup alat tempur, material pembuka, hadiah Raids, kosmetik, crate, Shard, Emperor Key, dan Thunder Spears yang digunakan di seluruh sistem progres.",
+      "why": "Mengapa memantau item Attack on Titan Revolution?",
+      "whySteps": {
+        "step1Title": "Ketahui Sumber Item",
+        "step1Description": "Gunakan panduan item Attack on Titan Revolution untuk menemukan di mana Thunder Spears, Emperor Key, Shard, dan crate berperan dalam game.",
+        "step2Title": "Buka Alat Yang Berguna",
+        "step2Description": "Ikuti quest tombak Attack on Titan Revolution dan persyaratan item sebelum merencanakan percobaan Raids atau boss.",
+        "step3Title": "Gunakan Material Dengan Bijak",
+        "step3Description": "Hubungkan item Attack on Titan Revolution dengan build, progres, kosmetik, dan prioritas hadiah sebelum menggunakan sumber daya yang langka."
+      },
+      "featured": "Unggulan & Esensial",
+      "all": "Semua Item"
+    }
   }
 }

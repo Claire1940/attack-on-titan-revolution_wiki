@@ -217,7 +217,7 @@ def translate_chunk_task(idx: int, total: int, chunk: dict, lang_name: str, conf
     if result:
         cleaned = clean_json_response(result)
         try:
-            parsed = json.loads(cleaned)
+            parsed = json.loads(cleaned, strict=False)
             print(f"    chunk {idx}/{total}: [{keys_preview}{suffix}] ✓")
             return (idx, list(chunk.keys()), parsed)
         except json.JSONDecodeError as e:

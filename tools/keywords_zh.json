@@ -1,47 +1,101 @@
 {
   "categories": [
     {
-      "category": "指南",
+      "category": "codes",
       "keywords": [
-        "lucid blocks 指南"
+        "Attack on Titan Revolution codes"
       ]
     },
     {
-      "category": "合成",
+      "category": "guide",
       "keywords": [
-        "lucid blocks 合成配方",
-        "lucid blocks 神化系统"
+        "Attack on Titan Revolution 新手指南",
+        "Attack on Titan Revolution guide",
+        "Attack on Titan Revolution 怎么玩",
+        "Attack on Titan Revolution 教程",
+        "Attack on Titan Revolution tips",
+        "Attack on Titan Revolution 怎么击杀泰坦",
+        "Attack on Titan Revolution missions",
+        "Attack on Titan Revolution quests",
+        "Attack on Titan Revolution week quests locked",
+        "Attack on Titan Revolution achievements"
       ]
     },
     {
-      "category": "物品",
+      "category": "controls",
       "keywords": [
-        "lucid blocks 信仰法杖",
-        "lucid blocks 蜜蜂滑翔器",
-        "lucid blocks 箱子",
-        "lucid blocks 锇"
+        "Attack on Titan Revolution controls",
+        "Attack on Titan Revolution pc controls",
+        "Attack on Titan Revolution movement guide",
+        "Attack on Titan Revolution keybinds",
+        "Attack on Titan Revolution keyboard controls",
+        "Attack on Titan Revolution how to reload sword",
+        "Attack on Titan Revolution how to get cables back",
+        "Attack on Titan Revolution how to use bandages",
+        "Attack on Titan Revolution mobile",
+        "Attack on Titan Revolution xbox controls"
       ]
     },
     {
-      "category": "生物群系",
+      "category": "progression",
       "keywords": [
-        "lucid blocks 提亚玛纳地脉"
+        "Attack on Titan Revolution 怎么快速升级",
+        "Attack on Titan Revolution max level",
+        "Attack on Titan Revolution xp farm",
+        "Attack on Titan Revolution how to rank up",
+        "Attack on Titan Revolution prestige",
+        "Attack on Titan Revolution how to get skill points",
+        "Attack on Titan Revolution how to get grade e",
+        "Attack on Titan Revolution how to heal injuries",
+        "Attack on Titan Revolution best xp farm",
+        "Attack on Titan Revolution gold farm"
       ]
     },
     {
-      "category": "建造",
+      "category": "titans",
       "keywords": [
-        "lucid blocks 感质空间"
+        "Attack on Titan Revolution titan shifting",
+        "Attack on Titan Revolution how to get titan shifting",
+        "Attack on Titan Revolution serum",
+        "Attack on Titan Revolution colossal titan",
+        "Attack on Titan Revolution female titan",
+        "Attack on Titan Revolution armored titan",
+        "Attack on Titan Revolution attack titan",
+        "Attack on Titan Revolution titan shift",
+        "Attack on Titan Revolution best titan",
+        "Attack on Titan Revolution shifter"
       ]
     },
     {
-      "category": "技术支持",
+      "category": "builds",
       "keywords": [
-        "lucid blocks steam deck",
-        "lucid blocks 全屏",
-        "lucid blocks 多人模式",
-        "lucid blocks 安卓版"
+        "Attack on Titan Revolution family tier list",
+        "Attack on Titan Revolution families",
+        "Attack on Titan Revolution best family",
+        "Attack on Titan Revolution perks tier list",
+        "Attack on Titan Revolution perks",
+        "Attack on Titan Revolution memories tier list",
+        "Attack on Titan Revolution memories",
+        "Attack on Titan Revolution artifacts",
+        "Attack on Titan Revolution best skill tree",
+        "Attack on Titan Revolution best shifter build"
+      ]
+    },
+    {
+      "category": "items",
+      "keywords": [
+        "Attack on Titan Revolution thunder spears",
+        "Attack on Titan Revolution how to get thunder spears",
+        "Attack on Titan Revolution spear quest",
+        "Attack on Titan Revolution emperor key",
+        "Attack on Titan Revolution what do shards do",
+        "Attack on Titan Revolution scarf",
+        "Attack on Titan Revolution wings",
+        "Attack on Titan Revolution animation packs",
+        "Attack on Titan Revolution crates"
       ]
     }
-  ]
+  ],
+  "contentCount": 60,
+  "contentCountAfterMerging": 60
 }

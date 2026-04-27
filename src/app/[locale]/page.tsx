@@ -13,7 +13,7 @@ interface PageProps {
 const SITE_NAME = 'Attack on Titan Revolution Wiki'
 const GAME_NAME = 'Attack on Titan Revolution'
 const META_TITLE = 'Attack on Titan Revolution Wiki - Codes, Families & Raids'
-const META_DESCRIPTION = 'Attack on Titan Revolution Wiki with working codes, family buffs, perks, raids, titan shifters, builds, updates, and Roblox progression guides.'
+const META_DESCRIPTION = 'Attack on Titan Revolution Wiki with working codes, family buffs, perks, raids, titan shifters, builds, updates, controls, and Roblox progression guides.'
 const OFFICIAL_LINKS = {
   roblox: 'https://www.roblox.com/games/13379208636/Attack-on-Titan-Revolution',
   robloxGroup: 'https://www.roblox.com/communities/17347863/AoTR-PI',
