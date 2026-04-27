@@ -1,5 +1,4 @@
 import { getLatestArticles } from '@/lib/getLatestArticles'
-import { buildModuleLinkMap } from '@/lib/buildModuleLinkMap'
 import type { Language } from '@/lib/content'
 import type { Locale } from '@/i18n/routing'
 import { buildLanguageAlternates } from '@/lib/i18n-utils'
@@ -20,6 +19,7 @@ const OFFICIAL_LINKS = {
   discord: 'https://discord.com/invite/aotrevolution',
   trello: 'https://trello.com/b/4n9qqtdW/attack-on-titan-revolution',
   youtube: 'https://www.youtube.com/watch?v=Lso55IMLgu8',
+  x: 'https://x.com/_EvolutionPower',
 }
 
 function getSiteUrl() {
@@ -151,7 +151,6 @@ export default async function HomePage({ params }: PageProps) {
 
   // 服务器端获取最新文章数据
   const latestArticles = await getLatestArticles(locale as Language, 30)
-  const moduleLinkMap = await buildModuleLinkMap(locale as Language)
 
   return (
     <>
@@ -159,7 +158,7 @@ export default async function HomePage({ params }: PageProps) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
       />
-      <HomePageClient latestArticles={latestArticles} moduleLinkMap={moduleLinkMap} locale={locale} />
+      <HomePageClient latestArticles={latestArticles} locale={locale} />
     </>
   )
 }
