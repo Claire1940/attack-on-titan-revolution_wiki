@@ -2,17 +2,22 @@
 
 import { useEffect, useState, Suspense, lazy } from 'react'
 import {
+  AlertTriangle,
   ArrowRight,
   BookOpen,
   Check,
+  ChevronDown,
   ClipboardCheck,
   Copy,
   ExternalLink,
   MessageCircle,
+  Shield,
   Sparkles,
   Star,
+  TrendingUp,
 } from 'lucide-react'
 import { useMessages } from 'next-intl'
+import enMessages from '@/locales/en.json'
 import { VideoFeature } from '@/components/home/VideoFeature'
 import { LatestGuidesAccordion } from '@/components/home/LatestGuidesAccordion'
 import { NativeBannerAd, AdBanner } from '@/components/ads'
@@ -31,13 +36,79 @@ const LoadingPlaceholder = ({ height = 'h-64' }: { height?: string }) => (
   <div className={`${height} bg-muted/30 border border-border rounded-xl animate-pulse`} />
 )
 
+const formatDetailLabel = (label: string) =>
+  label
+    .replace(/_/g, ' ')
+    .replace(/\b\w/g, (letter) => letter.toUpperCase())
+
+const DetailValue = ({ value }: { value: any }) => {
+  if (Array.isArray(value)) {
+    if (value.length === 0) {
+      return null
+    }
+
+    if (value.every((item) => typeof item !== 'object' || item === null)) {
+      return (
+        <ul className="space-y-2">
+          {value.map((item) => (
+            <li key={String(item)} className="flex items-start gap-2 text-sm text-muted-foreground">
+              <Check className="mt-0.5 h-4 w-4 flex-shrink-0 text-[hsl(var(--nav-theme-light))]" />
+              <span>{String(item)}</span>
+            </li>
+          ))}
+        </ul>
+      )
+    }
+
+    return (
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+        {value.map((item, index) => (
+          <div key={item?.name || item?.title || item?.phase || index} className="rounded-lg border border-border bg-muted/30 p-4">
+            <DetailValue value={item} />
+          </div>
+        ))}
+      </div>
+    )
+  }
+
+  if (value && typeof value === 'object') {
+    return (
+      <div className="space-y-3">
+        {Object.entries(value).map(([key, item]) => (
+          <div key={key}>
+            <p className="text-xs uppercase text-muted-foreground mb-1">{formatDetailLabel(key)}</p>
+            <DetailValue value={item} />
+          </div>
+        ))}
+      </div>
+    )
+  }
+
+  return <p className="text-sm text-muted-foreground">{String(value)}</p>
+}
+
 interface HomePageClientProps {
   latestArticles: ContentItemWithType[]
   locale: string
 }
 
 export default function HomePageClient({ latestArticles, locale }: HomePageClientProps) {
-  const t = useMessages() as any
+  const rawMessages = useMessages() as any
+  const hasCurrentToolCards =
+    Array.isArray(rawMessages.tools?.cards) &&
+    rawMessages.tools.cards.length >= 8 &&
+    rawMessages.tools.cards.every((card: any) => card?.title?.includes('Attack on Titan Revolution'))
+  const t = hasCurrentToolCards
+    ? rawMessages
+    : {
+        ...rawMessages,
+        faq: enMessages.faq,
+        tools: enMessages.tools,
+        modules: {
+          ...rawMessages.modules,
+          ...enMessages.modules,
+        },
+      }
   const officialLinks = {
     roblox: 'https://www.roblox.com/games/13379208636/Attack-on-Titan-Revolution',
     robloxGroup: 'https://www.roblox.com/communities/17347863/AoTR-PI',
@@ -52,6 +123,10 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
   const officialLinksModule = t.modules.attackOnTitanRevolutionOfficialLinks
   const beginnerModule = t.modules.attackOnTitanRevolutionBeginnerGuide
   const familyModule = t.modules.attackOnTitanRevolutionFamilyTierList
+  const perksModule = t.modules.attackOnTitanRevolutionPerksTierList
+  const skillTreeModule = t.modules.attackOnTitanRevolutionSkillTreeGuide
+  const prestigeModule = t.modules.attackOnTitanRevolutionPrestigeGuide
+  const raidsModule = t.modules.attackOnTitanRevolutionRaidsGuide
 
   const copyCode = async (code: string) => {
     try {
@@ -303,6 +378,110 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
               </div>
               <h3 className="font-semibold mb-2">{t.tools.cards[3].title}</h3>
               <p className="text-sm text-muted-foreground">{t.tools.cards[3].description}</p>
+            </a>
+
+            <a
+              href="#perks-tier-list"
+              onClick={(event) => {
+                event.preventDefault()
+                scrollToSection('perks-tier-list')
+              }}
+              className="scroll-reveal group p-6 rounded-xl border border-border
+                         bg-card hover:border-[hsl(var(--nav-theme)/0.5)]
+                         transition-all duration-300 cursor-pointer text-left
+                         hover:shadow-lg hover:shadow-[hsl(var(--nav-theme)/0.1)]"
+              style={{ animationDelay: '200ms' }}
+            >
+              <div className="w-12 h-12 rounded-lg mb-4
+                              bg-[hsl(var(--nav-theme)/0.1)]
+                              flex items-center justify-center
+                              group-hover:bg-[hsl(var(--nav-theme)/0.2)]
+                              transition-colors">
+                <DynamicIcon
+                  name={t.tools.cards[4].icon}
+                  className="w-6 h-6 text-[hsl(var(--nav-theme-light))]"
+                />
+              </div>
+              <h3 className="font-semibold mb-2">{t.tools.cards[4].title}</h3>
+              <p className="text-sm text-muted-foreground">{t.tools.cards[4].description}</p>
+            </a>
+
+            <a
+              href="#skill-tree-guide"
+              onClick={(event) => {
+                event.preventDefault()
+                scrollToSection('skill-tree-guide')
+              }}
+              className="scroll-reveal group p-6 rounded-xl border border-border
+                         bg-card hover:border-[hsl(var(--nav-theme)/0.5)]
+                         transition-all duration-300 cursor-pointer text-left
+                         hover:shadow-lg hover:shadow-[hsl(var(--nav-theme)/0.1)]"
+              style={{ animationDelay: '250ms' }}
+            >
+              <div className="w-12 h-12 rounded-lg mb-4
+                              bg-[hsl(var(--nav-theme)/0.1)]
+                              flex items-center justify-center
+                              group-hover:bg-[hsl(var(--nav-theme)/0.2)]
+                              transition-colors">
+                <DynamicIcon
+                  name={t.tools.cards[5].icon}
+                  className="w-6 h-6 text-[hsl(var(--nav-theme-light))]"
+                />
+              </div>
+              <h3 className="font-semibold mb-2">{t.tools.cards[5].title}</h3>
+              <p className="text-sm text-muted-foreground">{t.tools.cards[5].description}</p>
+            </a>
+
+            <a
+              href="#prestige-guide"
+              onClick={(event) => {
+                event.preventDefault()
+                scrollToSection('prestige-guide')
+              }}
+              className="scroll-reveal group p-6 rounded-xl border border-border
+                         bg-card hover:border-[hsl(var(--nav-theme)/0.5)]
+                         transition-all duration-300 cursor-pointer text-left
+                         hover:shadow-lg hover:shadow-[hsl(var(--nav-theme)/0.1)]"
+              style={{ animationDelay: '300ms' }}
+            >
+              <div className="w-12 h-12 rounded-lg mb-4
+                              bg-[hsl(var(--nav-theme)/0.1)]
+                              flex items-center justify-center
+                              group-hover:bg-[hsl(var(--nav-theme)/0.2)]
+                              transition-colors">
+                <DynamicIcon
+                  name={t.tools.cards[6].icon}
+                  className="w-6 h-6 text-[hsl(var(--nav-theme-light))]"
+                />
+              </div>
+              <h3 className="font-semibold mb-2">{t.tools.cards[6].title}</h3>
+              <p className="text-sm text-muted-foreground">{t.tools.cards[6].description}</p>
+            </a>
+
+            <a
+              href="#raids-guide"
+              onClick={(event) => {
+                event.preventDefault()
+                scrollToSection('raids-guide')
+              }}
+              className="scroll-reveal group p-6 rounded-xl border border-border
+                         bg-card hover:border-[hsl(var(--nav-theme)/0.5)]
+                         transition-all duration-300 cursor-pointer text-left
+                         hover:shadow-lg hover:shadow-[hsl(var(--nav-theme)/0.1)]"
+              style={{ animationDelay: '350ms' }}
+            >
+              <div className="w-12 h-12 rounded-lg mb-4
+                              bg-[hsl(var(--nav-theme)/0.1)]
+                              flex items-center justify-center
+                              group-hover:bg-[hsl(var(--nav-theme)/0.2)]
+                              transition-colors">
+                <DynamicIcon
+                  name={t.tools.cards[7].icon}
+                  className="w-6 h-6 text-[hsl(var(--nav-theme-light))]"
+                />
+              </div>
+              <h3 className="font-semibold mb-2">{t.tools.cards[7].title}</h3>
+              <p className="text-sm text-muted-foreground">{t.tools.cards[7].description}</p>
             </a>
           </div>
         </div>
@@ -603,6 +782,290 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
 
       {/* 广告位 6: 移动端横幅 320×50 */}
       <AdBanner type="banner-320x50" adKey={process.env.NEXT_PUBLIC_AD_MOBILE_320X50} />
+
+      {/* Module 5: Attack on Titan Revolution Perks Tier List */}
+      <section id="perks-tier-list" className="scroll-mt-24 px-4 py-20">
+        <div className="container mx-auto max-w-6xl">
+          <div className="text-center mb-12 scroll-reveal">
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] mb-5">
+              <Shield className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+              <span className="text-sm font-medium">{perksModule.eyebrow}</span>
+            </div>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">{perksModule.title}</h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-4">{perksModule.subtitle}</p>
+            <p className="text-muted-foreground max-w-4xl mx-auto">{perksModule.intro}</p>
+          </div>
+
+          <div className="scroll-reveal space-y-6">
+            {perksModule.tiers.map((tier: any) => (
+              <div key={tier.tier} className="rounded-xl border border-border bg-card overflow-hidden">
+                <div className="grid grid-cols-1 lg:grid-cols-[7rem_1fr]">
+                  <div className="flex lg:flex-col items-center justify-center gap-2 bg-[hsl(var(--nav-theme)/0.1)] border-b lg:border-b-0 lg:border-r border-border p-5">
+                    <span className="text-4xl font-bold text-[hsl(var(--nav-theme-light))]">{tier.tier}</span>
+                    <span className="text-xs uppercase text-muted-foreground">{perksModule.tierLabel}</span>
+                  </div>
+                  <div className="p-5">
+                    <p className="text-muted-foreground mb-5">{tier.summary}</p>
+                    <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
+                      {tier.perks.map((perk: any) => (
+                        <details key={perk.name} className="group rounded-xl border border-border bg-muted/20 p-5">
+                          <summary className="flex cursor-pointer list-none items-start justify-between gap-4">
+                            <div>
+                              <h3 className="text-lg font-bold">{perk.name}</h3>
+                              <div className="mt-2 flex flex-wrap gap-2">
+                                <span className="rounded-full border border-[hsl(var(--nav-theme)/0.25)] bg-[hsl(var(--nav-theme)/0.08)] px-3 py-1 text-xs text-[hsl(var(--nav-theme-light))]">
+                                  {perk.rarity}
+                                </span>
+                                <span className="rounded-full border border-border bg-card px-3 py-1 text-xs text-muted-foreground">
+                                  {perk.category}
+                                </span>
+                              </div>
+                            </div>
+                            <ChevronDown className="mt-1 h-5 w-5 flex-shrink-0 text-muted-foreground transition-transform group-open:rotate-180" />
+                          </summary>
+
+                          <div className="mt-5 space-y-4">
+                            <div>
+                              <p className="text-xs uppercase text-muted-foreground mb-2">{perksModule.bestForLabel}</p>
+                              <div className="flex flex-wrap gap-2">
+                                {perk.best_for.map((item: string) => (
+                                  <span key={item} className="rounded-full border border-border bg-card px-2 py-1 text-xs">
+                                    {item}
+                                  </span>
+                                ))}
+                              </div>
+                            </div>
+
+                            <div className="rounded-lg border border-border bg-card p-4">
+                              <p className="text-xs uppercase text-muted-foreground mb-2">{perksModule.whyLabel}</p>
+                              <p className="text-sm text-muted-foreground">{perk.why_it_ranks_here}</p>
+                            </div>
+
+                            <div className="rounded-lg border border-[hsl(var(--nav-theme)/0.25)] bg-[hsl(var(--nav-theme)/0.08)] p-4">
+                              <p className="text-xs uppercase text-muted-foreground mb-2">{perksModule.recommendedUseLabel}</p>
+                              <p className="text-sm">{perk.recommended_use}</p>
+                            </div>
+                          </div>
+                        </details>
+                      ))}
+                    </div>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Module 6: Attack on Titan Revolution Skill Tree Guide */}
+      <section id="skill-tree-guide" className="scroll-mt-24 px-4 py-20 bg-muted/20">
+        <div className="container mx-auto max-w-6xl">
+          <div className="text-center mb-12 scroll-reveal">
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] mb-5">
+              <TrendingUp className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+              <span className="text-sm font-medium">{skillTreeModule.eyebrow}</span>
+            </div>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">{skillTreeModule.title}</h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-4">{skillTreeModule.subtitle}</p>
+            <p className="text-muted-foreground max-w-4xl mx-auto">{skillTreeModule.intro}</p>
+          </div>
+
+          <div className="scroll-reveal grid grid-cols-1 lg:grid-cols-2 gap-5">
+            {skillTreeModule.steps.map((step: any) => (
+              <article key={step.step} className="rounded-xl border border-border bg-card p-6">
+                <div className="flex items-start gap-4 mb-5">
+                  <div className="flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-full border border-[hsl(var(--nav-theme)/0.4)] bg-[hsl(var(--nav-theme)/0.1)] text-lg font-bold text-[hsl(var(--nav-theme-light))]">
+                    {step.step}
+                  </div>
+                  <div>
+                    <div className="flex flex-wrap items-center gap-2 mb-2">
+                      <h3 className="text-xl font-bold">{step.title}</h3>
+                      {step.tree && (
+                        <span className="rounded-full border border-[hsl(var(--nav-theme)/0.25)] bg-[hsl(var(--nav-theme)/0.08)] px-3 py-1 text-xs text-[hsl(var(--nav-theme-light))]">
+                          {step.tree}
+                        </span>
+                      )}
+                    </div>
+                    <p className="text-sm text-muted-foreground">{step.goal}</p>
+                  </div>
+                </div>
+
+                <div className="space-y-5">
+                  {Array.isArray(step.details) && (
+                    <div>
+                      <p className="text-xs uppercase text-muted-foreground mb-2">{skillTreeModule.detailsLabel}</p>
+                      <DetailValue value={step.details} />
+                    </div>
+                  )}
+
+                  {step.total_stat_buffs && (
+                    <div>
+                      <p className="text-xs uppercase text-muted-foreground mb-2">{skillTreeModule.statBuffsLabel}</p>
+                      <div className="grid grid-cols-1 gap-3">
+                        {Object.entries(step.total_stat_buffs).map(([pathName, buffs]) => (
+                          <div key={pathName} className="rounded-lg border border-border bg-muted/30 p-4">
+                            <p className="font-semibold mb-2">{formatDetailLabel(pathName)}</p>
+                            <DetailValue value={buffs} />
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+                  )}
+
+                  {Array.isArray(step.key_skills) && (
+                    <div>
+                      <p className="text-xs uppercase text-muted-foreground mb-2">{skillTreeModule.keySkillsLabel}</p>
+                      <div className="grid grid-cols-1 gap-3">
+                        {step.key_skills.map((skill: any) => (
+                          <div key={`${step.step}-${skill.name}`} className="rounded-lg border border-border bg-muted/30 p-4">
+                            <div className="flex flex-wrap items-center gap-2 mb-2">
+                              <h4 className="font-semibold">{skill.name}</h4>
+                              {skill.unlock_level && (
+                                <span className="rounded-full border border-border bg-card px-2 py-1 text-xs text-muted-foreground">
+                                  Level {skill.unlock_level}
+                                </span>
+                              )}
+                              {skill.family && (
+                                <span className="rounded-full border border-[hsl(var(--nav-theme)/0.25)] bg-[hsl(var(--nav-theme)/0.08)] px-2 py-1 text-xs">
+                                  {skill.family}
+                                </span>
+                              )}
+                            </div>
+                            <p className="text-xs text-muted-foreground mb-1">{skill.role}</p>
+                            <p className="text-sm text-muted-foreground">{skill.use_case}</p>
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+                  )}
+
+                  {Array.isArray(step.recommended_path) && (
+                    <div className="rounded-lg border border-[hsl(var(--nav-theme)/0.25)] bg-[hsl(var(--nav-theme)/0.08)] p-4">
+                      <p className="text-xs uppercase text-muted-foreground mb-2">{skillTreeModule.recommendedPathLabel}</p>
+                      <DetailValue value={step.recommended_path} />
+                    </div>
+                  )}
+
+                  {Array.isArray(step.best_for) && (
+                    <div>
+                      <p className="text-xs uppercase text-muted-foreground mb-2">{skillTreeModule.bestForLabel}</p>
+                      <div className="flex flex-wrap gap-2">
+                        {step.best_for.map((item: string) => (
+                          <span key={item} className="rounded-full border border-border bg-muted/30 px-3 py-1 text-xs">
+                            {item}
+                          </span>
+                        ))}
+                      </div>
+                    </div>
+                  )}
+                </div>
+              </article>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Module 7: Attack on Titan Revolution Prestige Guide */}
+      <section id="prestige-guide" className="scroll-mt-24 px-4 py-20">
+        <div className="container mx-auto max-w-6xl">
+          <div className="text-center mb-12 scroll-reveal">
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] mb-5">
+              <Sparkles className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+              <span className="text-sm font-medium">{prestigeModule.eyebrow}</span>
+            </div>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">{prestigeModule.title}</h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-4">{prestigeModule.subtitle}</p>
+            <p className="text-muted-foreground max-w-4xl mx-auto">{prestigeModule.intro}</p>
+          </div>
+
+          <div className="scroll-reveal relative space-y-5">
+            <div className="absolute left-6 top-10 bottom-10 w-px bg-[hsl(var(--nav-theme)/0.25)] hidden md:block" />
+            {prestigeModule.steps.map((step: any) => (
+              <article key={step.step} className="relative md:pl-20">
+                <div className="hidden md:flex absolute left-0 top-6 h-12 w-12 items-center justify-center rounded-full border-2 border-[hsl(var(--nav-theme)/0.45)] bg-background text-lg font-bold text-[hsl(var(--nav-theme-light))]">
+                  {step.step}
+                </div>
+                <div className="rounded-xl border border-border bg-card p-6">
+                  <div className="flex items-start gap-4 mb-5 md:hidden">
+                    <div className="flex h-11 w-11 flex-shrink-0 items-center justify-center rounded-full border border-[hsl(var(--nav-theme)/0.4)] bg-[hsl(var(--nav-theme)/0.1)] font-bold text-[hsl(var(--nav-theme-light))]">
+                      {step.step}
+                    </div>
+                    <div>
+                      <h3 className="text-xl font-bold">{step.title}</h3>
+                      <p className="text-sm text-muted-foreground mt-1">{step.goal}</p>
+                    </div>
+                  </div>
+                  <div className="hidden md:block mb-5">
+                    <h3 className="text-2xl font-bold">{step.title}</h3>
+                    <p className="text-muted-foreground mt-2">{step.goal}</p>
+                  </div>
+
+                  <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
+                    {Object.entries(step)
+                      .filter(([key]) => !['step', 'title', 'goal', 'recommended_action'].includes(key))
+                      .map(([key, value]) => (
+                        <div key={key} className="rounded-lg border border-border bg-muted/30 p-4">
+                          <p className="text-xs uppercase text-muted-foreground mb-2">{formatDetailLabel(key)}</p>
+                          <DetailValue value={value} />
+                        </div>
+                      ))}
+                  </div>
+
+                  {step.recommended_action && (
+                    <div className="mt-4 rounded-lg border border-[hsl(var(--nav-theme)/0.25)] bg-[hsl(var(--nav-theme)/0.08)] p-4">
+                      <p className="text-xs uppercase text-muted-foreground mb-2">{prestigeModule.recommendedActionLabel}</p>
+                      <p className="text-sm">{step.recommended_action}</p>
+                    </div>
+                  )}
+                </div>
+              </article>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Module 8: Attack on Titan Revolution Raids Guide */}
+      <section id="raids-guide" className="scroll-mt-24 px-4 py-20 bg-muted/20">
+        <div className="container mx-auto max-w-6xl">
+          <div className="text-center mb-12 scroll-reveal">
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] mb-5">
+              <AlertTriangle className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+              <span className="text-sm font-medium">{raidsModule.eyebrow}</span>
+            </div>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">{raidsModule.title}</h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-4">{raidsModule.subtitle}</p>
+            <p className="text-muted-foreground max-w-4xl mx-auto">{raidsModule.intro}</p>
+          </div>
+
+          <div className="scroll-reveal space-y-4">
+            {raidsModule.panels.map((panel: any) => (
+              <details key={panel.title} open={panel.default_open} className="group rounded-xl border border-border bg-card p-5">
+                <summary className="flex cursor-pointer list-none items-center justify-between gap-4">
+                  <div className="flex items-center gap-3">
+                    <div className="flex h-11 w-11 flex-shrink-0 items-center justify-center rounded-lg bg-[hsl(var(--nav-theme)/0.1)]">
+                      <AlertTriangle className="h-5 w-5 text-[hsl(var(--nav-theme-light))]" />
+                    </div>
+                    <div>
+                      <h3 className="text-xl font-bold">{panel.title}</h3>
+                      <p className="text-sm text-muted-foreground">{raidsModule.accordionLabel}</p>
+                    </div>
+                  </div>
+                  <ChevronDown className="h-5 w-5 flex-shrink-0 text-muted-foreground transition-transform group-open:rotate-180" />
+                </summary>
+
+                <div className="mt-5 grid grid-cols-1 lg:grid-cols-2 gap-4">
+                  {Object.entries(panel.content).map(([key, value]) => (
+                    <div key={key} className="rounded-lg border border-border bg-muted/30 p-4">
+                      <p className="text-xs uppercase text-muted-foreground mb-2">{formatDetailLabel(key)}</p>
+                      <DetailValue value={value} />
+                    </div>
+                  ))}
+                </div>
+              </details>
+            ))}
+          </div>
+        </div>
+      </section>
 
       {/* FAQ Section */}
       <Suspense fallback={<LoadingPlaceholder />}>

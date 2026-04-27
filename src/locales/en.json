@@ -56,8 +56,8 @@
   },
   "tools": {
     "title": "Attack on Titan Revolution",
-    "titleHighlight": "Modules",
-    "subtitle": "Jump to the main Attack on Titan Revolution codes, official links, beginner route, and family tier list sections.",
+    "titleHighlight": "Guides",
+    "subtitle": "Jump to Attack on Titan Revolution codes, official links, beginner route, family tiers, perks, skill trees, prestige, and raid sections.",
     "cards": [
       {
         "icon": "ClipboardCheck",
@@ -78,6 +78,26 @@
         "icon": "Star",
         "title": "Attack on Titan Revolution Family Tier List",
         "description": "Fritz, Helos, Ackerman, Yeager, Reiss, and reroll priorities."
+      },
+      {
+        "icon": "Shield",
+        "title": "Attack on Titan Revolution Perks Tier List",
+        "description": "Body, Offense, Defense, and Support perks for every build goal."
+      },
+      {
+        "icon": "TrendingUp",
+        "title": "Attack on Titan Revolution Skill Tree Guide",
+        "description": "Offense, Defense, Support, Family, and Shifter skill routes."
+      },
+      {
+        "icon": "Sparkles",
+        "title": "Attack on Titan Revolution Prestige Guide",
+        "description": "Prestige resets, boosts, memories, scrolls, and long-term rewards."
+      },
+      {
+        "icon": "AlertTriangle",
+        "title": "Attack on Titan Revolution Raids Guide",
+        "description": "Attack, Armored, Female, and Colossal Titan raid mechanics."
       }
     ]
   },
@@ -714,12 +734,1297 @@
           ]
         }
       ]
+    },
+    "attackOnTitanRevolutionPerksTierList": {
+      "name": "Attack on Titan Revolution Perks Tier List",
+      "title": "Attack on Titan Revolution Perks Tier List",
+      "displayType": "tier-grid",
+      "eyebrow": "Perks",
+      "subtitle": "Compare Body, Offense, Defense, and Support perks by strength, role fit, and practical use. Use this tier list to decide what to equip, craft, enhance, or keep for late-game builds.",
+      "intro": "Perks in Attack on Titan Revolution shape your build more than most early upgrades. Mythic perks usually define a playstyle, while lower-rarity perks can still fill important gaps for damage, durability, healing, cooldowns, and raid support.",
+      "tierLabel": "Tier",
+      "perksLabel": "Attack on Titan Revolution Perks",
+      "bestForLabel": "Best for",
+      "categoryLabel": "Category",
+      "rarityLabel": "Rarity",
+      "whyLabel": "Why it ranks here",
+      "recommendedUseLabel": "Recommended Attack on Titan Revolution use",
+      "tiers": [
+        {
+          "tier": "SS",
+          "summary": "Build-defining Mythic perks that fit top-end ODM, Shifter, raid, or support setups.",
+          "perks": [
+            {
+              "name": "Heavenly Restriction",
+              "category": "Body",
+              "rarity": "Mythic",
+              "best_for": [
+                "ODM damage",
+                "Titan Shifter stats",
+                "high-skill solo play"
+              ],
+              "why_it_ranks_here": "A high-risk, high-reward perk that boosts overall ODM and Titan Shifter performance while limiting skill usage. It is strongest for players who can survive with fewer active tools and want raw stat scaling.",
+              "recommended_use": "Use it when your build already has strong control, movement, and survivability from gear, family, memories, or teammates."
+            },
+            {
+              "name": "Kengo",
+              "category": "Offense",
+              "rarity": "Mythic",
+              "best_for": [
+                "ODM damage",
+                "blade builds",
+                "mission farming"
+              ],
+              "why_it_ranks_here": "A premier damage perk for ODM-focused players, giving major damage and blade-related value. It is especially useful when you want faster titan clearing without relying only on Shifter uptime.",
+              "recommended_use": "Pair with damage-oriented offense nodes, critical bonuses, and perks that improve durability or resource efficiency."
+            },
+            {
+              "name": "Black Flash",
+              "category": "Offense",
+              "rarity": "Mythic",
+              "best_for": [
+                "critical damage",
+                "mobility builds",
+                "advanced ODM play"
+              ],
+              "why_it_ranks_here": "Rewards speed and aggressive movement with stronger critical output and Phantom dash utility. It fits players who can keep momentum and consistently strike weak points.",
+              "recommended_use": "Use with fast ODM setups, crit-focused memories, and playstyles that constantly reposition around titan napes."
+            },
+            {
+              "name": "Art of War",
+              "category": "Offense",
+              "rarity": "Mythic",
+              "best_for": [
+                "Shifter damage",
+                "Titan form combat",
+                "raid boss pressure"
+              ],
+              "why_it_ranks_here": "One of the strongest choices for Shifter-centered builds because it boosts Titan Shifter attack speed and damage. It is especially valuable when your build revolves around staying effective during transformation windows.",
+              "recommended_use": "Equip on Shifter families and raid builds that need higher boss damage during transformation uptime."
+            },
+            {
+              "name": "Founder's Blessing",
+              "category": "Support",
+              "rarity": "Mythic",
+              "best_for": [
+                "Shifter builds",
+                "awakening uptime",
+                "team utility"
+              ],
+              "why_it_ranks_here": "Improves Shifter consistency through extra shifting value, awakening support, aggro range, and broad Shifter stat bonuses. It is one of the best perks for players who want their Titan form to carry more of the run.",
+              "recommended_use": "Use in raid teams, Shifter farming, and builds that want more frequent or more reliable transformations."
+            },
+            {
+              "name": "Maximum Firepower",
+              "category": "Offense",
+              "rarity": "Mythic",
+              "best_for": [
+                "Thunder Spear builds",
+                "burst damage",
+                "raid damage"
+              ],
+              "why_it_ranks_here": "A top-tier Thunder Spear perk that improves spear count, spear speed, Titan Shifter stats, and recoil handling. It is ideal for players who build around explosive burst rather than blade-only damage.",
+              "recommended_use": "Use when your gear and memories already support Thunder Spear damage, ammo, or cooldown efficiency."
+            },
+            {
+              "name": "Font of Inspiration",
+              "category": "Support",
+              "rarity": "Mythic",
+              "best_for": [
+                "team raids",
+                "support builds",
+                "orders and flares"
+              ],
+              "why_it_ranks_here": "A premium team perk because it improves orders, flares, cooldown flow, and ally defensive value. It is one of the clearest support choices for coordinated raids.",
+              "recommended_use": "Best on a dedicated support player who actively uses orders, red or black flares, and team timing."
+            },
+            {
+              "name": "Immortal",
+              "category": "Defense",
+              "rarity": "Mythic",
+              "best_for": [
+                "survivability",
+                "solo missions",
+                "hard raid learning"
+              ],
+              "why_it_ranks_here": "A defensive anchor that improves health, damage reduction, and injury resistance. It is especially useful when pushing harder content where mistakes can end the run.",
+              "recommended_use": "Use while learning Aberrant raids, solo farming, or running builds that cannot afford frequent injuries."
+            },
+            {
+              "name": "Soulfeed",
+              "category": "Support",
+              "rarity": "Mythic",
+              "best_for": [
+                "sustain",
+                "farming",
+                "long missions"
+              ],
+              "why_it_ranks_here": "Gives gas and health value from kills while helping identify titans. It is excellent for longer missions and farming routes where constant sustain matters.",
+              "recommended_use": "Pair with high-kill ODM builds, solo routes, and mission farming where you can repeatedly chain titan kills."
+            },
+            {
+              "name": "Tatsujin",
+              "category": "Body",
+              "rarity": "Mythic",
+              "best_for": [
+                "ODM control",
+                "speed",
+                "gas efficiency"
+              ],
+              "why_it_ranks_here": "A strong movement and handling perk that improves the core feel of ODM gameplay. It helps both farming and combat by making positioning easier.",
+              "recommended_use": "Use if your build needs better control, range, speed, or gas value rather than pure damage."
+            },
+            {
+              "name": "Unwavering Belief",
+              "category": "Support",
+              "rarity": "Mythic",
+              "best_for": [
+                "party cooldown support",
+                "coordinated teams",
+                "raid utility"
+              ],
+              "why_it_ranks_here": "A team-oriented Mythic support perk that reduces party skill cooldowns through kills while increasing the user's personal cooldown burden. It is strongest when teammates can capitalize on the cooldown support.",
+              "recommended_use": "Best for coordinated raid groups where one player is intentionally built as a support engine."
+            }
+          ]
+        },
+        {
+          "tier": "S",
+          "summary": "Very strong perks that support late-game builds but are usually less build-defining than SS-tier Mythics.",
+          "perks": [
+            {
+              "name": "Eviscerate",
+              "category": "Offense",
+              "rarity": "Legendary",
+              "best_for": [
+                "damage",
+                "weak-point pressure",
+                "ODM combat"
+              ],
+              "why_it_ranks_here": "A strong offensive option for players who want more reliable kill speed before or alongside Mythic perks.",
+              "recommended_use": "Keep it for damage builds until a stronger Mythic offense perk replaces it."
+            },
+            {
+              "name": "Font of Vitality",
+              "category": "Support",
+              "rarity": "Legendary",
+              "best_for": [
+                "healing",
+                "safe progression",
+                "team support"
+              ],
+              "why_it_ranks_here": "A useful sustain perk that fits safer progression and support-oriented play.",
+              "recommended_use": "Use when your team lacks healing or when you are pushing content with frequent injury risk."
+            },
+            {
+              "name": "Gear Master",
+              "category": "Body",
+              "rarity": "Legendary",
+              "best_for": [
+                "ODM handling",
+                "resource value",
+                "general play"
+              ],
+              "why_it_ranks_here": "A strong all-purpose gear perk that improves the consistency of ODM gameplay.",
+              "recommended_use": "Equip when you need a balanced perk for movement and mission consistency."
+            },
+            {
+              "name": "Indefatigable",
+              "category": "Defense",
+              "rarity": "Legendary",
+              "best_for": [
+                "endurance",
+                "long fights",
+                "mistake recovery"
+              ],
+              "why_it_ranks_here": "A good defensive perk for surviving longer fights and reducing the punishment from extended encounters.",
+              "recommended_use": "Use for players still building consistency in Severe or Aberrant content."
+            },
+            {
+              "name": "Peerless Focus",
+              "category": "Offense",
+              "rarity": "Legendary",
+              "best_for": [
+                "critical builds",
+                "precision damage",
+                "boss damage"
+              ],
+              "why_it_ranks_here": "A strong offensive support perk for players who can consistently land high-value hits.",
+              "recommended_use": "Pair with crit-focused offense nodes and fast ODM play."
+            },
+            {
+              "name": "Sixth Sense",
+              "category": "Body",
+              "rarity": "Legendary",
+              "best_for": [
+                "awareness",
+                "safety",
+                "solo play"
+              ],
+              "why_it_ranks_here": "Useful for staying alive and avoiding bad engagements, especially in messy missions or raids.",
+              "recommended_use": "Equip when survival and awareness matter more than maximum damage."
+            },
+            {
+              "name": "Unparalleled Strength",
+              "category": "Offense",
+              "rarity": "Legendary",
+              "best_for": [
+                "raw damage",
+                "ODM combat",
+                "general clearing"
+              ],
+              "why_it_ranks_here": "A reliable damage perk that works across many non-specialized builds.",
+              "recommended_use": "Use as a strong damage option before obtaining stronger Mythic offense perks."
+            }
+          ]
+        },
+        {
+          "tier": "A",
+          "summary": "Good perks for progression, specialized builds, or filling a missing stat gap.",
+          "perks": [
+            {
+              "name": "Experimental Shells",
+              "category": "Offense",
+              "rarity": "Epic",
+              "best_for": [
+                "Thunder Spear utility",
+                "burst builds"
+              ],
+              "why_it_ranks_here": "Useful for explosive playstyles, though usually less complete than Maximum Firepower.",
+              "recommended_use": "Use on Thunder Spear builds while progressing toward stronger spear-focused perks."
+            },
+            {
+              "name": "Heightened Vitality",
+              "category": "Defense",
+              "rarity": "Epic",
+              "best_for": [
+                "health",
+                "safe progression"
+              ],
+              "why_it_ranks_here": "A practical defensive perk that gives newer or mid-game players more room for mistakes.",
+              "recommended_use": "Equip when raid or mission deaths are slowing progression."
+            },
+            {
+              "name": "Invincible",
+              "category": "Defense",
+              "rarity": "Epic",
+              "best_for": [
+                "damage reduction",
+                "raid learning"
+              ],
+              "why_it_ranks_here": "A strong safety perk when survivability matters more than speed.",
+              "recommended_use": "Use while learning boss mechanics or pushing higher difficulty."
+            },
+            {
+              "name": "Mutilate",
+              "category": "Offense",
+              "rarity": "Epic",
+              "best_for": [
+                "limb damage",
+                "titan control"
+              ],
+              "why_it_ranks_here": "Helpful for controlling titans through limb pressure and improving kill setup.",
+              "recommended_use": "Use in missions where disabling titans is valuable."
+            },
+            {
+              "name": "Reckless Abandon",
+              "category": "Offense",
+              "rarity": "Epic",
+              "best_for": [
+                "aggressive damage",
+                "fast clearing"
+              ],
+              "why_it_ranks_here": "A useful offensive perk for players who want more damage and are comfortable taking risks.",
+              "recommended_use": "Use only when your movement and survival are already stable."
+            },
+            {
+              "name": "Solo",
+              "category": "Support",
+              "rarity": "Epic",
+              "best_for": [
+                "solo farming",
+                "independent play"
+              ],
+              "why_it_ranks_here": "A strong situational perk for players who mainly clear content without a full team.",
+              "recommended_use": "Equip for solo mission farming rather than coordinated raid support."
+            },
+            {
+              "name": "Stalwart Durability",
+              "category": "Defense",
+              "rarity": "Epic",
+              "best_for": [
+                "defensive builds",
+                "long fights"
+              ],
+              "why_it_ranks_here": "A good defensive filler for players who need more consistency.",
+              "recommended_use": "Use when survivability is the main blocker."
+            },
+            {
+              "name": "Trauma Battery",
+              "category": "Defense",
+              "rarity": "Epic",
+              "best_for": [
+                "injury-based value",
+                "survival builds"
+              ],
+              "why_it_ranks_here": "Provides practical defensive value in messy fights where injuries are common.",
+              "recommended_use": "Use if your build regularly takes injuries but can continue fighting."
+            }
+          ]
+        },
+        {
+          "tier": "B",
+          "summary": "Usable progression perks. Keep them early, but replace them once stronger Epic, Legendary, or Mythic perks are available.",
+          "perks": [
+            {
+              "name": "Adrenaline",
+              "category": "Body",
+              "rarity": "Rare",
+              "best_for": [
+                "early mobility",
+                "low-health clutching"
+              ],
+              "why_it_ranks_here": "Can help in early progression but is not a long-term build centerpiece.",
+              "recommended_use": "Use temporarily until you roll stronger movement or defensive perks."
+            },
+            {
+              "name": "Fully Stocked",
+              "category": "Support",
+              "rarity": "Rare",
+              "best_for": [
+                "resource comfort",
+                "mission farming"
+              ],
+              "why_it_ranks_here": "Useful when resupply issues are slowing your runs.",
+              "recommended_use": "Good for early missions before you have better sustain tools."
+            },
+            {
+              "name": "Protection",
+              "category": "Defense",
+              "rarity": "Rare",
+              "best_for": [
+                "damage reduction",
+                "new players"
+              ],
+              "why_it_ranks_here": "Simple defensive value, but outclassed by higher-rarity defensive perks.",
+              "recommended_use": "Use while learning titan patterns and replace later."
+            },
+            {
+              "name": "Siphoning",
+              "category": "Support",
+              "rarity": "Rare",
+              "best_for": [
+                "sustain",
+                "longer missions"
+              ],
+              "why_it_ranks_here": "Useful for keeping runs going, especially before stronger healing perks are available.",
+              "recommended_use": "Use in farming routes with frequent kills."
+            },
+            {
+              "name": "Speedy",
+              "category": "Body",
+              "rarity": "Rare",
+              "best_for": [
+                "movement",
+                "basic ODM comfort"
+              ],
+              "why_it_ranks_here": "Helps early movement but does not provide enough late-game value alone.",
+              "recommended_use": "Use until a stronger Body or ODM-focused perk replaces it."
+            }
+          ]
+        }
+      ]
+    },
+    "attackOnTitanRevolutionSkillTreeGuide": {
+      "name": "Attack on Titan Revolution Skill Tree Guide",
+      "title": "Attack on Titan Revolution Skill Tree Guide",
+      "displayType": "step-by-step",
+      "eyebrow": "Build Guide",
+      "subtitle": "Learn how to spend skill points, which active skills unlock first, and how each tree supports different goals. This guide separates ODM damage, survivability, cooldown support, family skills, and Titan Shifter routes.",
+      "intro": "Skill Trees are your main character progression system after basic leveling. Circle nodes are passive upgrades, diamond nodes are active skills you can equip, and resets cost 999 gems while refunding your spent skill points and gold.",
+      "stepLabel": "Step",
+      "goalLabel": "Goal",
+      "detailsLabel": "Attack on Titan Revolution details",
+      "keySkillsLabel": "Key skills",
+      "statBuffsLabel": "Stat paths",
+      "recommendedPathLabel": "Recommended path",
+      "bestForLabel": "Best for",
+      "treeLabel": "Tree",
+      "steps": [
+        {
+          "step": 1,
+          "title": "Understand how Skill Trees work",
+          "goal": "Know what each node type does before spending points.",
+          "details": [
+            "Skill points are earned through leveling and spent across different trees.",
+            "Circle nodes are passive stat upgrades such as damage, durability, cooldown reduction, health, or injury resistance.",
+            "Diamond nodes unlock active skills that must be equipped into your skill slots.",
+            "A skill tree reset costs 999 gems and refunds skill points and gold."
+          ],
+          "recommended_for": [
+            "new players",
+            "returning players",
+            "players planning a full build reset"
+          ]
+        },
+        {
+          "step": 2,
+          "title": "Start with Offense if your goal is faster clearing",
+          "goal": "Improve ODM damage, critical output, blade value, and active attack skills.",
+          "tree": "Offense",
+          "total_stat_buffs": {
+            "default_path": [
+              "+7.5% Damage",
+              "+5% Swing Duration or +6% Blast Radius",
+              "+6% Blade Durability or +6 Spear Ammunition",
+              "+3% Critical Chance",
+              "+5% Critical Damage"
+            ],
+            "damage_path": [
+              "+16% Swing Duration or +24% Blast Radius",
+              "+10% Blade Durability or Conservation Chance",
+              "+30% Damage"
+            ],
+            "critical_path": [
+              "+15% Critical Chance",
+              "+30% Critical Damage"
+            ]
+          },
+          "key_skills": [
+            {
+              "name": "Hand Grinder",
+              "unlock_level": 3,
+              "role": "Escape tool",
+              "use_case": "Automatically escapes a titan grab at the cost of a blade segment."
+            },
+            {
+              "name": "Blade Dance",
+              "unlock_level": 7,
+              "role": "Mobility attack",
+              "use_case": "Boosts toward your cursor and performs a slash, useful for aggressive ODM movement."
+            },
+            {
+              "name": "Drill Thrust",
+              "unlock_level": "14A",
+              "role": "Directional damage",
+              "use_case": "Spins forward toward the cursor and damages titans on contact."
+            },
+            {
+              "name": "Rising Slash",
+              "unlock_level": "14B",
+              "role": "Area slash",
+              "use_case": "Launches upward and slashes around the player."
+            },
+            {
+              "name": "Torrential Steel",
+              "unlock_level": "23A",
+              "role": "Sustained damage",
+              "use_case": "Spins for several seconds and deals contact damage."
+            },
+            {
+              "name": "Lethal Tempo",
+              "unlock_level": "23B",
+              "role": "Chain kill",
+              "use_case": "Kills a nearby titan and can chain to additional targets, but forcefully breaks one blade."
+            }
+          ],
+          "recommended_path": [
+            "Unlock Hand Grinder early for safety.",
+            "Take Blade Dance for movement and faster titan engagement.",
+            "Choose Drill Thrust or Rising Slash based on whether you prefer directional burst or vertical slash coverage.",
+            "Build toward Torrential Steel for sustained clearing or Lethal Tempo for chain-kill pressure.",
+            "Add critical nodes when you can consistently hit napes and weak points."
+          ],
+          "best_for": [
+            "ODM damage",
+            "mission farming",
+            "solo clearing",
+            "players who want faster kill speed"
+          ]
+        },
+        {
+          "step": 3,
+          "title": "Use Defense when deaths, injuries, or grabs are blocking progress",
+          "goal": "Increase health, reduce damage, resist injuries, and survive harder content.",
+          "tree": "Defense",
+          "total_stat_buffs": {
+            "default_path": [
+              "+17.5 Health",
+              "+15% Injury Chance Reduction"
+            ],
+            "endurance_path": [
+              "+30% Damage Reduction"
+            ],
+            "survival_path": [
+              "+87.5 Health"
+            ]
+          },
+          "key_skills": [
+            {
+              "name": "Counter",
+              "unlock_level": 3,
+              "role": "Timed defensive answer",
+              "use_case": "Used at the moment of impact before being stunned to cripple a titan limb."
+            },
+            {
+              "name": "Emergency Relocation",
+              "unlock_level": "10A",
+              "role": "Injury recovery",
+              "use_case": "Consumes current health to heal an injury and gives temporary injury resistance and critical chance."
+            },
+            {
+              "name": "Hardy Counter",
+              "unlock_level": "10B",
+              "role": "Grab escape",
+              "use_case": "Allows escape from a grab and kills the titan."
+            },
+            {
+              "name": "Iron Resolve",
+              "unlock_level": "19B",
+              "role": "Damage reduction",
+              "use_case": "Gives damage reduction and gains extra value when injured."
+            }
+          ],
+          "recommended_path": [
+            "Take early health and injury resistance if you are dying before finishing missions.",
+            "Pick Counter or Hardy Counter if grabs are the main problem.",
+            "Use Emergency Relocation when injury recovery is more important than raw damage.",
+            "Build into Endurance for raid learning and Survival for safer solo runs."
+          ],
+          "best_for": [
+            "raid learning",
+            "solo survivability",
+            "players struggling with injuries",
+            "harder mission difficulties"
+          ]
+        },
+        {
+          "step": 4,
+          "title": "Use Support when your team needs healing, resupply, flare value, or orders",
+          "goal": "Improve team utility, cooldown flow, healing, and coordinated damage windows.",
+          "tree": "Support",
+          "total_stat_buffs": {
+            "default_path": [
+              "+10% Durability or +5% Conservation Chance",
+              "+7.5% Gear Control",
+              "+1 Health Regen"
+            ],
+            "triage_path": [
+              "+6 Health Regen"
+            ],
+            "commander_path": [
+              "+35% Cooldown Reduction",
+              "+25% Injury Chance Reduction"
+            ]
+          },
+          "key_skills": [
+            {
+              "name": "Bandages",
+              "unlock_level": 3,
+              "role": "Healing",
+              "use_case": "Provides two bandages that heal health and treat limb injuries."
+            },
+            {
+              "name": "Red Flare",
+              "unlock_level": 7,
+              "role": "Target marking",
+              "use_case": "Marks up to five titans within range and makes them take more damage and critical pressure."
+            },
+            {
+              "name": "Advanced Medic",
+              "unlock_level": "13A",
+              "role": "Better healing",
+              "use_case": "Improves bandage healing and expands injury treatment."
+            },
+            {
+              "name": "Acoustic Shells",
+              "unlock_level": "13B",
+              "role": "Aggro control",
+              "use_case": "Draws titan attention and can help force grabbed players to be dropped."
+            },
+            {
+              "name": "Portable Resupply",
+              "unlock_level": "15A",
+              "role": "Resource recovery",
+              "use_case": "Provides refills for extended fights and long missions."
+            },
+            {
+              "name": "Order Advance",
+              "unlock_level": "15B",
+              "role": "Team mobility",
+              "use_case": "Boosts ally ODM speed and control for a short window."
+            },
+            {
+              "name": "Master Medic",
+              "unlock_level": "17A",
+              "role": "Advanced healing",
+              "use_case": "Improves regeneration, injury treatment, and total bandage value."
+            },
+            {
+              "name": "Black Flare",
+              "unlock_level": "17B",
+              "role": "Stronger target marking",
+              "use_case": "Marks more titans over a larger range with stronger damage and critical vulnerability."
+            },
+            {
+              "name": "Resourceful",
+              "unlock_level": "19A",
+              "role": "Resupply upgrade",
+              "use_case": "Reduces resupply cooldown and increases refill count."
+            },
+            {
+              "name": "Order Rage",
+              "unlock_level": "19B",
+              "role": "Team damage buff",
+              "use_case": "Boosts team damage and critical damage."
+            }
+          ],
+          "recommended_path": [
+            "Take Bandages early if your team lacks healing.",
+            "Use Red Flare or Black Flare for team damage windows.",
+            "Choose Portable Resupply and Resourceful for long fights or raid consistency.",
+            "Build Commander if you want cooldown reduction, orders, and repeatable team utility."
+          ],
+          "best_for": [
+            "raid teams",
+            "support players",
+            "co-op missions",
+            "players using Font of Inspiration or Unwavering Belief"
+          ]
+        },
+        {
+          "step": 5,
+          "title": "Add Family skills when your family supports a specialized route",
+          "goal": "Use family-exclusive skills as build multipliers instead of generic upgrades.",
+          "tree": "Family",
+          "key_skills": [
+            {
+              "name": "Swift Strikes",
+              "family": "Ackerman",
+              "role": "Enhanced chain kill",
+              "use_case": "An Ackerman version of Lethal Tempo that can chain to all titans in range."
+            },
+            {
+              "name": "Let it RIP",
+              "family": "Ackerman",
+              "role": "Enhanced sustained damage",
+              "use_case": "An Ackerman version of Torrential Steel with longer spin duration and cursor control."
+            },
+            {
+              "name": "Shifter Regen",
+              "family": "Shifter-related families",
+              "role": "Regeneration",
+              "use_case": "Regenerates health and injuries over time, useful for Titan Shifter playstyles."
+            },
+            {
+              "name": "Potato",
+              "family": "Braus",
+              "role": "Emergency healing",
+              "use_case": "Restores a portion of health and gives Braus players a simple survival tool."
+            }
+          ],
+          "recommended_path": [
+            "Treat family skills as build direction signals.",
+            "Use Ackerman skills for aggressive ODM chain-kill builds.",
+            "Use Shifter Regen when your family and perk setup support Titan Shifter combat.",
+            "Do not over-invest in a family route that does not match your perk and gear plan."
+          ],
+          "best_for": [
+            "family-based builds",
+            "late-game optimization",
+            "specialized ODM or Shifter routes"
+          ]
+        },
+        {
+          "step": 6,
+          "title": "Build Shifter skills around transformation uptime and boss damage",
+          "goal": "Use Titan Shifter skills for raid pressure, crowd control, and burst windows.",
+          "tree": "Titan Shifter",
+          "key_skills": [
+            {
+              "name": "Corkscrew Punch",
+              "role": "Single-target pressure",
+              "use_case": "A direct Titan attack used to pressure boss titans or priority targets."
+            },
+            {
+              "name": "Brutal Stomp",
+              "role": "Area impact",
+              "use_case": "A heavy stomp-style attack that helps control nearby enemies."
+            },
+            {
+              "name": "Uppercut",
+              "role": "Close-range attack",
+              "use_case": "A melee attack used during Titan form combat."
+            },
+            {
+              "name": "Roar",
+              "role": "Control and tempo",
+              "use_case": "A Titan skill used to influence nearby combat flow."
+            },
+            {
+              "name": "Hardening",
+              "role": "Defense and boss mechanics",
+              "use_case": "A defensive Titan mechanic that appears in Titan Shifter play and raid boss behavior."
+            }
+          ],
+          "recommended_path": [
+            "Prioritize Shifter skills if your family, perks, and memories support transformation play.",
+            "Use Art of War, Founder's Blessing, or Shifter-focused memories to improve Titan form value.",
+            "In raids, save major Titan windows for boss phases rather than low-value cleanup."
+          ],
+          "best_for": [
+            "Shifter builds",
+            "raid boss damage",
+            "players using Art of War or Founder's Blessing"
+          ]
+        }
+      ]
+    },
+    "attackOnTitanRevolutionPrestigeGuide": {
+      "name": "Attack on Titan Revolution Prestige Guide",
+      "title": "Attack on Titan Revolution Prestige Guide",
+      "displayType": "step-by-step",
+      "eyebrow": "Progression",
+      "subtitle": "Prestige is the major long-term progression system after reaching the level cap. It resets key progression while giving permanent account power through boosts, memories, gem conversion, and higher level caps.",
+      "intro": "The first Prestige becomes available at level 100 with a full EXP bar. Each later Prestige raises the requirement by 25 levels, and each Prestige gives a permanent boost choice plus one Prestige Memory selection.",
+      "stepLabel": "Step",
+      "goalLabel": "Goal",
+      "requirementsLabel": "Prestige requirements",
+      "resetsLabel": "Resets",
+      "keepsLabel": "Keeps",
+      "boostOptionsLabel": "Boost options",
+      "goldConversionLabel": "Gold conversion",
+      "memoryRulesLabel": "Memory rules",
+      "memoryChancesLabel": "Memory chances",
+      "scrollRulesLabel": "Scroll rules",
+      "pityRatesLabel": "Pity rates",
+      "benefitsLabel": "Prestige benefits",
+      "recommendedActionLabel": "Recommended Attack on Titan Revolution action",
+      "steps": [
+        {
+          "step": 1,
+          "title": "Reach the required level and fill the EXP bar",
+          "goal": "Unlock the Prestige option by reaching the correct level cap.",
+          "requirements": [
+            {
+              "prestige": 1,
+              "rank_name": "Prestige 1",
+              "level_needed": 100,
+              "new_level_cap": 125,
+              "exp_needed": 1952500
+            },
+            {
+              "prestige": 2,
+              "rank_name": "Prestige 2",
+              "level_needed": 125,
+              "new_level_cap": 150,
+              "exp_needed": 3429553
+            },
+            {
+              "prestige": 3,
+              "rank_name": "Prestige 3",
+              "level_needed": 150,
+              "new_level_cap": 175,
+              "exp_needed": 5265320
+            },
+            {
+              "prestige": 4,
+              "rank_name": "Prestige 4",
+              "level_needed": 175,
+              "new_level_cap": 200,
+              "exp_needed": 7334070
+            },
+            {
+              "prestige": 5,
+              "rank_name": "Captain",
+              "level_needed": 200,
+              "new_level_cap": 225,
+              "exp_needed": "Shown in-game after reaching the Prestige 4 cap"
+            }
+          ],
+          "recommended_action": "Do not stop progression too long right before a Prestige. Prestige first, then spend time farming rare long-term items with the new permanent bonuses."
+        },
+        {
+          "step": 2,
+          "title": "Know what resets and what stays",
+          "goal": "Avoid losing progress unexpectedly when you Prestige.",
+          "resets": [
+            "Player level returns to 0.",
+            "Skill tree progression is reset.",
+            "ODM gear grades and Titan Shifter grades are reset.",
+            "Gold is converted into gems based on the current Prestige conversion rate."
+          ],
+          "keeps": [
+            "Prestige Memories",
+            "Perks",
+            "Families",
+            "Perk levels",
+            "Prestige boost choices",
+            "Unlocked long-term account progression tied to Prestige"
+          ],
+          "recommended_action": "Spend your final pre-Prestige time on progression that carries forward, then Prestige when the level and EXP requirement are complete."
+        },
+        {
+          "step": 3,
+          "title": "Choose your permanent Prestige boost",
+          "goal": "Pick the boost that best supports long-term farming.",
+          "boost_options": [
+            {
+              "name": "Luck Boost",
+              "value": "+7.5% Luck",
+              "best_for": [
+                "rare item farming",
+                "family hunting",
+                "raid drops",
+                "late-game progression"
+              ],
+              "recommendation": "Best long-term choice for most players because rare drops and account progression become more important at higher levels."
+            },
+            {
+              "name": "EXP Boost",
+              "value": "+15% EXP",
+              "best_for": [
+                "faster leveling",
+                "rushing later Prestige requirements",
+                "players who mainly grind levels"
+              ],
+              "recommendation": "Good when your main bottleneck is leveling speed rather than rare drops."
+            },
+            {
+              "name": "Gold Boost",
+              "value": "+15% Gold",
+              "best_for": [
+                "upgrade costs",
+                "early economy",
+                "players short on gold"
+              ],
+              "recommendation": "Useful for economy comfort, but usually less valuable than Luck for long-term rare-item goals."
+            }
+          ],
+          "recommended_action": "Pick Luck if you are unsure. Pick EXP only when you are intentionally rushing more Prestige levels."
+        },
+        {
+          "step": 4,
+          "title": "Convert gold into gems during Prestige",
+          "goal": "Understand how your gold turns into gems when you Prestige.",
+          "gold_conversion": [
+            {
+              "prestige": 1,
+              "conversion": "1 gem per 1,500 gold",
+              "gold_cap_for_conversion": "Up to 500,000,000 gold"
+            },
+            {
+              "prestige": 2,
+              "conversion": "1 gem per 1,250 gold",
+              "gold_cap_for_conversion": "Up to 500,000,000 gold"
+            },
+            {
+              "prestige": 3,
+              "conversion": "1 gem per 1,000 gold",
+              "gold_cap_for_conversion": "Up to 500,000,000 gold"
+            },
+            {
+              "prestige": 4,
+              "conversion": "1 gem per 1,000 gold",
+              "gold_cap_for_conversion": "Up to 500,000,000 gold"
+            }
+          ],
+          "extra_gem_bonus": "+10 gems for each AFK Zone payout after Prestige",
+          "recommended_action": "Before prestiging, use or convert your gold intentionally so the reset supports your next build."
+        },
+        {
+          "step": 5,
+          "title": "Pick a Prestige Memory",
+          "goal": "Choose one of three memory options to add permanent build value.",
+          "memory_rules": [
+            "Each Prestige grants one Prestige Memory selection from three offered options.",
+            "Prestige Memories work as talent-style bonuses and cannot be bought or traded like normal perks.",
+            "Duplicate Prestige Memories do not stack.",
+            "Your currently invested skill tree can influence the type of memories you are more likely to see."
+          ],
+          "memory_rarity_chances": [
+            {
+              "stars": "1-star",
+              "chance": "70%"
+            },
+            {
+              "stars": "2-star",
+              "chance": "25%"
+            },
+            {
+              "stars": "3-star",
+              "chance": "4%"
+            },
+            {
+              "stars": "4-star",
+              "chance": "1%"
+            }
+          ],
+          "recommended_action": "Pick memories that match your actual build direction, such as ODM damage, Support utility, Defense safety, or Titan Shifter performance."
+        },
+        {
+          "step": 6,
+          "title": "Use Prestige Scrolls to reroll memory options",
+          "goal": "Improve your memory selection when the default three choices do not fit your build.",
+          "scroll_rules": [
+            "Prestige Scrolls can be used to roll extra Prestige Memory options.",
+            "Prestige Scrolls can be bought or traded.",
+            "After 20 Prestige Scroll rolls, the pity result gives a high-tier memory outcome."
+          ],
+          "pity_rates": [
+            {
+              "stars": "3-star",
+              "chance": "90%"
+            },
+            {
+              "stars": "4-star",
+              "chance": "10%"
+            }
+          ],
+          "recommended_action": "Save Prestige Scrolls for serious build optimization instead of spending them casually on small upgrades."
+        },
+        {
+          "step": 7,
+          "title": "Plan around extra Prestige rewards",
+          "goal": "Use Prestige as a long-term account power system, not just a level reset.",
+          "prestige_benefits": [
+            "+25 level cap per Prestige",
+            "+0.005% Legendary family chance per Prestige",
+            "+1 memory slot per Prestige",
+            "Additional free memory slots added at Prestige 3 and Prestige 5",
+            "Prestige 5 unlocks the Captain Prestige tier"
+          ],
+          "recommended_action": "Prestige early enough to start stacking permanent bonuses, then focus rare-item farming once your account has better Luck, memory slots, and level cap."
+        }
+      ]
+    },
+    "attackOnTitanRevolutionRaidsGuide": {
+      "name": "Attack on Titan Revolution Raids Guide",
+      "title": "Attack on Titan Revolution Raids Guide",
+      "displayType": "accordion",
+      "eyebrow": "Raids",
+      "subtitle": "Raids are multi-phase boss fights with stronger mechanics, difficulty gates, and exclusive rewards. Learn the entry requirements, boss phases, Emperor's Trove rules, and what makes each raid different.",
+      "intro": "Raids are separate from regular missions and focus on boss titans, phases, team coordination, and high-value drops. They can reward cosmetics, serums, artifacts, perks, Emperor's Trove loot, and raid-exclusive items depending on the boss and difficulty.",
+      "accordionLabel": "Attack on Titan Revolution Raid Details",
+      "difficultyLabel": "Difficulties",
+      "rulesLabel": "Core rules",
+      "structureLabel": "Raid structure",
+      "movesLabel": "Boss moves",
+      "mechanicsLabel": "Special mechanics",
+      "tipsLabel": "Raid tips",
+      "rewardsLabel": "Notable rewards",
+      "loadoutLabel": "Loadout recommendations",
+      "bestForLabel": "Best for",
+      "panels": [
+        {
+          "title": "Raid Basics",
+          "default_open": true,
+          "content": {
+            "what_raids_are": "Raids are boss-focused game modes split into phases. They are harder than regular missions and are built around major Titan bosses, mechanics, and reward chests.",
+            "difficulties": [
+              {
+                "name": "Hard",
+                "minimum_grade": "C- Grade",
+                "recommended_for": "First-time raid learning and lower-risk boss practice."
+              },
+              {
+                "name": "Severe",
+                "minimum_grade": "B Grade",
+                "recommended_for": "Stronger teams that want better rewards and harder boss patterns."
+              },
+              {
+                "name": "Aberrant",
+                "minimum_grade": "A Grade",
+                "recommended_for": "Experienced teams, best drop farming, and the hardest raid mechanics."
+              }
+            ],
+            "core_rules": [
+              "Raids are usually phase-based rather than simple titan clearing.",
+              "Raid boss health, mechanics, and pressure scale with difficulty.",
+              "Raids do not give mission streak gems in the same way regular missions do.",
+              "Bring healing, resupply value, and players who understand boss mechanics.",
+              "A player must earn enough raid credit to open raid chests."
+            ],
+            "emperor_trove": {
+              "item_needed": "Emperor Key",
+              "purpose": "Opens the Emperor's Trove chest in raids.",
+              "why_it_matters": "Emperor's Trove generally gives better drop chances than the standard raid chest.",
+              "key_sources": [
+                "Raid chest drops",
+                "Daily quests",
+                "Weekly quests",
+                "Market progression",
+                "Trading after the required Prestige"
+              ]
+            }
+          }
+        },
+        {
+          "title": "Attack Titan Raid",
+          "default_open": false,
+          "content": {
+            "boss": "Attack Titan",
+            "release": "Update 1",
+            "structure": [
+              {
+                "phase": 1,
+                "objective": "Protect Eren's Attack Titan from incoming titans.",
+                "key_mechanic": "Pure titans pressure the arena while the team keeps Eren alive."
+              },
+              {
+                "phase": 2,
+                "objective": "Defeat the Attack Titan boss.",
+                "key_mechanic": "ODM users should focus the nape or skull critical points for high damage."
+              }
+            ],
+            "boss_moves": [
+              "Punches",
+              "Corkscrew",
+              "Uppercut",
+              "Brutal Stomp",
+              "Roar on higher difficulty",
+              "Hardening on Severe and above",
+              "Berserk Mode on Aberrant"
+            ],
+            "tips": [
+              "Use the walls and outer space to avoid being overwhelmed by titans.",
+              "ODM users should prioritize weak-point access instead of attacking randomly.",
+              "Save high-damage skills for boss vulnerability windows.",
+              "Bring Support tools if the team struggles with injuries, grabs, or resources."
+            ],
+            "notable_rewards": [
+              "Attack Titan raid drops",
+              "Onikiri-themed gear skin chance",
+              "Raid cosmetics",
+              "Emperor's Trove rewards"
+            ],
+            "best_for": [
+              "first raid progression",
+              "ODM weak-point practice",
+              "learning phase-based boss fights"
+            ]
+          }
+        },
+        {
+          "title": "Armored Titan Raid",
+          "default_open": false,
+          "content": {
+            "boss": "Armored Titan",
+            "release": "Update 2.5",
+            "structure": [
+              {
+                "phase": 1,
+                "objective": "Defend rescue boats while the Armored Titan's Courage shield is active.",
+                "key_mechanic": "The number of boats and failure conditions scale by difficulty."
+              },
+              {
+                "phase": 2,
+                "objective": "Defeat the Armored Titan after the shield phase ends.",
+                "key_mechanic": "Damage taken by the shield in Phase 1 affects the punishment going into Phase 2."
+              }
+            ],
+            "boss_moves": [
+              "Charge-style attacks",
+              "Earth Breaker",
+              "Close-range armored strikes",
+              "Shielded pressure during the first phase"
+            ],
+            "tips": [
+              "Prioritize boat defense before chasing boss damage.",
+              "Treat Earth Breaker as a major danger move and reposition early.",
+              "Coordinate damage windows after the shield phase ends.",
+              "Thunder Spear and ODM teams should avoid wasting burst during immunity or low-value windows."
+            ],
+            "notable_rewards": [
+              "Armored Titan raid drops",
+              "Jötunn-themed gear skin chance",
+              "Raid cosmetics",
+              "Emperor's Trove rewards"
+            ],
+            "best_for": [
+              "team coordination",
+              "defense-objective practice",
+              "players who understand boss phase timing"
+            ]
+          }
+        },
+        {
+          "title": "Female Titan Raid",
+          "default_open": false,
+          "content": {
+            "boss": "Female Titan",
+            "release": "Update 3",
+            "structure": [
+              {
+                "phase": 1,
+                "objective": "Fight Annie's Female Titan down to the phase threshold.",
+                "key_mechanic": "Use weakness marks and controlled damage pressure."
+              },
+              {
+                "phase": 2,
+                "objective": "Fight Eren's Attack Titan during the middle phase.",
+                "key_mechanic": "This phase changes the target and removes the usual pure-titan pressure."
+              },
+              {
+                "phase": 3,
+                "objective": "Return to Annie and finish the Female Titan.",
+                "key_mechanic": "Final-phase execution matters because mistakes can erase progress."
+              }
+            ],
+            "special_mechanics": [
+              "No pure titans appear in this raid.",
+              "A tunnel QTE sequence can punish missed inputs.",
+              "Completing QTE inputs can support awakening and raid momentum.",
+              "Skipping or failing key sequences can cost a large amount of health."
+            ],
+            "tips": [
+              "Use families and builds that perform well in focused boss fights.",
+              "Practice QTE timing before farming higher difficulties.",
+              "Bring high boss damage instead of pure wave-clear tools.",
+              "Coordinate Shifter windows for boss phases instead of using them too early."
+            ],
+            "notable_rewards": [
+              "Female Titan raid drops",
+              "Raid cosmetics",
+              "Luck-affected regular drops",
+              "Emperor's Trove rewards"
+            ],
+            "best_for": [
+              "boss-only raid practice",
+              "QTE mechanics",
+              "Shifter and high-damage ODM builds"
+            ]
+          }
+        },
+        {
+          "title": "Colossal Titan Raid",
+          "default_open": false,
+          "content": {
+            "boss": "Colossal Titan",
+            "release": "Update 4",
+            "requirements": [
+              "Prestige 2 or higher",
+              "Aberrant difficulty"
+            ],
+            "structure": [
+              {
+                "phase": 1,
+                "objective": "Stall Bertholdt's Colossal Titan before it reaches the wall.",
+                "key_mechanic": "The Colossal Titan moves toward the wall while Eren is vulnerable. Cannons are required to damage the boss during this phase."
+              },
+              {
+                "phase": 2,
+                "objective": "Defeat Bertholdt's Colossal Titan.",
+                "key_mechanic": "The Colossal Titan only takes damage from the nape during this phase."
+              }
+            ],
+            "win_condition": "Keep Eren alive while completing the raid objectives.",
+            "failure_pressure": "If Eren dies, the raid fails and the run can lose streak progress.",
+            "tips": [
+              "Assign players to cannon duty during the first phase.",
+              "Protect Eren as the main win condition.",
+              "Save mobility and burst tools for nape access in Phase 2.",
+              "Use coordinated Support skills, healing, and damage buffs because this raid is locked to high-end difficulty."
+            ],
+            "notable_rewards": [
+              {
+                "name": "Colossal Serum",
+                "rarity": "Mythic",
+                "use": "Unlocks Colossal Titan shifting and can be used for trading.",
+                "drop_chance": {
+                  "free_raid_chest": "0.20%",
+                  "emperor_trove": "0.40%"
+                }
+              },
+              {
+                "name": "Colossal Shard",
+                "rarity": "Legendary",
+                "use": "Colossal Titan progression material."
+              },
+              {
+                "name": "Colossal Scars",
+                "rarity": "Mythic",
+                "slot": "Face",
+                "effects": [
+                  "+15% Colossal stats",
+                  "+1 shift",
+                  "-20% awakening drain for Colossal",
+                  "Atomic Ascension range bonus"
+                ]
+              },
+              {
+                "name": "Scorched Cloak",
+                "rarity": "Mythic",
+                "slot": "Back",
+                "effects": [
+                  "+5% burn damage on all attacks",
+                  "Burn damage multiplier",
+                  "+5 health regeneration"
+                ]
+              },
+              {
+                "name": "Sweater",
+                "rarity": "Legendary",
+                "slot": "Back",
+                "effects": [
+                  "+10% Titan Shifter range",
+                  "+10% Titan Shifter control"
+                ]
+              },
+              {
+                "name": "Sleeping Mask",
+                "rarity": "Epic",
+                "slot": "Face",
+                "effects": [
+                  "+2.5 health regeneration"
+                ]
+              }
+            ],
+            "best_for": [
+              "endgame raid teams",
+              "Colossal Titan unlock farming",
+              "high-difficulty coordinated play"
+            ]
+          }
+        },
+        {
+          "title": "Raid Loadout Recommendations",
+          "default_open": false,
+          "content": {
+            "odm_damage": [
+              "Use Offense nodes for damage, critical chance, critical damage, and active attack skills.",
+              "Kengo, Black Flash, and strong blade or crit perks fit fast boss pressure.",
+              "Aim for weak points instead of spending time on low-value body hits."
+            ],
+            "thunder_spear": [
+              "Use Thunder Spear-focused stats and perks when you want burst damage.",
+              "Maximum Firepower is the standout perk for spear count, speed, and spear handling.",
+              "Avoid wasting spear burst during shielded or immunity windows."
+            ],
+            "shifter": [
+              "Use Art of War, Founder's Blessing, and Shifter memories when Titan form is your core damage source.",
+              "Save transformation windows for boss phases, not low-value cleanup.",
+              "Colossal, Attack, Armored, and Female Titan fights all reward good timing more than random transformation use."
+            ],
+            "support": [
+              "Use Bandages, Portable Resupply, Red Flare, Black Flare, Order Advance, or Order Rage depending on team needs.",
+              "Font of Inspiration works well for team orders and flare-heavy support.",
+              "Unwavering Belief is best when the team can benefit from repeated party cooldown reductions."
+            ],
+            "defense": [
+              "Use Defense nodes, Immortal, or health and damage-reduction perks when learning Aberrant raids.",
+              "Counter, Hardy Counter, and Emergency Relocation help prevent one mistake from ending the run.",
+              "Survivability is especially important in raids where a failed objective or dead teammate can collapse the run."
+            ]
+          }
+        }
+      ]
     }
   },
   "faq": {
     "title": "Attack on Titan Revolution",
     "titleHighlight": "FAQ",
-    "subtitle": "Answers for Attack on Titan Revolution codes, progression, Families, Perks, Raids, and official Roblox links.",
+    "subtitle": "Answers for Attack on Titan Revolution codes, progression, Families, Perks, Skill Trees, Prestige, Raids, and official Roblox links.",
     "questions": [
       {
         "question": "What is Attack on Titan Revolution on Roblox?",
@@ -734,16 +2039,24 @@
         "answer": "Attack on Titan Revolution Families such as Fritz, Helos, Ackerman, Yeager, Reiss, Leonhart, and Tybur are strong keeps because they support high-value ODM, shifter, raid, or utility builds."
       },
       {
+        "question": "Which Attack on Titan Revolution perks should I target?",
+        "answer": "Attack on Titan Revolution perk targets depend on your build: Kengo and Black Flash support ODM damage, Art of War and Founder's Blessing support Shifter play, and Font of Inspiration supports raid teams."
+      },
+      {
+        "question": "How should I spend Attack on Titan Revolution skill points?",
+        "answer": "Attack on Titan Revolution skill points should follow your build goal: Offense for faster clears, Defense for safer progression, Support for raid utility, Family skills for specialty routes, and Shifter skills for Titan form uptime."
+      },
+      {
+        "question": "When should I prestige in Attack on Titan Revolution?",
+        "answer": "Prestige in Attack on Titan Revolution after reaching the required level and full EXP bar, then choose a permanent boost and Prestige Memory that match your long-term farming or raid plan."
+      },
+      {
         "question": "When should I start Attack on Titan Revolution Raids?",
         "answer": "Start Attack on Titan Revolution Raids after your Missions, ODM control, gear upgrades, Family choice, Perks, and skill-tree path can support phase-based boss fights."
       },
       {
         "question": "Where are the official Attack on Titan Revolution Trello and Discord links?",
         "answer": "The official Attack on Titan Revolution links section includes the Roblox game page, Trello board, Discord server, Wiki, Roblox community, and EvolutionPower social channel."
-      },
-      {
-        "question": "What should Attack on Titan Revolution beginners focus on first?",
-        "answer": "Attack on Titan Revolution beginners should learn ODM movement, run Missions, redeem codes, upgrade gear evenly, understand Families and Perks, then move into Raids and Update 4 content."
       }
     ]
   },
