@@ -9,15 +9,25 @@ import {
   ChevronDown,
   ClipboardCheck,
   Copy,
+  Crosshair,
   ExternalLink,
+  Flame,
+  Gem,
+  Handshake,
+  History,
   Keyboard,
   Map as MapIcon,
   MessageCircle,
   Package,
   Shield,
+  ShieldCheck,
   Sparkles,
   Star,
+  Swords,
+  Target,
   TrendingUp,
+  Trophy,
+  Users,
   Zap,
 } from 'lucide-react'
 import { useMessages } from 'next-intl'
@@ -100,7 +110,7 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
   const rawMessages = useMessages() as any
   const hasCurrentToolCards =
     Array.isArray(rawMessages.tools?.cards) &&
-    rawMessages.tools.cards.length >= 12 &&
+    rawMessages.tools.cards.length >= 16 &&
     rawMessages.tools.cards.every((card: any) => card?.title?.includes('Attack on Titan Revolution'))
   const t = hasCurrentToolCards
     ? rawMessages
@@ -135,6 +145,14 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
   const artifactsModule = t.modules.attackOnTitanRevolutionArtifactsAndMemoriesGuide
   const missionsModule = t.modules.attackOnTitanRevolutionMissionsGuide
   const controlsModule = t.modules.attackOnTitanRevolutionControlsAndOdmGearGuide
+  const tradingValuesModule = t.modules.attackOnTitanRevolutionTradingValues
+  const armoredRaidModule = t.modules.attackOnTitanRevolutionArmoredTitanRaidGuide
+  const femaleRaidModule = t.modules.attackOnTitanRevolutionFemaleTitanRaidGuide
+  const colossalRaidModule = t.modules.attackOnTitanRevolutionColossalTitanRaidGuide
+  const tradingValueIcons = [Handshake, Gem, Sparkles, Package, Shield, Star, Users, Zap, History]
+  const armoredRaidIcons = [ShieldCheck, AlertTriangle, Shield, ClipboardCheck, Gem, Sparkles, TrendingUp]
+  const femaleRaidIcons = [Swords, Keyboard, Target, Zap, Star, Gem, Trophy]
+  const colossalRaidIcons = [Flame, ShieldCheck, Crosshair, Target, Gem, Package, Star, TrendingUp]
 
   const copyCode = async (code: string) => {
     try {
@@ -594,6 +612,110 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
               </div>
               <h3 className="font-semibold mb-2">{t.tools.cards[11].title}</h3>
               <p className="text-sm text-muted-foreground">{t.tools.cards[11].description}</p>
+            </a>
+
+            <a
+              href="#trading-values"
+              onClick={(event) => {
+                event.preventDefault()
+                scrollToSection('trading-values')
+              }}
+              className="scroll-reveal group p-6 rounded-xl border border-border
+                         bg-card hover:border-[hsl(var(--nav-theme)/0.5)]
+                         transition-all duration-300 cursor-pointer text-left
+                         hover:shadow-lg hover:shadow-[hsl(var(--nav-theme)/0.1)]"
+              style={{ animationDelay: '600ms' }}
+            >
+              <div className="w-12 h-12 rounded-lg mb-4
+                              bg-[hsl(var(--nav-theme)/0.1)]
+                              flex items-center justify-center
+                              group-hover:bg-[hsl(var(--nav-theme)/0.2)]
+                              transition-colors">
+                <DynamicIcon
+                  name={t.tools.cards[12].icon}
+                  className="w-6 h-6 text-[hsl(var(--nav-theme-light))]"
+                />
+              </div>
+              <h3 className="font-semibold mb-2">{t.tools.cards[12].title}</h3>
+              <p className="text-sm text-muted-foreground">{t.tools.cards[12].description}</p>
+            </a>
+
+            <a
+              href="#armored-titan-raid-guide"
+              onClick={(event) => {
+                event.preventDefault()
+                scrollToSection('armored-titan-raid-guide')
+              }}
+              className="scroll-reveal group p-6 rounded-xl border border-border
+                         bg-card hover:border-[hsl(var(--nav-theme)/0.5)]
+                         transition-all duration-300 cursor-pointer text-left
+                         hover:shadow-lg hover:shadow-[hsl(var(--nav-theme)/0.1)]"
+              style={{ animationDelay: '650ms' }}
+            >
+              <div className="w-12 h-12 rounded-lg mb-4
+                              bg-[hsl(var(--nav-theme)/0.1)]
+                              flex items-center justify-center
+                              group-hover:bg-[hsl(var(--nav-theme)/0.2)]
+                              transition-colors">
+                <DynamicIcon
+                  name={t.tools.cards[13].icon}
+                  className="w-6 h-6 text-[hsl(var(--nav-theme-light))]"
+                />
+              </div>
+              <h3 className="font-semibold mb-2">{t.tools.cards[13].title}</h3>
+              <p className="text-sm text-muted-foreground">{t.tools.cards[13].description}</p>
+            </a>
+
+            <a
+              href="#female-titan-raid-guide"
+              onClick={(event) => {
+                event.preventDefault()
+                scrollToSection('female-titan-raid-guide')
+              }}
+              className="scroll-reveal group p-6 rounded-xl border border-border
+                         bg-card hover:border-[hsl(var(--nav-theme)/0.5)]
+                         transition-all duration-300 cursor-pointer text-left
+                         hover:shadow-lg hover:shadow-[hsl(var(--nav-theme)/0.1)]"
+              style={{ animationDelay: '700ms' }}
+            >
+              <div className="w-12 h-12 rounded-lg mb-4
+                              bg-[hsl(var(--nav-theme)/0.1)]
+                              flex items-center justify-center
+                              group-hover:bg-[hsl(var(--nav-theme)/0.2)]
+                              transition-colors">
+                <DynamicIcon
+                  name={t.tools.cards[14].icon}
+                  className="w-6 h-6 text-[hsl(var(--nav-theme-light))]"
+                />
+              </div>
+              <h3 className="font-semibold mb-2">{t.tools.cards[14].title}</h3>
+              <p className="text-sm text-muted-foreground">{t.tools.cards[14].description}</p>
+            </a>
+
+            <a
+              href="#colossal-titan-raid-guide"
+              onClick={(event) => {
+                event.preventDefault()
+                scrollToSection('colossal-titan-raid-guide')
+              }}
+              className="scroll-reveal group p-6 rounded-xl border border-border
+                         bg-card hover:border-[hsl(var(--nav-theme)/0.5)]
+                         transition-all duration-300 cursor-pointer text-left
+                         hover:shadow-lg hover:shadow-[hsl(var(--nav-theme)/0.1)]"
+              style={{ animationDelay: '750ms' }}
+            >
+              <div className="w-12 h-12 rounded-lg mb-4
+                              bg-[hsl(var(--nav-theme)/0.1)]
+                              flex items-center justify-center
+                              group-hover:bg-[hsl(var(--nav-theme)/0.2)]
+                              transition-colors">
+                <DynamicIcon
+                  name={t.tools.cards[15].icon}
+                  className="w-6 h-6 text-[hsl(var(--nav-theme-light))]"
+                />
+              </div>
+              <h3 className="font-semibold mb-2">{t.tools.cards[15].title}</h3>
+              <p className="text-sm text-muted-foreground">{t.tools.cards[15].description}</p>
             </a>
           </div>
         </div>
@@ -1542,6 +1664,274 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
                 </details>
               ))}
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Module 13: Attack on Titan Revolution Trading Values */}
+      <section id="trading-values" className="scroll-mt-24 px-4 py-20">
+        <div className="container mx-auto max-w-6xl">
+          <div className="text-center mb-12 scroll-reveal">
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] mb-5">
+              <Handshake className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+              <span className="text-sm font-medium">{tradingValuesModule.eyebrow}</span>
+            </div>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">{tradingValuesModule.title}</h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-4">{tradingValuesModule.subtitle}</p>
+            <p className="text-muted-foreground max-w-4xl mx-auto">{tradingValuesModule.intro}</p>
+          </div>
+
+          <div className="scroll-reveal hidden lg:block overflow-hidden rounded-xl border border-border bg-card">
+            <div className="overflow-x-auto">
+              <table className="w-full min-w-[980px] text-left text-sm">
+                <thead className="bg-[hsl(var(--nav-theme)/0.1)] text-xs uppercase text-muted-foreground">
+                  <tr>
+                    <th className="px-4 py-4 font-semibold">{tradingValuesModule.categoryLabel}</th>
+                    <th className="px-4 py-4 font-semibold">{tradingValuesModule.unlockRequirementLabel}</th>
+                    <th className="px-4 py-4 font-semibold">{tradingValuesModule.tradableItemsLabel}</th>
+                    <th className="px-4 py-4 font-semibold">{tradingValuesModule.tradeTaxLabel}</th>
+                    <th className="px-4 py-4 font-semibold">{tradingValuesModule.valueCheckLabel}</th>
+                    <th className="px-4 py-4 font-semibold">{tradingValuesModule.playerTipLabel}</th>
+                  </tr>
+                </thead>
+                <tbody className="divide-y divide-border">
+                  {tradingValuesModule.items.map((item: any, index: number) => {
+                    const TradingIcon = tradingValueIcons[index] || Handshake
+
+                    return (
+                      <tr key={item.category} className="align-top hover:bg-muted/20 transition-colors">
+                        <td className="px-4 py-4">
+                          <div className="flex items-start gap-3">
+                            <div className="flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-lg bg-[hsl(var(--nav-theme)/0.1)]">
+                              <TradingIcon className="h-5 w-5 text-[hsl(var(--nav-theme-light))]" />
+                            </div>
+                            <p className="font-semibold text-[hsl(var(--nav-theme-light))]">{item.category}</p>
+                          </div>
+                        </td>
+                        <td className="px-4 py-4 text-muted-foreground">{item.unlock_requirement}</td>
+                        <td className="px-4 py-4 text-muted-foreground">{item.tradable_items}</td>
+                        <td className="px-4 py-4 text-muted-foreground">{item.trade_tax}</td>
+                        <td className="px-4 py-4 text-muted-foreground">{item.value_check}</td>
+                        <td className="px-4 py-4 text-muted-foreground">{item.player_tip}</td>
+                      </tr>
+                    )
+                  })}
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <div className="scroll-reveal lg:hidden grid grid-cols-1 gap-4">
+            {tradingValuesModule.items.map((item: any, index: number) => {
+              const TradingIcon = tradingValueIcons[index] || Handshake
+
+              return (
+                <article key={item.category} className="rounded-xl border border-border bg-card p-5">
+                  <div className="flex items-start gap-3 mb-4">
+                    <div className="flex h-11 w-11 flex-shrink-0 items-center justify-center rounded-lg bg-[hsl(var(--nav-theme)/0.1)]">
+                      <TradingIcon className="h-5 w-5 text-[hsl(var(--nav-theme-light))]" />
+                    </div>
+                    <div>
+                      <h3 className="text-xl font-bold">{item.category}</h3>
+                      <p className="text-sm text-[hsl(var(--nav-theme-light))] mt-1">{item.unlock_requirement}</p>
+                    </div>
+                  </div>
+
+                  <div className="space-y-3">
+                    <div className="rounded-lg border border-border bg-muted/30 p-3">
+                      <p className="text-xs uppercase text-muted-foreground mb-1">{tradingValuesModule.tradableItemsLabel}</p>
+                      <p className="text-sm text-muted-foreground">{item.tradable_items}</p>
+                    </div>
+                    <div className="rounded-lg border border-border bg-muted/30 p-3">
+                      <p className="text-xs uppercase text-muted-foreground mb-1">{tradingValuesModule.tradeTaxLabel}</p>
+                      <p className="text-sm text-muted-foreground">{item.trade_tax}</p>
+                    </div>
+                    <div className="rounded-lg border border-[hsl(var(--nav-theme)/0.25)] bg-[hsl(var(--nav-theme)/0.08)] p-3">
+                      <p className="text-xs uppercase text-muted-foreground mb-1">{tradingValuesModule.valueCheckLabel}</p>
+                      <p className="text-sm">{item.value_check}</p>
+                    </div>
+                    <div className="rounded-lg border border-border bg-muted/30 p-3">
+                      <p className="text-xs uppercase text-muted-foreground mb-1">{tradingValuesModule.playerTipLabel}</p>
+                      <p className="text-sm text-muted-foreground">{item.player_tip}</p>
+                    </div>
+                  </div>
+                </article>
+              )
+            })}
+          </div>
+        </div>
+      </section>
+
+      {/* Module 14: Attack on Titan Revolution Armored Titan Raid Guide */}
+      <section id="armored-titan-raid-guide" className="scroll-mt-24 px-4 py-20 bg-muted/20">
+        <div className="container mx-auto max-w-6xl">
+          <div className="text-center mb-12 scroll-reveal">
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] mb-5">
+              <ShieldCheck className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+              <span className="text-sm font-medium">{armoredRaidModule.eyebrow}</span>
+            </div>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">{armoredRaidModule.title}</h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-4">{armoredRaidModule.subtitle}</p>
+            <p className="text-muted-foreground max-w-4xl mx-auto">{armoredRaidModule.intro}</p>
+          </div>
+
+          <div className="scroll-reveal grid grid-cols-1 lg:grid-cols-2 gap-5">
+            {armoredRaidModule.items.map((step: any, index: number) => {
+              const StepIcon = armoredRaidIcons[index] || ShieldCheck
+
+              return (
+                <article key={step.step} className="rounded-xl border border-border bg-card p-6 hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
+                  <div className="flex items-start gap-4 mb-5">
+                    <div className="flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-full border border-[hsl(var(--nav-theme)/0.4)] bg-[hsl(var(--nav-theme)/0.1)]">
+                      <StepIcon className="h-5 w-5 text-[hsl(var(--nav-theme-light))]" />
+                    </div>
+                    <div>
+                      <div className="flex flex-wrap items-center gap-2 mb-2">
+                        <span className="rounded-full border border-[hsl(var(--nav-theme)/0.25)] bg-[hsl(var(--nav-theme)/0.08)] px-3 py-1 text-xs text-[hsl(var(--nav-theme-light))]">
+                          Step {step.step}
+                        </span>
+                        <h3 className="text-xl font-bold">{step.title}</h3>
+                      </div>
+                      <p className="text-sm text-muted-foreground">{step.description}</p>
+                    </div>
+                  </div>
+
+                  <div className="space-y-5">
+                    <div>
+                      <p className="text-xs uppercase text-muted-foreground mb-3">{armoredRaidModule.detailsLabel}</p>
+                      <ul className="space-y-2">
+                        {step.details.map((detail: string) => (
+                          <li key={detail} className="flex items-start gap-2 text-sm text-muted-foreground">
+                            <Check className="w-4 h-4 flex-shrink-0 text-[hsl(var(--nav-theme-light))] mt-0.5" />
+                            <span>{detail}</span>
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                    <div className="rounded-lg border border-[hsl(var(--nav-theme)/0.25)] bg-[hsl(var(--nav-theme)/0.08)] p-4">
+                      <p className="text-xs uppercase text-muted-foreground mb-2">{armoredRaidModule.playerTipLabel}</p>
+                      <p className="text-sm">{step.player_tip}</p>
+                    </div>
+                  </div>
+                </article>
+              )
+            })}
+          </div>
+        </div>
+      </section>
+
+      {/* Module 15: Attack on Titan Revolution Female Titan Raid Guide */}
+      <section id="female-titan-raid-guide" className="scroll-mt-24 px-4 py-20">
+        <div className="container mx-auto max-w-6xl">
+          <div className="text-center mb-12 scroll-reveal">
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] mb-5">
+              <Swords className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+              <span className="text-sm font-medium">{femaleRaidModule.eyebrow}</span>
+            </div>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">{femaleRaidModule.title}</h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-4">{femaleRaidModule.subtitle}</p>
+            <p className="text-muted-foreground max-w-4xl mx-auto">{femaleRaidModule.intro}</p>
+          </div>
+
+          <div className="scroll-reveal grid grid-cols-1 lg:grid-cols-2 gap-5">
+            {femaleRaidModule.items.map((step: any, index: number) => {
+              const StepIcon = femaleRaidIcons[index] || Swords
+
+              return (
+                <article key={step.step} className="rounded-xl border border-border bg-card p-6 hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
+                  <div className="flex items-start gap-4 mb-5">
+                    <div className="flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-full border border-[hsl(var(--nav-theme)/0.4)] bg-[hsl(var(--nav-theme)/0.1)]">
+                      <StepIcon className="h-5 w-5 text-[hsl(var(--nav-theme-light))]" />
+                    </div>
+                    <div>
+                      <div className="flex flex-wrap items-center gap-2 mb-2">
+                        <span className="rounded-full border border-[hsl(var(--nav-theme)/0.25)] bg-[hsl(var(--nav-theme)/0.08)] px-3 py-1 text-xs text-[hsl(var(--nav-theme-light))]">
+                          Step {step.step}
+                        </span>
+                        <h3 className="text-xl font-bold">{step.title}</h3>
+                      </div>
+                      <p className="text-sm text-muted-foreground">{step.description}</p>
+                    </div>
+                  </div>
+
+                  <div className="space-y-5">
+                    <div>
+                      <p className="text-xs uppercase text-muted-foreground mb-3">{femaleRaidModule.detailsLabel}</p>
+                      <ul className="space-y-2">
+                        {step.details.map((detail: string) => (
+                          <li key={detail} className="flex items-start gap-2 text-sm text-muted-foreground">
+                            <Check className="w-4 h-4 flex-shrink-0 text-[hsl(var(--nav-theme-light))] mt-0.5" />
+                            <span>{detail}</span>
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                    <div className="rounded-lg border border-[hsl(var(--nav-theme)/0.25)] bg-[hsl(var(--nav-theme)/0.08)] p-4">
+                      <p className="text-xs uppercase text-muted-foreground mb-2">{femaleRaidModule.playerTipLabel}</p>
+                      <p className="text-sm">{step.player_tip}</p>
+                    </div>
+                  </div>
+                </article>
+              )
+            })}
+          </div>
+        </div>
+      </section>
+
+      {/* Module 16: Attack on Titan Revolution Colossal Titan Raid Guide */}
+      <section id="colossal-titan-raid-guide" className="scroll-mt-24 px-4 py-20 bg-muted/20">
+        <div className="container mx-auto max-w-6xl">
+          <div className="text-center mb-12 scroll-reveal">
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] mb-5">
+              <Flame className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+              <span className="text-sm font-medium">{colossalRaidModule.eyebrow}</span>
+            </div>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">{colossalRaidModule.title}</h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-4">{colossalRaidModule.subtitle}</p>
+            <p className="text-muted-foreground max-w-4xl mx-auto">{colossalRaidModule.intro}</p>
+          </div>
+
+          <div className="scroll-reveal grid grid-cols-1 lg:grid-cols-2 gap-5">
+            {colossalRaidModule.items.map((step: any, index: number) => {
+              const StepIcon = colossalRaidIcons[index] || Flame
+
+              return (
+                <article key={step.step} className="rounded-xl border border-border bg-card p-6 hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
+                  <div className="flex items-start gap-4 mb-5">
+                    <div className="flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-full border border-[hsl(var(--nav-theme)/0.4)] bg-[hsl(var(--nav-theme)/0.1)]">
+                      <StepIcon className="h-5 w-5 text-[hsl(var(--nav-theme-light))]" />
+                    </div>
+                    <div>
+                      <div className="flex flex-wrap items-center gap-2 mb-2">
+                        <span className="rounded-full border border-[hsl(var(--nav-theme)/0.25)] bg-[hsl(var(--nav-theme)/0.08)] px-3 py-1 text-xs text-[hsl(var(--nav-theme-light))]">
+                          Step {step.step}
+                        </span>
+                        <h3 className="text-xl font-bold">{step.title}</h3>
+                      </div>
+                      <p className="text-sm text-muted-foreground">{step.description}</p>
+                    </div>
+                  </div>
+
+                  <div className="space-y-5">
+                    <div>
+                      <p className="text-xs uppercase text-muted-foreground mb-3">{colossalRaidModule.detailsLabel}</p>
+                      <ul className="space-y-2">
+                        {step.details.map((detail: string) => (
+                          <li key={detail} className="flex items-start gap-2 text-sm text-muted-foreground">
+                            <Check className="w-4 h-4 flex-shrink-0 text-[hsl(var(--nav-theme-light))] mt-0.5" />
+                            <span>{detail}</span>
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                    <div className="rounded-lg border border-[hsl(var(--nav-theme)/0.25)] bg-[hsl(var(--nav-theme)/0.08)] p-4">
+                      <p className="text-xs uppercase text-muted-foreground mb-2">{colossalRaidModule.playerTipLabel}</p>
+                      <p className="text-sm">{step.player_tip}</p>
+                    </div>
+                  </div>
+                </article>
+              )
+            })}
           </div>
         </div>
       </section>

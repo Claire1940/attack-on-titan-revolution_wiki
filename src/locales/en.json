@@ -57,7 +57,7 @@
   "tools": {
     "title": "Attack on Titan Revolution",
     "titleHighlight": "Guides",
-    "subtitle": "Jump to Attack on Titan Revolution codes, official links, beginner route, family tiers, perks, skill trees, prestige, raids, Titan shifting, artifacts, missions, and controls.",
+    "subtitle": "Jump to Attack on Titan Revolution codes, official links, beginner route, family tiers, perks, skill trees, prestige, raids, Titan shifting, artifacts, missions, controls, trading values, and Titan raid guides.",
     "cards": [
       {
         "icon": "ClipboardCheck",
@@ -118,6 +118,26 @@
         "icon": "Keyboard",
         "title": "Attack on Titan Revolution Controls and ODM Gear Guide",
         "description": "PC, Xbox, PlayStation, mobile, ODM hooks, boosts, and upgrades."
+      },
+      {
+        "icon": "Handshake",
+        "title": "Attack on Titan Revolution Trading Values",
+        "description": "Trading access, item categories, taxes, value checks, and deal review tips."
+      },
+      {
+        "icon": "ShieldCheck",
+        "title": "Attack on Titan Revolution Armored Titan Raid Guide",
+        "description": "Boat defense, shield phase, boss finish, Jotunn drops, and Armored Serum farming."
+      },
+      {
+        "icon": "Swords",
+        "title": "Attack on Titan Revolution Female Titan Raid Guide",
+        "description": "Tunnel QTE, Annie phases, Eren boss phase, raid drops, and Female Serum chances."
+      },
+      {
+        "icon": "Flame",
+        "title": "Attack on Titan Revolution Colossal Titan Raid Guide",
+        "description": "Update 4 cannons, Eren defense, nape phase, Colossal Serum, and raid artifacts."
       }
     ]
   },
@@ -2501,17 +2521,50 @@
           "title": "Learn the PC movement basics",
           "platform": "PC",
           "controls": [
-            { "action": "Move", "input": "W / A / S / D" },
-            { "action": "Run", "input": "Left Shift" },
-            { "action": "Jump", "input": "Space" },
-            { "action": "Boost while grappling", "input": "Hold Space" },
-            { "action": "Mega Boost", "input": "Double Space" },
-            { "action": "Slide", "input": "C" },
-            { "action": "Backflip", "input": "Double S" },
-            { "action": "Left Flip", "input": "Double A" },
-            { "action": "Right Flip", "input": "Double D" },
-            { "action": "Up Swerve", "input": "W" },
-            { "action": "Down Swerve", "input": "S" }
+            {
+              "action": "Move",
+              "input": "W / A / S / D"
+            },
+            {
+              "action": "Run",
+              "input": "Left Shift"
+            },
+            {
+              "action": "Jump",
+              "input": "Space"
+            },
+            {
+              "action": "Boost while grappling",
+              "input": "Hold Space"
+            },
+            {
+              "action": "Mega Boost",
+              "input": "Double Space"
+            },
+            {
+              "action": "Slide",
+              "input": "C"
+            },
+            {
+              "action": "Backflip",
+              "input": "Double S"
+            },
+            {
+              "action": "Left Flip",
+              "input": "Double A"
+            },
+            {
+              "action": "Right Flip",
+              "input": "Double D"
+            },
+            {
+              "action": "Up Swerve",
+              "input": "W"
+            },
+            {
+              "action": "Down Swerve",
+              "input": "S"
+            }
           ],
           "practice_tip": "Start by moving around the map without attacking, then add hooks and boost once basic movement feels smooth."
         },
@@ -2520,13 +2573,34 @@
           "title": "Use the PC ODM hook loop",
           "platform": "PC",
           "controls": [
-            { "action": "Right Hook", "input": "E" },
-            { "action": "Left Hook", "input": "Q" },
-            { "action": "Hook Break", "input": "B" },
-            { "action": "Aim ODM direction", "input": "Mouse cursor / camera direction" },
-            { "action": "Gas Boost", "input": "Hold Space while hooked" },
-            { "action": "Slash", "input": "Mouse 1" },
-            { "action": "Reload blades", "input": "R" }
+            {
+              "action": "Right Hook",
+              "input": "E"
+            },
+            {
+              "action": "Left Hook",
+              "input": "Q"
+            },
+            {
+              "action": "Hook Break",
+              "input": "B"
+            },
+            {
+              "action": "Aim ODM direction",
+              "input": "Mouse cursor / camera direction"
+            },
+            {
+              "action": "Gas Boost",
+              "input": "Hold Space while hooked"
+            },
+            {
+              "action": "Slash",
+              "input": "Mouse 1"
+            },
+            {
+              "action": "Reload blades",
+              "input": "R"
+            }
           ],
           "practice_tip": "Aim above or around the titan's nape, hook past the target, boost to build speed, then slash as you pass the weak point."
         },
@@ -2535,18 +2609,54 @@
           "title": "Use PC combat and skill hotkeys",
           "platform": "PC",
           "controls": [
-            { "action": "Basic attack / Slash", "input": "Mouse 1" },
-            { "action": "Hold / Aim", "input": "Mouse 2" },
-            { "action": "Block", "input": "F" },
-            { "action": "Heavy attack", "input": "R" },
-            { "action": "Lock", "input": "Left Control" },
-            { "action": "Menu", "input": "Tab" },
-            { "action": "Skill 1", "input": "1" },
-            { "action": "Skill 2", "input": "2" },
-            { "action": "Skill 3", "input": "3" },
-            { "action": "Skill 4", "input": "4" },
-            { "action": "Skill 5", "input": "5" },
-            { "action": "Invite", "input": "Y" }
+            {
+              "action": "Basic attack / Slash",
+              "input": "Mouse 1"
+            },
+            {
+              "action": "Hold / Aim",
+              "input": "Mouse 2"
+            },
+            {
+              "action": "Block",
+              "input": "F"
+            },
+            {
+              "action": "Heavy attack",
+              "input": "R"
+            },
+            {
+              "action": "Lock",
+              "input": "Left Control"
+            },
+            {
+              "action": "Menu",
+              "input": "Tab"
+            },
+            {
+              "action": "Skill 1",
+              "input": "1"
+            },
+            {
+              "action": "Skill 2",
+              "input": "2"
+            },
+            {
+              "action": "Skill 3",
+              "input": "3"
+            },
+            {
+              "action": "Skill 4",
+              "input": "4"
+            },
+            {
+              "action": "Skill 5",
+              "input": "5"
+            },
+            {
+              "action": "Invite",
+              "input": "Y"
+            }
           ],
           "practice_tip": "Keep reload, block, and skill keys close in muscle memory because high-difficulty missions punish slow reactions."
         },
@@ -2555,21 +2665,66 @@
           "title": "Use Xbox controller bindings",
           "platform": "Xbox",
           "controls": [
-            { "action": "Boost", "input": "B" },
-            { "action": "Mega Boost", "input": "Double B" },
-            { "action": "Reload", "input": "X" },
-            { "action": "Menu", "input": "Y" },
-            { "action": "Run", "input": "Left Stick Press / L3" },
-            { "action": "Zoom", "input": "Right Stick Press / R3" },
-            { "action": "Left Hook / Block", "input": "LB / L1" },
-            { "action": "Right Hook / Heavy", "input": "RB / R1" },
-            { "action": "Slash", "input": "Right Trigger / R2" },
-            { "action": "Skill Modifier", "input": "Left Trigger / L2" },
-            { "action": "Skill 1", "input": "Left Trigger / L2" },
-            { "action": "Skill 2", "input": "Left Trigger / L2 + D-Pad Left" },
-            { "action": "Skill 3", "input": "Left Trigger / L2 + D-Pad Right" },
-            { "action": "Skill 4", "input": "Left Trigger / L2 + D-Pad Down" },
-            { "action": "Skill 5", "input": "Left Trigger / L2 + D-Pad Up" }
+            {
+              "action": "Boost",
+              "input": "B"
+            },
+            {
+              "action": "Mega Boost",
+              "input": "Double B"
+            },
+            {
+              "action": "Reload",
+              "input": "X"
+            },
+            {
+              "action": "Menu",
+              "input": "Y"
+            },
+            {
+              "action": "Run",
+              "input": "Left Stick Press / L3"
+            },
+            {
+              "action": "Zoom",
+              "input": "Right Stick Press / R3"
+            },
+            {
+              "action": "Left Hook / Block",
+              "input": "LB / L1"
+            },
+            {
+              "action": "Right Hook / Heavy",
+              "input": "RB / R1"
+            },
+            {
+              "action": "Slash",
+              "input": "Right Trigger / R2"
+            },
+            {
+              "action": "Skill Modifier",
+              "input": "Left Trigger / L2"
+            },
+            {
+              "action": "Skill 1",
+              "input": "Left Trigger / L2"
+            },
+            {
+              "action": "Skill 2",
+              "input": "Left Trigger / L2 + D-Pad Left"
+            },
+            {
+              "action": "Skill 3",
+              "input": "Left Trigger / L2 + D-Pad Right"
+            },
+            {
+              "action": "Skill 4",
+              "input": "Left Trigger / L2 + D-Pad Down"
+            },
+            {
+              "action": "Skill 5",
+              "input": "Left Trigger / L2 + D-Pad Up"
+            }
           ],
           "practice_tip": "Controller players should practice hook direction, boost timing, and reload rhythm before pushing Aberrant missions or raids."
         },
@@ -2578,21 +2733,66 @@
           "title": "Use PlayStation controller bindings",
           "platform": "PlayStation",
           "controls": [
-            { "action": "Boost", "input": "Circle" },
-            { "action": "Mega Boost", "input": "Double Circle" },
-            { "action": "Reload", "input": "Square" },
-            { "action": "Menu", "input": "Triangle" },
-            { "action": "Run", "input": "L3" },
-            { "action": "Zoom", "input": "R3" },
-            { "action": "Left Hook / Block", "input": "L1" },
-            { "action": "Right Hook / Heavy", "input": "R1" },
-            { "action": "Slash", "input": "R2" },
-            { "action": "Skill Modifier", "input": "L2" },
-            { "action": "Skill 1", "input": "L2" },
-            { "action": "Skill 2", "input": "L2 + D-Pad Left" },
-            { "action": "Skill 3", "input": "L2 + D-Pad Right" },
-            { "action": "Skill 4", "input": "L2 + D-Pad Down" },
-            { "action": "Skill 5", "input": "L2 + D-Pad Up" }
+            {
+              "action": "Boost",
+              "input": "Circle"
+            },
+            {
+              "action": "Mega Boost",
+              "input": "Double Circle"
+            },
+            {
+              "action": "Reload",
+              "input": "Square"
+            },
+            {
+              "action": "Menu",
+              "input": "Triangle"
+            },
+            {
+              "action": "Run",
+              "input": "L3"
+            },
+            {
+              "action": "Zoom",
+              "input": "R3"
+            },
+            {
+              "action": "Left Hook / Block",
+              "input": "L1"
+            },
+            {
+              "action": "Right Hook / Heavy",
+              "input": "R1"
+            },
+            {
+              "action": "Slash",
+              "input": "R2"
+            },
+            {
+              "action": "Skill Modifier",
+              "input": "L2"
+            },
+            {
+              "action": "Skill 1",
+              "input": "L2"
+            },
+            {
+              "action": "Skill 2",
+              "input": "L2 + D-Pad Left"
+            },
+            {
+              "action": "Skill 3",
+              "input": "L2 + D-Pad Right"
+            },
+            {
+              "action": "Skill 4",
+              "input": "L2 + D-Pad Down"
+            },
+            {
+              "action": "Skill 5",
+              "input": "L2 + D-Pad Up"
+            }
           ],
           "practice_tip": "Use the same ODM loop as PC: hook, boost, line up the nape, slash, then reload and reposition."
         },
@@ -2601,10 +2801,22 @@
           "title": "Apply the same ODM loop on mobile",
           "platform": "Mobile / Touch",
           "controls": [
-            { "action": "Aim", "input": "Use camera drag to place the reticle on the hook point or titan path." },
-            { "action": "Hook and Boost", "input": "Use the on-screen hook and boost buttons in sequence." },
-            { "action": "Attack", "input": "Use the on-screen attack button when passing the titan's nape." },
-            { "action": "Reload and Skills", "input": "Use the on-screen reload and skill buttons between engagements." }
+            {
+              "action": "Aim",
+              "input": "Use camera drag to place the reticle on the hook point or titan path."
+            },
+            {
+              "action": "Hook and Boost",
+              "input": "Use the on-screen hook and boost buttons in sequence."
+            },
+            {
+              "action": "Attack",
+              "input": "Use the on-screen attack button when passing the titan's nape."
+            },
+            {
+              "action": "Reload and Skills",
+              "input": "Use the on-screen reload and skill buttons between engagements."
+            }
           ],
           "practice_tip": "Practice the movement loop in tutorial or Training Grounds before farming difficult missions."
         },
@@ -2613,15 +2825,414 @@
           "title": "Upgrade ODM Gear for harder content",
           "platform": "All Platforms",
           "controls": [
-            { "action": "ODM Speed", "input": "Improves movement speed." },
-            { "action": "ODM Damage", "input": "Improves titan-killing power." },
-            { "action": "ODM Control", "input": "Improves handling and movement control." },
-            { "action": "ODM Range", "input": "Improves hook reach." },
-            { "action": "ODM Gas", "input": "Improves boost resource capacity." },
-            { "action": "ODM Durability", "input": "Improves blade durability." },
-            { "action": "Critical Chance and Critical Damage", "input": "Improve damage consistency and burst." }
+            {
+              "action": "ODM Speed",
+              "input": "Improves movement speed."
+            },
+            {
+              "action": "ODM Damage",
+              "input": "Improves titan-killing power."
+            },
+            {
+              "action": "ODM Control",
+              "input": "Improves handling and movement control."
+            },
+            {
+              "action": "ODM Range",
+              "input": "Improves hook reach."
+            },
+            {
+              "action": "ODM Gas",
+              "input": "Improves boost resource capacity."
+            },
+            {
+              "action": "ODM Durability",
+              "input": "Improves blade durability."
+            },
+            {
+              "action": "Critical Chance and Critical Damage",
+              "input": "Improve damage consistency and burst."
+            }
           ],
           "practice_tip": "Upgrade ODM Gear evenly because harder content requires higher gear rating. A common upgrade priority for ODM players is Damage, Speed, Control, Range, Gas, Durability, Critical Chance, and Critical Damage."
+        }
+      ]
+    },
+    "attackOnTitanRevolutionTradingValues": {
+      "name": "Attack on Titan Revolution Trading Values",
+      "title": "Attack on Titan Revolution Trading Values",
+      "displayType": "table",
+      "eyebrow": "Trading",
+      "subtitle": "Check what can be traded, which Prestige level is required, and what tax applies before accepting a deal.",
+      "intro": "Trading in Attack on Titan Revolution lets players exchange items, cosmetics, perks, artifacts, families, and Titan Serums through the Trading Hub. Use this module as a practical trade-check table before moving high-value drops such as Serums, raid cosmetics, artifacts, perks, or rare family rolls.",
+      "categoryLabel": "Category",
+      "unlockRequirementLabel": "Unlock requirement",
+      "tradableItemsLabel": "Tradable items",
+      "tradeTaxLabel": "Trade tax",
+      "valueCheckLabel": "Value check",
+      "playerTipLabel": "Player tip",
+      "items": [
+        {
+          "category": "Trade Hub Access",
+          "unlock_requirement": "Prestige 1",
+          "tradable_items": "Access to the Trading Hub plus basic items and cosmetics.",
+          "trade_tax": "Depends on the item category being traded.",
+          "value_check": "Use recent marketplace listings and official Discord trade ads before confirming.",
+          "player_tip": "Enter the Trading Hub from the main menu, 2D lobby, or 3D lobby. Confirm that both players meet the Prestige requirement for every item in the offer."
+        },
+        {
+          "category": "Cosmetics",
+          "unlock_requirement": "Prestige 1",
+          "tradable_items": "Common, Uncommon, Rare, Epic, Legendary, Mythical, Leaderboard, event, and special cosmetic items.",
+          "trade_tax": "Common: 37 gems; Uncommon: 150 gems; Rare: 300 gems; Epic: 1,500 gems; Legendary: 5,625 gems; Leaderboard: 100,000 gems; Nightfall or Mythical: 200,000 gold.",
+          "value_check": "Compare the item rarity, event availability, raid source, and recent trade ads.",
+          "player_tip": "Leaderboard, Mythical, event, and raid cosmetics need extra value checking because demand can rise above the basic tax number."
+        },
+        {
+          "category": "Exclusive and Special Cosmetics",
+          "unlock_requirement": "Prestige 1",
+          "tradable_items": "Special skins and gear such as Onikiri, Jotunn, Deus Ex Machina, Sunforge, Spirit, Onyx, Easter, and Aincrad gear variants.",
+          "trade_tax": "Onikiri Attack: 200,000 gold; Jotunn Armored: 100,000 gold; Deus Ex Machina Female: 58,000 gold; Legendary TS Gear and Sunforge TS: 116,000 gold; Legendary ODM Gear, Sunforge ODM, and Spirit ODM: 174,000 gold; Onyx/Easter ODM: 90,000 gold; Easter TS and Aincrad ODM: 90,000 gold.",
+          "value_check": "Check whether the cosmetic comes from a raid, event, battlepass, or limited source.",
+          "player_tip": "Special cosmetics should be checked against live market demand because limited supply can make offers vary sharply."
+        },
+        {
+          "category": "Items",
+          "unlock_requirement": "Prestige 1",
+          "tradable_items": "Serums, shards, 2-hour Luck/Gold/EXP boosts, Emperor Keys, Prestige Scrolls, and crates.",
+          "trade_tax": "Serum: 5,000 gems; Shards: 58,000 gold; 2H Luck/Gold/EXP Boost: 60,000 gold; Emperor Keys: 30,000 gold; Prestige Scrolls: 13,000 gold; Crates: 450 gems.",
+          "value_check": "For consumables, compare supply and demand; for Serums and shards, check current trade listings before accepting.",
+          "player_tip": "Emperor Keys and boosts are easier to price than Serums, rare shards, or raid-only items."
+        },
+        {
+          "category": "Perks",
+          "unlock_requirement": "Prestige 2",
+          "tradable_items": "Rare, Epic, Legendary, and Mythical perks.",
+          "trade_tax": "Mythical: 480,000-900,000 gold based on experience; Legendary: 140,000-280,000 gold based on experience; Epic: 72,000-144,000 gold based on experience; Rare/Common: 0.",
+          "value_check": "Check perk rarity, experience level, build relevance, and current demand from players farming raids or Shifter builds.",
+          "player_tip": "Price perks by rarity, experience, and build demand. Raid, ODM, and Titan Shifting perks usually deserve extra review."
+        },
+        {
+          "category": "Artifacts",
+          "unlock_requirement": "Prestige 2",
+          "tradable_items": "Rare, Epic, Legendary, and Mythical artifacts obtained from raids or achievement categories.",
+          "trade_tax": "Mythical: 200,000 gold; Legendary: 140,000 gold; Epic: 72,000 gold; Rare: 32,000 gold.",
+          "value_check": "Compare permanent stat value, substats, reroll quality, and whether the artifact is tied to a raid drop.",
+          "player_tip": "Artifacts affect builds permanently, so strong raid artifacts and clean substats should be reviewed before trading away."
+        },
+        {
+          "category": "Families",
+          "unlock_requirement": "Prestige 3",
+          "tradable_items": "Common, Rare, Epic, Legendary, and Mythical families.",
+          "trade_tax": "Mythical: 50,000 gems; Legendary: 15,000 gems; Epic: 2,500 gems; Rare/Common: 0 gems.",
+          "value_check": "Check family rarity, build compatibility, and whether the family supports raid, ODM, or Titan Shifting playstyles.",
+          "player_tip": "Mythical families that support raids or Shifter builds can be worth more than the tax number alone."
+        },
+        {
+          "category": "Titan Serums",
+          "unlock_requirement": "Prestige 3",
+          "tradable_items": "Attack Serum, Armored Serum, Female Serum, Colossal Serum, and other available Titan Serums.",
+          "trade_tax": "5,000 gems per Serum.",
+          "value_check": "Check the Serum raid source, drop rate, current demand, and recent market listings before accepting.",
+          "player_tip": "Serums are Mythical items. Compare several recent offers before trading one away."
+        },
+        {
+          "category": "Trade Review and History",
+          "unlock_requirement": "Available after completing trades",
+          "tradable_items": "Trade feedback and trade history are not tradable items, but they help verify past activity.",
+          "trade_tax": "No trade tax.",
+          "value_check": "Review the other player offer carefully and use trade history after deals to track recent exchanges.",
+          "player_tip": "The trade history system logs recent trades, and players can leave a review after a trade."
+        }
+      ]
+    },
+    "attackOnTitanRevolutionArmoredTitanRaidGuide": {
+      "name": "Attack on Titan Revolution Armored Titan Raid Guide",
+      "title": "Attack on Titan Revolution Armored Titan Raid Guide",
+      "displayType": "step-by-step",
+      "eyebrow": "Raid Guide",
+      "subtitle": "Protect the rescue boats, break the Armored Titan shield, then finish the boss for raid chests and Armored Serum chances.",
+      "intro": "The Armored Titan Raid was added in Update 2.5 and centers on two goals: defend moving rescue boats from titans and weaken the Armored Titan before the final boss phase. The raid has Hard, Severe, and Aberrant difficulties, with higher difficulty increasing pressure and chest reward value.",
+      "detailsLabel": "Raid details",
+      "playerTipLabel": "Player tip",
+      "items": [
+        {
+          "step": 1,
+          "title": "Know the raid objective",
+          "description": "The Armored Titan Raid has two main phases: defend the rescue boats, then defeat the Armored Titan after his shield is gone.",
+          "details": [
+            "Hard requires defending 1 boat.",
+            "Severe requires defending 2 boats.",
+            "Aberrant requires defending 3 boats.",
+            "The raid fails if 1 boat dies on Hard, or if 2 boats die on Severe or Aberrant."
+          ],
+          "player_tip": "Assign some players to clear titans around boats while the highest-damage players weaken the Armored Titan shield."
+        },
+        {
+          "step": 2,
+          "title": "Phase 1: Defend the rescue boats",
+          "description": "During Phase 1, the Armored Titan activates Courage and gains a shield worth an additional 100% HP.",
+          "details": [
+            "Defend the boats from titan swarms and the Armored Titan.",
+            "Damage to any shielded limb contributes toward Phase 2 damage scaling.",
+            "Every 2.0% shield removed converts into +1.0% extra damage taken by the Armored Titan in Phase 2.",
+            "The Phase 1 health soft cap prevents the Armored Titan from going below 75% red health during this phase."
+          ],
+          "player_tip": "The better your team damages the shield in Phase 1, the faster Phase 2 becomes."
+        },
+        {
+          "step": 3,
+          "title": "Phase 2: Defeat the Armored Titan",
+          "description": "After the shield dissipates, the fight becomes a direct boss kill while pure titans continue spawning around players.",
+          "details": [
+            "Focus the boss when openings are safe.",
+            "Keep clearing nearby titans so players are not grabbed or body-blocked.",
+            "Watch for boss movement and attacks while rotating gas, blades, Thunder Spears, or Shifter cooldowns."
+          ],
+          "player_tip": "Clear nearby pressure before tunneling the boss. Stable team uptime matters more than reckless burst damage."
+        },
+        {
+          "step": 4,
+          "title": "Open the correct chest",
+          "description": "Players must have at least 5% credit to open raid chests.",
+          "details": [
+            "Raider Chest does not require an Emperor Key.",
+            "Emperor Trove requires an Emperor Key.",
+            "Emperor Trove has 2x the drop rates compared with Raider Chest."
+          ],
+          "player_tip": "Save Emperor Keys for runs where you consistently earn enough credit and are farming high-value raid drops."
+        },
+        {
+          "step": 5,
+          "title": "Farm Armored Serum chances",
+          "description": "Armored Serum is a Mythical Serum used for Armored Titan shifting and trading.",
+          "details": [
+            "Hard: 0.03% from Free Raid Chest, 0.06% from Emperor Trove.",
+            "Severe: 0.09% from Free Raid Chest, 0.18% from Emperor Trove.",
+            "Aberrant: 0.20% from Free Raid Chest, 0.40% from Emperor Trove.",
+            "Serums can also be traded to players at Prestige 3 or higher with a 5,000 gem tax."
+          ],
+          "player_tip": "Aberrant plus Emperor Trove is the highest listed Armored Serum chest chance."
+        },
+        {
+          "step": 6,
+          "title": "Watch for the Jotunn Easter egg",
+          "description": "The Armored Titan boss has a 10% chance to spawn with the Jotunn Armored skin.",
+          "details": [
+            "The Jotunn set can drop for ODM or TS depending on the gear used when receiving the drop.",
+            "Jotunn set rate during a Jotunn Raid: 0.3% on Hard, 0.9% on Severe, 3.0% on Aberrant.",
+            "Luck can influence regular raid drops and the Easter egg equipment drop rate."
+          ],
+          "player_tip": "If you are targeting Jotunn gear, run the raid on the highest difficulty your team can clear consistently."
+        },
+        {
+          "step": 7,
+          "title": "Use raid-friendly families and builds",
+          "description": "Raid pages recommend strong families or Titan Shifting for easier raid clears.",
+          "details": [
+            "Recommended options include Ackerman, Shiki, Helos, Fritz, or Titan Shifting.",
+            "ODM damage against raid bosses was buffed in Update 3, while TS damage against raid bosses was reduced in the same balance pass.",
+            "Armored raid boat speed and boat survivability have been adjusted through later patches."
+          ],
+          "player_tip": "Pick a setup that helps your team keep boats alive first, because losing objectives ends the run before rewards matter."
+        }
+      ]
+    },
+    "attackOnTitanRevolutionFemaleTitanRaidGuide": {
+      "name": "Attack on Titan Revolution Female Titan Raid Guide",
+      "title": "Attack on Titan Revolution Female Titan Raid Guide",
+      "displayType": "step-by-step",
+      "eyebrow": "Raid Guide",
+      "subtitle": "Clear the tunnel QTE, fight Annie, defeat Eren Attack Titan, then finish Annie for Female Raid rewards and Serum chances.",
+      "intro": "The Female Titan Raid was released in Update 3 and focuses on Shifter boss fights instead of regular titan waves. Players first survive Annie tunnel sequence, then complete three combat phases against the Female Titan and Attack Titan.",
+      "detailsLabel": "Raid details",
+      "playerTipLabel": "Player tip",
+      "items": [
+        {
+          "step": 1,
+          "title": "Understand the raid structure",
+          "description": "The Female Titan Raid has a tunnel QTE section followed by three boss phases.",
+          "details": [
+            "Phase 1: Defeat Annie by taking 50% of the Female Titan health.",
+            "Phase 2: Defeat Eren, the Attack Titan.",
+            "Phase 3: Defeat Annie again, starting from 50% health.",
+            "The raid has no pure titans and focuses on Titan Shifters instead."
+          ],
+          "player_tip": "Prepare for boss mechanics and single-target damage instead of normal wave-clearing pressure."
+        },
+        {
+          "step": 2,
+          "title": "Dodge Annie in the tunnel QTE",
+          "description": "The raid opens with a quick-time event sequence against Annie in the tunnels.",
+          "details": [
+            "Each missed QTE removes 10% HP.",
+            "Each completed QTE increases awakening bar by 10%.",
+            "Each completed QTE also adds 1.5 Undying Hero stacks for Helos users.",
+            "Skipping the QTE costs 60% HP.",
+            "Timing becomes stricter on higher difficulties, while the inputs remain left and right."
+          ],
+          "player_tip": "Complete the QTE whenever possible so your build keeps health and awakening momentum."
+        },
+        {
+          "step": 3,
+          "title": "Phase 1: Defeat Annie",
+          "description": "In the first fight, Annie has body weaknesses and must be brought down by 50% HP.",
+          "details": [
+            "ODM users should hit the nape or critical points marked by skull icons.",
+            "Critical points make the Female Titan take 3x more damage than normal body hits.",
+            "If Shifters are in the party, injuring Annie arms or legs can reduce her ability to hit Shifters."
+          ],
+          "player_tip": "Prioritize skull-marked weak points and safe nape access instead of random limb damage."
+        },
+        {
+          "step": 4,
+          "title": "Phase 2: Defeat Eren",
+          "description": "Eren starts at 60% HP in the second phase and does not have weakness skull marks on his body.",
+          "details": [
+            "Patch 37 removed vulnerability from the Attack Titan in Phase 2.",
+            "Patch 37 increased Eren Phase 2 health from 50% to 60%.",
+            "Attack Titan Berserk Mode adds pressure by increasing damage and speed when triggered."
+          ],
+          "player_tip": "Treat this as a sustained boss DPS check. Avoid wasting burst windows looking for weakness marks that do not exist in this phase."
+        },
+        {
+          "step": 5,
+          "title": "Phase 3: Finish Annie",
+          "description": "Annie returns at 50% HP for the final phase and again has body weaknesses.",
+          "details": [
+            "Use the same critical-point logic from Phase 1.",
+            "Coordinate cooldowns so burst damage lands when weak points are accessible.",
+            "Finish the raid by ending the Female Titan phase."
+          ],
+          "player_tip": "Save a stable damage rotation for the final Annie phase so the team does not run out of resources after Eren."
+        },
+        {
+          "step": 6,
+          "title": "Farm Female Serum and chest rewards",
+          "description": "Female Serum is a Mythical Serum used for Female Titan shifting and trading.",
+          "details": [
+            "Players must have at least 5% credit to open raid chests.",
+            "Raider Chest is free to open.",
+            "Emperor Trove requires an Emperor Key and has 2x drop rates compared with Raider Chest.",
+            "Hard Female Serum chance: 0.03% from Free Raid Chest, 0.06% from Emperor Trove.",
+            "Severe Female Serum chance: 0.09% from Free Raid Chest, 0.18% from Emperor Trove.",
+            "Aberrant Female Serum chance: 0.20% from Free Raid Chest, 0.40% from Emperor Trove."
+          ],
+          "player_tip": "Use Emperor Trove on clears where you reliably hit credit and are specifically farming Female Serum or high-value raid drops."
+        },
+        {
+          "step": 7,
+          "title": "Track Female Raid drops and Update 4 additions",
+          "description": "Female Raid rewards include artifacts, cosmetics, auras, and the Female Serum, with Update 4 adding more Female Raid-related rewards.",
+          "details": [
+            "Female Raid drops include Ring, Hoodie, Scars, Young Annie Attire, Young Annie Rain Poncho, Blazing Veil, Blue Lightning, Fractured Surge, and Female Serum.",
+            "Update 4 added the Deus Ex Machina Female Raid Easter egg with a 10.0% chance to spawn in place of the Female Titan.",
+            "Deus Ex Machina set drop rates are 0.3% on Hard, 0.9% on Severe, and 3.0% on Aberrant.",
+            "Update 4 Female Raid artifacts include Crystal Necklace and Female Scars."
+          ],
+          "player_tip": "For rare cosmetics and artifact farming, run the highest difficulty your team can complete consistently."
+        }
+      ]
+    },
+    "attackOnTitanRevolutionColossalTitanRaidGuide": {
+      "name": "Attack on Titan Revolution Colossal Titan Raid Guide",
+      "title": "Attack on Titan Revolution Colossal Titan Raid Guide",
+      "displayType": "step-by-step",
+      "eyebrow": "Update 4 Raid",
+      "subtitle": "Stall Bertholdt with cannons, defend Eren, then defeat the Colossal Titan by attacking the nape.",
+      "intro": "The Colossal Titan Raid arrived with Update 4 and is built around an Aberrant-only raid flow. Players must protect Eren while using wall cannons to stall Bertholdt, then switch into a final nape-focused boss phase for Colossal rewards.",
+      "detailsLabel": "Raid details",
+      "playerTipLabel": "Player tip",
+      "items": [
+        {
+          "step": 1,
+          "title": "Check the raid requirement",
+          "description": "The Colossal Titan Raid is an Update 4 raid tied to Colossal Titan shifting and Colossal Serum farming.",
+          "details": [
+            "The raid requires Prestige 2 or higher.",
+            "The raid only has Aberrant difficulty.",
+            "Losing the raid causes streak loss.",
+            "Colossal Serum can be traded to players at Prestige 3 or higher with a 5,000 gem tax."
+          ],
+          "player_tip": "Prepare before entering because this raid does not offer lower difficulty versions to warm up."
+        },
+        {
+          "step": 2,
+          "title": "Phase 1: Stall Bertholdt",
+          "description": "In the first phase, the Colossal Titan slowly moves toward the wall while Eren is vulnerable on the other side to titan attacks.",
+          "details": [
+            "Eren staying alive is a win condition.",
+            "During Phase 1, the Colossal Titan can only be damaged by cannons.",
+            "Cannons are positioned on top of the wall."
+          ],
+          "player_tip": "Split attention between cannon usage and protecting Eren. Ignoring either side can fail the raid."
+        },
+        {
+          "step": 3,
+          "title": "Use cannons correctly",
+          "description": "Cannons are the required damage source for Phase 1, so cannon uptime matters more than normal boss DPS during this section.",
+          "details": [
+            "Players should rotate cannon positions to keep pressure on the Colossal Titan.",
+            "Non-cannon attacks should be treated as support actions during Phase 1.",
+            "Teammates not using cannons should help control titans threatening Eren."
+          ],
+          "player_tip": "A clean Phase 1 usually comes from role discipline: cannon players focus Bertholdt, defenders keep Eren safe."
+        },
+        {
+          "step": 4,
+          "title": "Phase 2: Defeat Bertholdt",
+          "description": "After the stall phase, the raid shifts into a direct Colossal Titan boss phase.",
+          "details": [
+            "The Colossal Titan only takes damage from the nape in Phase 2.",
+            "Players should position for safe nape access and avoid wasting damage on other body parts.",
+            "Burst windows should be saved for moments when the nape is reachable."
+          ],
+          "player_tip": "Phase 2 is a precision-damage phase. Treat nape uptime as the main damage objective."
+        },
+        {
+          "step": 5,
+          "title": "Farm Colossal Serum",
+          "description": "Colossal Serum is a Mythical Serum used for Colossal Titan shifting and trading.",
+          "details": [
+            "Colossal Serum drops from the Colossal Titan Raid.",
+            "Colossal Titan Raid is listed as Aberrant-only for Serum obtainment.",
+            "Aberrant Free Raid Chest chance: 0.20%.",
+            "Aberrant Emperor Trove chance: 0.40%."
+          ],
+          "player_tip": "Use Emperor Trove when farming Colossal Serum because it has the higher listed chest chance."
+        },
+        {
+          "step": 6,
+          "title": "Track Colossal Raid artifacts",
+          "description": "Update 4 added several Colossal Titan Raid artifacts with clear stat bonuses.",
+          "details": [
+            "Sleeping Mask: Epic face artifact with +2.5 Health Regen.",
+            "Sweater: Legendary back artifact with +10.0% TS Range and +10.0% TS Control.",
+            "Scorched Cloak: Mythic back artifact with +5.0% Burn DMG on all attacks, all Burn DMG multiplied by 1.1x, and +5.0 Health Regen.",
+            "Colossal Scars: Mythic face artifact with +15.0% Colossal Titan Stats, +1 Shifts, -20.0% Awakening Bar Drain for Colossal Titan, and Atomic Ascension range increased by 150m."
+          ],
+          "player_tip": "Colossal Scars is the most directly Colossal-focused artifact listed because it boosts Colossal Titan stats and shifting uptime."
+        },
+        {
+          "step": 7,
+          "title": "Track Colossal cosmetics and materials",
+          "description": "The Colossal Titan Raid also adds cosmetics, a shard, and the Colossal Serum to the reward pool.",
+          "details": [
+            "Cosmetics include Mushroom Cloud, Superheated, Aspiring Warrior Attire, and Atomic Bomb.",
+            "Colossal Shard is listed as a Legendary shard reward.",
+            "Colossal Serum is listed as a Mythic Serum reward."
+          ],
+          "player_tip": "Cosmetic and shard value can change with market demand, so check current trading values before selling or swapping rare drops."
+        },
+        {
+          "step": 8,
+          "title": "Use Update 4 Colossal Titan knowledge",
+          "description": "Update 4 also introduced Colossal Titan shifting skills and resonance, which helps players understand why Colossal-related drops are high-interest rewards.",
+          "details": [
+            "Colossal Titan skills include Footstep, Swipe, Eject, Shifter Mastery, Destruction Mastery, Atomic Ascension, Anguish, Seismic Shock, Tectonic Quake, Incendiary Volley, and Heatwave.",
+            "Colossal Titan resonance includes Evolving Havoc, Unmatched Devastation, Explosive Liberation, Infinite Chaos, Thermal Absolution, and Hakai No Kami."
+          ],
+          "player_tip": "Players farming the raid for Colossal Serum should also track Colossal Scars and Colossal Shard because they support long-term Colossal Titan progression."
         }
       ]
     }
