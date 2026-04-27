@@ -9,29 +9,21 @@
   "retry_attempts": 3,
   "retry_delay": 5,
 
-  "languages": ["ru", "pt", "de", "es", "ja", "ko", "fr"],
+  "languages": ["pt", "es", "id"],
   "default_language": "en",
   "output_dir": "content/",
 
   "game_names": {
-    "en": "Lucid Blocks",
-    "ru": "Lucid Blocks",
-    "pt": "Lucid Blocks",
-    "de": "Lucid Blocks",
-    "es": "Lucid Blocks",
-    "ja": "Lucid Blocks",
-    "ko": "Lucid Blocks",
-    "fr": "Lucid Blocks"
+    "en": "Attack on Titan Revolution Wiki",
+    "pt": "Códigos de Attack on Titan Revolution",
+    "es": "Códigos de Attack on Titan Revolution",
+    "id": "Kode Attack on Titan Revolution"
   },
 
   "lang_names": {
-    "ru": "Russian",
     "pt": "Portuguese (Brazil)",
-    "de": "German",
     "es": "Spanish (Latin America)",
-    "ja": "Japanese",
-    "ko": "Korean",
-    "fr": "French"
+    "id": "Bahasa Indonesia"
   },
 
   "batch_size": 20,
