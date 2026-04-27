@@ -10,7 +10,15 @@
       "twitterDescription": "Attack on Titan Revolution Wiki for codes, families, perks, raids, titan shifters, builds, and Roblox progression."
     }
   },
-  "nav": {},
+  "nav": {
+    "codes": "Codes",
+    "guide": "Guide",
+    "controls": "Controls",
+    "progression": "Progression",
+    "titans": "Titans",
+    "builds": "Builds",
+    "items": "Items"
+  },
   "common": {
     "home": "Home",
     "more": "More",
@@ -3316,125 +3324,145 @@
     "disclaimer": "Fan-made resource website for Attack on Titan Revolution players."
   },
   "pages": {
-    "guides": {
-      "title": "Attack on Titan Revolution Guides",
-      "description": "Attack on Titan Revolution guides for codes, Families, Perks, Raids, Titan shifting, builds, updates, and Roblox progression.",
-      "metaTitle": "Attack on Titan Revolution Guides - Codes, Raids & Builds",
-      "metaDescription": "Attack on Titan Revolution guides covering codes, Families, Perks, Raids, Titan shifting, builds, updates, and Roblox progression routes.",
-      "categoryLabel": "ATTACK ON TITAN REVOLUTION GUIDES",
-      "whatIs": "What are Attack on Titan Revolution guides?",
-      "whatIsDescription": "Attack on Titan Revolution guides explain the systems players use most: codes, ODM combat, Families, Perks, Missions, Raids, shifters, and updates.",
-      "why": "Why use Attack on Titan Revolution guides?",
-      "whySteps": {
-        "step1Title": "Claim Rewards",
-        "step1Description": "Use Attack on Titan Revolution codes before rerolls, upgrades, and raid sessions.",
-        "step2Title": "Plan Progression",
-        "step2Description": "Choose Attack on Titan Revolution Families, Perks, and skill routes with a clear goal.",
-        "step3Title": "Clear Content",
-        "step3Description": "Prepare for Attack on Titan Revolution Missions, Raids, Titan shifters, and Update 4 content."
-      },
-      "featured": "Featured & Essential",
-      "all": "All Guides"
-    },
-    "crafting": {
+    "codes": {
       "title": "Attack on Titan Revolution Codes",
-      "description": "Attack on Titan Revolution codes, redemption steps, rewards, requirements, and Roblox code rotation notes.",
-      "metaTitle": "Attack on Titan Revolution Codes - Rewards & Redeem Guide",
-      "metaDescription": "Attack on Titan Revolution codes guide with rewards, redeem steps, Level 15 requirements, Prestige requirements, Spins, Gems, Shards, and boosts.",
+      "description": "Attack on Titan Revolution codes for free Spins, Gems, boosts, Emperor Keys, Shards, update rewards, and redeem steps.",
+      "metaTitle": "Attack on Titan Revolution Codes - Free Rewards & Redeem Guide",
+      "metaDescription": "Get Attack on Titan Revolution codes for Spins, Gems, boosts, Emperor Keys, Shards, Update 4 rewards, and clear Roblox redeem steps.",
       "categoryLabel": "ATTACK ON TITAN REVOLUTION CODES",
       "whatIs": "What are Attack on Titan Revolution codes?",
-      "whatIsDescription": "Attack on Titan Revolution codes are Roblox rewards that can include Spins, Emperor Keys, boosts, Gems, Shards, and event currency.",
-      "why": "Why check Attack on Titan Revolution codes?",
+      "whatIsDescription": "Attack on Titan Revolution codes are Roblox reward keys that can grant Spins, Gems, boosts, Emperor Keys, Shards, event rewards, and other resources used for faster account growth.",
+      "why": "Why use Attack on Titan Revolution codes?",
       "whySteps": {
-        "step1Title": "Get Spins",
-        "step1Description": "Use Attack on Titan Revolution codes before rolling Families or other progression options.",
-        "step2Title": "Stack Boosts",
-        "step2Description": "Claim Attack on Titan Revolution Luck, Gold, and XP potions before farming sessions.",
-        "step3Title": "Meet Requirements",
-        "step3Description": "Track Attack on Titan Revolution Level 15 and Prestige 1 requirements for high-value codes."
+        "step1Title": "Claim Reward Currency",
+        "step1Description": "Use Attack on Titan Revolution codes to collect resources before rolling Families, rerolling perks, or upgrading gear.",
+        "step2Title": "Meet Redeem Requirements",
+        "step2Description": "Track Attack on Titan Revolution level, prestige, group, and update requirements so each code is entered at the right time.",
+        "step3Title": "Plan Around Updates",
+        "step3Description": "Review Attack on Titan Revolution code rewards alongside new raids, events, and progression goals before spending them."
       },
       "featured": "Featured & Essential",
       "all": "All Codes"
     },
-    "items": {
-      "title": "Attack on Titan Revolution Families",
-      "description": "Attack on Titan Revolution Families, rarity tiers, passive buffs, skills, Titan routes, and reroll priorities.",
-      "metaTitle": "Attack on Titan Revolution Families - Tier List & Rerolls",
-      "metaDescription": "Attack on Titan Revolution Families guide covering Fritz, Helos, Ackerman, Yeager, Reiss, Leonhart, Tybur, buffs, skills, and rerolls.",
-      "categoryLabel": "ATTACK ON TITAN REVOLUTION FAMILIES",
-      "whatIs": "What are Attack on Titan Revolution Families?",
-      "whatIsDescription": "Attack on Titan Revolution Families shape stats, skills, Titan shifting, perk slots, raid damage, party bonuses, and build direction.",
-      "why": "Why compare Attack on Titan Revolution Families?",
+    "guide": {
+      "title": "Attack on Titan Revolution Guide",
+      "description": "Attack on Titan Revolution guide articles for beginners, missions, quests, achievements, titan combat, and core Roblox systems.",
+      "metaTitle": "Attack on Titan Revolution Guide - Beginner Tips, Missions & Quests",
+      "metaDescription": "Read Attack on Titan Revolution guide articles for beginners, missions, quests, achievements, titan combat, ODM basics, and Roblox progression.",
+      "categoryLabel": "ATTACK ON TITAN REVOLUTION GUIDE",
+      "whatIs": "What is the Attack on Titan Revolution guide section?",
+      "whatIsDescription": "The Attack on Titan Revolution guide section explains the essential systems that shape each run, including how to play, mission goals, quests, achievements, titan kills, and beginner priorities.",
+      "why": "Why read Attack on Titan Revolution guides?",
       "whySteps": {
-        "step1Title": "Save Spins",
-        "step1Description": "Know which Attack on Titan Revolution Families are worth keeping before rerolling.",
-        "step2Title": "Build Around Buffs",
-        "step2Description": "Match Attack on Titan Revolution Family bonuses to ODM, shifter, raid, or support goals.",
-        "step3Title": "Plan Endgame",
-        "step3Description": "Use Attack on Titan Revolution top Families to prepare for Raids and harder progression."
+        "step1Title": "Start With Clear Priorities",
+        "step1Description": "Use Attack on Titan Revolution beginner guides to learn which menus, missions, and rewards matter first.",
+        "step2Title": "Improve Titan Combat",
+        "step2Description": "Follow Attack on Titan Revolution combat tips for ODM movement, nape access, mission objectives, and safer titan kills.",
+        "step3Title": "Finish More Objectives",
+        "step3Description": "Use Attack on Titan Revolution quest and achievement guidance to unlock rewards without missing routine progression tasks."
       },
       "featured": "Featured & Essential",
-      "all": "All Families"
+      "all": "All Guide Articles"
     },
-    "biomes": {
-      "title": "Attack on Titan Revolution Raids",
-      "description": "Attack on Titan Revolution Raids guide for bosses, phases, rewards, Emperor Trove, and Titan-shifter farming.",
-      "metaTitle": "Attack on Titan Revolution Raids - Bosses, Drops & Rewards",
-      "metaDescription": "Attack on Titan Revolution Raids guide covering boss phases, team roles, Emperor Trove, serums, artifacts, perks, and Update 4 raid content.",
-      "categoryLabel": "ATTACK ON TITAN REVOLUTION RAIDS",
-      "whatIs": "What are Attack on Titan Revolution Raids?",
-      "whatIsDescription": "Attack on Titan Revolution Raids are phase-based boss encounters with rewards such as cosmetics, serums, artifacts, perks, and progression items.",
-      "why": "Why prepare for Attack on Titan Revolution Raids?",
+    "controls": {
+      "title": "Attack on Titan Revolution Controls",
+      "description": "Attack on Titan Revolution controls for PC, keyboard, keybinds, mobile, Xbox, ODM movement, blade reloads, cables, and bandages.",
+      "metaTitle": "Attack on Titan Revolution Controls - PC, Mobile, Xbox & Keybinds",
+      "metaDescription": "Learn Attack on Titan Revolution controls for PC, keyboard, mobile, Xbox, ODM movement, blade reloads, cable recovery, and bandage use.",
+      "categoryLabel": "ATTACK ON TITAN REVOLUTION CONTROLS",
+      "whatIs": "What are Attack on Titan Revolution controls?",
+      "whatIsDescription": "Attack on Titan Revolution controls cover the inputs used for ODM movement, camera control, combat, sword reloads, cable recovery, bandages, and platform-specific keybinds.",
+      "why": "Why learn Attack on Titan Revolution controls?",
       "whySteps": {
-        "step1Title": "Know Boss Phases",
-        "step1Description": "Learn Attack on Titan Revolution raid objectives before entering a boss fight.",
-        "step2Title": "Farm Rewards",
-        "step2Description": "Target Attack on Titan Revolution serums, artifacts, perks, cosmetics, and Emperor Trove rewards.",
-        "step3Title": "Build Teams",
-        "step3Description": "Coordinate Attack on Titan Revolution raid roles around ODM damage, shifter utility, support, and survival."
+        "step1Title": "Move With Precision",
+        "step1Description": "Use Attack on Titan Revolution control guides to make ODM swings, turns, and boosts feel consistent across missions.",
+        "step2Title": "Recover During Combat",
+        "step2Description": "Learn Attack on Titan Revolution reload, cable, and bandage inputs before titan fights force quick reactions.",
+        "step3Title": "Match Your Platform",
+        "step3Description": "Compare Attack on Titan Revolution PC, keyboard, mobile, and Xbox controls so your setup matches how you play."
       },
       "featured": "Featured & Essential",
-      "all": "All Raids"
+      "all": "All Controls"
     },
-    "building": {
+    "progression": {
+      "title": "Attack on Titan Revolution Progression",
+      "description": "Attack on Titan Revolution progression routes for leveling, max level, prestige, skill points, grade unlocks, injuries, XP, and gold farming.",
+      "metaTitle": "Attack on Titan Revolution Progression - Leveling, Prestige & Farming",
+      "metaDescription": "Plan Attack on Titan Revolution progression with leveling, max level, prestige, skill points, grade unlocks, injuries, XP farms, and gold farms.",
+      "categoryLabel": "ATTACK ON TITAN REVOLUTION PROGRESSION",
+      "whatIs": "What is Attack on Titan Revolution progression?",
+      "whatIsDescription": "Attack on Titan Revolution progression covers how players grow from early missions into higher grades through XP, gold, skill points, prestige, equipment upgrades, and injury management.",
+      "why": "Why plan Attack on Titan Revolution progression?",
+      "whySteps": {
+        "step1Title": "Level Efficiently",
+        "step1Description": "Use Attack on Titan Revolution progression routes to choose missions, farms, and objectives that fit your current grade.",
+        "step2Title": "Prepare For Prestige",
+        "step2Description": "Track Attack on Titan Revolution max level, prestige timing, skill points, and permanent gains before resetting progress.",
+        "step3Title": "Reduce Wasted Farming",
+        "step3Description": "Focus Attack on Titan Revolution gold, XP, and grade goals so each session moves a build or unlock forward."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Progression"
+    },
+    "titans": {
+      "title": "Attack on Titan Revolution Titans",
+      "description": "Attack on Titan Revolution Titans guides for Titan shifting, serums, shifters, Colossal Titan, Female Titan, Armored Titan, and Titan forms.",
+      "metaTitle": "Attack on Titan Revolution Titans - Shifters, Serums & Titan Forms",
+      "metaDescription": "Explore Attack on Titan Revolution Titans, Titan shifting, serums, shifters, Colossal Titan, Female Titan, Armored Titan, and best Titan forms.",
+      "categoryLabel": "ATTACK ON TITAN REVOLUTION TITANS",
+      "whatIs": "What are Attack on Titan Revolution Titans?",
+      "whatIsDescription": "Attack on Titan Revolution Titans include regular enemies, boss encounters, Titan-shifter systems, serums, transformation paths, and major forms such as Colossal, Female, Armored, and Attack Titan.",
+      "why": "Why study Attack on Titan Revolution Titans?",
+      "whySteps": {
+        "step1Title": "Understand Shifting",
+        "step1Description": "Learn how Attack on Titan Revolution Titan shifting, serums, and shifter unlocks connect to account progression.",
+        "step2Title": "Prepare For Boss Fights",
+        "step2Description": "Review Attack on Titan Revolution Colossal, Female, Armored, and Attack Titan mechanics before raid or boss attempts.",
+        "step3Title": "Choose A Titan Goal",
+        "step3Description": "Compare Attack on Titan Revolution Titan forms so your build, raid farming, and resource use support the shifter you want."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Titans"
+    },
+    "builds": {
       "title": "Attack on Titan Revolution Builds",
-      "description": "Attack on Titan Revolution builds combining Families, Perks, skill trees, artifacts, ODM stats, and shifter goals.",
-      "metaTitle": "Attack on Titan Revolution Builds - Families, Perks & Skills",
-      "metaDescription": "Attack on Titan Revolution builds guide for Families, Perks, skill trees, artifacts, ODM damage, raid roles, and Titan-shifter progression.",
+      "description": "Attack on Titan Revolution builds for Families, perks, memories, artifacts, skill trees, shifter setups, tier lists, and raid-ready loadouts.",
+      "metaTitle": "Attack on Titan Revolution Builds - Families, Perks, Artifacts & Skills",
+      "metaDescription": "Create Attack on Titan Revolution builds with Families, perks, memories, artifacts, skill trees, shifter setups, tier lists, and raid loadouts.",
       "categoryLabel": "ATTACK ON TITAN REVOLUTION BUILDS",
       "whatIs": "What are Attack on Titan Revolution builds?",
-      "whatIsDescription": "Attack on Titan Revolution builds combine Family bonuses, Perks, skill-tree choices, artifacts, ODM stats, and shifter routes.",
-      "why": "Why plan Attack on Titan Revolution builds?",
+      "whatIsDescription": "Attack on Titan Revolution builds combine Families, perks, memories, artifacts, skill-tree choices, ODM priorities, and shifter goals into a complete combat plan.",
+      "why": "Why compare Attack on Titan Revolution builds?",
       "whySteps": {
-        "step1Title": "Align Systems",
-        "step1Description": "Make Attack on Titan Revolution Families, Perks, and skills support one combat plan.",
-        "step2Title": "Improve Damage",
-        "step2Description": "Use Attack on Titan Revolution ODM or shifter scaling to improve Missions and Raids.",
-        "step3Title": "Grow Long Term",
-        "step3Description": "Plan Attack on Titan Revolution upgrades, Prestige choices, artifacts, and Memories around a stable build."
+        "step1Title": "Align Core Systems",
+        "step1Description": "Use Attack on Titan Revolution build guides to make Families, perks, artifacts, and skills support one playstyle.",
+        "step2Title": "Improve Mission Output",
+        "step2Description": "Tune Attack on Titan Revolution damage, mobility, support, and survivability choices for the content you run most.",
+        "step3Title": "Spend Rerolls Carefully",
+        "step3Description": "Compare Attack on Titan Revolution tier lists before committing spins, perk rerolls, memories, or artifact upgrades."
       },
       "featured": "Featured & Essential",
       "all": "All Builds"
     },
-    "support": {
-      "title": "Attack on Titan Revolution Updates",
-      "description": "Attack on Titan Revolution updates, patch notes, Update 4 content, new raids, codes, events, and progression changes.",
-      "metaTitle": "Attack on Titan Revolution Updates - Update 4 & Patch Notes",
-      "metaDescription": "Attack on Titan Revolution updates guide for Update 4, Colossal Titan Raid, codes, Waves, events, patch notes, and Roblox progression changes.",
-      "categoryLabel": "ATTACK ON TITAN REVOLUTION UPDATES",
-      "whatIs": "What are Attack on Titan Revolution updates?",
-      "whatIsDescription": "Attack on Titan Revolution updates add codes, balance changes, raid content, events, rewards, systems, and progression changes.",
-      "why": "Why track Attack on Titan Revolution updates?",
+    "items": {
+      "title": "Attack on Titan Revolution Items",
+      "description": "Attack on Titan Revolution items covering Thunder Spears, spear quests, Emperor Keys, shards, crates, cosmetics, and reward materials.",
+      "metaTitle": "Attack on Titan Revolution Items - Thunder Spears, Keys, Shards & Crates",
+      "metaDescription": "Track Attack on Titan Revolution items such as Thunder Spears, spear quests, Emperor Keys, shards, crates, cosmetics, and reward materials.",
+      "categoryLabel": "ATTACK ON TITAN REVOLUTION ITEMS",
+      "whatIs": "What are Attack on Titan Revolution items?",
+      "whatIsDescription": "Attack on Titan Revolution items include combat tools, unlock materials, raid rewards, cosmetics, crates, shards, Emperor Keys, and Thunder Spears used across progression systems.",
+      "why": "Why track Attack on Titan Revolution items?",
       "whySteps": {
-        "step1Title": "Find New Codes",
-        "step1Description": "Attack on Titan Revolution updates often arrive with code rewards and event currency.",
-        "step2Title": "Learn New Content",
-        "step2Description": "Track Attack on Titan Revolution raid additions, Waves mode, events, and Titan-shifter changes.",
-        "step3Title": "Adjust Builds",
-        "step3Description": "Use Attack on Titan Revolution patch notes to refine Families, Perks, skills, and raid plans."
+        "step1Title": "Know Item Sources",
+        "step1Description": "Use Attack on Titan Revolution item guides to find where Thunder Spears, Emperor Keys, shards, and crates fit into the game.",
+        "step2Title": "Unlock Useful Tools",
+        "step2Description": "Follow Attack on Titan Revolution spear quests and item requirements before planning raid or boss attempts.",
+        "step3Title": "Spend Materials Well",
+        "step3Description": "Connect Attack on Titan Revolution items to builds, progression, cosmetics, and reward priorities before using scarce resources."
       },
       "featured": "Featured & Essential",
-      "all": "All Updates"
+      "all": "All Items"
     }
   }
 }

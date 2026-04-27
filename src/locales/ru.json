@@ -11,12 +11,13 @@
     }
   },
   "nav": {
-    "guides": "Руководства",
-    "crafting": "Крафт",
-    "items": "Предметы",
-    "biomes": "Биомы",
-    "building": "Строительство",
-    "support": "Поддержка"
+    "codes": "Codes",
+    "guide": "Guide",
+    "controls": "Controls",
+    "progression": "Progression",
+    "titans": "Titans",
+    "builds": "Builds",
+    "items": "Items"
   },
   "common": {
     "home": "Главная",

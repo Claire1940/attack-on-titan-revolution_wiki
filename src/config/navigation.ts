@@ -1,4 +1,13 @@
-import type { LucideIcon } from 'lucide-react'
+import {
+	BookOpen,
+	Gamepad2,
+	Gift,
+	Hammer,
+	Package,
+	Shield,
+	TrendingUp,
+	type LucideIcon,
+} from 'lucide-react'
 
 export interface NavigationItem {
 	key: string // 用于翻译键，如 'codes' -> t('nav.codes')
@@ -7,12 +16,55 @@ export interface NavigationItem {
 	isContentType: boolean // 是否对应 content/ 目录
 }
 
-export const NAVIGATION_CONFIG: NavigationItem[] = []
+export const NAVIGATION_CONFIG: NavigationItem[] = [
+	{
+		key: 'codes',
+		path: '/codes',
+		icon: Gift,
+		isContentType: true,
+	},
+	{
+		key: 'guide',
+		path: '/guide',
+		icon: BookOpen,
+		isContentType: true,
+	},
+	{
+		key: 'controls',
+		path: '/controls',
+		icon: Gamepad2,
+		isContentType: true,
+	},
+	{
+		key: 'progression',
+		path: '/progression',
+		icon: TrendingUp,
+		isContentType: true,
+	},
+	{
+		key: 'titans',
+		path: '/titans',
+		icon: Shield,
+		isContentType: true,
+	},
+	{
+		key: 'builds',
+		path: '/builds',
+		icon: Hammer,
+		isContentType: true,
+	},
+	{
+		key: 'items',
+		path: '/items',
+		icon: Package,
+		isContentType: true,
+	},
+]
 
 // 从配置派生内容类型列表（用于路由和内容加载）
 export const CONTENT_TYPES = NAVIGATION_CONFIG.filter((item) => item.isContentType).map(
 	(item) => item.path.slice(1),
-) // 移除开头的 '/' -> ['codes', 'build', 'combat', 'guides']
+) // 移除开头的 '/' -> ['codes', 'guide', 'controls', 'progression', 'titans', 'builds', 'items']
 
 export type ContentType = (typeof CONTENT_TYPES)[number]
 

@@ -1,1 +1,11 @@
-{}
+{
+  "nav": {
+    "codes": "Codes",
+    "guide": "Guide",
+    "controls": "Controls",
+    "progression": "Progression",
+    "titans": "Titans",
+    "builds": "Builds",
+    "items": "Items"
+  }
+}

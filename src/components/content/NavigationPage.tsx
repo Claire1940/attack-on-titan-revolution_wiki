@@ -15,32 +15,6 @@ interface NavigationPageProps {
   language: Language
 }
 
-// 辅助函数：基于种子的确定性随机选择
-// 使用简单的哈希函数生成伪随机数，确保服务器端和客户端结果一致
-function seededRandom(seed: string): number {
-  let hash = 0
-  for (let i = 0; i < seed.length; i++) {
-    const char = seed.charCodeAt(i)
-    hash = ((hash << 5) - hash) + char
-    hash = hash & hash // Convert to 32bit integer
-  }
-  return Math.abs(hash) / 2147483647
-}
-
-// 辅助函数：使用确定性算法选择 n 个元素
-function getRandomItems<T>(array: T[], count: number, seed: string): T[] {
-  const indices = array.map((_, i) => i)
-
-  // 使用种子生成确定性的排序
-  indices.sort((a, b) => {
-    const hashA = seededRandom(`${seed}-${a}`)
-    const hashB = seededRandom(`${seed}-${b}`)
-    return hashA - hashB
-  })
-
-  return indices.slice(0, count).map(i => array[i])
-}
-
 export async function NavigationPage({
   title,
   description,
@@ -51,9 +25,8 @@ export async function NavigationPage({
   // 获取翻译
   const t = await getTranslations(`pages.${contentType}`)
 
-  // 随机选择 2 个作为 Featured & Essential
-  // 使用 contentType 作为种子，确保服务器端和客户端结果一致
-  const featuredItems = getRandomItems(items, 2, contentType)
+  // 按内容加载顺序选择前 2 个作为 Featured & Essential，避免导航页刷新时发生变化
+  const featuredItems = items.slice(0, 2)
   // 剩余的文章
   const allItems = items.filter(item => !featuredItems.includes(item))
 

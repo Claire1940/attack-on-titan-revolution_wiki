@@ -23,19 +23,24 @@ export async function getLatestArticles(
     allArticles.push(...items.map(item => ({ ...item, contentType })))
   }
 
-  // 预分配随机 key，确保同时间文章随机排序稳定
+  const getUpdateTime = (article: ContentItemWithType) => {
+    if (article.frontmatter.lastModified) return new Date(article.frontmatter.lastModified).getTime()
+    if (article.frontmatter.date) return new Date(article.frontmatter.date).getTime()
+    return 0
+  }
+
+  // 首页 Latest Updates 按最近更新降序：优先 lastModified，缺失时回退 date
   const articlesWithMeta = allArticles.map(article => ({
     article,
-    updateTime: article.frontmatter.lastModified
-      ? new Date(article.frontmatter.lastModified).getTime()
-      : (article.frontmatter.date ? new Date(article.frontmatter.date).getTime() : 0),
-    rand: Math.random()
+    updateTime: getUpdateTime(article),
   }))
 
-  // 排序：更新时间降序，同时间随机
+  // 排序：更新时间降序，同时间按路径稳定排序，避免每次渲染顺序变化
   articlesWithMeta.sort((a, b) => {
     if (a.updateTime !== b.updateTime) return b.updateTime - a.updateTime
-    return a.rand - b.rand
+    const pathA = `${a.article.contentType}/${a.article.slug}`
+    const pathB = `${b.article.contentType}/${b.article.slug}`
+    return pathA.localeCompare(pathB)
   })
 
   return articlesWithMeta.slice(0, max).map(x => x.article)
