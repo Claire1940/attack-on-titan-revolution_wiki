@@ -1,6 +1,6 @@
 'use client'
 
-import { useEffect, useState, Suspense, lazy } from 'react'
+import { useEffect, useState, Suspense, lazy, type ReactNode } from 'react'
 import {
   AlertTriangle,
   ArrowRight,
@@ -39,6 +39,7 @@ import { SidebarAd } from '@/components/ads/SidebarAd'
 import { scrollToSection } from '@/lib/scrollToSection'
 import { DynamicIcon } from '@/components/ui/DynamicIcon'
 import type { ContentItemWithType } from '@/lib/getLatestArticles'
+import type { ModuleLinkMap } from '@/lib/buildModuleLinkMap'
 
 // Lazy load heavy components
 const HeroStats = lazy(() => import('@/components/home/HeroStats'))
@@ -104,9 +105,10 @@ const DetailValue = ({ value }: { value: any }) => {
 interface HomePageClientProps {
   latestArticles: ContentItemWithType[]
   locale: string
+  moduleLinks: ModuleLinkMap
 }
 
-export default function HomePageClient({ latestArticles, locale }: HomePageClientProps) {
+export default function HomePageClient({ latestArticles, locale, moduleLinks }: HomePageClientProps) {
   const rawMessages = useMessages() as any
   const hasCurrentToolCards =
     Array.isArray(rawMessages.tools?.cards) &&
@@ -153,6 +155,32 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
   const armoredRaidIcons = [ShieldCheck, AlertTriangle, Shield, ClipboardCheck, Gem, Sparkles, TrendingUp]
   const femaleRaidIcons = [Swords, Keyboard, Target, Zap, Star, Gem, Trophy]
   const colossalRaidIcons = [Flame, ShieldCheck, Crosshair, Target, Gem, Package, Star, TrendingUp]
+  const getArticleHref = (url: string) => (locale === 'en' ? url : `/${locale}${url}`)
+  const ModuleHeading = ({
+    moduleKey,
+    children,
+  }: {
+    moduleKey: string
+    children: ReactNode
+  }) => {
+    const link = moduleLinks[moduleKey]
+
+    return (
+      <h2 className="text-4xl md:text-5xl font-bold mb-4">
+        {link ? (
+          <a
+            href={getArticleHref(link.url)}
+            title={link.title}
+            className="transition-colors hover:text-[hsl(var(--nav-theme-light))] hover:underline underline-offset-4"
+          >
+            {children}
+          </a>
+        ) : (
+          children
+        )}
+      </h2>
+    )
+  }
 
   const copyCode = async (code: string) => {
     try {
@@ -732,7 +760,7 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
               <ClipboardCheck className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
               <span className="text-sm font-medium">{codesModule.eyebrow}</span>
             </div>
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">{codesModule.title}</h2>
+            <ModuleHeading moduleKey="attackOnTitanRevolutionCodes">{codesModule.title}</ModuleHeading>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{codesModule.intro}</p>
           </div>
 
@@ -832,7 +860,7 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
               <MessageCircle className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
               <span className="text-sm font-medium">{officialLinksModule.eyebrow}</span>
             </div>
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">{officialLinksModule.title}</h2>
+            <ModuleHeading moduleKey="attackOnTitanRevolutionOfficialLinks">{officialLinksModule.title}</ModuleHeading>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{officialLinksModule.intro}</p>
           </div>
 
@@ -886,7 +914,7 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
               <BookOpen className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
               <span className="text-sm font-medium">{beginnerModule.eyebrow}</span>
             </div>
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">{beginnerModule.title}</h2>
+            <ModuleHeading moduleKey="attackOnTitanRevolutionBeginnerGuide">{beginnerModule.title}</ModuleHeading>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{beginnerModule.intro}</p>
           </div>
 
@@ -945,7 +973,7 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
               <Star className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
               <span className="text-sm font-medium">{familyModule.eyebrow}</span>
             </div>
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">{familyModule.title}</h2>
+            <ModuleHeading moduleKey="attackOnTitanRevolutionFamilyTierList">{familyModule.title}</ModuleHeading>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{familyModule.intro}</p>
           </div>
 
@@ -1025,7 +1053,7 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
               <Shield className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
               <span className="text-sm font-medium">{perksModule.eyebrow}</span>
             </div>
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">{perksModule.title}</h2>
+            <ModuleHeading moduleKey="attackOnTitanRevolutionPerksTierList">{perksModule.title}</ModuleHeading>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-4">{perksModule.subtitle}</p>
             <p className="text-muted-foreground max-w-4xl mx-auto">{perksModule.intro}</p>
           </div>
@@ -1099,7 +1127,7 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
               <TrendingUp className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
               <span className="text-sm font-medium">{skillTreeModule.eyebrow}</span>
             </div>
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">{skillTreeModule.title}</h2>
+            <ModuleHeading moduleKey="attackOnTitanRevolutionSkillTreeGuide">{skillTreeModule.title}</ModuleHeading>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-4">{skillTreeModule.subtitle}</p>
             <p className="text-muted-foreground max-w-4xl mx-auto">{skillTreeModule.intro}</p>
           </div>
@@ -1207,7 +1235,7 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
               <Sparkles className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
               <span className="text-sm font-medium">{prestigeModule.eyebrow}</span>
             </div>
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">{prestigeModule.title}</h2>
+            <ModuleHeading moduleKey="attackOnTitanRevolutionPrestigeGuide">{prestigeModule.title}</ModuleHeading>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-4">{prestigeModule.subtitle}</p>
             <p className="text-muted-foreground max-w-4xl mx-auto">{prestigeModule.intro}</p>
           </div>
@@ -1266,7 +1294,7 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
               <AlertTriangle className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
               <span className="text-sm font-medium">{raidsModule.eyebrow}</span>
             </div>
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">{raidsModule.title}</h2>
+            <ModuleHeading moduleKey="attackOnTitanRevolutionRaidsGuide">{raidsModule.title}</ModuleHeading>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-4">{raidsModule.subtitle}</p>
             <p className="text-muted-foreground max-w-4xl mx-auto">{raidsModule.intro}</p>
           </div>
@@ -1309,7 +1337,7 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
               <Zap className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
               <span className="text-sm font-medium">{titanShiftingModule.eyebrow}</span>
             </div>
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">{titanShiftingModule.title}</h2>
+            <ModuleHeading moduleKey="attackOnTitanRevolutionTitanShiftingGuide">{titanShiftingModule.title}</ModuleHeading>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-4">{titanShiftingModule.subtitle}</p>
             <p className="text-muted-foreground max-w-4xl mx-auto">{titanShiftingModule.intro}</p>
           </div>
@@ -1427,7 +1455,7 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
               <Package className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
               <span className="text-sm font-medium">{artifactsModule.eyebrow}</span>
             </div>
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">{artifactsModule.title}</h2>
+            <ModuleHeading moduleKey="attackOnTitanRevolutionArtifactsAndMemoriesGuide">{artifactsModule.title}</ModuleHeading>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-4">{artifactsModule.subtitle}</p>
             <p className="text-muted-foreground max-w-4xl mx-auto">{artifactsModule.intro}</p>
           </div>
@@ -1491,7 +1519,7 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
               <MapIcon className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
               <span className="text-sm font-medium">{missionsModule.eyebrow}</span>
             </div>
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">{missionsModule.title}</h2>
+            <ModuleHeading moduleKey="attackOnTitanRevolutionMissionsGuide">{missionsModule.title}</ModuleHeading>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-4">{missionsModule.subtitle}</p>
             <p className="text-muted-foreground max-w-4xl mx-auto">{missionsModule.intro}</p>
           </div>
@@ -1597,7 +1625,7 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
               <Keyboard className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
               <span className="text-sm font-medium">{controlsModule.eyebrow}</span>
             </div>
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">{controlsModule.title}</h2>
+            <ModuleHeading moduleKey="attackOnTitanRevolutionControlsAndOdmGearGuide">{controlsModule.title}</ModuleHeading>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-4">{controlsModule.subtitle}</p>
             <p className="text-muted-foreground max-w-4xl mx-auto">{controlsModule.intro}</p>
           </div>
@@ -1676,7 +1704,7 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
               <Handshake className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
               <span className="text-sm font-medium">{tradingValuesModule.eyebrow}</span>
             </div>
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">{tradingValuesModule.title}</h2>
+            <ModuleHeading moduleKey="attackOnTitanRevolutionTradingValues">{tradingValuesModule.title}</ModuleHeading>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-4">{tradingValuesModule.subtitle}</p>
             <p className="text-muted-foreground max-w-4xl mx-auto">{tradingValuesModule.intro}</p>
           </div>
@@ -1770,7 +1798,7 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
               <ShieldCheck className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
               <span className="text-sm font-medium">{armoredRaidModule.eyebrow}</span>
             </div>
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">{armoredRaidModule.title}</h2>
+            <ModuleHeading moduleKey="attackOnTitanRevolutionArmoredTitanRaidGuide">{armoredRaidModule.title}</ModuleHeading>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-4">{armoredRaidModule.subtitle}</p>
             <p className="text-muted-foreground max-w-4xl mx-auto">{armoredRaidModule.intro}</p>
           </div>
@@ -1828,7 +1856,7 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
               <Swords className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
               <span className="text-sm font-medium">{femaleRaidModule.eyebrow}</span>
             </div>
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">{femaleRaidModule.title}</h2>
+            <ModuleHeading moduleKey="attackOnTitanRevolutionFemaleTitanRaidGuide">{femaleRaidModule.title}</ModuleHeading>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-4">{femaleRaidModule.subtitle}</p>
             <p className="text-muted-foreground max-w-4xl mx-auto">{femaleRaidModule.intro}</p>
           </div>
@@ -1886,7 +1914,7 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
               <Flame className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
               <span className="text-sm font-medium">{colossalRaidModule.eyebrow}</span>
             </div>
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">{colossalRaidModule.title}</h2>
+            <ModuleHeading moduleKey="attackOnTitanRevolutionColossalTitanRaidGuide">{colossalRaidModule.title}</ModuleHeading>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-4">{colossalRaidModule.subtitle}</p>
             <p className="text-muted-foreground max-w-4xl mx-auto">{colossalRaidModule.intro}</p>
           </div>

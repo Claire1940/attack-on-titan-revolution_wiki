@@ -1,4 +1,5 @@
 import { getLatestArticles } from '@/lib/getLatestArticles'
+import { buildModuleLinkMap } from '@/lib/buildModuleLinkMap'
 import type { Language } from '@/lib/content'
 import type { Locale } from '@/i18n/routing'
 import { buildLanguageAlternates } from '@/lib/i18n-utils'
@@ -149,8 +150,11 @@ export default async function HomePage({ params }: PageProps) {
     ],
   }
 
-  // 服务器端获取最新文章数据
-  const latestArticles = await getLatestArticles(locale as Language, 30)
+  // 服务器端获取首页所需文章数据和模块内链映射
+  const [latestArticles, moduleLinks] = await Promise.all([
+    getLatestArticles(locale as Language, 30),
+    buildModuleLinkMap(locale as Language),
+  ])
 
   return (
     <>
@@ -158,7 +162,7 @@ export default async function HomePage({ params }: PageProps) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
       />
-      <HomePageClient latestArticles={latestArticles} locale={locale} />
+      <HomePageClient latestArticles={latestArticles} locale={locale} moduleLinks={moduleLinks} />
     </>
   )
 }

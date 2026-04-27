@@ -12,48 +12,56 @@ interface ArticleWithType extends ContentItem {
   contentType: string
 }
 
+interface ModuleFieldConfig {
+  field: string
+  nameKey: string
+}
+
 // Module sub-field mapping: moduleKey -> { field, nameKey }
-const MODULE_FIELDS: Record<string, { field: string; nameKey: string }> = {
-  lucidBlocksBeginnerGuide: { field: 'steps', nameKey: 'title' },
-  lucidBlocksApotheosisCrafting: { field: 'cards', nameKey: 'name' },
-  lucidBlocksToolsAndWeapons: { field: 'items', nameKey: 'name' },
-  lucidBlocksStorageAndInventory: { field: 'solutions', nameKey: 'name' },
-  lucidBlocksQualiaAndBaseBuilding: { field: 'cards', nameKey: 'name' },
-  lucidBlocksWorldRegions: { field: 'regions', nameKey: 'name' },
-  lucidBlocksCreaturesAndEnemies: { field: 'creatures', nameKey: 'name' },
-  lucidBlocksMobilityGear: { field: 'items', nameKey: 'name' },
-  lucidBlocksFarmingAndGrowth: { field: 'sections', nameKey: 'name' },
-  lucidBlocksBestEarlyUnlocks: { field: 'priorities', nameKey: 'name' },
-  lucidBlocksAchievementTracker: { field: 'groups', nameKey: 'name' },
-  lucidBlocksSingleplayerAndPlatformFAQ: { field: 'faqs', nameKey: 'question' },
-  lucidBlocksSteamDeckAndController: { field: 'faqs', nameKey: 'question' },
-  lucidBlocksSettingsAndAccessibility: { field: 'settings', nameKey: 'name' },
-  lucidBlocksUpdatesAndPatchNotes: { field: 'entries', nameKey: 'title' },
-  lucidBlocksCrashFixAndTroubleshooting: { field: 'steps', nameKey: 'title' },
+const MODULE_FIELDS: Record<string, ModuleFieldConfig | ModuleFieldConfig[]> = {
+  attackOnTitanRevolutionCodes: [
+    { field: 'workingCodes', nameKey: 'code' },
+    { field: 'redeemSteps', nameKey: 'title' },
+  ],
+  attackOnTitanRevolutionOfficialLinks: { field: 'links', nameKey: 'title' },
+  attackOnTitanRevolutionBeginnerGuide: { field: 'steps', nameKey: 'title' },
+  attackOnTitanRevolutionFamilyTierList: { field: 'tiers', nameKey: 'label' },
+  attackOnTitanRevolutionPerksTierList: { field: 'tiers', nameKey: 'summary' },
+  attackOnTitanRevolutionSkillTreeGuide: { field: 'steps', nameKey: 'title' },
+  attackOnTitanRevolutionPrestigeGuide: { field: 'steps', nameKey: 'title' },
+  attackOnTitanRevolutionRaidsGuide: { field: 'panels', nameKey: 'title' },
+  attackOnTitanRevolutionTitanShiftingGuide: { field: 'items', nameKey: 'title' },
+  attackOnTitanRevolutionArtifactsAndMemoriesGuide: { field: 'items', nameKey: 'name' },
+  attackOnTitanRevolutionMissionsGuide: { field: 'items', nameKey: 'map' },
+  attackOnTitanRevolutionControlsAndOdmGearGuide: { field: 'items', nameKey: 'title' },
+  attackOnTitanRevolutionTradingValues: { field: 'items', nameKey: 'category' },
+  attackOnTitanRevolutionArmoredTitanRaidGuide: { field: 'items', nameKey: 'title' },
+  attackOnTitanRevolutionFemaleTitanRaidGuide: { field: 'items', nameKey: 'title' },
+  attackOnTitanRevolutionColossalTitanRaidGuide: { field: 'items', nameKey: 'title' },
 }
 
-// Extra semantic keywords per module to boost matching for h2 titles
-// These supplement the module title text when matching against articles
+// Extra semantic keywords per module to boost matching for h2 titles.
+// These supplement the module title text when matching against articles.
 const MODULE_EXTRA_KEYWORDS: Record<string, string[]> = {
-  lucidBlocksBeginnerGuide: ['guide', 'mastering', 'progression', 'crafting', 'starter'],
-  lucidBlocksApotheosisCrafting: ['apotheosis', 'fusion', 'essence'],
-  lucidBlocksToolsAndWeapons: ['crafting recipes', 'frost pick', 'osmium', 'azrael', 'faith wand'],
-  lucidBlocksStorageAndInventory: ['chest', 'cache cube', 'cabinet', 'storage'],
-  lucidBlocksQualiaAndBaseBuilding: ['qualia', 'clonaqualia', 'personal dimensions'],
-  lucidBlocksWorldRegions: ['tiamana', 'leyline', 'biomes', 'regions'],
-  lucidBlocksCreaturesAndEnemies: ['survival', 'combat', 'surreal creatures'],
-  lucidBlocksMobilityGear: ['bee glider', 'hookshot', 'glider', 'movement'],
-  lucidBlocksFarmingAndGrowth: ['seed', 'farming', 'growth', 'material', 'progression', 'crafting'],
-  lucidBlocksBestEarlyUnlocks: ['early', 'osmium', 'frost pick', 'starter', 'progression'],
-  lucidBlocksAchievementTracker: ['achievement', 'tiamana', 'leyline'],
-  lucidBlocksSingleplayerAndPlatformFAQ: ['multiplayer', 'platform', 'co op'],
-  lucidBlocksSteamDeckAndController: ['steam deck', 'controller', 'proton'],
-  lucidBlocksSettingsAndAccessibility: ['full screen', 'controls', 'display'],
-  lucidBlocksUpdatesAndPatchNotes: ['update', 'patch', 'fix'],
-  lucidBlocksCrashFixAndTroubleshooting: ['crash', 'vulkan', 'troubleshooting', 'full screen', 'controls', 'gameplay'],
+  attackOnTitanRevolutionCodes: ['codes', 'spins', 'emperor keys', 'gems', 'shards', 'rewards'],
+  attackOnTitanRevolutionOfficialLinks: ['trello', 'discord', 'roblox', 'official links', 'wiki', 'community'],
+  attackOnTitanRevolutionBeginnerGuide: ['beginner guide', 'odm', 'titan combat', 'missions', 'families', 'progression'],
+  attackOnTitanRevolutionFamilyTierList: ['family tier list', 'families', 'ackerman', 'yeager', 'fritz', 'helos'],
+  attackOnTitanRevolutionPerksTierList: ['perks tier list', 'perks', 'mythic perks', 'builds', 'raid support'],
+  attackOnTitanRevolutionSkillTreeGuide: ['skill tree', 'skill points', 'offense', 'defense', 'support', 'nodes'],
+  attackOnTitanRevolutionPrestigeGuide: ['prestige', 'prestige memory', 'level cap', 'boosts', 'prestige scrolls'],
+  attackOnTitanRevolutionRaidsGuide: ['raids', 'raid rewards', 'boss phases', 'emperor trove', 'raid drops', 'serum farming'],
+  attackOnTitanRevolutionTitanShiftingGuide: ['titan shifting', 'complete unlock', 'serums', 'shifter', 'attack titan', 'colossal titan'],
+  attackOnTitanRevolutionArtifactsAndMemoriesGuide: ['artifacts', 'memories', 'prestige', 'substats', 'raid drops'],
+  attackOnTitanRevolutionMissionsGuide: ['missions', 'skirmish', 'randomizer', 'objective', 'gold', 'exp'],
+  attackOnTitanRevolutionControlsAndOdmGearGuide: ['controls', 'odm gear', 'keybinds', 'gas', 'reload', 'movement'],
+  attackOnTitanRevolutionTradingValues: ['trading', 'values', 'trade tax', 'trading hub', 'market', 'trades'],
+  attackOnTitanRevolutionArmoredTitanRaidGuide: ['armored titan', 'raid guide', 'armored serum', 'rescue boats', 'emperor trove'],
+  attackOnTitanRevolutionFemaleTitanRaidGuide: ['female titan', 'raid guide', 'annie', 'female serum', 'qte', 'eren'],
+  attackOnTitanRevolutionColossalTitanRaidGuide: ['colossal titan', 'raid guide', 'bertholdt', 'cannons', 'colossal serum', 'update 4'],
 }
 
-const FILLER_WORDS = ['lucid', 'blocks', '2026', '2025', 'complete', 'the', 'and', 'for', 'how', 'with', 'our', 'this', 'your', 'all', 'from', 'learn', 'master']
+const FILLER_WORDS = ['attack', 'on', 'titan', 'revolution', '2026', '2025', 'complete', 'guide', 'the', 'and', 'for', 'how', 'with', 'our', 'this', 'your', 'all', 'from', 'learn', 'master']
 
 function normalize(text: string): string {
   return text
@@ -77,9 +85,9 @@ function matchScore(queryText: string, article: ArticleWithType, extraKeywords?:
 
   let score = 0
 
-  // Exact phrase match in title (stripped of "Lucid Blocks")
-  const strippedQuery = normalizedQuery.replace(/lucid blocks?\s*/g, '').trim()
-  const strippedTitle = normalizedTitle.replace(/lucid blocks?\s*/g, '').trim()
+  // Exact phrase match in title (stripped of "Attack on Titan Revolution")
+  const strippedQuery = normalizedQuery.replace(/attack on titan revolution\s*/g, '').trim()
+  const strippedTitle = normalizedTitle.replace(/attack on titan revolution\s*/g, '').trim()
   if (strippedQuery.length > 3 && strippedTitle.includes(strippedQuery)) {
     score += 100
   }
@@ -148,25 +156,28 @@ export async function buildModuleLinkMap(locale: Language): Promise<ModuleLinkMa
   const linkMap: ModuleLinkMap = {}
 
   // 3. For each module, match h2 title and sub-items
-  for (const [moduleKey, fieldConfig] of Object.entries(MODULE_FIELDS)) {
+  for (const [moduleKey, fieldConfigValue] of Object.entries(MODULE_FIELDS)) {
     const moduleData = enMessages.modules?.[moduleKey]
     if (!moduleData) continue
+    const fieldConfigs = Array.isArray(fieldConfigValue) ? fieldConfigValue : [fieldConfigValue]
 
     // Match module h2 title (use extra keywords + lower threshold for broader matching)
     const moduleTitle = moduleData.title as string
     if (moduleTitle) {
       const extraKw = MODULE_EXTRA_KEYWORDS[moduleKey] || []
-      linkMap[moduleKey] = findBestMatch(moduleTitle, allArticles, extraKw, 15)
+      linkMap[moduleKey] = findBestMatch(moduleTitle, allArticles, extraKw, 20)
     }
 
     // Match sub-items
-    const subItems = moduleData[fieldConfig.field] as any[]
-    if (Array.isArray(subItems)) {
-      for (let i = 0; i < subItems.length; i++) {
-        const itemName = subItems[i]?.[fieldConfig.nameKey] as string
-        if (itemName) {
-          const key = `${moduleKey}::${fieldConfig.field}::${i}`
-          linkMap[key] = findBestMatch(itemName, allArticles)
+    for (const fieldConfig of fieldConfigs) {
+      const subItems = moduleData[fieldConfig.field] as any[]
+      if (Array.isArray(subItems)) {
+        for (let i = 0; i < subItems.length; i++) {
+          const itemName = subItems[i]?.[fieldConfig.nameKey] as string
+          if (itemName) {
+            const key = `${moduleKey}::${fieldConfig.field}::${i}`
+            linkMap[key] = findBestMatch(itemName, allArticles)
+          }
         }
       }
     }
