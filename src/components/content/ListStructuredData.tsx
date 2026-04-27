@@ -7,13 +7,16 @@ interface ListStructuredDataProps {
 }
 
 export function ListStructuredData({ contentType, locale, items }: ListStructuredDataProps) {
-	const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.lucidblocks.wiki'
+	const siteUrl = (process.env.NEXT_PUBLIC_SITE_URL || 'https://attack-on-titan-revolution.wiki').replace(/\/$/, '')
 	const listUrl =
 		locale === 'en' ? `${siteUrl}/${contentType}` : `${siteUrl}/${locale}/${contentType}`
 
 	const structuredData = {
 		'@context': 'https://schema.org',
 		'@type': 'ItemList',
+		name: `${contentType.charAt(0).toUpperCase() + contentType.slice(1)} - Attack on Titan Revolution Wiki`,
+		url: listUrl,
+		itemListOrder: 'https://schema.org/ItemListOrderDescending',
 		itemListElement: items.map((item, index) => ({
 			'@type': 'ListItem',
 			position: index + 1,

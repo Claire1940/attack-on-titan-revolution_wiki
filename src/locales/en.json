@@ -33,27 +33,27 @@
     "readMore": "Read More"
   },
   "hero": {
-    "badge": "Surreal Voxel Survival Sandbox",
-    "title": "Lucid Blocks Wiki",
-    "description": "Explore dreamlike biomes, fuse items with Apotheosis, build freely, and survive strange creatures in this surreal open-world sandbox on Steam.",
-    "getFreeCodesCTA": "Explore Crafting Guide",
-    "playOnSteamCTA": "Play on Steam",
+    "badge": "Roblox Anime Titan Battle RPG",
+    "title": "Attack on Titan Revolution Wiki",
+    "description": "Master ODM combat, unlock stronger families and perks, clear raids for Titan-shifter rewards, and track working codes, updates, builds, and progression routes.",
+    "getFreeCodesCTA": "Join Discord for Codes",
+    "playOnSteamCTA": "Play on Roblox",
     "stats": {
       "stat1": {
-        "value": "1,325",
-        "label": "Players Online"
+        "value": "794M+",
+        "label": "Total Visits"
       },
       "stat2": {
-        "value": "1,986",
-        "label": "Peak CCU"
+        "value": "55K+",
+        "label": "Players Online"
       },
       "stat3": {
-        "value": "97%",
-        "label": "Positive Reviews"
+        "value": "1.16M+",
+        "label": "Likes"
       },
       "stat4": {
-        "value": "Mar 12, 2026",
-        "label": "Release Date"
+        "value": "1.18M+",
+        "label": "Favorites"
       }
     }
   },
@@ -784,26 +784,26 @@
     ]
   },
   "cta": {
-    "title": "Ready to Explore Lucid Blocks?",
-    "description": "Join the Lucid Blocks community on Discord for guides, updates, and discussions!",
-    "joinCommunity": "Join Discord",
-    "joinGame": "Play on Steam"
+    "title": "Ready to Master Attack on Titan Revolution?",
+    "description": "Join the official Attack on Titan Revolution Discord for codes, update alerts, raid coordination, and Roblox progression help.",
+    "joinCommunity": "Join AoTR Discord",
+    "joinGame": "Play Attack on Titan Revolution"
   },
   "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Your complete resource hub for Lucid Blocks crafting, biomes, creatures, achievements, and survival guides.",
+    "title": "Attack on Titan Revolution Wiki",
+    "description": "Your resource hub for Attack on Titan Revolution codes, families, perks, raids, titans, builds, updates, and Roblox progression guides.",
     "resources": "Resources",
     "community": "Community",
     "legal": "Legal",
-    "discord": "Discord",
-    "twitter": "X / Twitter",
-    "steamCommunity": "Steam Community",
-    "steamStore": "Steam Store",
+    "discord": "Official Discord",
+    "twitter": "YouTube Trailer",
+    "steamCommunity": "Roblox Group",
+    "steamStore": "Official Trello",
     "about": "About",
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
     "copyrightNotice": "Copyright",
-    "copyright": "© 2026 Lucid Blocks Wiki. Not affiliated with the developers of Lucid Blocks.",
+    "copyright": "(c) 2026 Attack on Titan Revolution Wiki. Not affiliated with Roblox, AoTR [PI], or Attack on Titan rights holders.",
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
