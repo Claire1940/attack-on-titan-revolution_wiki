@@ -1,12 +1,15 @@
 {
-  "name": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-  "short_name": "Lucid Blocks",
-  "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
+  "name": "Attack on Titan Revolution Wiki - Codes, Families & Raids",
+  "short_name": "AOT Revolution",
+  "description": "Attack on Titan Revolution Wiki with working codes, family buffs, perks, raids, titan shifters, builds, updates, and Roblox progression guides.",
   "start_url": "/",
+  "scope": "/",
   "display": "standalone",
   "orientation": "any",
-  "theme_color": "#1a7a7a",
-  "background_color": "#0a0a0a",
+  "lang": "en",
+  "categories": ["games", "entertainment", "reference"],
+  "theme_color": "#e43a26",
+  "background_color": "#090605",
   "icons": [
     {
       "src": "/android-chrome-192x192.png",
@@ -33,7 +36,8 @@
     {
       "src": "/apple-touch-icon.png",
       "sizes": "180x180",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any"
     }
   ]
 }
