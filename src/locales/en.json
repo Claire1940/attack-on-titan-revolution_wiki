@@ -57,7 +57,7 @@
   "tools": {
     "title": "Attack on Titan Revolution",
     "titleHighlight": "Guides",
-    "subtitle": "Jump to Attack on Titan Revolution codes, official links, beginner route, family tiers, perks, skill trees, prestige, and raid sections.",
+    "subtitle": "Jump to Attack on Titan Revolution codes, official links, beginner route, family tiers, perks, skill trees, prestige, raids, Titan shifting, artifacts, missions, and controls.",
     "cards": [
       {
         "icon": "ClipboardCheck",
@@ -98,6 +98,26 @@
         "icon": "AlertTriangle",
         "title": "Attack on Titan Revolution Raids Guide",
         "description": "Attack, Armored, Female, and Colossal Titan raid mechanics."
+      },
+      {
+        "icon": "Zap",
+        "title": "Attack on Titan Revolution Titan Shifting Guide",
+        "description": "Serums, Aberrant farming, Shifter roles, mastery, and trading."
+      },
+      {
+        "icon": "Package",
+        "title": "Attack on Titan Revolution Artifacts and Memories Guide",
+        "description": "Artifact bonuses, reroll rules, Prestige Memories, and build use."
+      },
+      {
+        "icon": "Map",
+        "title": "Attack on Titan Revolution Missions Guide",
+        "description": "Mission objectives, rewards, Serum chances, and farming routes."
+      },
+      {
+        "icon": "Keyboard",
+        "title": "Attack on Titan Revolution Controls and ODM Gear Guide",
+        "description": "PC, Xbox, PlayStation, mobile, ODM hooks, boosts, and upgrades."
       }
     ]
   },
@@ -2019,12 +2039,597 @@
           }
         }
       ]
+    },
+    "attackOnTitanRevolutionTitanShiftingGuide": {
+      "name": "Attack on Titan Revolution Titan Shifting Guide",
+      "title": "Attack on Titan Revolution Titan Shifting Guide",
+      "displayType": "step-by-step",
+      "eyebrow": "Titan Shifting",
+      "subtitle": "Learn how Serums unlock Titan Shift, where to farm them, and which Shifter fits your build. This guide focuses on Serum farming, Aberrant missions, raids, mastery, and Shifter roles.",
+      "intro": "Titan Shifting in Attack on Titan Revolution starts with obtaining a Serum, equipping it, and using the free shifting skill that unlocks with that Serum. Serums are Mythical items tied to raids, Aberrant missions, and trading, so raid farming and high-difficulty progression are central to every Shifter build.",
+      "detailsLabel": "Attack on Titan Revolution Shifting Details",
+      "bestForLabel": "Best for",
+      "shiftersLabel": "Attack on Titan Revolution Shifter Roles",
+      "serumLabel": "Serum",
+      "roleLabel": "Role",
+      "coreStrengthsLabel": "Core strengths",
+      "items": [
+        {
+          "step": 1,
+          "title": "Understand what a Serum does",
+          "summary": "A Serum is the key item that unlocks Titan Shifting. After equipping a Serum, the player gains access to the related shifting skill and can transform into that Titan type.",
+          "details": [
+            "Serums are classified as Mythical items.",
+            "A Serum must be equipped before the shifting skill becomes available.",
+            "Serum capacity starts at 1 and increases by 1 for every Prestige level.",
+            "The Serum gamepass adds 5 extra Serum slots."
+          ],
+          "best_for": "Players preparing to unlock Attack, Armored, Female, or Colossal Titan forms."
+        },
+        {
+          "step": 2,
+          "title": "Farm raids for the main Serum path",
+          "summary": "Raids are the most direct Serum farming route because raid chests can drop Titan-specific Serums. Harder raid difficulties provide better Serum odds.",
+          "details": [
+            "Hard raid chest: 0.03% Serum chance from the free chest and 0.06% from Emperor's Trove.",
+            "Severe raid chest: 0.09% Serum chance from the free chest and 0.18% from Emperor's Trove.",
+            "Aberrant raid chest: 0.20% Serum chance from the free chest and 0.40% from Emperor's Trove.",
+            "Emperor's Trove requires an Emperor Key and has doubled listed drop rates compared with the free chest.",
+            "Raid chest drops are affected by Luck."
+          ],
+          "best_for": "Players farming Attack Serum, Armored Serum, Female Serum, Colossal Serum, artifacts, perks, and raid cosmetics."
+        },
+        {
+          "step": 3,
+          "title": "Use Aberrant missions as an alternate Serum route",
+          "summary": "Aberrant missions can also drop Serums, making high-level mission farming valuable for players who are not only farming raids.",
+          "details": [
+            "Only Aberrant missions can drop Serums.",
+            "Shiganshina, Trost, Outskirts, Loading Docks, and Stohess list a 0.06% total Serum chance, with 0.02% for each individual Serum type.",
+            "Giant Forest lists a 0.07% total Serum chance, with 0.0233% for each individual Serum type.",
+            "Utgard lists a 0.05% total Serum chance, with 0.0167% for each individual Serum type.",
+            "Mission Serum rates are affected by Luck."
+          ],
+          "best_for": "Players combining leveling, gold farming, Prestige Scroll farming, and Serum farming."
+        },
+        {
+          "step": 4,
+          "title": "Meet the Colossal Titan requirements",
+          "summary": "Colossal Titan Shifting is tied to the Colossal Serum and the Colossal Titan Raid. This path is built around late-game raid farming rather than early progression.",
+          "details": [
+            "Colossal Serum drops from the Colossal Titan Raid.",
+            "The Colossal Titan Raid is Aberrant-only.",
+            "Players need Prestige 2 or higher to enter the Colossal Titan Raid.",
+            "Colossal Serum has a 0.20% chance from the free chest and a 0.40% chance from Emperor's Trove.",
+            "Colossal Serum does not work for Zoe, Ackerman, or Helos families."
+          ],
+          "best_for": "Prestige 2+ players farming Update 4 Colossal Titan content."
+        },
+        {
+          "step": 5,
+          "title": "Pick a Shifter that matches your build",
+          "summary": "Each Shifter has a different combat identity. Choose based on whether you want raw offense, durability, flexible all-round play, or maximum transformation power.",
+          "shifters": [
+            {
+              "name": "Attack Titan",
+              "serum": "Attack Serum",
+              "role": "Aggressive brawler",
+              "core_strengths": [
+                "Berserk Mode increases damage and speed.",
+                "Hardening boosts punching and skill damage while improving defense.",
+                "Roar regenerates health and stuns nearby titans."
+              ],
+              "best_for": "Players who want direct damage, fast pressure, and active melee combat."
+            },
+            {
+              "name": "Armored Titan",
+              "serum": "Armored Serum",
+              "role": "Defensive tank",
+              "core_strengths": [
+                "Built around durability and defensive pressure.",
+                "Uses tools such as Titan Toss, Earth Breaker, Courage, Phase Shift, and Unstoppable Charge.",
+                "Roar and defensive mastery support longer fights."
+              ],
+              "best_for": "Players who want survivability, boss pressure, and tank-style Shifter gameplay."
+            },
+            {
+              "name": "Female Titan",
+              "serum": "Female Serum",
+              "role": "Flexible all-rounder",
+              "core_strengths": [
+                "Uses Grapple, Crimson Bloom, Hardening, Shriek, and kick-based attacks.",
+                "Mimicry can copy passive options from Attack, Armored, or Colossal Titan.",
+                "Crimson Bloom rewards aggressive combo play."
+              ],
+              "best_for": "Players who want mobility, flexibility, and build variety."
+            },
+            {
+              "name": "Colossal Titan",
+              "serum": "Colossal Serum",
+              "role": "Maximum-power raid Shifter",
+              "core_strengths": [
+                "Atomic Ascension triggers a Nuclear Shift when transforming at full awakening bar.",
+                "Walking can damage titans because of the Colossal Titan's size.",
+                "Skills include Atomic Ascension, Anguish, Tectonic Quake, Seismic Shock, Incendiary Volley, and Heatwave."
+              ],
+              "best_for": "Prestige 2+ players focused on Colossal raid progression and high-impact transformation play."
+            }
+          ]
+        },
+        {
+          "step": 6,
+          "title": "Level Shifter mastery before building deep resonance",
+          "summary": "Shifter skills improve through use, and Shifter mastery improves by taking damage while transformed. This makes repeated raid and high-difficulty play important after unlocking a Serum.",
+          "details": [
+            "Most Shifter moves level up by being used.",
+            "Shifter Mastery levels by taking damage as a Shifter.",
+            "Boxing, Defense, and Fighting mastery level through punching.",
+            "Skills can normally reach level 10, and can reach level 13 when resonance is unlocked."
+          ],
+          "best_for": "Players turning a first Serum unlock into a long-term Shifter build."
+        },
+        {
+          "step": 7,
+          "title": "Use trading as a late-game shortcut",
+          "summary": "Serums can be traded, making trading useful for players with enough Prestige and gems. This is especially important for players targeting a specific Shifter instead of farming random drops.",
+          "details": [
+            "Serums can be traded to players at Prestige 3 or higher.",
+            "Each Serum trade has a 5,000 gem tax.",
+            "Trading is useful when a player needs a specific Serum for a build path."
+          ],
+          "best_for": "Prestige 3+ players with enough gems who want a targeted Serum path."
+        }
+      ]
+    },
+    "attackOnTitanRevolutionArtifactsAndMemoriesGuide": {
+      "name": "Attack on Titan Revolution Artifacts and Memories Guide",
+      "title": "Attack on Titan Revolution Artifacts and Memories Guide",
+      "displayType": "card-list",
+      "eyebrow": "Artifacts & Memories",
+      "subtitle": "Artifacts provide permanent bonus stats and special effects, while Memories act as Prestige talents that shape your ODM, Shifter, raid, and farming builds.",
+      "intro": "Artifacts and Memories are long-term progression systems in Attack on Titan Revolution. Artifacts come from raids and achievements, can roll bonus substats, and remain active even when Modifiers are enabled. Memories are selected through Prestige Scrolls and can define how much damage, safety, utility, or farming value a build gains over time.",
+      "categoryLabel": "Category",
+      "rarityLabel": "Rarity",
+      "sourceLabel": "Source",
+      "slotLabel": "Slot",
+      "effectsLabel": "Effects",
+      "buildUseLabel": "Build use",
+      "items": [
+        {
+          "category": "System",
+          "name": "Artifact Reroll Rules",
+          "rarity": "Core Mechanic",
+          "source": "Artifacts",
+          "effects": [
+            "Artifacts provide permanent bonus stats.",
+            "Artifact bonuses stay active even with Modifiers enabled.",
+            "Artifact substats can be rerolled.",
+            "Locking a substat keeps that stat unchanged but increases reroll cost by 50%."
+          ],
+          "build_use": "Use rerolls to chase key permanent stats such as damage, cooldown reduction, control, speed, health, damage reduction, and Shifter-focused bonuses."
+        },
+        {
+          "category": "Artifact",
+          "name": "Crown",
+          "rarity": "Legendary",
+          "source": "Achievements",
+          "slot": "Hat / Face",
+          "effects": [
+            "Grants +7.5% Luck."
+          ],
+          "build_use": "Strong general-purpose artifact for drop farming, Serum farming, perk farming, and raid reward hunting."
+        },
+        {
+          "category": "Artifact",
+          "name": "Scarf",
+          "rarity": "Mythic",
+          "source": "Attack Titan Raid",
+          "slot": "Neck / Cape",
+          "effects": [
+            "Grants +40% Hook Speed.",
+            "Reduces dash cooldown by 20%.",
+            "Reduces Rage Mode usage by 25%."
+          ],
+          "build_use": "Excellent for ODM movement, fast titan clearing, and aggressive raid play."
+        },
+        {
+          "category": "Artifact",
+          "name": "Scars",
+          "rarity": "Mythic",
+          "source": "Armored Titan Raid and Female Titan Raid",
+          "slot": "Hat / Face",
+          "effects": [
+            "Grants +15% Shifter Stats.",
+            "Adds +1 Maximum Shift.",
+            "Reduces Awakening Bar drain speed by 20%."
+          ],
+          "build_use": "High-value Shifter artifact for players building around Titan transformation uptime and Shifter damage."
+        },
+        {
+          "category": "Artifact",
+          "name": "Cloak",
+          "rarity": "Legendary",
+          "source": "Attack Titan Raid",
+          "slot": "Neck / Cape",
+          "effects": [
+            "Adds +175m Aggro Range.",
+            "Adds +1 Maximum Shift."
+          ],
+          "build_use": "Useful for Shifter-focused raid play and players who want extra transformation availability."
+        },
+        {
+          "category": "Artifact",
+          "name": "Hoodie",
+          "rarity": "Legendary",
+          "source": "Female Titan Raid",
+          "slot": "Neck / Cape",
+          "effects": [
+            "Grants +15% ODM / TS Speed.",
+            "Grants +10% Damage."
+          ],
+          "build_use": "Strong hybrid artifact for ODM, Thunder Spear, and general damage builds."
+        },
+        {
+          "category": "Artifact",
+          "name": "Rifle",
+          "rarity": "Legendary",
+          "source": "Armored Titan Raid",
+          "slot": "Neck / Cape",
+          "effects": [
+            "Adds +1 Supply Station Reload.",
+            "Grants +10% Skill Cooldown Reduction."
+          ],
+          "build_use": "Good utility option for missions and raids where refills and cooldown cycling matter."
+        },
+        {
+          "category": "Artifact",
+          "name": "Scorched Cloak",
+          "rarity": "Mythic",
+          "source": "Colossal Titan Raid",
+          "slot": "Back",
+          "effects": [
+            "Adds +5.0% Burn DMG on all attacks.",
+            "Multiplies burn effects by 1.1x.",
+            "Grants +5.0 Health Regen."
+          ],
+          "build_use": "Built for Update 4 burn-focused and sustain-oriented Colossal raid progression."
+        },
+        {
+          "category": "Artifact",
+          "name": "Colossal Scars",
+          "rarity": "Mythic",
+          "source": "Colossal Titan Raid",
+          "slot": "Face",
+          "effects": [
+            "Grants +15.0% Colossal Titan Stats.",
+            "Adds +1 Shifts.",
+            "Reduces Awakening Bar drain by 20.0% for Colossal Titan.",
+            "Increases Atomic Ascension range by 150m."
+          ],
+          "build_use": "Best fit for dedicated Colossal Titan Shifter builds."
+        },
+        {
+          "category": "Memory System",
+          "name": "Prestige Memory Rolls",
+          "rarity": "Core Mechanic",
+          "source": "Prestige Scrolls",
+          "effects": [
+            "1-star Memories have a 70% roll chance.",
+            "2-star Memories have a 25% roll chance.",
+            "3-star Memories have a 4% roll chance.",
+            "4-star Memories have a 1% roll chance.",
+            "After 20 Prestige Scrolls, pity guarantees a 3-star or 4-star Memory roll.",
+            "Duplicate Memories do not stack."
+          ],
+          "build_use": "Use Prestige Scrolls to chase build-defining Memories for damage, survival, support, or farming."
+        },
+        {
+          "category": "Memory",
+          "name": "Quakestrike",
+          "rarity": "Prestige Memory",
+          "source": "Prestige Scrolls",
+          "effects": [
+            "Every kill buffs damage by 1.5%.",
+            "The damage bonus resets after reload, refill, shift, or eject.",
+            "The kill limit is 50 for ODM and 20 for Shifter."
+          ],
+          "build_use": "Strong for long mission chains and raid phases where players can maintain kill flow."
+        },
+        {
+          "category": "Memory",
+          "name": "Gambler",
+          "rarity": "Prestige Memory",
+          "source": "Prestige Scrolls",
+          "effects": [
+            "Changes damage into a roll-based range.",
+            "Works as a high-ceiling damage Memory."
+          ],
+          "build_use": "Used in raw damage builds, especially when the player wants stronger burst potential."
+        },
+        {
+          "category": "Memory",
+          "name": "Furyforge",
+          "rarity": "Prestige Memory",
+          "source": "Prestige Scrolls",
+          "effects": [
+            "Grants +0.4% damage for every 1% HP lost."
+          ],
+          "build_use": "Powerful for Shifter and risk-reward damage builds that fight at lower health."
+        },
+        {
+          "category": "Memory",
+          "name": "Thanatophobia",
+          "rarity": "Prestige Memory",
+          "source": "Prestige Scrolls",
+          "effects": [
+            "Below 40% HP, grants damage reduction and other defensive value."
+          ],
+          "build_use": "Useful for survival-heavy Shifter, raid, and difficult mission builds."
+        },
+        {
+          "category": "Memory",
+          "name": "Tactician",
+          "rarity": "Prestige Memory",
+          "source": "Prestige Scrolls",
+          "effects": [
+            "Increases support skill effects, duration, and radius by 15%."
+          ],
+          "build_use": "Best for support-oriented raid teams and utility-heavy group play."
+        }
+      ]
+    },
+    "attackOnTitanRevolutionMissionsGuide": {
+      "name": "Attack on Titan Revolution Missions Guide",
+      "title": "Attack on Titan Revolution Missions Guide",
+      "displayType": "table",
+      "eyebrow": "Missions",
+      "subtitle": "Compare major mission maps, Aberrant rewards, Serum chances, Prestige Scroll chances, and progression value. Use this table to decide which missions to farm for gold, EXP, perks, Serums, and Prestige Scrolls.",
+      "intro": "Missions are the core progression loop for leveling, gold farming, perk farming, Serum farming, and Prestige Scroll farming. Attack on Titan Revolution missions include Skirmish, Randomizer, and Special Objective formats, with each map offering different objectives, titan counts, completion rewards, and high-difficulty drop chances.",
+      "mapLabel": "Map",
+      "objectiveLabel": "Mission objective",
+      "primaryUseLabel": "Primary use",
+      "rewardsLabel": "Aberrant rewards",
+      "serumLabel": "Serum chance",
+      "scrollLabel": "Prestige Scroll chance",
+      "perkLabel": "Perk context",
+      "items": [
+        {
+          "map": "Giant Forest",
+          "mission_objective": "Guard the Female Titan's body.",
+          "primary_use": "High-value Aberrant farming map for gold, EXP, Serum chance, and Prestige Scroll chance.",
+          "aberrant_gold": "50,200 Gold completion reward",
+          "aberrant_exp": "9,132 EXP completion reward",
+          "serum_chance": "0.07% total Serum chance",
+          "individual_serum_chance": "0.0233% per individual Serum type",
+          "prestige_scroll_chance": "3.90%",
+          "perk_drop_context": "Aberrant random perk drop chance is 1.5%, with Giant Forest listing a 0.26% Mythical perk chance."
+        },
+        {
+          "map": "Shiganshina",
+          "mission_objective": "Defend the HQ after the breach.",
+          "primary_use": "Reliable Aberrant mission for progression farming, Serum rolls, and Prestige Scrolls.",
+          "aberrant_gold": "45,373 Gold completion reward",
+          "aberrant_exp": "8,254 EXP completion reward",
+          "serum_chance": "0.06% total Serum chance",
+          "individual_serum_chance": "0.02% per individual Serum type",
+          "prestige_scroll_chance": "3.53%",
+          "perk_drop_context": "Aberrant random perk drop chance is 1.5%, with Shiganshina listing a 0.23% Mythical perk chance."
+        },
+        {
+          "map": "Trost",
+          "mission_objective": "Protect the Attack Titan while it seals the wall.",
+          "primary_use": "Balanced mission for leveling, gold, perk drops, and general progression.",
+          "aberrant_gold": "43,442 Gold completion reward",
+          "aberrant_exp": "7,903 EXP completion reward",
+          "serum_chance": "0.06% total Serum chance",
+          "individual_serum_chance": "0.02% per individual Serum type",
+          "prestige_scroll_chance": "3.38%",
+          "perk_drop_context": "Aberrant random perk drop chance is 1.5%, with Trost listing a 0.22% Mythical perk chance."
+        },
+        {
+          "map": "Loading Docks",
+          "mission_objective": "Stall titans long enough to secure the escape.",
+          "primary_use": "Objective-focused mission where failure causes death and streak loss, making clean execution important.",
+          "aberrant_gold": "42,477 Gold completion reward",
+          "aberrant_exp": "7,727 EXP completion reward",
+          "serum_chance": "0.06% total Serum chance",
+          "individual_serum_chance": "0.02% per individual Serum type",
+          "prestige_scroll_chance": "3.30%",
+          "perk_drop_context": "Aberrant random perk drop chance is 1.5%, with Loading Docks listing a 0.22% Mythical perk chance."
+        },
+        {
+          "map": "Utgard",
+          "mission_objective": "Defend the castle.",
+          "primary_use": "Defensive mission route for players practicing control, target priority, and sustained titan clearing.",
+          "aberrant_gold": "40,546 Gold completion reward",
+          "aberrant_exp": "7,376 EXP completion reward",
+          "serum_chance": "0.05% total Serum chance",
+          "individual_serum_chance": "0.0167% per individual Serum type",
+          "prestige_scroll_chance": "3.15%",
+          "perk_drop_context": "Aberrant random perk drop chance is 1.5%, with Utgard listing a 0.21% Mythical perk chance."
+        },
+        {
+          "map": "Outskirts",
+          "mission_objective": "Escort carts and civilians.",
+          "primary_use": "Escort-style mission for stable progression, early route learning, and objective practice.",
+          "aberrant_gold": "38,615 Gold completion reward",
+          "aberrant_exp": "7,025 EXP completion reward",
+          "serum_chance": "0.06% total Serum chance",
+          "individual_serum_chance": "0.02% per individual Serum type",
+          "prestige_scroll_chance": "3.30%",
+          "perk_drop_context": "Aberrant random perk drop chance is 1.5%, with Outskirts listing a 0.20% Mythical perk chance."
+        },
+        {
+          "map": "Aberrant Mission Rules",
+          "mission_objective": "Clear high-HP titans and complete the mission objective under Aberrant difficulty.",
+          "primary_use": "Best mission tier for Serums, Prestige Scrolls, perks, gold, and EXP.",
+          "aberrant_gold": "1,390 Gold per titan kill",
+          "aberrant_exp": "139 EXP per titan kill",
+          "serum_chance": "Serum drops only appear in Aberrant missions.",
+          "individual_serum_chance": "Rates vary by map.",
+          "prestige_scroll_chance": "Prestige Scrolls are available on Severe and Aberrant difficulties.",
+          "perk_drop_context": "Aberrant missions can include Pure Titans, Abnormals, Crawlers, higher reward tables, random perk drops, and mission completion perk rewards."
+        },
+        {
+          "map": "Mission Reward Rules",
+          "mission_objective": "Complete the mission while meeting contribution requirements.",
+          "primary_use": "Helps players understand why solo and team contribution matter.",
+          "aberrant_gold": "Rewards vary by difficulty, map, titan kills, and completion.",
+          "aberrant_exp": "EXP scales with difficulty and map rewards.",
+          "serum_chance": "Drop rates are affected by Luck and modifiers.",
+          "individual_serum_chance": "Targeted Serum farming is strongest when combined with Luck and repeated Aberrant clears.",
+          "prestige_scroll_chance": "Higher-difficulty mission farming is the main Prestige Scroll route outside other progression systems.",
+          "perk_drop_context": "Mission completion gives a guaranteed perk when requirements are met. A player needs at least 10% of total kills for cooperation credit, and the top killer can earn an extra perk in multiplayer."
+        }
+      ]
+    },
+    "attackOnTitanRevolutionControlsAndOdmGearGuide": {
+      "name": "Attack on Titan Revolution Controls and ODM Gear Guide",
+      "title": "Attack on Titan Revolution Controls and ODM Gear Guide",
+      "displayType": "step-by-step",
+      "eyebrow": "Controls & ODM",
+      "subtitle": "Learn the core Attack on Titan Revolution controls for movement, ODM hooks, boost, reload, slash, skills, and controller play. This guide also explains the basic ODM movement loop new players should practice first.",
+      "intro": "ODM Gear is the foundation of fast movement and titan killing in Attack on Titan Revolution. The main loop is simple: aim at a grapple point, use left or right hook, boost with gas, approach the nape, slash at speed, then reload and reposition before the next titan.",
+      "platformLabel": "Platform",
+      "controlsLabel": "Controls",
+      "actionLabel": "Action",
+      "inputLabel": "Input",
+      "practiceTipLabel": "Practice tip",
+      "items": [
+        {
+          "step": 1,
+          "title": "Learn the PC movement basics",
+          "platform": "PC",
+          "controls": [
+            { "action": "Move", "input": "W / A / S / D" },
+            { "action": "Run", "input": "Left Shift" },
+            { "action": "Jump", "input": "Space" },
+            { "action": "Boost while grappling", "input": "Hold Space" },
+            { "action": "Mega Boost", "input": "Double Space" },
+            { "action": "Slide", "input": "C" },
+            { "action": "Backflip", "input": "Double S" },
+            { "action": "Left Flip", "input": "Double A" },
+            { "action": "Right Flip", "input": "Double D" },
+            { "action": "Up Swerve", "input": "W" },
+            { "action": "Down Swerve", "input": "S" }
+          ],
+          "practice_tip": "Start by moving around the map without attacking, then add hooks and boost once basic movement feels smooth."
+        },
+        {
+          "step": 2,
+          "title": "Use the PC ODM hook loop",
+          "platform": "PC",
+          "controls": [
+            { "action": "Right Hook", "input": "E" },
+            { "action": "Left Hook", "input": "Q" },
+            { "action": "Hook Break", "input": "B" },
+            { "action": "Aim ODM direction", "input": "Mouse cursor / camera direction" },
+            { "action": "Gas Boost", "input": "Hold Space while hooked" },
+            { "action": "Slash", "input": "Mouse 1" },
+            { "action": "Reload blades", "input": "R" }
+          ],
+          "practice_tip": "Aim above or around the titan's nape, hook past the target, boost to build speed, then slash as you pass the weak point."
+        },
+        {
+          "step": 3,
+          "title": "Use PC combat and skill hotkeys",
+          "platform": "PC",
+          "controls": [
+            { "action": "Basic attack / Slash", "input": "Mouse 1" },
+            { "action": "Hold / Aim", "input": "Mouse 2" },
+            { "action": "Block", "input": "F" },
+            { "action": "Heavy attack", "input": "R" },
+            { "action": "Lock", "input": "Left Control" },
+            { "action": "Menu", "input": "Tab" },
+            { "action": "Skill 1", "input": "1" },
+            { "action": "Skill 2", "input": "2" },
+            { "action": "Skill 3", "input": "3" },
+            { "action": "Skill 4", "input": "4" },
+            { "action": "Skill 5", "input": "5" },
+            { "action": "Invite", "input": "Y" }
+          ],
+          "practice_tip": "Keep reload, block, and skill keys close in muscle memory because high-difficulty missions punish slow reactions."
+        },
+        {
+          "step": 4,
+          "title": "Use Xbox controller bindings",
+          "platform": "Xbox",
+          "controls": [
+            { "action": "Boost", "input": "B" },
+            { "action": "Mega Boost", "input": "Double B" },
+            { "action": "Reload", "input": "X" },
+            { "action": "Menu", "input": "Y" },
+            { "action": "Run", "input": "Left Stick Press / L3" },
+            { "action": "Zoom", "input": "Right Stick Press / R3" },
+            { "action": "Left Hook / Block", "input": "LB / L1" },
+            { "action": "Right Hook / Heavy", "input": "RB / R1" },
+            { "action": "Slash", "input": "Right Trigger / R2" },
+            { "action": "Skill Modifier", "input": "Left Trigger / L2" },
+            { "action": "Skill 1", "input": "Left Trigger / L2" },
+            { "action": "Skill 2", "input": "Left Trigger / L2 + D-Pad Left" },
+            { "action": "Skill 3", "input": "Left Trigger / L2 + D-Pad Right" },
+            { "action": "Skill 4", "input": "Left Trigger / L2 + D-Pad Down" },
+            { "action": "Skill 5", "input": "Left Trigger / L2 + D-Pad Up" }
+          ],
+          "practice_tip": "Controller players should practice hook direction, boost timing, and reload rhythm before pushing Aberrant missions or raids."
+        },
+        {
+          "step": 5,
+          "title": "Use PlayStation controller bindings",
+          "platform": "PlayStation",
+          "controls": [
+            { "action": "Boost", "input": "Circle" },
+            { "action": "Mega Boost", "input": "Double Circle" },
+            { "action": "Reload", "input": "Square" },
+            { "action": "Menu", "input": "Triangle" },
+            { "action": "Run", "input": "L3" },
+            { "action": "Zoom", "input": "R3" },
+            { "action": "Left Hook / Block", "input": "L1" },
+            { "action": "Right Hook / Heavy", "input": "R1" },
+            { "action": "Slash", "input": "R2" },
+            { "action": "Skill Modifier", "input": "L2" },
+            { "action": "Skill 1", "input": "L2" },
+            { "action": "Skill 2", "input": "L2 + D-Pad Left" },
+            { "action": "Skill 3", "input": "L2 + D-Pad Right" },
+            { "action": "Skill 4", "input": "L2 + D-Pad Down" },
+            { "action": "Skill 5", "input": "L2 + D-Pad Up" }
+          ],
+          "practice_tip": "Use the same ODM loop as PC: hook, boost, line up the nape, slash, then reload and reposition."
+        },
+        {
+          "step": 6,
+          "title": "Apply the same ODM loop on mobile",
+          "platform": "Mobile / Touch",
+          "controls": [
+            { "action": "Aim", "input": "Use camera drag to place the reticle on the hook point or titan path." },
+            { "action": "Hook and Boost", "input": "Use the on-screen hook and boost buttons in sequence." },
+            { "action": "Attack", "input": "Use the on-screen attack button when passing the titan's nape." },
+            { "action": "Reload and Skills", "input": "Use the on-screen reload and skill buttons between engagements." }
+          ],
+          "practice_tip": "Practice the movement loop in tutorial or Training Grounds before farming difficult missions."
+        },
+        {
+          "step": 7,
+          "title": "Upgrade ODM Gear for harder content",
+          "platform": "All Platforms",
+          "controls": [
+            { "action": "ODM Speed", "input": "Improves movement speed." },
+            { "action": "ODM Damage", "input": "Improves titan-killing power." },
+            { "action": "ODM Control", "input": "Improves handling and movement control." },
+            { "action": "ODM Range", "input": "Improves hook reach." },
+            { "action": "ODM Gas", "input": "Improves boost resource capacity." },
+            { "action": "ODM Durability", "input": "Improves blade durability." },
+            { "action": "Critical Chance and Critical Damage", "input": "Improve damage consistency and burst." }
+          ],
+          "practice_tip": "Upgrade ODM Gear evenly because harder content requires higher gear rating. A common upgrade priority for ODM players is Damage, Speed, Control, Range, Gas, Durability, Critical Chance, and Critical Damage."
+        }
+      ]
     }
   },
   "faq": {
     "title": "Attack on Titan Revolution",
     "titleHighlight": "FAQ",
-    "subtitle": "Answers for Attack on Titan Revolution codes, progression, Families, Perks, Skill Trees, Prestige, Raids, and official Roblox links.",
+    "subtitle": "Answers for Attack on Titan Revolution codes, progression, Families, Perks, Skill Trees, Prestige, Raids, Titan shifting, Artifacts, Missions, controls, and official Roblox links.",
     "questions": [
       {
         "question": "What is Attack on Titan Revolution on Roblox?",
@@ -2053,6 +2658,22 @@
       {
         "question": "When should I start Attack on Titan Revolution Raids?",
         "answer": "Start Attack on Titan Revolution Raids after your Missions, ODM control, gear upgrades, Family choice, Perks, and skill-tree path can support phase-based boss fights."
+      },
+      {
+        "question": "How do I unlock Attack on Titan Revolution Titan shifting?",
+        "answer": "Attack on Titan Revolution Titan shifting starts with a Serum. Farm raids, Aberrant missions, or eligible trades, equip the Serum, then build Shifter mastery through repeated transformed combat."
+      },
+      {
+        "question": "Which Attack on Titan Revolution Artifacts and Memories matter most?",
+        "answer": "Attack on Titan Revolution Artifacts and Memories matter when they match your build goal: Luck for farming, ODM speed and damage for mission clears, Shifter stats for Titan forms, and support Memories for raid teams."
+      },
+      {
+        "question": "Which Attack on Titan Revolution Missions should I farm?",
+        "answer": "Attack on Titan Revolution Missions such as Giant Forest, Shiganshina, Trost, Loading Docks, Utgard, and Outskirts support gold, EXP, perks, Serum chances, and Prestige Scroll farming on higher difficulties."
+      },
+      {
+        "question": "What Attack on Titan Revolution controls should new players learn first?",
+        "answer": "New Attack on Titan Revolution players should learn ODM hooks, boost timing, reload rhythm, slash timing, camera aim, and platform-specific movement controls before pushing Aberrant missions or raids."
       },
       {
         "question": "Where are the official Attack on Titan Revolution Trello and Discord links?",

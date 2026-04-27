@@ -10,11 +10,15 @@ import {
   ClipboardCheck,
   Copy,
   ExternalLink,
+  Keyboard,
+  Map as MapIcon,
   MessageCircle,
+  Package,
   Shield,
   Sparkles,
   Star,
   TrendingUp,
+  Zap,
 } from 'lucide-react'
 import { useMessages } from 'next-intl'
 import enMessages from '@/locales/en.json'
@@ -96,7 +100,7 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
   const rawMessages = useMessages() as any
   const hasCurrentToolCards =
     Array.isArray(rawMessages.tools?.cards) &&
-    rawMessages.tools.cards.length >= 8 &&
+    rawMessages.tools.cards.length >= 12 &&
     rawMessages.tools.cards.every((card: any) => card?.title?.includes('Attack on Titan Revolution'))
   const t = hasCurrentToolCards
     ? rawMessages
@@ -127,6 +131,10 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
   const skillTreeModule = t.modules.attackOnTitanRevolutionSkillTreeGuide
   const prestigeModule = t.modules.attackOnTitanRevolutionPrestigeGuide
   const raidsModule = t.modules.attackOnTitanRevolutionRaidsGuide
+  const titanShiftingModule = t.modules.attackOnTitanRevolutionTitanShiftingGuide
+  const artifactsModule = t.modules.attackOnTitanRevolutionArtifactsAndMemoriesGuide
+  const missionsModule = t.modules.attackOnTitanRevolutionMissionsGuide
+  const controlsModule = t.modules.attackOnTitanRevolutionControlsAndOdmGearGuide
 
   const copyCode = async (code: string) => {
     try {
@@ -482,6 +490,110 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
               </div>
               <h3 className="font-semibold mb-2">{t.tools.cards[7].title}</h3>
               <p className="text-sm text-muted-foreground">{t.tools.cards[7].description}</p>
+            </a>
+
+            <a
+              href="#titan-shifting-guide"
+              onClick={(event) => {
+                event.preventDefault()
+                scrollToSection('titan-shifting-guide')
+              }}
+              className="scroll-reveal group p-6 rounded-xl border border-border
+                         bg-card hover:border-[hsl(var(--nav-theme)/0.5)]
+                         transition-all duration-300 cursor-pointer text-left
+                         hover:shadow-lg hover:shadow-[hsl(var(--nav-theme)/0.1)]"
+              style={{ animationDelay: '400ms' }}
+            >
+              <div className="w-12 h-12 rounded-lg mb-4
+                              bg-[hsl(var(--nav-theme)/0.1)]
+                              flex items-center justify-center
+                              group-hover:bg-[hsl(var(--nav-theme)/0.2)]
+                              transition-colors">
+                <DynamicIcon
+                  name={t.tools.cards[8].icon}
+                  className="w-6 h-6 text-[hsl(var(--nav-theme-light))]"
+                />
+              </div>
+              <h3 className="font-semibold mb-2">{t.tools.cards[8].title}</h3>
+              <p className="text-sm text-muted-foreground">{t.tools.cards[8].description}</p>
+            </a>
+
+            <a
+              href="#artifacts-and-memories-guide"
+              onClick={(event) => {
+                event.preventDefault()
+                scrollToSection('artifacts-and-memories-guide')
+              }}
+              className="scroll-reveal group p-6 rounded-xl border border-border
+                         bg-card hover:border-[hsl(var(--nav-theme)/0.5)]
+                         transition-all duration-300 cursor-pointer text-left
+                         hover:shadow-lg hover:shadow-[hsl(var(--nav-theme)/0.1)]"
+              style={{ animationDelay: '450ms' }}
+            >
+              <div className="w-12 h-12 rounded-lg mb-4
+                              bg-[hsl(var(--nav-theme)/0.1)]
+                              flex items-center justify-center
+                              group-hover:bg-[hsl(var(--nav-theme)/0.2)]
+                              transition-colors">
+                <DynamicIcon
+                  name={t.tools.cards[9].icon}
+                  className="w-6 h-6 text-[hsl(var(--nav-theme-light))]"
+                />
+              </div>
+              <h3 className="font-semibold mb-2">{t.tools.cards[9].title}</h3>
+              <p className="text-sm text-muted-foreground">{t.tools.cards[9].description}</p>
+            </a>
+
+            <a
+              href="#missions-guide"
+              onClick={(event) => {
+                event.preventDefault()
+                scrollToSection('missions-guide')
+              }}
+              className="scroll-reveal group p-6 rounded-xl border border-border
+                         bg-card hover:border-[hsl(var(--nav-theme)/0.5)]
+                         transition-all duration-300 cursor-pointer text-left
+                         hover:shadow-lg hover:shadow-[hsl(var(--nav-theme)/0.1)]"
+              style={{ animationDelay: '500ms' }}
+            >
+              <div className="w-12 h-12 rounded-lg mb-4
+                              bg-[hsl(var(--nav-theme)/0.1)]
+                              flex items-center justify-center
+                              group-hover:bg-[hsl(var(--nav-theme)/0.2)]
+                              transition-colors">
+                <DynamicIcon
+                  name={t.tools.cards[10].icon}
+                  className="w-6 h-6 text-[hsl(var(--nav-theme-light))]"
+                />
+              </div>
+              <h3 className="font-semibold mb-2">{t.tools.cards[10].title}</h3>
+              <p className="text-sm text-muted-foreground">{t.tools.cards[10].description}</p>
+            </a>
+
+            <a
+              href="#controls-and-odm-gear-guide"
+              onClick={(event) => {
+                event.preventDefault()
+                scrollToSection('controls-and-odm-gear-guide')
+              }}
+              className="scroll-reveal group p-6 rounded-xl border border-border
+                         bg-card hover:border-[hsl(var(--nav-theme)/0.5)]
+                         transition-all duration-300 cursor-pointer text-left
+                         hover:shadow-lg hover:shadow-[hsl(var(--nav-theme)/0.1)]"
+              style={{ animationDelay: '550ms' }}
+            >
+              <div className="w-12 h-12 rounded-lg mb-4
+                              bg-[hsl(var(--nav-theme)/0.1)]
+                              flex items-center justify-center
+                              group-hover:bg-[hsl(var(--nav-theme)/0.2)]
+                              transition-colors">
+                <DynamicIcon
+                  name={t.tools.cards[11].icon}
+                  className="w-6 h-6 text-[hsl(var(--nav-theme-light))]"
+                />
+              </div>
+              <h3 className="font-semibold mb-2">{t.tools.cards[11].title}</h3>
+              <p className="text-sm text-muted-foreground">{t.tools.cards[11].description}</p>
             </a>
           </div>
         </div>
@@ -1063,6 +1175,373 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
                 </div>
               </details>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Module 9: Attack on Titan Revolution Titan Shifting Guide */}
+      <section id="titan-shifting-guide" className="scroll-mt-24 px-4 py-20">
+        <div className="container mx-auto max-w-6xl">
+          <div className="text-center mb-12 scroll-reveal">
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] mb-5">
+              <Zap className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+              <span className="text-sm font-medium">{titanShiftingModule.eyebrow}</span>
+            </div>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">{titanShiftingModule.title}</h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-4">{titanShiftingModule.subtitle}</p>
+            <p className="text-muted-foreground max-w-4xl mx-auto">{titanShiftingModule.intro}</p>
+          </div>
+
+          <div className="scroll-reveal grid grid-cols-1 xl:grid-cols-[1fr_22rem] gap-6">
+            <div className="relative space-y-5">
+              <div className="absolute left-6 top-8 bottom-8 w-px bg-[hsl(var(--nav-theme)/0.25)] hidden md:block" />
+              {titanShiftingModule.items.map((step: any) => (
+                <article key={step.step} className="relative md:pl-20">
+                  <div className="hidden md:flex absolute left-0 top-6 h-12 w-12 items-center justify-center rounded-full border-2 border-[hsl(var(--nav-theme)/0.45)] bg-background text-lg font-bold text-[hsl(var(--nav-theme-light))]">
+                    {step.step}
+                  </div>
+                  <div className="rounded-xl border border-border bg-card p-6 hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
+                    <div className="flex items-start gap-4 mb-5 md:hidden">
+                      <div className="flex h-11 w-11 flex-shrink-0 items-center justify-center rounded-full border border-[hsl(var(--nav-theme)/0.4)] bg-[hsl(var(--nav-theme)/0.1)] font-bold text-[hsl(var(--nav-theme-light))]">
+                        {step.step}
+                      </div>
+                      <div>
+                        <h3 className="text-xl font-bold">{step.title}</h3>
+                        <p className="text-sm text-muted-foreground mt-1">{step.summary}</p>
+                      </div>
+                    </div>
+                    <div className="hidden md:block mb-5">
+                      <h3 className="text-2xl font-bold">{step.title}</h3>
+                      <p className="text-muted-foreground mt-2">{step.summary}</p>
+                    </div>
+
+                    {Array.isArray(step.details) && (
+                      <div className="mb-5">
+                        <p className="text-xs uppercase text-muted-foreground mb-3">{titanShiftingModule.detailsLabel}</p>
+                        <div className="grid grid-cols-1 lg:grid-cols-2 gap-3">
+                          {step.details.map((detail: string) => (
+                            <div key={detail} className="flex items-start gap-2 rounded-lg border border-border bg-muted/30 p-3 text-sm text-muted-foreground">
+                              <Check className="w-4 h-4 flex-shrink-0 text-[hsl(var(--nav-theme-light))] mt-0.5" />
+                              <span>{detail}</span>
+                            </div>
+                          ))}
+                        </div>
+                      </div>
+                    )}
+
+                    {Array.isArray(step.shifters) && (
+                      <div className="mb-5">
+                        <p className="text-xs uppercase text-muted-foreground mb-3">{titanShiftingModule.shiftersLabel}</p>
+                        <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
+                          {step.shifters.map((shifter: any) => (
+                            <article key={shifter.name} className="rounded-xl border border-border bg-muted/20 p-5">
+                              <div className="flex flex-wrap items-start justify-between gap-3 mb-4">
+                                <div>
+                                  <h4 className="text-xl font-bold">{shifter.name}</h4>
+                                  <p className="text-sm text-muted-foreground">{shifter.role}</p>
+                                </div>
+                                <span className="rounded-full border border-[hsl(var(--nav-theme)/0.25)] bg-[hsl(var(--nav-theme)/0.08)] px-3 py-1 text-xs text-[hsl(var(--nav-theme-light))]">
+                                  {shifter.serum}
+                                </span>
+                              </div>
+                              <p className="text-xs uppercase text-muted-foreground mb-2">{titanShiftingModule.coreStrengthsLabel}</p>
+                              <ul className="space-y-2 mb-4">
+                                {shifter.core_strengths.map((strength: string) => (
+                                  <li key={strength} className="flex items-start gap-2 text-sm text-muted-foreground">
+                                    <Check className="w-4 h-4 flex-shrink-0 text-[hsl(var(--nav-theme-light))] mt-0.5" />
+                                    <span>{strength}</span>
+                                  </li>
+                                ))}
+                              </ul>
+                              <div className="rounded-lg border border-[hsl(var(--nav-theme)/0.25)] bg-[hsl(var(--nav-theme)/0.08)] p-3 text-sm">
+                                <p className="text-xs uppercase text-muted-foreground mb-1">{titanShiftingModule.bestForLabel}</p>
+                                <p>{shifter.best_for}</p>
+                              </div>
+                            </article>
+                          ))}
+                        </div>
+                      </div>
+                    )}
+
+                    {step.best_for && (
+                      <div className="rounded-lg border border-[hsl(var(--nav-theme)/0.25)] bg-[hsl(var(--nav-theme)/0.08)] p-4">
+                        <p className="text-xs uppercase text-muted-foreground mb-2">{titanShiftingModule.bestForLabel}</p>
+                        <p className="text-sm">{step.best_for}</p>
+                      </div>
+                    )}
+                  </div>
+                </article>
+              ))}
+            </div>
+
+            <aside className="rounded-xl border border-[hsl(var(--nav-theme)/0.3)] bg-[hsl(var(--nav-theme)/0.08)] p-6 h-fit xl:sticky xl:top-24">
+              <div className="flex items-center gap-2 mb-4">
+                <Zap className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
+                <h3 className="font-bold text-lg">{titanShiftingModule.shiftersLabel}</h3>
+              </div>
+              <div className="space-y-3">
+                {titanShiftingModule.items
+                  .flatMap((step: any) => step.shifters || [])
+                  .map((shifter: any) => (
+                    <div key={shifter.name} className="rounded-lg border border-border bg-card/70 p-4">
+                      <div className="flex items-center justify-between gap-3">
+                        <p className="font-semibold">{shifter.name}</p>
+                        <span className="text-xs text-[hsl(var(--nav-theme-light))]">{shifter.serum}</span>
+                      </div>
+                      <p className="text-sm text-muted-foreground mt-1">{shifter.role}</p>
+                    </div>
+                  ))}
+              </div>
+            </aside>
+          </div>
+        </div>
+      </section>
+
+      {/* Module 10: Attack on Titan Revolution Artifacts and Memories Guide */}
+      <section id="artifacts-and-memories-guide" className="scroll-mt-24 px-4 py-20 bg-muted/20">
+        <div className="container mx-auto max-w-6xl">
+          <div className="text-center mb-12 scroll-reveal">
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] mb-5">
+              <Package className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+              <span className="text-sm font-medium">{artifactsModule.eyebrow}</span>
+            </div>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">{artifactsModule.title}</h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-4">{artifactsModule.subtitle}</p>
+            <p className="text-muted-foreground max-w-4xl mx-auto">{artifactsModule.intro}</p>
+          </div>
+
+          <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-5">
+            {artifactsModule.items.map((item: any) => (
+              <article key={`${item.category}-${item.name}`} className="rounded-xl border border-border bg-card p-5 hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
+                <div className="flex items-start justify-between gap-3 mb-4">
+                  <div>
+                    <p className="text-xs uppercase text-muted-foreground mb-2">{item.category}</p>
+                    <h3 className="text-xl font-bold">{item.name}</h3>
+                  </div>
+                  <div className="flex h-11 w-11 flex-shrink-0 items-center justify-center rounded-lg bg-[hsl(var(--nav-theme)/0.1)]">
+                    <Package className="h-5 w-5 text-[hsl(var(--nav-theme-light))]" />
+                  </div>
+                </div>
+
+                <div className="flex flex-wrap gap-2 mb-5">
+                  <span className="rounded-full border border-[hsl(var(--nav-theme)/0.25)] bg-[hsl(var(--nav-theme)/0.08)] px-3 py-1 text-xs text-[hsl(var(--nav-theme-light))]">
+                    {item.rarity}
+                  </span>
+                  <span className="rounded-full border border-border bg-muted/30 px-3 py-1 text-xs text-muted-foreground">
+                    {item.source}
+                  </span>
+                  {item.slot && (
+                    <span className="rounded-full border border-border bg-muted/30 px-3 py-1 text-xs text-muted-foreground">
+                      {item.slot}
+                    </span>
+                  )}
+                </div>
+
+                <div className="space-y-5">
+                  <div>
+                    <p className="text-xs uppercase text-muted-foreground mb-2">{artifactsModule.effectsLabel}</p>
+                    <ul className="space-y-2">
+                      {item.effects.map((effect: string) => (
+                        <li key={effect} className="flex items-start gap-2 text-sm text-muted-foreground">
+                          <Check className="w-4 h-4 flex-shrink-0 text-[hsl(var(--nav-theme-light))] mt-0.5" />
+                          <span>{effect}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+
+                  <div className="rounded-lg border border-[hsl(var(--nav-theme)/0.25)] bg-[hsl(var(--nav-theme)/0.08)] p-4">
+                    <p className="text-xs uppercase text-muted-foreground mb-2">{artifactsModule.buildUseLabel}</p>
+                    <p className="text-sm">{item.build_use}</p>
+                  </div>
+                </div>
+              </article>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Module 11: Attack on Titan Revolution Missions Guide */}
+      <section id="missions-guide" className="scroll-mt-24 px-4 py-20">
+        <div className="container mx-auto max-w-6xl">
+          <div className="text-center mb-12 scroll-reveal">
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] mb-5">
+              <MapIcon className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+              <span className="text-sm font-medium">{missionsModule.eyebrow}</span>
+            </div>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">{missionsModule.title}</h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-4">{missionsModule.subtitle}</p>
+            <p className="text-muted-foreground max-w-4xl mx-auto">{missionsModule.intro}</p>
+          </div>
+
+          <div className="scroll-reveal hidden lg:block overflow-hidden rounded-xl border border-border bg-card">
+            <div className="overflow-x-auto">
+              <table className="w-full text-left text-sm">
+                <thead className="bg-[hsl(var(--nav-theme)/0.1)] text-xs uppercase text-muted-foreground">
+                  <tr>
+                    <th className="px-4 py-4 font-semibold">{missionsModule.mapLabel}</th>
+                    <th className="px-4 py-4 font-semibold">{missionsModule.objectiveLabel}</th>
+                    <th className="px-4 py-4 font-semibold">{missionsModule.primaryUseLabel}</th>
+                    <th className="px-4 py-4 font-semibold">{missionsModule.rewardsLabel}</th>
+                    <th className="px-4 py-4 font-semibold">{missionsModule.serumLabel}</th>
+                    <th className="px-4 py-4 font-semibold">{missionsModule.scrollLabel}</th>
+                  </tr>
+                </thead>
+                <tbody className="divide-y divide-border">
+                  {missionsModule.items.map((mission: any) => (
+                    <tr key={mission.map} className="align-top hover:bg-muted/20 transition-colors">
+                      <td className="px-4 py-4 font-semibold text-[hsl(var(--nav-theme-light))]">{mission.map}</td>
+                      <td className="px-4 py-4 text-muted-foreground">{mission.mission_objective}</td>
+                      <td className="px-4 py-4 text-muted-foreground">{mission.primary_use}</td>
+                      <td className="px-4 py-4">
+                        <div className="space-y-1 text-muted-foreground">
+                          <p>{mission.aberrant_gold}</p>
+                          <p>{mission.aberrant_exp}</p>
+                        </div>
+                      </td>
+                      <td className="px-4 py-4 text-muted-foreground">
+                        <p>{mission.serum_chance}</p>
+                        <p className="mt-1 text-xs">{mission.individual_serum_chance}</p>
+                      </td>
+                      <td className="px-4 py-4 text-muted-foreground">{mission.prestige_scroll_chance}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <div className="scroll-reveal lg:hidden space-y-4">
+            {missionsModule.items.map((mission: any) => (
+              <article key={mission.map} className="rounded-xl border border-border bg-card p-5">
+                <div className="flex items-start gap-3 mb-4">
+                  <div className="flex h-11 w-11 flex-shrink-0 items-center justify-center rounded-lg bg-[hsl(var(--nav-theme)/0.1)]">
+                    <MapIcon className="h-5 w-5 text-[hsl(var(--nav-theme-light))]" />
+                  </div>
+                  <div>
+                    <h3 className="text-xl font-bold">{mission.map}</h3>
+                    <p className="text-sm text-muted-foreground mt-1">{mission.mission_objective}</p>
+                  </div>
+                </div>
+
+                <div className="space-y-3">
+                  <div className="rounded-lg border border-border bg-muted/30 p-3">
+                    <p className="text-xs uppercase text-muted-foreground mb-1">{missionsModule.primaryUseLabel}</p>
+                    <p className="text-sm">{mission.primary_use}</p>
+                  </div>
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                    <div className="rounded-lg border border-border bg-muted/30 p-3">
+                      <p className="text-xs uppercase text-muted-foreground mb-1">{missionsModule.rewardsLabel}</p>
+                      <p className="text-sm text-muted-foreground">{mission.aberrant_gold}</p>
+                      <p className="text-sm text-muted-foreground">{mission.aberrant_exp}</p>
+                    </div>
+                    <div className="rounded-lg border border-border bg-muted/30 p-3">
+                      <p className="text-xs uppercase text-muted-foreground mb-1">{missionsModule.serumLabel}</p>
+                      <p className="text-sm text-muted-foreground">{mission.serum_chance}</p>
+                      <p className="text-sm text-muted-foreground">{mission.individual_serum_chance}</p>
+                    </div>
+                  </div>
+                  <div className="rounded-lg border border-[hsl(var(--nav-theme)/0.25)] bg-[hsl(var(--nav-theme)/0.08)] p-3">
+                    <p className="text-xs uppercase text-muted-foreground mb-1">{missionsModule.perkLabel}</p>
+                    <p className="text-sm">{mission.perk_drop_context}</p>
+                  </div>
+                </div>
+              </article>
+            ))}
+          </div>
+
+          <div className="scroll-reveal hidden lg:block mt-5 rounded-xl border border-[hsl(var(--nav-theme)/0.25)] bg-[hsl(var(--nav-theme)/0.08)] p-5">
+            <div className="flex items-center gap-2 mb-3">
+              <MapIcon className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
+              <h3 className="font-bold">{missionsModule.perkLabel}</h3>
+            </div>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+              {missionsModule.items.map((mission: any) => (
+                <div key={`${mission.map}-perk`} className="rounded-lg border border-border bg-card/70 p-3 text-sm text-muted-foreground">
+                  <span className="font-semibold text-foreground">{mission.map}: </span>
+                  {mission.perk_drop_context}
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Module 12: Attack on Titan Revolution Controls and ODM Gear Guide */}
+      <section id="controls-and-odm-gear-guide" className="scroll-mt-24 px-4 py-20 bg-muted/20">
+        <div className="container mx-auto max-w-6xl">
+          <div className="text-center mb-12 scroll-reveal">
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] mb-5">
+              <Keyboard className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+              <span className="text-sm font-medium">{controlsModule.eyebrow}</span>
+            </div>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">{controlsModule.title}</h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-4">{controlsModule.subtitle}</p>
+            <p className="text-muted-foreground max-w-4xl mx-auto">{controlsModule.intro}</p>
+          </div>
+
+          <div className="scroll-reveal grid grid-cols-1 xl:grid-cols-[18rem_1fr] gap-6">
+            <aside className="rounded-xl border border-[hsl(var(--nav-theme)/0.3)] bg-[hsl(var(--nav-theme)/0.08)] p-5 h-fit xl:sticky xl:top-24">
+              <div className="flex items-center gap-2 mb-4">
+                <Keyboard className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
+                <h3 className="font-bold">{controlsModule.platformLabel}</h3>
+              </div>
+              <div className="flex flex-wrap xl:flex-col gap-2">
+                {controlsModule.items.map((step: any) => (
+                  <button
+                    type="button"
+                    key={step.step}
+                    onClick={() => scrollToSection(`controls-step-${step.step}`)}
+                    className="rounded-lg border border-border bg-card px-3 py-2 text-left text-sm text-muted-foreground hover:border-[hsl(var(--nav-theme)/0.4)] hover:text-[hsl(var(--nav-theme-light))] transition-colors"
+                  >
+                    {step.platform}
+                  </button>
+                ))}
+              </div>
+            </aside>
+
+            <div className="space-y-4">
+              {controlsModule.items.map((step: any) => (
+                <details
+                  key={step.step}
+                  id={`controls-step-${step.step}`}
+                  open={step.step === 1}
+                  className="group scroll-mt-24 rounded-xl border border-border bg-card p-5"
+                >
+                  <summary className="flex cursor-pointer list-none items-start justify-between gap-4">
+                    <div className="flex items-start gap-4">
+                      <div className="flex h-11 w-11 flex-shrink-0 items-center justify-center rounded-full border border-[hsl(var(--nav-theme)/0.4)] bg-[hsl(var(--nav-theme)/0.1)] font-bold text-[hsl(var(--nav-theme-light))]">
+                        {step.step}
+                      </div>
+                      <div>
+                        <div className="flex flex-wrap items-center gap-2 mb-2">
+                          <h3 className="text-xl font-bold">{step.title}</h3>
+                          <span className="rounded-full border border-[hsl(var(--nav-theme)/0.25)] bg-[hsl(var(--nav-theme)/0.08)] px-3 py-1 text-xs text-[hsl(var(--nav-theme-light))]">
+                            {step.platform}
+                          </span>
+                        </div>
+                        <p className="text-sm text-muted-foreground">{step.practice_tip}</p>
+                      </div>
+                    </div>
+                    <ChevronDown className="mt-2 h-5 w-5 flex-shrink-0 text-muted-foreground transition-transform group-open:rotate-180" />
+                  </summary>
+
+                  <div className="mt-5 grid grid-cols-1 md:grid-cols-2 gap-3">
+                    {step.controls.map((control: any) => (
+                      <div key={`${step.step}-${control.action}`} className="rounded-lg border border-border bg-muted/30 p-4">
+                        <p className="text-xs uppercase text-muted-foreground mb-1">{control.action}</p>
+                        <p className="font-semibold">{control.input}</p>
+                      </div>
+                    ))}
+                  </div>
+
+                  <div className="mt-5 rounded-lg border border-[hsl(var(--nav-theme)/0.25)] bg-[hsl(var(--nav-theme)/0.08)] p-4">
+                    <p className="text-xs uppercase text-muted-foreground mb-2">{controlsModule.practiceTipLabel}</p>
+                    <p className="text-sm">{step.practice_tip}</p>
+                  </div>
+                </details>
+              ))}
+            </div>
           </div>
         </div>
       </section>
