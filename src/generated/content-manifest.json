@@ -1,0 +1,1746 @@
+{
+  "en": {
+    "builds": [
+      {
+        "slug": "Attack-on-Titan-Revolution-artifacts",
+        "file": "Attack-on-Titan-Revolution-artifacts"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-best-family",
+        "file": "Attack-on-Titan-Revolution-best-family"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-best-shifter-build",
+        "file": "Attack-on-Titan-Revolution-best-shifter-build"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-best-skill-tree",
+        "file": "Attack-on-Titan-Revolution-best-skill-tree"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-families",
+        "file": "Attack-on-Titan-Revolution-families"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-family-tier-list",
+        "file": "Attack-on-Titan-Revolution-family-tier-list"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-memories-tier-list",
+        "file": "Attack-on-Titan-Revolution-memories-tier-list"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-memories",
+        "file": "Attack-on-Titan-Revolution-memories"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-perks-tier-list",
+        "file": "Attack-on-Titan-Revolution-perks-tier-list"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-perks",
+        "file": "Attack-on-Titan-Revolution-perks"
+      },
+      {
+        "slug": "attack-on-titan-revolution-ackerman",
+        "file": "attack-on-titan-revolution-ackerman"
+      },
+      {
+        "slug": "attack-on-titan-revolution-best-memories",
+        "file": "attack-on-titan-revolution-best-memories"
+      },
+      {
+        "slug": "attack-on-titan-revolution-family-perks",
+        "file": "attack-on-titan-revolution-family-perks"
+      },
+      {
+        "slug": "attack-on-titan-revolution-female-titan-build",
+        "file": "attack-on-titan-revolution-female-titan-build"
+      },
+      {
+        "slug": "attack-on-titan-revolution-fritz-family",
+        "file": "attack-on-titan-revolution-fritz-family"
+      },
+      {
+        "slug": "attack-on-titan-revolution-immortal-perk",
+        "file": "attack-on-titan-revolution-immortal-perk"
+      },
+      {
+        "slug": "attack-on-titan-revolution-kruger-family",
+        "file": "attack-on-titan-revolution-kruger-family"
+      },
+      {
+        "slug": "attack-on-titan-revolution-yeager-build",
+        "file": "attack-on-titan-revolution-yeager-build"
+      },
+      {
+        "slug": "attack-on-titan-revolution-zoe-skill",
+        "file": "attack-on-titan-revolution-zoe-skill"
+      }
+    ],
+    "codes": [
+      {
+        "slug": "Attack-on-Titan-Revolution-codes",
+        "file": "Attack-on-Titan-Revolution-codes"
+      },
+      {
+        "slug": "attack-on-titan-revolution-code-rewards",
+        "file": "attack-on-titan-revolution-code-rewards"
+      },
+      {
+        "slug": "attack-on-titan-revolution-expired-codes",
+        "file": "attack-on-titan-revolution-expired-codes"
+      },
+      {
+        "slug": "attack-on-titan-revolution-new-codes",
+        "file": "attack-on-titan-revolution-new-codes"
+      },
+      {
+        "slug": "attack-on-titan-revolution-redeem-codes",
+        "file": "attack-on-titan-revolution-redeem-codes"
+      }
+    ],
+    "controls": [
+      {
+        "slug": "Attack-on-Titan-Revolution-controls",
+        "file": "Attack-on-Titan-Revolution-controls"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-how-to-get-cables-back",
+        "file": "Attack-on-Titan-Revolution-how-to-get-cables-back"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-how-to-reload-sword",
+        "file": "Attack-on-Titan-Revolution-how-to-reload-sword"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-how-to-use-bandages",
+        "file": "Attack-on-Titan-Revolution-how-to-use-bandages"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-keybinds",
+        "file": "Attack-on-Titan-Revolution-keybinds"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-keyboard-controls",
+        "file": "Attack-on-Titan-Revolution-keyboard-controls"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-mobile",
+        "file": "Attack-on-Titan-Revolution-mobile"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-movement-guide",
+        "file": "Attack-on-Titan-Revolution-movement-guide"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-pc-controls",
+        "file": "Attack-on-Titan-Revolution-pc-controls"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-xbox-controls",
+        "file": "Attack-on-Titan-Revolution-xbox-controls"
+      },
+      {
+        "slug": "attack-on-titan-revolution-best-controls",
+        "file": "attack-on-titan-revolution-best-controls"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "Attack-on-Titan-Revolution-achievements",
+        "file": "Attack-on-Titan-Revolution-achievements"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-beginner-guide",
+        "file": "Attack-on-Titan-Revolution-beginner-guide"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-guide",
+        "file": "Attack-on-Titan-Revolution-guide"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-how-to-kill-titans",
+        "file": "Attack-on-Titan-Revolution-how-to-kill-titans"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-how-to-play",
+        "file": "Attack-on-Titan-Revolution-how-to-play"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-missions",
+        "file": "Attack-on-Titan-Revolution-missions"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-quests",
+        "file": "Attack-on-Titan-Revolution-quests"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-tips",
+        "file": "Attack-on-Titan-Revolution-tips"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-tutorial",
+        "file": "Attack-on-Titan-Revolution-tutorial"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-week-quests-locked",
+        "file": "Attack-on-Titan-Revolution-week-quests-locked"
+      },
+      {
+        "slug": "aotr-colossal-scars",
+        "file": "aotr-colossal-scars"
+      },
+      {
+        "slug": "attack-on-titan-revolution-afk-zone",
+        "file": "attack-on-titan-revolution-afk-zone"
+      },
+      {
+        "slug": "attack-on-titan-revolution-ban-appeal",
+        "file": "attack-on-titan-revolution-ban-appeal"
+      },
+      {
+        "slug": "attack-on-titan-revolution-encounter",
+        "file": "attack-on-titan-revolution-encounter"
+      },
+      {
+        "slug": "attack-on-titan-revolution-how-to-heal",
+        "file": "attack-on-titan-revolution-how-to-heal"
+      },
+      {
+        "slug": "colossal-scars-aotr",
+        "file": "colossal-scars-aotr"
+      }
+    ],
+    "items": [
+      {
+        "slug": "Attack-on-Titan-Revolution-crates",
+        "file": "Attack-on-Titan-Revolution-crates"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-emperor-key",
+        "file": "Attack-on-Titan-Revolution-emperor-key"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-how-to-get-thunder-spears",
+        "file": "Attack-on-Titan-Revolution-how-to-get-thunder-spears"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-spear-quest",
+        "file": "Attack-on-Titan-Revolution-spear-quest"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-thunder-spears",
+        "file": "Attack-on-Titan-Revolution-thunder-spears"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-what-do-shards-do",
+        "file": "Attack-on-Titan-Revolution-what-do-shards-do"
+      },
+      {
+        "slug": "attack-on-titan-revolution-attack-shard",
+        "file": "attack-on-titan-revolution-attack-shard"
+      },
+      {
+        "slug": "attack-on-titan-revolution-black-market",
+        "file": "attack-on-titan-revolution-black-market"
+      },
+      {
+        "slug": "attack-on-titan-revolution-blood-vial",
+        "file": "attack-on-titan-revolution-blood-vial"
+      },
+      {
+        "slug": "attack-on-titan-revolution-deus-ex-machina",
+        "file": "attack-on-titan-revolution-deus-ex-machina"
+      },
+      {
+        "slug": "attack-on-titan-revolution-drill-thrust",
+        "file": "attack-on-titan-revolution-drill-thrust"
+      },
+      {
+        "slug": "attack-on-titan-revolution-emperors-chest",
+        "file": "attack-on-titan-revolution-emperors-chest"
+      },
+      {
+        "slug": "attack-on-titan-revolution-equinox-moon",
+        "file": "attack-on-titan-revolution-equinox-moon"
+      },
+      {
+        "slug": "attack-on-titan-revolution-female-shard",
+        "file": "attack-on-titan-revolution-female-shard"
+      },
+      {
+        "slug": "attack-on-titan-revolution-iceburst-stones",
+        "file": "attack-on-titan-revolution-iceburst-stones"
+      },
+      {
+        "slug": "attack-on-titan-revolution-item-value-list",
+        "file": "attack-on-titan-revolution-item-value-list"
+      },
+      {
+        "slug": "attack-on-titan-revolution-jotunn-gear",
+        "file": "attack-on-titan-revolution-jotunn-gear"
+      },
+      {
+        "slug": "attack-on-titan-revolution-quincy-attire",
+        "file": "attack-on-titan-revolution-quincy-attire"
+      },
+      {
+        "slug": "attack-on-titan-revolution-ulquiorra-attire",
+        "file": "attack-on-titan-revolution-ulquiorra-attire"
+      }
+    ],
+    "progression": [
+      {
+        "slug": "Attack-on-Titan-Revolution-best-xp-farm",
+        "file": "Attack-on-Titan-Revolution-best-xp-farm"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-gold-farm",
+        "file": "Attack-on-Titan-Revolution-gold-farm"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-how-to-get-grade-e",
+        "file": "Attack-on-Titan-Revolution-how-to-get-grade-e"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-how-to-get-skill-points",
+        "file": "Attack-on-Titan-Revolution-how-to-get-skill-points"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-how-to-heal-injuries",
+        "file": "Attack-on-Titan-Revolution-how-to-heal-injuries"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-how-to-level-up-fast",
+        "file": "Attack-on-Titan-Revolution-how-to-level-up-fast"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-how-to-rank-up",
+        "file": "Attack-on-Titan-Revolution-how-to-rank-up"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-max-level",
+        "file": "Attack-on-Titan-Revolution-max-level"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-prestige",
+        "file": "Attack-on-Titan-Revolution-prestige"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-xp-farm",
+        "file": "Attack-on-Titan-Revolution-xp-farm"
+      },
+      {
+        "slug": "attack-on-titan-revolution-account",
+        "file": "attack-on-titan-revolution-account"
+      },
+      {
+        "slug": "attack-on-titan-revolution-battle-pass",
+        "file": "attack-on-titan-revolution-battle-pass"
+      },
+      {
+        "slug": "attack-on-titan-revolution-best-progression",
+        "file": "attack-on-titan-revolution-best-progression"
+      },
+      {
+        "slug": "attack-on-titan-revolution-progression-guide",
+        "file": "attack-on-titan-revolution-progression-guide"
+      },
+      {
+        "slug": "attack-on-titan-revolution-progression-tips",
+        "file": "attack-on-titan-revolution-progression-tips"
+      }
+    ],
+    "titans": [
+      {
+        "slug": "Attack-on-Titan-Revolution-armored-titan",
+        "file": "Attack-on-Titan-Revolution-armored-titan"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-attack-titan",
+        "file": "Attack-on-Titan-Revolution-attack-titan"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-best-titan",
+        "file": "Attack-on-Titan-Revolution-best-titan"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-colossal-titan",
+        "file": "Attack-on-Titan-Revolution-colossal-titan"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-female-titan",
+        "file": "Attack-on-Titan-Revolution-female-titan"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-how-to-get-titan-shifting",
+        "file": "Attack-on-Titan-Revolution-how-to-get-titan-shifting"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-serum",
+        "file": "Attack-on-Titan-Revolution-serum"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-shifter",
+        "file": "Attack-on-Titan-Revolution-shifter"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-titan-shift",
+        "file": "Attack-on-Titan-Revolution-titan-shift"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-titan-shifting",
+        "file": "Attack-on-Titan-Revolution-titan-shifting"
+      },
+      {
+        "slug": "aotr-colossal-titan-serum",
+        "file": "aotr-colossal-titan-serum"
+      },
+      {
+        "slug": "attack-on-titan-revolution-advanced-guide",
+        "file": "attack-on-titan-revolution-advanced-guide"
+      },
+      {
+        "slug": "attack-on-titan-revolution-best-settings",
+        "file": "attack-on-titan-revolution-best-settings"
+      },
+      {
+        "slug": "attack-on-titan-revolution-best-strategy",
+        "file": "attack-on-titan-revolution-best-strategy"
+      },
+      {
+        "slug": "attack-on-titan-revolution-faq-guide",
+        "file": "attack-on-titan-revolution-faq-guide"
+      },
+      {
+        "slug": "attack-on-titan-revolution-jaw-titan",
+        "file": "attack-on-titan-revolution-jaw-titan"
+      },
+      {
+        "slug": "attack-on-titan-revolution-strategy-guide",
+        "file": "attack-on-titan-revolution-strategy-guide"
+      },
+      {
+        "slug": "colossal-titan-serum-aotr",
+        "file": "colossal-titan-serum-aotr"
+      },
+      {
+        "slug": "how-to-get-colossal-serum-aotr",
+        "file": "how-to-get-colossal-serum-aotr"
+      },
+      {
+        "slug": "how-to-get-colossal-titan-serum-in-aotr",
+        "file": "how-to-get-colossal-titan-serum-in-aotr"
+      }
+    ]
+  },
+  "es": {
+    "builds": [
+      {
+        "slug": "Attack-on-Titan-Revolution-artifacts",
+        "file": "Attack-on-Titan-Revolution-artifacts"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-best-family",
+        "file": "Attack-on-Titan-Revolution-best-family"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-best-shifter-build",
+        "file": "Attack-on-Titan-Revolution-best-shifter-build"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-best-skill-tree",
+        "file": "Attack-on-Titan-Revolution-best-skill-tree"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-families",
+        "file": "Attack-on-Titan-Revolution-families"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-family-tier-list",
+        "file": "Attack-on-Titan-Revolution-family-tier-list"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-memories-tier-list",
+        "file": "Attack-on-Titan-Revolution-memories-tier-list"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-memories",
+        "file": "Attack-on-Titan-Revolution-memories"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-perks-tier-list",
+        "file": "Attack-on-Titan-Revolution-perks-tier-list"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-perks",
+        "file": "Attack-on-Titan-Revolution-perks"
+      },
+      {
+        "slug": "attack-on-titan-revolution-ackerman",
+        "file": "attack-on-titan-revolution-ackerman"
+      },
+      {
+        "slug": "attack-on-titan-revolution-best-memories",
+        "file": "attack-on-titan-revolution-best-memories"
+      },
+      {
+        "slug": "attack-on-titan-revolution-family-perks",
+        "file": "attack-on-titan-revolution-family-perks"
+      },
+      {
+        "slug": "attack-on-titan-revolution-female-titan-build",
+        "file": "attack-on-titan-revolution-female-titan-build"
+      },
+      {
+        "slug": "attack-on-titan-revolution-fritz-family",
+        "file": "attack-on-titan-revolution-fritz-family"
+      },
+      {
+        "slug": "attack-on-titan-revolution-immortal-perk",
+        "file": "attack-on-titan-revolution-immortal-perk"
+      },
+      {
+        "slug": "attack-on-titan-revolution-kruger-family",
+        "file": "attack-on-titan-revolution-kruger-family"
+      },
+      {
+        "slug": "attack-on-titan-revolution-yeager-build",
+        "file": "attack-on-titan-revolution-yeager-build"
+      },
+      {
+        "slug": "attack-on-titan-revolution-zoe-skill",
+        "file": "attack-on-titan-revolution-zoe-skill"
+      }
+    ],
+    "codes": [
+      {
+        "slug": "Attack-on-Titan-Revolution-codes",
+        "file": "Attack-on-Titan-Revolution-codes"
+      },
+      {
+        "slug": "attack-on-titan-revolution-code-rewards",
+        "file": "attack-on-titan-revolution-code-rewards"
+      },
+      {
+        "slug": "attack-on-titan-revolution-expired-codes",
+        "file": "attack-on-titan-revolution-expired-codes"
+      },
+      {
+        "slug": "attack-on-titan-revolution-new-codes",
+        "file": "attack-on-titan-revolution-new-codes"
+      },
+      {
+        "slug": "attack-on-titan-revolution-redeem-codes",
+        "file": "attack-on-titan-revolution-redeem-codes"
+      }
+    ],
+    "controls": [
+      {
+        "slug": "Attack-on-Titan-Revolution-controls",
+        "file": "Attack-on-Titan-Revolution-controls"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-how-to-get-cables-back",
+        "file": "Attack-on-Titan-Revolution-how-to-get-cables-back"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-how-to-reload-sword",
+        "file": "Attack-on-Titan-Revolution-how-to-reload-sword"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-how-to-use-bandages",
+        "file": "Attack-on-Titan-Revolution-how-to-use-bandages"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-keybinds",
+        "file": "Attack-on-Titan-Revolution-keybinds"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-keyboard-controls",
+        "file": "Attack-on-Titan-Revolution-keyboard-controls"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-mobile",
+        "file": "Attack-on-Titan-Revolution-mobile"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-movement-guide",
+        "file": "Attack-on-Titan-Revolution-movement-guide"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-pc-controls",
+        "file": "Attack-on-Titan-Revolution-pc-controls"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-xbox-controls",
+        "file": "Attack-on-Titan-Revolution-xbox-controls"
+      },
+      {
+        "slug": "attack-on-titan-revolution-best-controls",
+        "file": "attack-on-titan-revolution-best-controls"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "Attack-on-Titan-Revolution-achievements",
+        "file": "Attack-on-Titan-Revolution-achievements"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-beginner-guide",
+        "file": "Attack-on-Titan-Revolution-beginner-guide"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-guide",
+        "file": "Attack-on-Titan-Revolution-guide"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-how-to-kill-titans",
+        "file": "Attack-on-Titan-Revolution-how-to-kill-titans"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-how-to-play",
+        "file": "Attack-on-Titan-Revolution-how-to-play"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-missions",
+        "file": "Attack-on-Titan-Revolution-missions"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-quests",
+        "file": "Attack-on-Titan-Revolution-quests"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-tips",
+        "file": "Attack-on-Titan-Revolution-tips"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-tutorial",
+        "file": "Attack-on-Titan-Revolution-tutorial"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-week-quests-locked",
+        "file": "Attack-on-Titan-Revolution-week-quests-locked"
+      },
+      {
+        "slug": "aotr-colossal-scars",
+        "file": "aotr-colossal-scars"
+      },
+      {
+        "slug": "attack-on-titan-revolution-afk-zone",
+        "file": "attack-on-titan-revolution-afk-zone"
+      },
+      {
+        "slug": "attack-on-titan-revolution-ban-appeal",
+        "file": "attack-on-titan-revolution-ban-appeal"
+      },
+      {
+        "slug": "attack-on-titan-revolution-encounter",
+        "file": "attack-on-titan-revolution-encounter"
+      },
+      {
+        "slug": "attack-on-titan-revolution-how-to-heal",
+        "file": "attack-on-titan-revolution-how-to-heal"
+      },
+      {
+        "slug": "colossal-scars-aotr",
+        "file": "colossal-scars-aotr"
+      }
+    ],
+    "items": [
+      {
+        "slug": "Attack-on-Titan-Revolution-crates",
+        "file": "Attack-on-Titan-Revolution-crates"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-emperor-key",
+        "file": "Attack-on-Titan-Revolution-emperor-key"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-how-to-get-thunder-spears",
+        "file": "Attack-on-Titan-Revolution-how-to-get-thunder-spears"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-spear-quest",
+        "file": "Attack-on-Titan-Revolution-spear-quest"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-thunder-spears",
+        "file": "Attack-on-Titan-Revolution-thunder-spears"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-what-do-shards-do",
+        "file": "Attack-on-Titan-Revolution-what-do-shards-do"
+      },
+      {
+        "slug": "attack-on-titan-revolution-attack-shard",
+        "file": "attack-on-titan-revolution-attack-shard"
+      },
+      {
+        "slug": "attack-on-titan-revolution-black-market",
+        "file": "attack-on-titan-revolution-black-market"
+      },
+      {
+        "slug": "attack-on-titan-revolution-blood-vial",
+        "file": "attack-on-titan-revolution-blood-vial"
+      },
+      {
+        "slug": "attack-on-titan-revolution-deus-ex-machina",
+        "file": "attack-on-titan-revolution-deus-ex-machina"
+      },
+      {
+        "slug": "attack-on-titan-revolution-drill-thrust",
+        "file": "attack-on-titan-revolution-drill-thrust"
+      },
+      {
+        "slug": "attack-on-titan-revolution-emperors-chest",
+        "file": "attack-on-titan-revolution-emperors-chest"
+      },
+      {
+        "slug": "attack-on-titan-revolution-equinox-moon",
+        "file": "attack-on-titan-revolution-equinox-moon"
+      },
+      {
+        "slug": "attack-on-titan-revolution-female-shard",
+        "file": "attack-on-titan-revolution-female-shard"
+      },
+      {
+        "slug": "attack-on-titan-revolution-iceburst-stones",
+        "file": "attack-on-titan-revolution-iceburst-stones"
+      },
+      {
+        "slug": "attack-on-titan-revolution-item-value-list",
+        "file": "attack-on-titan-revolution-item-value-list"
+      },
+      {
+        "slug": "attack-on-titan-revolution-jotunn-gear",
+        "file": "attack-on-titan-revolution-jotunn-gear"
+      },
+      {
+        "slug": "attack-on-titan-revolution-quincy-attire",
+        "file": "attack-on-titan-revolution-quincy-attire"
+      },
+      {
+        "slug": "attack-on-titan-revolution-ulquiorra-attire",
+        "file": "attack-on-titan-revolution-ulquiorra-attire"
+      }
+    ],
+    "progression": [
+      {
+        "slug": "Attack-on-Titan-Revolution-best-xp-farm",
+        "file": "Attack-on-Titan-Revolution-best-xp-farm"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-gold-farm",
+        "file": "Attack-on-Titan-Revolution-gold-farm"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-how-to-get-grade-e",
+        "file": "Attack-on-Titan-Revolution-how-to-get-grade-e"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-how-to-get-skill-points",
+        "file": "Attack-on-Titan-Revolution-how-to-get-skill-points"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-how-to-heal-injuries",
+        "file": "Attack-on-Titan-Revolution-how-to-heal-injuries"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-how-to-level-up-fast",
+        "file": "Attack-on-Titan-Revolution-how-to-level-up-fast"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-how-to-rank-up",
+        "file": "Attack-on-Titan-Revolution-how-to-rank-up"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-max-level",
+        "file": "Attack-on-Titan-Revolution-max-level"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-prestige",
+        "file": "Attack-on-Titan-Revolution-prestige"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-xp-farm",
+        "file": "Attack-on-Titan-Revolution-xp-farm"
+      },
+      {
+        "slug": "attack-on-titan-revolution-account",
+        "file": "attack-on-titan-revolution-account"
+      },
+      {
+        "slug": "attack-on-titan-revolution-battle-pass",
+        "file": "attack-on-titan-revolution-battle-pass"
+      },
+      {
+        "slug": "attack-on-titan-revolution-best-progression",
+        "file": "attack-on-titan-revolution-best-progression"
+      },
+      {
+        "slug": "attack-on-titan-revolution-progression-guide",
+        "file": "attack-on-titan-revolution-progression-guide"
+      },
+      {
+        "slug": "attack-on-titan-revolution-progression-tips",
+        "file": "attack-on-titan-revolution-progression-tips"
+      }
+    ],
+    "titans": [
+      {
+        "slug": "Attack-on-Titan-Revolution-armored-titan",
+        "file": "Attack-on-Titan-Revolution-armored-titan"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-attack-titan",
+        "file": "Attack-on-Titan-Revolution-attack-titan"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-best-titan",
+        "file": "Attack-on-Titan-Revolution-best-titan"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-colossal-titan",
+        "file": "Attack-on-Titan-Revolution-colossal-titan"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-female-titan",
+        "file": "Attack-on-Titan-Revolution-female-titan"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-how-to-get-titan-shifting",
+        "file": "Attack-on-Titan-Revolution-how-to-get-titan-shifting"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-serum",
+        "file": "Attack-on-Titan-Revolution-serum"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-shifter",
+        "file": "Attack-on-Titan-Revolution-shifter"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-titan-shift",
+        "file": "Attack-on-Titan-Revolution-titan-shift"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-titan-shifting",
+        "file": "Attack-on-Titan-Revolution-titan-shifting"
+      },
+      {
+        "slug": "aotr-colossal-titan-serum",
+        "file": "aotr-colossal-titan-serum"
+      },
+      {
+        "slug": "attack-on-titan-revolution-advanced-guide",
+        "file": "attack-on-titan-revolution-advanced-guide"
+      },
+      {
+        "slug": "attack-on-titan-revolution-best-settings",
+        "file": "attack-on-titan-revolution-best-settings"
+      },
+      {
+        "slug": "attack-on-titan-revolution-best-strategy",
+        "file": "attack-on-titan-revolution-best-strategy"
+      },
+      {
+        "slug": "attack-on-titan-revolution-faq-guide",
+        "file": "attack-on-titan-revolution-faq-guide"
+      },
+      {
+        "slug": "attack-on-titan-revolution-jaw-titan",
+        "file": "attack-on-titan-revolution-jaw-titan"
+      },
+      {
+        "slug": "attack-on-titan-revolution-strategy-guide",
+        "file": "attack-on-titan-revolution-strategy-guide"
+      },
+      {
+        "slug": "colossal-titan-serum-aotr",
+        "file": "colossal-titan-serum-aotr"
+      },
+      {
+        "slug": "how-to-get-colossal-serum-aotr",
+        "file": "how-to-get-colossal-serum-aotr"
+      },
+      {
+        "slug": "how-to-get-colossal-titan-serum-in-aotr",
+        "file": "how-to-get-colossal-titan-serum-in-aotr"
+      }
+    ]
+  },
+  "id": {
+    "builds": [
+      {
+        "slug": "Attack-on-Titan-Revolution-artifacts",
+        "file": "Attack-on-Titan-Revolution-artifacts"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-best-family",
+        "file": "Attack-on-Titan-Revolution-best-family"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-best-shifter-build",
+        "file": "Attack-on-Titan-Revolution-best-shifter-build"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-best-skill-tree",
+        "file": "Attack-on-Titan-Revolution-best-skill-tree"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-families",
+        "file": "Attack-on-Titan-Revolution-families"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-family-tier-list",
+        "file": "Attack-on-Titan-Revolution-family-tier-list"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-memories-tier-list",
+        "file": "Attack-on-Titan-Revolution-memories-tier-list"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-memories",
+        "file": "Attack-on-Titan-Revolution-memories"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-perks-tier-list",
+        "file": "Attack-on-Titan-Revolution-perks-tier-list"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-perks",
+        "file": "Attack-on-Titan-Revolution-perks"
+      },
+      {
+        "slug": "attack-on-titan-revolution-ackerman",
+        "file": "attack-on-titan-revolution-ackerman"
+      },
+      {
+        "slug": "attack-on-titan-revolution-best-memories",
+        "file": "attack-on-titan-revolution-best-memories"
+      },
+      {
+        "slug": "attack-on-titan-revolution-family-perks",
+        "file": "attack-on-titan-revolution-family-perks"
+      },
+      {
+        "slug": "attack-on-titan-revolution-female-titan-build",
+        "file": "attack-on-titan-revolution-female-titan-build"
+      },
+      {
+        "slug": "attack-on-titan-revolution-fritz-family",
+        "file": "attack-on-titan-revolution-fritz-family"
+      },
+      {
+        "slug": "attack-on-titan-revolution-immortal-perk",
+        "file": "attack-on-titan-revolution-immortal-perk"
+      },
+      {
+        "slug": "attack-on-titan-revolution-kruger-family",
+        "file": "attack-on-titan-revolution-kruger-family"
+      },
+      {
+        "slug": "attack-on-titan-revolution-yeager-build",
+        "file": "attack-on-titan-revolution-yeager-build"
+      },
+      {
+        "slug": "attack-on-titan-revolution-zoe-skill",
+        "file": "attack-on-titan-revolution-zoe-skill"
+      }
+    ],
+    "codes": [
+      {
+        "slug": "Attack-on-Titan-Revolution-codes",
+        "file": "Attack-on-Titan-Revolution-codes"
+      },
+      {
+        "slug": "attack-on-titan-revolution-code-rewards",
+        "file": "attack-on-titan-revolution-code-rewards"
+      },
+      {
+        "slug": "attack-on-titan-revolution-expired-codes",
+        "file": "attack-on-titan-revolution-expired-codes"
+      },
+      {
+        "slug": "attack-on-titan-revolution-new-codes",
+        "file": "attack-on-titan-revolution-new-codes"
+      },
+      {
+        "slug": "attack-on-titan-revolution-redeem-codes",
+        "file": "attack-on-titan-revolution-redeem-codes"
+      }
+    ],
+    "controls": [
+      {
+        "slug": "Attack-on-Titan-Revolution-controls",
+        "file": "Attack-on-Titan-Revolution-controls"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-how-to-get-cables-back",
+        "file": "Attack-on-Titan-Revolution-how-to-get-cables-back"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-how-to-reload-sword",
+        "file": "Attack-on-Titan-Revolution-how-to-reload-sword"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-how-to-use-bandages",
+        "file": "Attack-on-Titan-Revolution-how-to-use-bandages"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-keybinds",
+        "file": "Attack-on-Titan-Revolution-keybinds"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-keyboard-controls",
+        "file": "Attack-on-Titan-Revolution-keyboard-controls"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-mobile",
+        "file": "Attack-on-Titan-Revolution-mobile"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-movement-guide",
+        "file": "Attack-on-Titan-Revolution-movement-guide"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-pc-controls",
+        "file": "Attack-on-Titan-Revolution-pc-controls"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-xbox-controls",
+        "file": "Attack-on-Titan-Revolution-xbox-controls"
+      },
+      {
+        "slug": "attack-on-titan-revolution-best-controls",
+        "file": "attack-on-titan-revolution-best-controls"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "Attack-on-Titan-Revolution-achievements",
+        "file": "Attack-on-Titan-Revolution-achievements"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-beginner-guide",
+        "file": "Attack-on-Titan-Revolution-beginner-guide"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-guide",
+        "file": "Attack-on-Titan-Revolution-guide"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-how-to-kill-titans",
+        "file": "Attack-on-Titan-Revolution-how-to-kill-titans"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-how-to-play",
+        "file": "Attack-on-Titan-Revolution-how-to-play"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-missions",
+        "file": "Attack-on-Titan-Revolution-missions"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-quests",
+        "file": "Attack-on-Titan-Revolution-quests"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-tips",
+        "file": "Attack-on-Titan-Revolution-tips"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-tutorial",
+        "file": "Attack-on-Titan-Revolution-tutorial"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-week-quests-locked",
+        "file": "Attack-on-Titan-Revolution-week-quests-locked"
+      },
+      {
+        "slug": "aotr-colossal-scars",
+        "file": "aotr-colossal-scars"
+      },
+      {
+        "slug": "attack-on-titan-revolution-afk-zone",
+        "file": "attack-on-titan-revolution-afk-zone"
+      },
+      {
+        "slug": "attack-on-titan-revolution-ban-appeal",
+        "file": "attack-on-titan-revolution-ban-appeal"
+      },
+      {
+        "slug": "attack-on-titan-revolution-encounter",
+        "file": "attack-on-titan-revolution-encounter"
+      },
+      {
+        "slug": "attack-on-titan-revolution-how-to-heal",
+        "file": "attack-on-titan-revolution-how-to-heal"
+      },
+      {
+        "slug": "colossal-scars-aotr",
+        "file": "colossal-scars-aotr"
+      }
+    ],
+    "items": [
+      {
+        "slug": "Attack-on-Titan-Revolution-crates",
+        "file": "Attack-on-Titan-Revolution-crates"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-emperor-key",
+        "file": "Attack-on-Titan-Revolution-emperor-key"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-how-to-get-thunder-spears",
+        "file": "Attack-on-Titan-Revolution-how-to-get-thunder-spears"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-spear-quest",
+        "file": "Attack-on-Titan-Revolution-spear-quest"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-thunder-spears",
+        "file": "Attack-on-Titan-Revolution-thunder-spears"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-what-do-shards-do",
+        "file": "Attack-on-Titan-Revolution-what-do-shards-do"
+      },
+      {
+        "slug": "attack-on-titan-revolution-attack-shard",
+        "file": "attack-on-titan-revolution-attack-shard"
+      },
+      {
+        "slug": "attack-on-titan-revolution-black-market",
+        "file": "attack-on-titan-revolution-black-market"
+      },
+      {
+        "slug": "attack-on-titan-revolution-blood-vial",
+        "file": "attack-on-titan-revolution-blood-vial"
+      },
+      {
+        "slug": "attack-on-titan-revolution-deus-ex-machina",
+        "file": "attack-on-titan-revolution-deus-ex-machina"
+      },
+      {
+        "slug": "attack-on-titan-revolution-drill-thrust",
+        "file": "attack-on-titan-revolution-drill-thrust"
+      },
+      {
+        "slug": "attack-on-titan-revolution-emperors-chest",
+        "file": "attack-on-titan-revolution-emperors-chest"
+      },
+      {
+        "slug": "attack-on-titan-revolution-equinox-moon",
+        "file": "attack-on-titan-revolution-equinox-moon"
+      },
+      {
+        "slug": "attack-on-titan-revolution-female-shard",
+        "file": "attack-on-titan-revolution-female-shard"
+      },
+      {
+        "slug": "attack-on-titan-revolution-iceburst-stones",
+        "file": "attack-on-titan-revolution-iceburst-stones"
+      },
+      {
+        "slug": "attack-on-titan-revolution-item-value-list",
+        "file": "attack-on-titan-revolution-item-value-list"
+      },
+      {
+        "slug": "attack-on-titan-revolution-jotunn-gear",
+        "file": "attack-on-titan-revolution-jotunn-gear"
+      },
+      {
+        "slug": "attack-on-titan-revolution-quincy-attire",
+        "file": "attack-on-titan-revolution-quincy-attire"
+      },
+      {
+        "slug": "attack-on-titan-revolution-ulquiorra-attire",
+        "file": "attack-on-titan-revolution-ulquiorra-attire"
+      }
+    ],
+    "progression": [
+      {
+        "slug": "Attack-on-Titan-Revolution-best-xp-farm",
+        "file": "Attack-on-Titan-Revolution-best-xp-farm"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-gold-farm",
+        "file": "Attack-on-Titan-Revolution-gold-farm"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-how-to-get-grade-e",
+        "file": "Attack-on-Titan-Revolution-how-to-get-grade-e"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-how-to-get-skill-points",
+        "file": "Attack-on-Titan-Revolution-how-to-get-skill-points"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-how-to-heal-injuries",
+        "file": "Attack-on-Titan-Revolution-how-to-heal-injuries"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-how-to-level-up-fast",
+        "file": "Attack-on-Titan-Revolution-how-to-level-up-fast"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-how-to-rank-up",
+        "file": "Attack-on-Titan-Revolution-how-to-rank-up"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-max-level",
+        "file": "Attack-on-Titan-Revolution-max-level"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-prestige",
+        "file": "Attack-on-Titan-Revolution-prestige"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-xp-farm",
+        "file": "Attack-on-Titan-Revolution-xp-farm"
+      },
+      {
+        "slug": "attack-on-titan-revolution-account",
+        "file": "attack-on-titan-revolution-account"
+      },
+      {
+        "slug": "attack-on-titan-revolution-battle-pass",
+        "file": "attack-on-titan-revolution-battle-pass"
+      },
+      {
+        "slug": "attack-on-titan-revolution-best-progression",
+        "file": "attack-on-titan-revolution-best-progression"
+      },
+      {
+        "slug": "attack-on-titan-revolution-progression-guide",
+        "file": "attack-on-titan-revolution-progression-guide"
+      },
+      {
+        "slug": "attack-on-titan-revolution-progression-tips",
+        "file": "attack-on-titan-revolution-progression-tips"
+      }
+    ],
+    "titans": [
+      {
+        "slug": "Attack-on-Titan-Revolution-armored-titan",
+        "file": "Attack-on-Titan-Revolution-armored-titan"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-attack-titan",
+        "file": "Attack-on-Titan-Revolution-attack-titan"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-best-titan",
+        "file": "Attack-on-Titan-Revolution-best-titan"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-colossal-titan",
+        "file": "Attack-on-Titan-Revolution-colossal-titan"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-female-titan",
+        "file": "Attack-on-Titan-Revolution-female-titan"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-how-to-get-titan-shifting",
+        "file": "Attack-on-Titan-Revolution-how-to-get-titan-shifting"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-serum",
+        "file": "Attack-on-Titan-Revolution-serum"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-shifter",
+        "file": "Attack-on-Titan-Revolution-shifter"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-titan-shift",
+        "file": "Attack-on-Titan-Revolution-titan-shift"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-titan-shifting",
+        "file": "Attack-on-Titan-Revolution-titan-shifting"
+      },
+      {
+        "slug": "aotr-colossal-titan-serum",
+        "file": "aotr-colossal-titan-serum"
+      },
+      {
+        "slug": "attack-on-titan-revolution-advanced-guide",
+        "file": "attack-on-titan-revolution-advanced-guide"
+      },
+      {
+        "slug": "attack-on-titan-revolution-best-settings",
+        "file": "attack-on-titan-revolution-best-settings"
+      },
+      {
+        "slug": "attack-on-titan-revolution-best-strategy",
+        "file": "attack-on-titan-revolution-best-strategy"
+      },
+      {
+        "slug": "attack-on-titan-revolution-faq-guide",
+        "file": "attack-on-titan-revolution-faq-guide"
+      },
+      {
+        "slug": "attack-on-titan-revolution-jaw-titan",
+        "file": "attack-on-titan-revolution-jaw-titan"
+      },
+      {
+        "slug": "attack-on-titan-revolution-strategy-guide",
+        "file": "attack-on-titan-revolution-strategy-guide"
+      },
+      {
+        "slug": "colossal-titan-serum-aotr",
+        "file": "colossal-titan-serum-aotr"
+      },
+      {
+        "slug": "how-to-get-colossal-serum-aotr",
+        "file": "how-to-get-colossal-serum-aotr"
+      },
+      {
+        "slug": "how-to-get-colossal-titan-serum-in-aotr",
+        "file": "how-to-get-colossal-titan-serum-in-aotr"
+      }
+    ]
+  },
+  "pt": {
+    "builds": [
+      {
+        "slug": "Attack-on-Titan-Revolution-artifacts",
+        "file": "Attack-on-Titan-Revolution-artifacts"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-best-family",
+        "file": "Attack-on-Titan-Revolution-best-family"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-best-shifter-build",
+        "file": "Attack-on-Titan-Revolution-best-shifter-build"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-best-skill-tree",
+        "file": "Attack-on-Titan-Revolution-best-skill-tree"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-families",
+        "file": "Attack-on-Titan-Revolution-families"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-family-tier-list",
+        "file": "Attack-on-Titan-Revolution-family-tier-list"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-memories-tier-list",
+        "file": "Attack-on-Titan-Revolution-memories-tier-list"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-memories",
+        "file": "Attack-on-Titan-Revolution-memories"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-perks-tier-list",
+        "file": "Attack-on-Titan-Revolution-perks-tier-list"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-perks",
+        "file": "Attack-on-Titan-Revolution-perks"
+      },
+      {
+        "slug": "attack-on-titan-revolution-ackerman",
+        "file": "attack-on-titan-revolution-ackerman"
+      },
+      {
+        "slug": "attack-on-titan-revolution-best-memories",
+        "file": "attack-on-titan-revolution-best-memories"
+      },
+      {
+        "slug": "attack-on-titan-revolution-family-perks",
+        "file": "attack-on-titan-revolution-family-perks"
+      },
+      {
+        "slug": "attack-on-titan-revolution-female-titan-build",
+        "file": "attack-on-titan-revolution-female-titan-build"
+      },
+      {
+        "slug": "attack-on-titan-revolution-fritz-family",
+        "file": "attack-on-titan-revolution-fritz-family"
+      },
+      {
+        "slug": "attack-on-titan-revolution-immortal-perk",
+        "file": "attack-on-titan-revolution-immortal-perk"
+      },
+      {
+        "slug": "attack-on-titan-revolution-kruger-family",
+        "file": "attack-on-titan-revolution-kruger-family"
+      },
+      {
+        "slug": "attack-on-titan-revolution-yeager-build",
+        "file": "attack-on-titan-revolution-yeager-build"
+      },
+      {
+        "slug": "attack-on-titan-revolution-zoe-skill",
+        "file": "attack-on-titan-revolution-zoe-skill"
+      }
+    ],
+    "codes": [
+      {
+        "slug": "Attack-on-Titan-Revolution-codes",
+        "file": "Attack-on-Titan-Revolution-codes"
+      },
+      {
+        "slug": "attack-on-titan-revolution-code-rewards",
+        "file": "attack-on-titan-revolution-code-rewards"
+      },
+      {
+        "slug": "attack-on-titan-revolution-expired-codes",
+        "file": "attack-on-titan-revolution-expired-codes"
+      },
+      {
+        "slug": "attack-on-titan-revolution-new-codes",
+        "file": "attack-on-titan-revolution-new-codes"
+      },
+      {
+        "slug": "attack-on-titan-revolution-redeem-codes",
+        "file": "attack-on-titan-revolution-redeem-codes"
+      }
+    ],
+    "controls": [
+      {
+        "slug": "Attack-on-Titan-Revolution-controls",
+        "file": "Attack-on-Titan-Revolution-controls"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-how-to-get-cables-back",
+        "file": "Attack-on-Titan-Revolution-how-to-get-cables-back"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-how-to-reload-sword",
+        "file": "Attack-on-Titan-Revolution-how-to-reload-sword"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-how-to-use-bandages",
+        "file": "Attack-on-Titan-Revolution-how-to-use-bandages"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-keybinds",
+        "file": "Attack-on-Titan-Revolution-keybinds"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-keyboard-controls",
+        "file": "Attack-on-Titan-Revolution-keyboard-controls"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-mobile",
+        "file": "Attack-on-Titan-Revolution-mobile"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-movement-guide",
+        "file": "Attack-on-Titan-Revolution-movement-guide"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-pc-controls",
+        "file": "Attack-on-Titan-Revolution-pc-controls"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-xbox-controls",
+        "file": "Attack-on-Titan-Revolution-xbox-controls"
+      },
+      {
+        "slug": "attack-on-titan-revolution-best-controls",
+        "file": "attack-on-titan-revolution-best-controls"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "Attack-on-Titan-Revolution-achievements",
+        "file": "Attack-on-Titan-Revolution-achievements"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-beginner-guide",
+        "file": "Attack-on-Titan-Revolution-beginner-guide"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-guide",
+        "file": "Attack-on-Titan-Revolution-guide"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-how-to-kill-titans",
+        "file": "Attack-on-Titan-Revolution-how-to-kill-titans"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-how-to-play",
+        "file": "Attack-on-Titan-Revolution-how-to-play"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-missions",
+        "file": "Attack-on-Titan-Revolution-missions"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-quests",
+        "file": "Attack-on-Titan-Revolution-quests"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-tips",
+        "file": "Attack-on-Titan-Revolution-tips"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-tutorial",
+        "file": "Attack-on-Titan-Revolution-tutorial"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-week-quests-locked",
+        "file": "Attack-on-Titan-Revolution-week-quests-locked"
+      },
+      {
+        "slug": "aotr-colossal-scars",
+        "file": "aotr-colossal-scars"
+      },
+      {
+        "slug": "attack-on-titan-revolution-afk-zone",
+        "file": "attack-on-titan-revolution-afk-zone"
+      },
+      {
+        "slug": "attack-on-titan-revolution-ban-appeal",
+        "file": "attack-on-titan-revolution-ban-appeal"
+      },
+      {
+        "slug": "attack-on-titan-revolution-encounter",
+        "file": "attack-on-titan-revolution-encounter"
+      },
+      {
+        "slug": "attack-on-titan-revolution-how-to-heal",
+        "file": "attack-on-titan-revolution-how-to-heal"
+      },
+      {
+        "slug": "colossal-scars-aotr",
+        "file": "colossal-scars-aotr"
+      }
+    ],
+    "items": [
+      {
+        "slug": "Attack-on-Titan-Revolution-crates",
+        "file": "Attack-on-Titan-Revolution-crates"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-emperor-key",
+        "file": "Attack-on-Titan-Revolution-emperor-key"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-how-to-get-thunder-spears",
+        "file": "Attack-on-Titan-Revolution-how-to-get-thunder-spears"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-spear-quest",
+        "file": "Attack-on-Titan-Revolution-spear-quest"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-thunder-spears",
+        "file": "Attack-on-Titan-Revolution-thunder-spears"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-what-do-shards-do",
+        "file": "Attack-on-Titan-Revolution-what-do-shards-do"
+      },
+      {
+        "slug": "attack-on-titan-revolution-attack-shard",
+        "file": "attack-on-titan-revolution-attack-shard"
+      },
+      {
+        "slug": "attack-on-titan-revolution-black-market",
+        "file": "attack-on-titan-revolution-black-market"
+      },
+      {
+        "slug": "attack-on-titan-revolution-blood-vial",
+        "file": "attack-on-titan-revolution-blood-vial"
+      },
+      {
+        "slug": "attack-on-titan-revolution-deus-ex-machina",
+        "file": "attack-on-titan-revolution-deus-ex-machina"
+      },
+      {
+        "slug": "attack-on-titan-revolution-drill-thrust",
+        "file": "attack-on-titan-revolution-drill-thrust"
+      },
+      {
+        "slug": "attack-on-titan-revolution-emperors-chest",
+        "file": "attack-on-titan-revolution-emperors-chest"
+      },
+      {
+        "slug": "attack-on-titan-revolution-equinox-moon",
+        "file": "attack-on-titan-revolution-equinox-moon"
+      },
+      {
+        "slug": "attack-on-titan-revolution-female-shard",
+        "file": "attack-on-titan-revolution-female-shard"
+      },
+      {
+        "slug": "attack-on-titan-revolution-iceburst-stones",
+        "file": "attack-on-titan-revolution-iceburst-stones"
+      },
+      {
+        "slug": "attack-on-titan-revolution-item-value-list",
+        "file": "attack-on-titan-revolution-item-value-list"
+      },
+      {
+        "slug": "attack-on-titan-revolution-jotunn-gear",
+        "file": "attack-on-titan-revolution-jotunn-gear"
+      },
+      {
+        "slug": "attack-on-titan-revolution-quincy-attire",
+        "file": "attack-on-titan-revolution-quincy-attire"
+      },
+      {
+        "slug": "attack-on-titan-revolution-ulquiorra-attire",
+        "file": "attack-on-titan-revolution-ulquiorra-attire"
+      }
+    ],
+    "progression": [
+      {
+        "slug": "Attack-on-Titan-Revolution-best-xp-farm",
+        "file": "Attack-on-Titan-Revolution-best-xp-farm"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-gold-farm",
+        "file": "Attack-on-Titan-Revolution-gold-farm"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-how-to-get-grade-e",
+        "file": "Attack-on-Titan-Revolution-how-to-get-grade-e"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-how-to-get-skill-points",
+        "file": "Attack-on-Titan-Revolution-how-to-get-skill-points"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-how-to-heal-injuries",
+        "file": "Attack-on-Titan-Revolution-how-to-heal-injuries"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-how-to-level-up-fast",
+        "file": "Attack-on-Titan-Revolution-how-to-level-up-fast"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-how-to-rank-up",
+        "file": "Attack-on-Titan-Revolution-how-to-rank-up"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-max-level",
+        "file": "Attack-on-Titan-Revolution-max-level"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-prestige",
+        "file": "Attack-on-Titan-Revolution-prestige"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-xp-farm",
+        "file": "Attack-on-Titan-Revolution-xp-farm"
+      },
+      {
+        "slug": "attack-on-titan-revolution-account",
+        "file": "attack-on-titan-revolution-account"
+      },
+      {
+        "slug": "attack-on-titan-revolution-battle-pass",
+        "file": "attack-on-titan-revolution-battle-pass"
+      },
+      {
+        "slug": "attack-on-titan-revolution-best-progression",
+        "file": "attack-on-titan-revolution-best-progression"
+      },
+      {
+        "slug": "attack-on-titan-revolution-progression-guide",
+        "file": "attack-on-titan-revolution-progression-guide"
+      },
+      {
+        "slug": "attack-on-titan-revolution-progression-tips",
+        "file": "attack-on-titan-revolution-progression-tips"
+      }
+    ],
+    "titans": [
+      {
+        "slug": "Attack-on-Titan-Revolution-armored-titan",
+        "file": "Attack-on-Titan-Revolution-armored-titan"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-attack-titan",
+        "file": "Attack-on-Titan-Revolution-attack-titan"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-best-titan",
+        "file": "Attack-on-Titan-Revolution-best-titan"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-colossal-titan",
+        "file": "Attack-on-Titan-Revolution-colossal-titan"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-female-titan",
+        "file": "Attack-on-Titan-Revolution-female-titan"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-how-to-get-titan-shifting",
+        "file": "Attack-on-Titan-Revolution-how-to-get-titan-shifting"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-serum",
+        "file": "Attack-on-Titan-Revolution-serum"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-shifter",
+        "file": "Attack-on-Titan-Revolution-shifter"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-titan-shift",
+        "file": "Attack-on-Titan-Revolution-titan-shift"
+      },
+      {
+        "slug": "Attack-on-Titan-Revolution-titan-shifting",
+        "file": "Attack-on-Titan-Revolution-titan-shifting"
+      },
+      {
+        "slug": "aotr-colossal-titan-serum",
+        "file": "aotr-colossal-titan-serum"
+      },
+      {
+        "slug": "attack-on-titan-revolution-advanced-guide",
+        "file": "attack-on-titan-revolution-advanced-guide"
+      },
+      {
+        "slug": "attack-on-titan-revolution-best-settings",
+        "file": "attack-on-titan-revolution-best-settings"
+      },
+      {
+        "slug": "attack-on-titan-revolution-best-strategy",
+        "file": "attack-on-titan-revolution-best-strategy"
+      },
+      {
+        "slug": "attack-on-titan-revolution-faq-guide",
+        "file": "attack-on-titan-revolution-faq-guide"
+      },
+      {
+        "slug": "attack-on-titan-revolution-jaw-titan",
+        "file": "attack-on-titan-revolution-jaw-titan"
+      },
+      {
+        "slug": "attack-on-titan-revolution-strategy-guide",
+        "file": "attack-on-titan-revolution-strategy-guide"
+      },
+      {
+        "slug": "colossal-titan-serum-aotr",
+        "file": "colossal-titan-serum-aotr"
+      },
+      {
+        "slug": "how-to-get-colossal-serum-aotr",
+        "file": "how-to-get-colossal-serum-aotr"
+      },
+      {
+        "slug": "how-to-get-colossal-titan-serum-in-aotr",
+        "file": "how-to-get-colossal-titan-serum-in-aotr"
+      }
+    ]
+  }
+}
