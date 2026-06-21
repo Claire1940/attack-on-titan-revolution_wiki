@@ -1,3 +1,4 @@
+import { setRequestLocale } from 'next-intl/server'
 import { getLatestArticles } from '@/lib/getLatestArticles'
 import { buildModuleLinkMap } from '@/lib/buildModuleLinkMap'
 import type { Language } from '@/lib/content'
@@ -29,6 +30,7 @@ function getSiteUrl() {
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { locale } = await params
+  setRequestLocale(locale)
   const siteUrl = getSiteUrl()
   const heroImageUrl = new URL('/images/hero.webp', siteUrl).toString()
 
@@ -75,6 +77,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 
 export default async function HomePage({ params }: PageProps) {
   const { locale } = await params
+  setRequestLocale(locale)
   const siteUrl = getSiteUrl()
   const heroImageUrl = new URL('/images/hero.webp', siteUrl).toString()
   const structuredData = {
@@ -143,6 +146,7 @@ export default async function HomePage({ params }: PageProps) {
         '@type': 'VideoObject',
         name: '[TRAILER] Attack on Titan: Revolution',
         description: 'Official trailer video for Attack on Titan Revolution on Roblox.',
+        uploadDate: '2024-06-16',
         thumbnailUrl: heroImageUrl,
         embedUrl: 'https://www.youtube.com/embed/Lso55IMLgu8',
         url: OFFICIAL_LINKS.youtube,
